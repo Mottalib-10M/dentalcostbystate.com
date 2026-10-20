@@ -1,0 +1,461 @@
+{
+  "state": "NY",
+  "status": "ok",
+  "program": "New York State Medicaid (fee-for-service dental)",
+  "document_title": "NEW YORK STATE MEDICAID FEE SCHEDULE EFFECTIVE January 1, 2026 (Dental Fee Schedule, sheet 'Covered Procedures')",
+  "source_url": "https://www.emedny.org/ProviderManuals/Dental/PDFS/Dental_Fee_Schedule.xls",
+  "source_page": "https://www.emedny.org/ProviderManuals/Dental/index.aspx",
+  "effective_date": "2026-01-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "all": 25.25
+    },
+    "D0140": {
+      "all": 14.14
+    },
+    "D0150": {
+      "all": 30.3
+    },
+    "D0210": {
+      "all": 50.5
+    },
+    "D0220": {
+      "all": 8.08
+    },
+    "D0274": {
+      "all": 24.24
+    },
+    "D0330": {
+      "all": 35.35
+    },
+    "D1110": {
+      "all": 45.45
+    },
+    "D1120": {
+      "all": 43.43
+    },
+    "D1206": {
+      "all": 30.3
+    },
+    "D1351": {
+      "all": 35.35
+    },
+    "D2140": {
+      "all": 50.5
+    },
+    "D2150": {
+      "all": 67.67
+    },
+    "D2391": {
+      "all": 50.5
+    },
+    "D2392": {
+      "all": 67.67
+    },
+    "D2393": {
+      "all": 82.82
+    },
+    "D2394": {
+      "all": 98.98
+    },
+    "D2740": {
+      "all": 505.0
+    },
+    "D2750": {
+      "all": 505.0
+    },
+    "D2751": {
+      "all": 505.0
+    },
+    "D2752": {
+      "all": 505.0
+    },
+    "D2790": {
+      "all": 505.0
+    },
+    "D2930": {
+      "all": 117.16
+    },
+    "D3220": {
+      "all": 87.87
+    },
+    "D3310": {
+      "all": 252.5
+    },
+    "D3320": {
+      "all": 303.0
+    },
+    "D3330": {
+      "all": 404.0
+    },
+    "D3346": {
+      "all": 252.5
+    },
+    "D3347": {
+      "all": 303.0
+    },
+    "D3348": {
+      "all": 404.0
+    },
+    "D4341": {
+      "all": 45.45
+    },
+    "D4342": {
+      "all": 30.3
+    },
+    "D4910": {
+      "all": 45.45
+    },
+    "D5110": {
+      "all": 565.6
+    },
+    "D5120": {
+      "all": 565.6
+    },
+    "D5211": {
+      "all": 353.5
+    },
+    "D5212": {
+      "all": 353.5
+    },
+    "D5213": {
+      "all": 565.6
+    },
+    "D5214": {
+      "all": 565.6
+    },
+    "D5225": {
+      "all": 565.6
+    },
+    "D5226": {
+      "all": 565.6
+    },
+    "D5820": {
+      "all": 175.74
+    },
+    "D5821": {
+      "all": 175.74
+    },
+    "D6010": {
+      "all": 1010.0
+    },
+    "D6056": {
+      "all": 404.0
+    },
+    "D6057": {
+      "all": 404.0
+    },
+    "D6058": {
+      "all": 808.0
+    },
+    "D6059": {
+      "all": 808.0
+    },
+    "D6065": {
+      "all": 808.0
+    },
+    "D6066": {
+      "all": 808.0
+    },
+    "D6240": {
+      "all": 404.0
+    },
+    "D6245": {
+      "all": 404.0
+    },
+    "D6750": {
+      "all": 505.0
+    },
+    "D6740": {
+      "all": 505.0
+    },
+    "D6790": {
+      "all": 505.0
+    },
+    "D7140": {
+      "all": 50.5
+    },
+    "D7210": {
+      "all": 85.85
+    },
+    "D7220": {
+      "all": 101.0
+    },
+    "D7230": {
+      "all": 181.8
+    },
+    "D7240": {
+      "all": 303.0
+    },
+    "D7250": {
+      "all": 58.58
+    },
+    "D7953": {
+      "all": 252.5
+    },
+    "D8070": {
+      "all": 995.86
+    },
+    "D8080": {
+      "all": 995.86
+    },
+    "D8090": {
+      "all": 995.86
+    },
+    "D8670": {
+      "all": 234.32
+    },
+    "D8680": {
+      "all": 175.74
+    },
+    "D9222": {
+      "all": 76.76
+    },
+    "D9223": {
+      "all": 76.76
+    },
+    "D9239": {
+      "all": 76.76
+    },
+    "D9243": {
+      "all": 76.76
+    },
+    "D9230": {
+      "all": 25.0
+    }
+  },
+  "by_report": [
+    "D7241"
+  ],
+  "not_covered_or_absent": [
+    "D2950",
+    "D2962",
+    "D4355"
+  ],
+  "notes": "Single 'Fee' column for all ages (population 'all'). Codes marked BR or with fee 0.00 recorded as by_report. Age limits printed in the Min/Max Age columns: D0150 min 3.0 max -; D0210 min 12.0 max -; D0274 min 6.0 max -; D0330 min 2.0 max -; D1110 min 13.0 max -; D1120 min - max 12.0; D1206 min - max 20.0; D1351 min 5.0 max 15.0; D2740 min 6.0 max -; D2750 min 6.0 max -; D2751 min 6.0 max -; D2752 min 6.0 max -; D2790 min 6.0 max -; D2930 min - max 12.0; D3220 min - max 20.0; D3320 min 6.0 max -; D3330 min 6.0 max -; D3346 min 6.0 max -; D3347 min 6.0 max -; D3348 min 6.0 max -; D4341 min 13.0 max -; D4342 min 13.0 max -; D4910 min 13.0 max -; D5110 min 18.0 max -; D5120 min 18.0 max -; D5211 min 15.0 max -; D5212 min 15.0 max -; D5213 min 15.0 max -; D5214 min 15.0 max -; D5225 min 15.0 max -; D5226 min 15.0 max -; D5820 min 6.0 max 15.0; D5821 min 6.0 max 15.0; D6240 min 15.0 max -; D6245 min 15.0 max -; D6740 min 15.0 max -; D6750 min 15.0 max -; D6790 min 15.0 max -; D8070 min 5.0 max 20.0; D8080 min 5.0 max 20.0; D8090 min 5.0 max 20.0; D8670 min 5.0 max 20.0; D8680 min 5.0 max 20.0. Most NY Medicaid enrollees are in managed care (MCO rates may differ); this is the FFS schedule. File last saved 2025-12-01.",
+  "fees_2024": {
+    "D0120": {
+      "all": 25.25
+    },
+    "D0140": {
+      "all": 14.14
+    },
+    "D0150": {
+      "all": 30.3
+    },
+    "D0210": {
+      "all": 50.5
+    },
+    "D0220": {
+      "all": 8.08
+    },
+    "D0274": {
+      "all": 24.24
+    },
+    "D0330": {
+      "all": 35.35
+    },
+    "D1110": {
+      "all": 45.45
+    },
+    "D1120": {
+      "all": 43.43
+    },
+    "D1206": {
+      "all": 30.3
+    },
+    "D1351": {
+      "all": 35.35
+    },
+    "D2140": {
+      "all": 50.5
+    },
+    "D2150": {
+      "all": 67.67
+    },
+    "D2391": {
+      "all": 50.5
+    },
+    "D2392": {
+      "all": 67.67
+    },
+    "D2393": {
+      "all": 82.82
+    },
+    "D2394": {
+      "all": 98.98
+    },
+    "D2740": {
+      "all": 505.0
+    },
+    "D2750": {
+      "all": 505.0
+    },
+    "D2751": {
+      "all": 505.0
+    },
+    "D2752": {
+      "all": 505.0
+    },
+    "D2790": {
+      "all": 505.0
+    },
+    "D2930": {
+      "all": 117.16
+    },
+    "D3220": {
+      "all": 87.87
+    },
+    "D3310": {
+      "all": 252.5
+    },
+    "D3320": {
+      "all": 303.0
+    },
+    "D3330": {
+      "all": 404.0
+    },
+    "D3346": {
+      "all": 252.5
+    },
+    "D3347": {
+      "all": 303.0
+    },
+    "D3348": {
+      "all": 404.0
+    },
+    "D4341": {
+      "all": 45.45
+    },
+    "D4342": {
+      "all": 30.3
+    },
+    "D4910": {
+      "all": 45.45
+    },
+    "D5110": {
+      "all": 565.6
+    },
+    "D5120": {
+      "all": 565.6
+    },
+    "D5211": {
+      "all": 353.5
+    },
+    "D5212": {
+      "all": 353.5
+    },
+    "D5213": {
+      "all": 565.6
+    },
+    "D5214": {
+      "all": 565.6
+    },
+    "D5225": {
+      "all": 565.6
+    },
+    "D5226": {
+      "all": 565.6
+    },
+    "D5820": {
+      "all": 175.74
+    },
+    "D5821": {
+      "all": 175.74
+    },
+    "D6010": {
+      "all": 1010.0
+    },
+    "D6056": {
+      "all": 404.0
+    },
+    "D6057": {
+      "all": 404.0
+    },
+    "D6058": {
+      "all": 808.0
+    },
+    "D6059": {
+      "all": 808.0
+    },
+    "D6065": {
+      "all": 808.0
+    },
+    "D6066": {
+      "all": 808.0
+    },
+    "D6240": {
+      "all": 404.0
+    },
+    "D6245": {
+      "all": 404.0
+    },
+    "D6750": {
+      "all": 505.0
+    },
+    "D6740": {
+      "all": 505.0
+    },
+    "D6790": {
+      "all": 505.0
+    },
+    "D7140": {
+      "all": 50.5
+    },
+    "D7210": {
+      "all": 85.85
+    },
+    "D7220": {
+      "all": 101.0
+    },
+    "D7230": {
+      "all": 181.8
+    },
+    "D7240": {
+      "all": 303.0
+    },
+    "D7250": {
+      "all": 58.58
+    },
+    "D7953": {
+      "all": 252.5
+    },
+    "D8070": {
+      "all": 995.86
+    },
+    "D8080": {
+      "all": 995.86
+    },
+    "D8090": {
+      "all": 995.86
+    },
+    "D8670": {
+      "all": 234.32
+    },
+    "D8680": {
+      "all": 175.74
+    },
+    "D9222": {
+      "all": 76.76
+    },
+    "D9223": {
+      "all": 76.76
+    },
+    "D9239": {
+      "all": 76.76
+    },
+    "D9243": {
+      "all": 76.76
+    },
+    "D9230": {
+      "all": 25.0
+    }
+  },
+  "source_url_2024": "https://www.emedny.org/ProviderManuals/Dental/PDFS/archive/ARCHIVED_Dental_Fee_Schedule_-_2024-1.xls",
+  "effective_date_2024": "2024-01-31",
+  "by_report_2024": [
+    "D7241"
+  ],
+  "notes_2024": "Edition: 'NEW YORK STATE MEDICAID FEE SCHEDULE EFFECTIVE January 31, 2024 - ARCHIVED' (eMedNY Dental archive page https://www.emedny.org/ProviderManuals/Dental/archive.aspx: 'Effective Date 2024: Jan. 31, 2024', archived November 27, 2024), so in force on 2024-07-01. Same column rules as current ('Fee' column, population 'all'; BR/0.00 -> by_report)."
+}

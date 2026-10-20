@@ -1,0 +1,16 @@
+# ADA Health Policy Institute : seul éditeur public des rapports Medicaid / honoraires des dentistes par État (classeur 2024), base de toutes les estimations.
+ada.org
+# Covered California, marché public de l'État de Californie : documents officiels des contrats dentaires 2026 (contrat type du site).
+coveredca.com
+# Florida Administrative Code, publication officielle du Department of State de Floride : le barème dentaire Medicaid y est incorporé par référence.
+flrules.org
+# Louisiana Medicaid, portail officiel des prestataires du Louisiana Department of Health : barèmes dentaires EPSDT et adultes.
+lamedicaid.com
+# eMedNY, système officiel de facturation Medicaid de l'État de New York (NYS DOH) : barème dentaire Medicaid.
+emedny.org
+# Texas Medicaid & Healthcare Partnership, gestionnaire officiel des barèmes Medicaid pour la Texas HHSC.
+tmhp.com
+# Connecticut Dental Health Partnership, administrateur officiel du programme dentaire Medicaid du Connecticut (HUSKY Health) : barème dentaire.
+ctdhp.org
+# Portail officiel NC Medicaid (NCDHHS) hébergé sur ServiceNow : barème dentaire de la Caroline du Nord.
+ncdhhs.servicenowservices.com

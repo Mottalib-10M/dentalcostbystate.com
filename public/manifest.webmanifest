@@ -1,0 +1,21 @@
+{
+ "name": "Dental Cost by State",
+ "short_name": "Dental Cost by State",
+ "description": "Dental costs by procedure and state, estimated from official Medicaid fee schedules and ADA HPI ratios, then run through your plan: deductible, coinsurance, annual maximum.",
+ "start_url": "/en/",
+ "display": "standalone",
+ "background_color": "#ffffff",
+ "theme_color": "#0E5E6F",
+ "icons": [
+  {
+   "src": "/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ]
+}

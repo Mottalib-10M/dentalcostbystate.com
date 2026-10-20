@@ -1,0 +1,60 @@
+---
+/**
+ * Home (the pillar): the estimator first (procedure x state x plan), the folded answer, the national price
+ * list built from every priced state, the explanation of the method in prose, then the states and the
+ * pages by group as plain lists, and the FAQ. Text: src/content/home.ts. Generated tables carry data-chrome.
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import Clamp from './Clamp.astro';
+import Tool from './Tool.astro';
+import Body from './Body.astro';
+import { HOME, VALUE } from '../content/home';
+import { route, ROUTES } from '../i18n/routes';
+import { GROUPS } from '../i18n/nav';
+import { helpers, SOURCES, table } from '../lib/helpers';
+import { GUIDES, STATE_PAGES, stateId } from '../lib/pages';
+import { KIT as K } from '../lib/kit';
+import { faqSchema, organizationSchema, websiteSchema, webPageSchema, webApplicationSchema } from '../lib/seo';
+import { LAST_UPDATED } from '../data/site-config';
+const lang = 'en';
+const x = HOME;
+const path = route('home', lang);
+const h = helpers();
+const sources = x.sources.map((k) => ({ name: SOURCES[k].label, url: SOURCES[k].url }));
+const jsonLd = [websiteSchema(lang), organizationSchema(lang), webPageSchema({ name: x.h1, description: x.description, path, lang }), webApplicationSchema({ name: x.h1, description: x.description, path, lang }), faqSchema(x.faqs, lang)];
+const pageOf = (id: string) => GUIDES.find((g) => g.tool === 'cost' && g.toolArg?.pr === id);
+const priceRows = K.PROC_IDS.map((id) => ({ id, p: K.PR(id), s: K.spread(id) })).filter((r) => r.s.n >= 3).map((r) => {
+  const g = pageOf(r.id);
+  return [g ? `<a href="${route(g.id, lang)}">${r.p.short}</a>` : r.p.short, r.p.unit, K.usd(r.s.median), K.usd(r.s.medianAllowed), `${K.usd(r.s.lo!.e.charge)} to ${K.usd(r.s.hi!.e.charge)}`, String(r.s.n)];
+});
+const cpiMonth = K.month(K.P.cpiDental.latestPeriod);
+---
+<PageLayout title={x.title} description={x.description} lang={lang} jsonLd={jsonLd} faqs={x.faqs} sources={sources}>
+  <header class="mb-4">
+    <h1 class="font-serif text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{x.h1}</h1>
+    <p class="mt-2 text-base text-navy-700 sm:text-lg">{x.intro}</p>
+  </header>
+  <div data-outil data-chrome><Tool kind="cost" idPrefix="home" /></div>
+  <p class="mt-3 text-sm text-navy-600">{K.STATES.length} state Medicaid fee schedules read code by code · <a href={route('method', lang)} class="underline">How prices are estimated</a> · <a href={route('about', lang)} class="underline">Who publishes this</a> · updated <time datetime={LAST_UPDATED}>{K.day(LAST_UPDATED)}</time></p>
+  <p class="mt-3 text-navy-800">{VALUE}</p>
+  <Clamp text={x.resume} lang={lang} id="clamp-home" class="my-8" />
+  <section data-chrome class="mt-8">
+    <h2 class="font-serif text-2xl font-bold text-navy-900">Price list: the median of the states we price</h2>
+    <Fragment set:html={table(['Procedure', 'Unit', 'Full fee, median', 'In network, median', 'Lowest to highest state', 'States'], priceRows, `Estimated typical charges in ${cpiMonth} dollars. Full fee: what a dentist bills a patient without insurance. In network: the amount a private dental plan allows, before its own share. A procedure appears for a state only when that state's Medicaid schedule lists every code of it.`, ['l', 'l', 'r', 'r', 'r', 'r'])} />
+  </section>
+  <section class="mt-8"><Body html={x.why(h)} path={path} /></section>
+  <section class="mt-10" data-chrome>
+    <h2 class="font-serif text-xl font-bold text-navy-900">Dental costs state by state</h2>
+    <ul class="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-sm">
+      {STATE_PAGES.map((s) => <li><a href={route(stateId(s.slug), lang)} class="font-medium text-accent-700 underline-offset-2 hover:underline">{K.S(s.slug).name}</a></li>)}
+    </ul>
+    {GROUPS.map((g) => (
+      <div class="mt-6">
+        <h2 class="font-serif text-xl font-bold text-navy-900">{g.label}</h2>
+        <ul class="mt-3 grid gap-x-6 gap-y-2 text-sm sm:grid-cols-2 lg:grid-cols-3">
+          {GUIDES.filter((p) => p.group === g.id && ROUTES.some((r) => r.id === p.id)).map((p) => <li><a href={route(p.id, lang)} class="font-medium text-accent-700 underline-offset-2 hover:underline">{p.nav}</a><span class="block text-navy-600">{p.card}</span></li>)}
+        </ul>
+      </div>
+    ))}
+  </section>
+</PageLayout>

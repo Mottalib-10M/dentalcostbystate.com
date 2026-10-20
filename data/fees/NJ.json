@@ -1,0 +1,18 @@
+{
+  "state": "NJ",
+  "status": "not_found",
+  "program": "New Jersey Medicaid / NJ FamilyCare fee-for-service Dental",
+  "document_title": null,
+  "source_url": null,
+  "source_page": "https://www.njmmis.com/RateInformation.aspx",
+  "effective_date": null,
+  "retrieved_at": "2026-10-20",
+  "fees": {},
+  "by_report": [],
+  "not_covered_or_absent": [],
+  "notes": "The NJ FFS dental rates are published only on the fiscal agent site NJMMIS under 'Rate and Code Information' (the NJ State Plan says all rates and effective dates are posted there). That page is gated by a 'NJMMIS Terms of Use and Licensing Agreement' (AMA CPT and ADA CDT license) that requires ticking 'I Agree to the Terms of Use' and clicking Continue before any rate file is shown. I did not accept a license agreement on the user's behalf, so no file was downloaded. No Wayback capture of any NJMMIS dental rate file exists (CDX of njmmis.com checked). The N.J.A.C. 10:56 dental manual on nj.gov (fee schedule in 10:56-3.2/3.3) returned 404 at its known URL and in any case holds old regulatory fees, not the current schedule. Context (not a fee source): NJ raised adult FFS dental rates 10% effective 2025-01-01 (Specialist and Non-Specialist schedules), children's rates unchanged. To complete: a human accepts the NJMMIS terms in a browser and downloads the dental rate file(s), then the same extraction can be run.",
+  "fees_2024": null,
+  "source_url_2024": null,
+  "effective_date_2024": null,
+  "notes_2024": "Not retrieved for the same reason (NJMMIS license gate, no archived copy)."
+}

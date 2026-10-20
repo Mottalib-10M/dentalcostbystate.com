@@ -1,0 +1,597 @@
+{
+  "state": "TX",
+  "status": "ok",
+  "program": "Texas Medicaid - Texas Health Steps (THSteps) Dental, fee-for-service",
+  "document_title": "Texas Medicaid Fee Schedule Information - DENTAL (file Texas_Medicaid_Fee_Schedule_PRCR496C, report dated 9/14/2026)",
+  "source_url": "https://public.tmhp.com/FeeSchedules/StaticFeeSchedule/FeeSchedules.aspx?fn=%5c%5ctmhp.net%5cFeeSchedule%5cPROD%5cStatic%5cTexas_Medicaid_Fee_Schedule_PRCR496C.xls",
+  "source_page": "https://public.tmhp.com/FeeSchedules/StaticFeeSchedule/FeeSchedules.aspx",
+  "effective_date": "2026-09-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "child": 30.59
+    },
+    "D0140": {
+      "child": 18.78
+    },
+    "D0150": {
+      "child": 43.74
+    },
+    "D0210": {
+      "child": 74.9
+    },
+    "D0220": {
+      "child": 13.31
+    },
+    "D0274": {
+      "child": 36.7
+    },
+    "D0330": {
+      "child": 67.63
+    },
+    "D1110": {
+      "child": 58.19
+    },
+    "D1120": {
+      "child": 38.96
+    },
+    "D1206": {
+      "child": 21.16
+    },
+    "D1351": {
+      "child": 29.94
+    },
+    "D2140": {
+      "child": 66.58
+    },
+    "D2150": {
+      "child": 88.6
+    },
+    "D2391": {
+      "child": 85.19
+    },
+    "D2392": {
+      "child": 111.65
+    },
+    "D2393": {
+      "child": 125.09
+    },
+    "D2394": {
+      "child": 131.63
+    },
+    "D2740": {
+      "child": 252.25
+    },
+    "D2750": {
+      "child": 534.93
+    },
+    "D2751": {
+      "child": 534.93
+    },
+    "D2752": {
+      "child": 534.93
+    },
+    "D2790": {
+      "child": 534.93
+    },
+    "D2930": {
+      "child": 158.11
+    },
+    "D2950": {
+      "child": 43.0
+    },
+    "D2962": {
+      "child": 203.04
+    },
+    "D3220": {
+      "child": 89.12
+    },
+    "D3310": {
+      "child": 360.65
+    },
+    "D3320": {
+      "child": 417.91
+    },
+    "D3330": {
+      "child": 632.45
+    },
+    "D3346": {
+      "child": 149.3
+    },
+    "D3347": {
+      "child": 197.08
+    },
+    "D3348": {
+      "child": 262.76
+    },
+    "D4341": {
+      "child": 53.75
+    },
+    "D4342": {
+      "child": 6.69
+    },
+    "D4355": {
+      "child": 71.66
+    },
+    "D4910": {
+      "child": 35.83
+    },
+    "D5110": {
+      "child": 358.31
+    },
+    "D5120": {
+      "child": 358.31
+    },
+    "D5211": {
+      "child": 262.76
+    },
+    "D5212": {
+      "child": 262.76
+    },
+    "D5213": {
+      "child": 382.2
+    },
+    "D5214": {
+      "child": 382.2
+    },
+    "D5820": {
+      "child": 155.27
+    },
+    "D5821": {
+      "child": 155.27
+    },
+    "D6240": {
+      "child": 252.25
+    },
+    "D6245": {
+      "child": 252.25
+    },
+    "D6750": {
+      "child": 252.25
+    },
+    "D6740": {
+      "child": 252.25
+    },
+    "D6790": {
+      "child": 252.25
+    },
+    "D7140": {
+      "child": 67.92
+    },
+    "D7210": {
+      "child": 104.15
+    },
+    "D7220": {
+      "child": 159.56
+    },
+    "D7230": {
+      "child": 182.36
+    },
+    "D7240": {
+      "child": 303.93
+    },
+    "D7241": {
+      "child": 149.3
+    },
+    "D7250": {
+      "child": 88.38
+    },
+    "D8070": {
+      "child": 544.05
+    },
+    "D8080": {
+      "child": 544.05
+    },
+    "D8670": {
+      "child": 65.07
+    },
+    "D8680": {
+      "child": 95.55
+    },
+    "D9222": {
+      "child": 58.5
+    },
+    "D9239": {
+      "child": 57.04
+    },
+    "D9230": {
+      "child": 27.11
+    }
+  },
+  "by_report": [],
+  "not_covered_or_absent": [
+    "D5225",
+    "D5226",
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D7953",
+    "D8090",
+    "D9223",
+    "D9243"
+  ],
+  "notes": "Schedule = static TMHP 'DENTAL' fee schedule (PRCR496C), modified date 9/14/2026 on the page. Used rows for provider type 'TEXAS HEALTH STEPS - DENTAL', Non-facility 'Medicaid Fee' column; fees identical across the other dental provider types except as noted. All listed dental codes are THSteps (children, under 21) benefits; Texas Medicaid has no adult comprehensive dental FFS fees in this schedule, so all fees recorded as 'child'. Per-code 'Fee Effect Date' varies: 29 codes 2026-09-01, 31 codes 2025-09-01, D8070/D8080 2024-10-01, D0140 2025-03-01, D2394 2018-09-01. effective_date = most recent fee effect date in the file. Note codes on restorations: fee is for a permanent tooth; primary tooth paid at a % (D2140 94.31% [D7], D2150 94.79% [D8], D2391 91.56% [D6], D2392 89.82% [D5], D2393 & D2394 86.09% [D3]). D9222: base row 58.50; with modifier UZ 81.76 (recorded base row only). D8090 not in schedule. Most Texas Medicaid/CHIP children's dental is delivered via dental managed care (DMOs), whose rates may differ. Age ranges printed (Frm-Thru, units): D0120 0-20 years; D0140 0-20 years; D0150 0-20 years; D0210 2-20 years; D0220 1-20 years; D0274 2-20 years; D0330 3-20 years; D1110 13-20 years; D1120 6-155 months; D1206 6-251 months; D1351 1-20 years; D2140 0-20 years; D2150 0-20 years; D2391 0-20 years; D2392 0-20 years; D2393 1-20 years; D2394 1-20 years; D2740 13-20 years; D2750 13-20 years; D2751 13-20 years; D2752 13-20 years; D2790 13-20 years; D2930 0-20 years; D2950 4-20 years; D2962 13-20 years; D3220 0-20 years; D3310 6-20 years; D3320 6-20 years; D3330 6-20 years; D3346 6-20 years; D3347 6-20 years; D3348 6-20 years; D4341 13-20 years; D4342 13-20 years; D4355 13-20 years; D4910 13-20 years; D5110 3-20 years; D5120 3-20 years; D5211 6-20 years; D5212 6-20 years; D5213 9-20 years; D5214 9-20 years; D5820 3-20 years; D5821 3-20 years; D6240 16-20 years; D6245 16-20 years; D6750 16-20 years; D6740 16-20 years; D6790 16-20 years; D7140 0-20 years; D7210 1-20 years; D7220 1-20 years; D7230 1-20 years; D7240 1-20 years; D7241 1-20 years; D7250 1-20 years; D8070 0-20 years; D8080 0-20 years; D8670 0-20 years; D8680 0-20 years; D9222 1-20 years; D9222 1-20 years; D9239 1-20 years; D9230 1-20 years",
+  "fees_2024": {
+    "D0120": {
+      "child": 29.44
+    },
+    "D0140": {
+      "child": 19.16
+    },
+    "D0150": {
+      "child": 36.04
+    },
+    "D0210": {
+      "child": 72.08
+    },
+    "D0220": {
+      "child": 12.82
+    },
+    "D0274": {
+      "child": 35.32
+    },
+    "D0330": {
+      "child": 65.08
+    },
+    "D1110": {
+      "child": 56.0
+    },
+    "D1120": {
+      "child": 37.5
+    },
+    "D1206": {
+      "child": 15.0
+    },
+    "D1351": {
+      "child": 28.82
+    },
+    "D2140": {
+      "child": 62.8
+    },
+    "D2150": {
+      "child": 83.57
+    },
+    "D2391": {
+      "child": 80.34
+    },
+    "D2392": {
+      "child": 105.3
+    },
+    "D2393": {
+      "child": 117.98
+    },
+    "D2394": {
+      "child": 131.63
+    },
+    "D2740": {
+      "child": 252.25
+    },
+    "D2750": {
+      "child": 504.5
+    },
+    "D2751": {
+      "child": 504.5
+    },
+    "D2752": {
+      "child": 504.5
+    },
+    "D2790": {
+      "child": 504.5
+    },
+    "D2930": {
+      "child": 149.12
+    },
+    "D2950": {
+      "child": 43.0
+    },
+    "D2962": {
+      "child": 203.04
+    },
+    "D3220": {
+      "child": 84.05
+    },
+    "D3310": {
+      "child": 340.14
+    },
+    "D3320": {
+      "child": 394.14
+    },
+    "D3330": {
+      "child": 596.48
+    },
+    "D3346": {
+      "child": 149.3
+    },
+    "D3347": {
+      "child": 197.08
+    },
+    "D3348": {
+      "child": 262.76
+    },
+    "D4341": {
+      "child": 53.75
+    },
+    "D4342": {
+      "child": 6.69
+    },
+    "D4355": {
+      "child": 71.66
+    },
+    "D4910": {
+      "child": 35.83
+    },
+    "D5110": {
+      "child": 358.31
+    },
+    "D5120": {
+      "child": 358.31
+    },
+    "D5211": {
+      "child": 262.76
+    },
+    "D5212": {
+      "child": 262.76
+    },
+    "D5213": {
+      "child": 382.2
+    },
+    "D5214": {
+      "child": 382.2
+    },
+    "D5820": {
+      "child": 155.27
+    },
+    "D5821": {
+      "child": 155.27
+    },
+    "D6240": {
+      "child": 252.25
+    },
+    "D6245": {
+      "child": 252.25
+    },
+    "D6750": {
+      "child": 252.25
+    },
+    "D6740": {
+      "child": 252.25
+    },
+    "D6790": {
+      "child": 252.25
+    },
+    "D7140": {
+      "child": 64.06
+    },
+    "D7210": {
+      "child": 98.23
+    },
+    "D7220": {
+      "child": 150.49
+    },
+    "D7230": {
+      "child": 171.99
+    },
+    "D7240": {
+      "child": 286.65
+    },
+    "D7241": {
+      "child": 149.3
+    },
+    "D7250": {
+      "child": 88.38
+    },
+    "D8080": {
+      "child": 0.0
+    },
+    "D8670": {
+      "child": 65.07
+    },
+    "D8680": {
+      "child": 95.55
+    },
+    "D9222": {
+      "child": 58.5
+    },
+    "D9239": {
+      "child": 57.04
+    },
+    "D9230": {
+      "child": 27.11
+    }
+  },
+  "source_url_2024": "https://web.archive.org/web/20240718005108id_/https://public.tmhp.com/feeschedules/staticfeeschedule/feeschedules.aspx?fn=%5c%5ctmhp.net%5cFeeSchedule%5cPROD%5cStatic%5cTexas_Medicaid_Fee_Schedule_PRCR496C.xls",
+  "effective_date_2024": "2018-09-01",
+  "notes_2024": "Edition: web.archive.org capture of 2024-07-18 of the official TMHP static 'DENTAL' fee schedule file (PRCR496C.xls; workbook last saved 2024-06-07), i.e. the file posted on public.tmhp.com in July 2024. Same rules as current: provider type 'TEXAS HEALTH STEPS - DENTAL', non-facility 'Medicaid Fee' column, all fees are THSteps (under 21) -> 'child'. Per-code fee effect dates: 50 codes 2018-09-01, 10 codes 2007-09-01, others 2001/2003; none after 2024-07-01 (effective_date_2024 = most common/latest fee effect date). CAUTION: in this 2024 file 12 codes carry an 'Adjust %' of -2.0, so the 'Adjusted Fee for Report Date' (the amount actually payable) is 2% lower: D0120 29.44->28.85; D0140 19.16->18.78; D0150 36.04->35.32; D0210 72.08->70.64; D0220 12.82->12.56; D0274 35.32->34.61; D0330 65.08->63.78; D1110 56.0->54.88; D1120 37.5->36.75; D1206 15.0->14.7; D1351 28.82->28.24. fees_2024 records the unadjusted 'Medicaid Fee' column (consistent with the current file, where Adjust % is 0); the adjusted amounts are in fees_2024_adjusted. D9222 base row recorded (UZ modifier row 81.76 excluded).",
+  "fees_2024_adjusted": {
+    "D0120": {
+      "child": 28.85
+    },
+    "D0140": {
+      "child": 18.78
+    },
+    "D0150": {
+      "child": 35.32
+    },
+    "D0210": {
+      "child": 70.64
+    },
+    "D0220": {
+      "child": 12.56
+    },
+    "D0274": {
+      "child": 34.61
+    },
+    "D0330": {
+      "child": 63.78
+    },
+    "D1110": {
+      "child": 54.88
+    },
+    "D1120": {
+      "child": 36.75
+    },
+    "D1206": {
+      "child": 14.7
+    },
+    "D1351": {
+      "child": 28.24
+    },
+    "D2140": {
+      "child": 62.8
+    },
+    "D2150": {
+      "child": 83.57
+    },
+    "D2391": {
+      "child": 80.34
+    },
+    "D2392": {
+      "child": 105.3
+    },
+    "D2393": {
+      "child": 117.98
+    },
+    "D2394": {
+      "child": 131.63
+    },
+    "D2740": {
+      "child": 252.25
+    },
+    "D2750": {
+      "child": 504.5
+    },
+    "D2751": {
+      "child": 504.5
+    },
+    "D2752": {
+      "child": 504.5
+    },
+    "D2790": {
+      "child": 504.5
+    },
+    "D2930": {
+      "child": 149.12
+    },
+    "D2950": {
+      "child": 43.0
+    },
+    "D2962": {
+      "child": 203.04
+    },
+    "D3220": {
+      "child": 84.05
+    },
+    "D3310": {
+      "child": 340.14
+    },
+    "D3320": {
+      "child": 394.14
+    },
+    "D3330": {
+      "child": 596.48
+    },
+    "D3346": {
+      "child": 149.3
+    },
+    "D3347": {
+      "child": 197.08
+    },
+    "D3348": {
+      "child": 262.76
+    },
+    "D4341": {
+      "child": 53.75
+    },
+    "D4342": {
+      "child": 6.69
+    },
+    "D4355": {
+      "child": 71.66
+    },
+    "D4910": {
+      "child": 35.83
+    },
+    "D5110": {
+      "child": 358.31
+    },
+    "D5120": {
+      "child": 358.31
+    },
+    "D5211": {
+      "child": 262.76
+    },
+    "D5212": {
+      "child": 262.76
+    },
+    "D5213": {
+      "child": 382.2
+    },
+    "D5214": {
+      "child": 382.2
+    },
+    "D5820": {
+      "child": 155.27
+    },
+    "D5821": {
+      "child": 155.27
+    },
+    "D6240": {
+      "child": 252.25
+    },
+    "D6245": {
+      "child": 252.25
+    },
+    "D6750": {
+      "child": 252.25
+    },
+    "D6740": {
+      "child": 252.25
+    },
+    "D6790": {
+      "child": 252.25
+    },
+    "D7140": {
+      "child": 64.06
+    },
+    "D7210": {
+      "child": 98.23
+    },
+    "D7220": {
+      "child": 150.49
+    },
+    "D7230": {
+      "child": 171.99
+    },
+    "D7240": {
+      "child": 286.65
+    },
+    "D7241": {
+      "child": 149.3
+    },
+    "D7250": {
+      "child": 88.38
+    },
+    "D8080": {
+      "child": 0.0
+    },
+    "D8670": {
+      "child": 65.07
+    },
+    "D8680": {
+      "child": 95.55
+    },
+    "D9222": {
+      "child": 58.5
+    },
+    "D9239": {
+      "child": 57.04
+    },
+    "D9230": {
+      "child": 27.11
+    }
+  }
+}

@@ -1,0 +1,470 @@
+{
+  "state": "CT",
+  "status": "ok",
+  "program": "HUSKY Health dental (CT Medicaid/CHIP) - Connecticut Dental Health Partnership (CTDHP, DSS dental administrative services organization)",
+  "document_title": "2026 Dental Fee Schedule (Adult and Children Fee Schedule) - 'Fee Schedule Released 1/24; Updated by CTDHP 7/24, 1/25, 8/25, 12/25, 5/1/26, 7/8/26, 10/1/2026'",
+  "source_url": "https://ctdhp.org/wp-content/uploads/2026/10/Adult-and-Children-Fee-Schedule_REVISED-10-1-2026-B.pdf",
+  "source_page": "https://ctdhp.org/dental-fee-schedule/pdf/",
+  "effective_date": "2026-10-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "adult": 34.3,
+      "child": 34.3
+    },
+    "D0140": {
+      "adult": 31.2,
+      "child": 47.04
+    },
+    "D0150": {
+      "adult": 49.3,
+      "child": 63.7
+    },
+    "D0210": {
+      "adult": 65.65,
+      "child": 98.98
+    },
+    "D0220": {
+      "adult": 12.35,
+      "child": 18.62
+    },
+    "D0274": {
+      "adult": 31.2,
+      "child": 47.04
+    },
+    "D0330": {
+      "adult": 56.55,
+      "child": 85.26
+    },
+    "D1110": {
+      "adult": 62.72,
+      "child": 62.72
+    },
+    "D1120": {
+      "child": 45.08
+    },
+    "D1206": {
+      "adult": 18.85,
+      "child": 28.42
+    },
+    "D1351": {
+      "child": 39.2
+    },
+    "D2140": {
+      "adult": 61.75,
+      "child": 93.1
+    },
+    "D2150": {
+      "adult": 74.1,
+      "child": 111.72
+    },
+    "D2391": {
+      "adult": 61.75,
+      "child": 93.1
+    },
+    "D2392": {
+      "adult": 74.1,
+      "child": 111.72
+    },
+    "D2393": {
+      "adult": 94.25,
+      "child": 142.1
+    },
+    "D2394": {
+      "adult": 130.0,
+      "child": 196.0
+    },
+    "D2740": {
+      "adult": 523.25,
+      "child": 788.9
+    },
+    "D2751": {
+      "adult": 523.25,
+      "child": 788.9
+    },
+    "D2930": {
+      "adult": 149.5,
+      "child": 200.0
+    },
+    "D2950": {
+      "adult": 80.6,
+      "child": 121.52
+    },
+    "D3220": {
+      "adult": 86.45,
+      "child": 130.34
+    },
+    "D3310": {
+      "adult": 577.22,
+      "child": 577.22
+    },
+    "D3320": {
+      "adult": 742.84,
+      "child": 742.84
+    },
+    "D3330": {
+      "adult": 857.5,
+      "child": 857.5
+    },
+    "D3346": {
+      "adult": 577.22,
+      "child": 577.22
+    },
+    "D3347": {
+      "adult": 742.84,
+      "child": 742.84
+    },
+    "D3348": {
+      "adult": 857.5,
+      "child": 857.5
+    },
+    "D4341": {
+      "adult": 223.0,
+      "child": 223.0
+    },
+    "D4342": {
+      "adult": 129.0,
+      "child": 129.0
+    },
+    "D4355": {
+      "adult": 153.0,
+      "child": 153.0
+    },
+    "D4910": {
+      "adult": 138.0,
+      "child": 138.0
+    },
+    "D5110": {
+      "adult": 692.9,
+      "child": 1044.68
+    },
+    "D5120": {
+      "adult": 692.9,
+      "child": 1044.68
+    },
+    "D5211": {
+      "adult": 649.35,
+      "child": 979.02
+    },
+    "D5212": {
+      "adult": 630.5,
+      "child": 950.6
+    },
+    "D5213": {
+      "adult": 778.05,
+      "child": 1173.06
+    },
+    "D5214": {
+      "adult": 764.4,
+      "child": 1152.48
+    },
+    "D7140": {
+      "adult": 74.75,
+      "child": 112.7
+    },
+    "D7210": {
+      "adult": 130.0,
+      "child": 196.0
+    },
+    "D7220": {
+      "adult": 148.2,
+      "child": 223.44
+    },
+    "D7230": {
+      "adult": 187.2,
+      "child": 282.24
+    },
+    "D7240": {
+      "adult": 243.75,
+      "child": 367.5
+    },
+    "D7241": {
+      "adult": 272.35,
+      "child": 410.62
+    },
+    "D7250": {
+      "adult": 185.9,
+      "child": 280.28
+    },
+    "D7953": {
+      "adult": 280.0,
+      "child": 280.0
+    },
+    "D8070": {
+      "child": 584.31
+    },
+    "D8080": {
+      "child": 584.31
+    },
+    "D8670": {
+      "child": 87.13
+    },
+    "D9222": {
+      "adult": 82.55,
+      "child": 124.46
+    },
+    "D9223": {
+      "adult": 82.55,
+      "child": 124.46
+    },
+    "D9230": {
+      "adult": 39.0,
+      "child": 58.8
+    },
+    "D9239": {
+      "adult": 82.55,
+      "child": 124.46
+    },
+    "D9243": {
+      "adult": 82.55,
+      "child": 124.46
+    }
+  },
+  "by_report": [],
+  "not_covered_or_absent": [
+    "D2750",
+    "D2752",
+    "D2790",
+    "D2962",
+    "D5225",
+    "D5226",
+    "D5820",
+    "D5821",
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D6240",
+    "D6245",
+    "D6750",
+    "D6740",
+    "D6790",
+    "D8090",
+    "D8680"
+  ],
+  "not_covered_adult": [
+    "D1120",
+    "D1351",
+    "D8070",
+    "D8080",
+    "D8670"
+  ],
+  "not_covered_child": [],
+  "notes": "Columns 'Adult Fee Schedule' and 'Children Fee Schedule' used (adult = 21+, child = under 21). 'NA' in a fee column = not payable for that population (listed in not_covered_adult / not_covered_child). Per-code effective dates vary (many 7/1/2022; D0120/D0150/D1110 5/1/2026; D2740, D3346-D3348, D7953, D8070 10/1/2026). Source is CTDHP (BeneCare), the state DSS-contracted dental ASO for HUSKY Health (CT dental Medicaid is entirely ASO/FFS, no dental MCOs). The DSS fiscal-agent portal ctdssmap.com could not be reached from this network (connection timeout), so its copy was not cross-checked. Program limits '^' and PA requirements apply per Provider Manual Chapter 7. HUSKY B copay % column not recorded. D6241 (pontic, child only 788.90) present but not in the requested list.",
+  "fees_2024": {
+    "D0120": {
+      "adult": 22.75,
+      "child": 34.3
+    },
+    "D0140": {
+      "adult": 31.2,
+      "child": 47.04
+    },
+    "D0150": {
+      "adult": 42.45,
+      "child": 63.7
+    },
+    "D0210": {
+      "adult": 65.65,
+      "child": 98.98
+    },
+    "D0220": {
+      "adult": 12.35,
+      "child": 18.62
+    },
+    "D0274": {
+      "adult": 31.2,
+      "child": 47.04
+    },
+    "D0330": {
+      "adult": 56.55,
+      "child": 85.26
+    },
+    "D1110": {
+      "adult": 41.6,
+      "child": 62.72
+    },
+    "D1120": {
+      "child": 45.08
+    },
+    "D1206": {
+      "adult": 18.85,
+      "child": 28.42
+    },
+    "D1351": {
+      "child": 39.2
+    },
+    "D2140": {
+      "adult": 61.75,
+      "child": 93.1
+    },
+    "D2150": {
+      "adult": 74.1,
+      "child": 111.72
+    },
+    "D2391": {
+      "adult": 61.75,
+      "child": 93.1
+    },
+    "D2392": {
+      "adult": 74.1,
+      "child": 111.72
+    },
+    "D2393": {
+      "adult": 94.25,
+      "child": 142.1
+    },
+    "D2394": {
+      "adult": 130.0,
+      "child": 196.0
+    },
+    "D2751": {
+      "adult": 523.25,
+      "child": 788.9
+    },
+    "D2930": {
+      "adult": 149.5,
+      "child": 200.0
+    },
+    "D2950": {
+      "adult": 80.6,
+      "child": 121.52
+    },
+    "D3220": {
+      "adult": 86.45,
+      "child": 130.34
+    },
+    "D3310": {
+      "adult": 577.22,
+      "child": 577.22
+    },
+    "D3320": {
+      "adult": 742.84,
+      "child": 742.84
+    },
+    "D3330": {
+      "adult": 857.5,
+      "child": 857.5
+    },
+    "D3346": {
+      "child": 431.2
+    },
+    "D3347": {
+      "child": 697.76
+    },
+    "D3348": {
+      "child": 857.5
+    },
+    "D4341": {
+      "adult": 223.0,
+      "child": 223.0
+    },
+    "D4342": {
+      "adult": 129.0,
+      "child": 129.0
+    },
+    "D4355": {
+      "adult": 153.0,
+      "child": 153.0
+    },
+    "D4910": {
+      "adult": 138.0,
+      "child": 138.0
+    },
+    "D5110": {
+      "adult": 692.9,
+      "child": 1044.68
+    },
+    "D5120": {
+      "adult": 692.9,
+      "child": 1044.68
+    },
+    "D5211": {
+      "adult": 649.35,
+      "child": 979.02
+    },
+    "D5212": {
+      "adult": 630.5,
+      "child": 950.6
+    },
+    "D5213": {
+      "adult": 778.05,
+      "child": 1173.06
+    },
+    "D5214": {
+      "adult": 764.4,
+      "child": 1152.48
+    },
+    "D7140": {
+      "adult": 74.75,
+      "child": 112.7
+    },
+    "D7210": {
+      "adult": 130.0,
+      "child": 196.0
+    },
+    "D7220": {
+      "adult": 148.2,
+      "child": 223.44
+    },
+    "D7230": {
+      "adult": 187.2,
+      "child": 282.24
+    },
+    "D7240": {
+      "adult": 243.75,
+      "child": 367.5
+    },
+    "D7241": {
+      "adult": 272.35,
+      "child": 410.62
+    },
+    "D7250": {
+      "adult": 185.9,
+      "child": 280.28
+    },
+    "D8080": {
+      "child": 584.31
+    },
+    "D8670": {
+      "child": 87.13
+    },
+    "D9222": {
+      "adult": 82.55,
+      "child": 124.46
+    },
+    "D9223": {
+      "adult": 82.55,
+      "child": 124.46
+    },
+    "D9230": {
+      "adult": 39.0,
+      "child": 58.8
+    },
+    "D9239": {
+      "adult": 82.55,
+      "child": 124.46
+    },
+    "D9243": {
+      "adult": 82.55,
+      "child": 124.46
+    }
+  },
+  "by_report_2024": [],
+  "not_covered_adult_2024": [
+    "D1120",
+    "D1351",
+    "D3346",
+    "D3347",
+    "D3348",
+    "D8080",
+    "D8670"
+  ],
+  "not_covered_child_2024": [],
+  "source_url_2024": "https://ctdhp.org/wp-content/uploads/2024/01/Adult-and-Children-Fee-Schedule-1-1-2024-Updated-1-12-24.pdf",
+  "effective_date_2024": "2024-01-01",
+  "notes_2024": "Edition titled \"01/01/2024 Dental Fee Schedule Updated 1/12/2024\" (PDF created 2024-01-16), still downloadable from ctdhp.org (found via web.archive.org CDX listing of ctdhp.org uploads; Wayback captured it 2024-07-16, i.e. it was the posted schedule in July 2024). A re-issue with the same title (\u2026-1-12-24b.pdf, uploaded 2024/07, created 2024-07-18) was also downloaded: for all requested codes, adult/child fees and per-code effective dates are identical in both. Per-code effective dates in 2024 edition: 7/1/2022, 12/1/2022, 1/1/2024, 8-9/1/2016. Same columns as current: Adult Fee Schedule (21+) / Children Fee Schedule (<21); NA = not payable for that population."
+}

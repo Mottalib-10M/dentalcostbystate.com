@@ -1,0 +1,8601 @@
+[
+ {
+  "code": "AZ",
+  "name": "Arizona",
+  "slug": "arizona",
+  "program": "AHCCCS (Arizona Medicaid) Fee-For-Service Dental",
+  "title": "Arizona Health Care Cost Containment System - Final FFS Program Capped Fee Schedule Dental Rates - Effective 10/01/2026",
+  "url": "https://www.azahcccs.gov/PlansProviders/Downloads/FFSrates/Dental/FY27_DentalRates_10012026.xlsx",
+  "page": "https://azahcccs.gov/PlansProviders/RatesAndBilling/FFS/Dental.html",
+  "effective": "2026-10-01",
+  "retrieved": "2026-10-20",
+  "notes": "ACCESS CAVEAT: azahcccs.gov returns HTTP 403 to this machine (non-US IP, Azure gateway) and to WebFetch. The official file was therefore downloaded as the byte-for-byte Wayback Machine capture of the official URL (http://web.archive.org/web/20260913131615id_/https://www.azahcccs.gov/PlansProviders/Downloads/FFSrates/Dental/FY27_DentalRates_10012026.xlsx, captured 2026-09-13); the file list was read from the Wayback capture of the official Dental FFS Rates page (2026-06-07, which listed 'Rates Effective January 1, 2026' as newest; the FY27 10/01/2026 file was posted later). Recommend re-downloading from the official URL from a US connection to confirm. 'FFS Rate' column used; a separate 'Flagstaff Rate' column (about +10% for many codes, e.g. D0120 32.71, D7140 96.35) is not recorded. Single schedule for all ages (population 'all'); coverage limits (adult emergency dental benefit cap, child EPSDT) are in the AHCCCS Medical Policy Manual, not in the schedule. AHCCCS states that a code/rate appearing does not mean the service is covered. Most AHCCCS members are in managed care; this is the FFS capped fee schedule (used as benchmark by MCOs/DBAs).",
+  "url2024": "https://www.azahcccs.gov/PlansProviders/Downloads/FFSrates/Dental/FY24-DentalRates.xlsx",
+  "effective2024": "2023-10-01",
+  "notes2024": "Title printed: 'Final FFS Program Capped Fee Schedule Dental Rates - Effective 10/01/2023 (Updated for 01/01/2024)'; this FY24 edition was in force on 2024-07-01 (next edition FY25 effective 2024-10-01). Downloaded via Wayback capture of the official URL (http://web.archive.org/web/20260601053216id_/https://www.azahcccs.gov/PlansProviders/Downloads/FFSrates/Dental/FY24-DentalRates.xlsx) because azahcccs.gov is 403 from here. Per-code Eff Date column shows 2020-10-01 for the codes checked. All 61 extracted fees are identical to the 10/01/2026 schedule (AHCCCS dental FFS rates for these codes unchanged since 2020-10-01). by_report_2024: none.",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.4082,
+   "adultCharge": null,
+   "childPrivate": 0.8045,
+   "adultPrivate": null
+  },
+  "adultBenefit": "Emergency",
+  "fees": {
+   "D0120": {
+    "all": 29.74
+   },
+   "D0140": {
+    "all": 39.36
+   },
+   "D0150": {
+    "all": 46.28
+   },
+   "D0210": {
+    "all": 72.29
+   },
+   "D0220": {
+    "all": 14.88
+   },
+   "D0274": {
+    "all": 34.28
+   },
+   "D0330": {
+    "all": 61.9
+   },
+   "D1110": {
+    "all": 54.36
+   },
+   "D1120": {
+    "all": 44.44
+   },
+   "D1206": {
+    "all": 22.12
+   },
+   "D1351": {
+    "all": 29.7
+   },
+   "D2140": {
+    "all": 71.62
+   },
+   "D2150": {
+    "all": 88.1
+   },
+   "D2391": {
+    "all": 80.9
+   },
+   "D2392": {
+    "all": 97.72
+   },
+   "D2393": {
+    "all": 118.15
+   },
+   "D2394": {
+    "all": 141.1
+   },
+   "D2740": {
+    "all": 554.8
+   },
+   "D2750": {
+    "all": 544.0
+   },
+   "D2751": {
+    "all": 527.04
+   },
+   "D2752": {
+    "all": 537.05
+   },
+   "D2790": {
+    "all": 553.03
+   },
+   "D2930": {
+    "all": 139.38
+   },
+   "D2950": {
+    "all": 131.38
+   },
+   "D3220": {
+    "all": 90.37
+   },
+   "D3310": {
+    "all": 372.58
+   },
+   "D3320": {
+    "all": 442.47
+   },
+   "D3330": {
+    "all": 546.14
+   },
+   "D3346": {
+    "all": 454.94
+   },
+   "D3347": {
+    "all": 494.36
+   },
+   "D3348": {
+    "all": 587.18
+   },
+   "D4341": {
+    "all": 139.17
+   },
+   "D4342": {
+    "all": 89.63
+   },
+   "D4355": {
+    "all": 81.43
+   },
+   "D4910": {
+    "all": 71.77
+   },
+   "D5110": {
+    "all": 792.33
+   },
+   "D5120": {
+    "all": 796.21
+   },
+   "D5211": {
+    "all": 667.72
+   },
+   "D5212": {
+    "all": 668.27
+   },
+   "D5213": {
+    "all": 846.84
+   },
+   "D5214": {
+    "all": 848.52
+   },
+   "D5820": {
+    "all": 351.5
+   },
+   "D5821": {
+    "all": 351.5
+   },
+   "D7140": {
+    "all": 87.59
+   },
+   "D7210": {
+    "all": 133.09
+   },
+   "D7220": {
+    "all": 157.55
+   },
+   "D7230": {
+    "all": 199.33
+   },
+   "D7240": {
+    "all": 233.39
+   },
+   "D7241": {
+    "all": 299.88
+   },
+   "D7250": {
+    "all": 136.44
+   },
+   "D7953": {
+    "all": 231.01
+   },
+   "D8070": {
+    "all": 2655.95
+   },
+   "D8080": {
+    "all": 2864.43
+   },
+   "D8090": {
+    "all": 2966.44
+   },
+   "D8670": {
+    "all": 134.33
+   },
+   "D8680": {
+    "all": 206.78
+   },
+   "D9222": {
+    "all": 71.54
+   },
+   "D9223": {
+    "all": 71.54
+   },
+   "D9239": {
+    "all": 88.83
+   },
+   "D9243": {
+    "all": 88.83
+   },
+   "D9230": {
+    "all": 28.29
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "all": 29.74
+   },
+   "D0140": {
+    "all": 39.36
+   },
+   "D0150": {
+    "all": 46.28
+   },
+   "D0210": {
+    "all": 72.29
+   },
+   "D0220": {
+    "all": 14.88
+   },
+   "D0274": {
+    "all": 34.28
+   },
+   "D0330": {
+    "all": 61.9
+   },
+   "D1110": {
+    "all": 54.36
+   },
+   "D1120": {
+    "all": 44.44
+   },
+   "D1206": {
+    "all": 22.12
+   },
+   "D1351": {
+    "all": 29.7
+   },
+   "D2140": {
+    "all": 71.62
+   },
+   "D2150": {
+    "all": 88.1
+   },
+   "D2391": {
+    "all": 80.9
+   },
+   "D2392": {
+    "all": 97.72
+   },
+   "D2393": {
+    "all": 118.15
+   },
+   "D2394": {
+    "all": 141.1
+   },
+   "D2740": {
+    "all": 554.8
+   },
+   "D2750": {
+    "all": 544.0
+   },
+   "D2751": {
+    "all": 527.04
+   },
+   "D2752": {
+    "all": 537.05
+   },
+   "D2790": {
+    "all": 553.03
+   },
+   "D2930": {
+    "all": 139.38
+   },
+   "D2950": {
+    "all": 131.38
+   },
+   "D3220": {
+    "all": 90.37
+   },
+   "D3310": {
+    "all": 372.58
+   },
+   "D3320": {
+    "all": 442.47
+   },
+   "D3330": {
+    "all": 546.14
+   },
+   "D3346": {
+    "all": 454.94
+   },
+   "D3347": {
+    "all": 494.36
+   },
+   "D3348": {
+    "all": 587.18
+   },
+   "D4341": {
+    "all": 139.17
+   },
+   "D4342": {
+    "all": 89.63
+   },
+   "D4355": {
+    "all": 81.43
+   },
+   "D4910": {
+    "all": 71.77
+   },
+   "D5110": {
+    "all": 792.33
+   },
+   "D5120": {
+    "all": 796.21
+   },
+   "D5211": {
+    "all": 667.72
+   },
+   "D5212": {
+    "all": 668.27
+   },
+   "D5213": {
+    "all": 846.84
+   },
+   "D5214": {
+    "all": 848.52
+   },
+   "D5820": {
+    "all": 351.5
+   },
+   "D5821": {
+    "all": 351.5
+   },
+   "D7140": {
+    "all": 87.59
+   },
+   "D7210": {
+    "all": 133.09
+   },
+   "D7220": {
+    "all": 157.55
+   },
+   "D7230": {
+    "all": 199.33
+   },
+   "D7240": {
+    "all": 233.39
+   },
+   "D7241": {
+    "all": 299.88
+   },
+   "D7250": {
+    "all": 136.44
+   },
+   "D7953": {
+    "all": 231.01
+   },
+   "D8070": {
+    "all": 2655.95
+   },
+   "D8080": {
+    "all": 2864.43
+   },
+   "D8090": {
+    "all": 2966.44
+   },
+   "D8670": {
+    "all": 134.33
+   },
+   "D8680": {
+    "all": 206.78
+   },
+   "D9222": {
+    "all": 71.54
+   },
+   "D9223": {
+    "all": 71.54
+   },
+   "D9239": {
+    "all": 88.83
+   },
+   "D9243": {
+    "all": 88.83
+   },
+   "D9230": {
+    "all": 28.29
+   }
+  }
+ },
+ {
+  "code": "CO",
+  "name": "Colorado",
+  "slug": "colorado",
+  "program": "Health First Colorado (Colorado Medicaid) dental, administered by DentaQuest",
+  "title": "Medicaid dental rates in force on July 1, 2024 (state rate review document)",
+  "url": "https://hcpf.colorado.gov/sites/hcpf/files/Appendix%20H%20DIDD%20%26%20Medicaid%20Dental%20Rates%20with%20Benchmark%20Ratios.pdf",
+  "page": "https://hcpf.colorado.gov/provider-rates-fee-schedule",
+  "effective": "2024-07-01",
+  "retrieved": "2026-10-20",
+  "notes": "HCPF's provider rates page lists the 'Dental Fee Schedule' only as a link to DentaQuest (https://www.dentaquest.com/state-plans/regions/colorado/health-first-colorado/provider-page/), which returns 403 (Akamai) to curl and WebFetch; DentaQuest content/dam PDFs are also blocked. The HCPF Health First Colorado physician fee schedule (01_CO_Fee Schedule_Health First Colorado_07012026 v1.4.xlsx, kept in raw/CO) contains no D-codes. Per DentaQuest's July 2026 newsletter (search snippet, not opened), dental FFS rates were cut 2% across the board effective 2026-07-01 and adults have a $3,000 annual maximum from 2026-07-01. An HCPF rate-review Appendix H with 07/01/2024 dental rates exists but is outdated, so not used. No fee recorded.",
+  "url2024": "https://hcpf.colorado.gov/sites/hcpf/files/Appendix%20H%20DIDD%20%26%20Medicaid%20Dental%20Rates%20with%20Benchmark%20Ratios.pdf",
+  "effective2024": "2024-07-01",
+  "notes2024": "Source is an official HCPF document, 'Appendix H: DIDD and Medicaid Dental Rates w/ Benchmark Ratios' (2025 MPRRAC rate review), tab 'CO Medicaid Dental Rate_Adult' = adult portion of the CO Medicaid State Plan dental fee schedule, column 'Total CO Medicaid FFS Allowable Effective 07/01/2024'. Not the fee schedule file itself. Listed age ranges are 0-999 for most codes (D0330 6+, D1110 12+, D4355 13+), so recorded as 'all'; child-only codes (D1120, D1351, D2930, D3220, D8xxx ortho) are not in this adult tab and therefore absent, not necessarily uncovered. D9223/D9243 base-value cells are garbled in the PDF text; the clean total column was used ($100.09).",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.4504,
+   "adultCharge": 0.4278,
+   "childPrivate": 0.7854,
+   "adultPrivate": 0.7311
+  },
+  "adultBenefit": "Enhanced",
+  "fees": {
+   "D0120": {
+    "all": 38.35
+   },
+   "D0140": {
+    "all": 53.14
+   },
+   "D0150": {
+    "all": 61.03
+   },
+   "D0210": {
+    "all": 88.31
+   },
+   "D0220": {
+    "all": 13.21
+   },
+   "D0274": {
+    "all": 31.2
+   },
+   "D0330": {
+    "all": 55.21
+   },
+   "D1110": {
+    "all": 97.5
+   },
+   "D1206": {
+    "all": 41.96
+   },
+   "D2140": {
+    "all": 110.02
+   },
+   "D2150": {
+    "all": 140.59
+   },
+   "D2391": {
+    "all": 110.02
+   },
+   "D2392": {
+    "all": 140.59
+   },
+   "D2393": {
+    "all": 172.4
+   },
+   "D2394": {
+    "all": 208.93
+   },
+   "D2740": {
+    "all": 849.16
+   },
+   "D2750": {
+    "all": 841.06
+   },
+   "D2751": {
+    "all": 767.03
+   },
+   "D2752": {
+    "all": 798.29
+   },
+   "D2790": {
+    "all": 868.62
+   },
+   "D2950": {
+    "all": 135.08
+   },
+   "D3310": {
+    "all": 799.76
+   },
+   "D3320": {
+    "all": 917.71
+   },
+   "D3330": {
+    "all": 1109.31
+   },
+   "D3346": {
+    "all": 911.61
+   },
+   "D3347": {
+    "all": 1044.12
+   },
+   "D3348": {
+    "all": 1246.06
+   },
+   "D4341": {
+    "all": 266.51
+   },
+   "D4342": {
+    "all": 189.68
+   },
+   "D4355": {
+    "all": 90.04
+   },
+   "D4910": {
+    "all": 149.01
+   },
+   "D5110": {
+    "all": 851.41
+   },
+   "D5120": {
+    "all": 852.94
+   },
+   "D5211": {
+    "all": 586.83
+   },
+   "D5212": {
+    "all": 586.83
+   },
+   "D5213": {
+    "all": 840.48
+   },
+   "D5214": {
+    "all": 840.48
+   },
+   "D5225": {
+    "all": 738.83
+   },
+   "D5226": {
+    "all": 738.83
+   },
+   "D7140": {
+    "all": 109.07
+   },
+   "D7210": {
+    "all": 174.54
+   },
+   "D7220": {
+    "all": 200.66
+   },
+   "D7230": {
+    "all": 252.4
+   },
+   "D7240": {
+    "all": 296.18
+   },
+   "D7241": {
+    "all": 395.64
+   },
+   "D7250": {
+    "all": 184.64
+   },
+   "D9222": {
+    "all": 114.76
+   },
+   "D9223": {
+    "all": 100.09
+   },
+   "D9239": {
+    "all": 114.76
+   },
+   "D9243": {
+    "all": 100.09
+   }
+  },
+  "feesNow": {}
+ },
+ {
+  "code": "CT",
+  "name": "Connecticut",
+  "slug": "connecticut",
+  "program": "HUSKY Health dental (CT Medicaid/CHIP) - Connecticut Dental Health Partnership (CTDHP, DSS dental administrative services organization)",
+  "title": "2026 Dental Fee Schedule (Adult and Children Fee Schedule) - 'Fee Schedule Released 1/24; Updated by CTDHP 7/24, 1/25, 8/25, 12/25, 5/1/26, 7/8/26, 10/1/2026'",
+  "url": "https://ctdhp.org/wp-content/uploads/2026/10/Adult-and-Children-Fee-Schedule_REVISED-10-1-2026-B.pdf",
+  "page": "https://ctdhp.org/dental-fee-schedule/pdf/",
+  "effective": "2026-10-01",
+  "retrieved": "2026-10-20",
+  "notes": "Columns 'Adult Fee Schedule' and 'Children Fee Schedule' used (adult = 21+, child = under 21). 'NA' in a fee column = not payable for that population (listed in not_covered_adult / not_covered_child). Per-code effective dates vary (many 7/1/2022; D0120/D0150/D1110 5/1/2026; D2740, D3346-D3348, D7953, D8070 10/1/2026). Source is CTDHP (BeneCare), the state DSS-contracted dental ASO for HUSKY Health (CT dental Medicaid is entirely ASO/FFS, no dental MCOs). The DSS fiscal-agent portal ctdssmap.com could not be reached from this network (connection timeout), so its copy was not cross-checked. Program limits '^' and PA requirements apply per Provider Manual Chapter 7. HUSKY B copay % column not recorded. D6241 (pontic, child only 788.90) present but not in the requested list.",
+  "url2024": "https://ctdhp.org/wp-content/uploads/2024/01/Adult-and-Children-Fee-Schedule-1-1-2024-Updated-1-12-24.pdf",
+  "effective2024": "2024-01-01",
+  "notes2024": "Edition titled \"01/01/2024 Dental Fee Schedule Updated 1/12/2024\" (PDF created 2024-01-16), still downloadable from ctdhp.org (found via web.archive.org CDX listing of ctdhp.org uploads; Wayback captured it 2024-07-16, i.e. it was the posted schedule in July 2024). A re-issue with the same title (\u2026-1-12-24b.pdf, uploaded 2024/07, created 2024-07-18) was also downloaded: for all requested codes, adult/child fees and per-code effective dates are identical in both. Per-code effective dates in 2024 edition: 7/1/2022, 12/1/2022, 1/1/2024, 8-9/1/2016. Same columns as current: Adult Fee Schedule (21+) / Children Fee Schedule (<21); NA = not payable for that population.",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.4697,
+   "adultCharge": 0.2986,
+   "childPrivate": 0.7961,
+   "adultPrivate": 0.4941
+  },
+  "adultBenefit": "Enhanced",
+  "fees": {
+   "D0120": {
+    "adult": 22.75,
+    "child": 34.3
+   },
+   "D0140": {
+    "adult": 31.2,
+    "child": 47.04
+   },
+   "D0150": {
+    "adult": 42.45,
+    "child": 63.7
+   },
+   "D0210": {
+    "adult": 65.65,
+    "child": 98.98
+   },
+   "D0220": {
+    "adult": 12.35,
+    "child": 18.62
+   },
+   "D0274": {
+    "adult": 31.2,
+    "child": 47.04
+   },
+   "D0330": {
+    "adult": 56.55,
+    "child": 85.26
+   },
+   "D1110": {
+    "adult": 41.6,
+    "child": 62.72
+   },
+   "D1120": {
+    "child": 45.08
+   },
+   "D1206": {
+    "adult": 18.85,
+    "child": 28.42
+   },
+   "D1351": {
+    "child": 39.2
+   },
+   "D2140": {
+    "adult": 61.75,
+    "child": 93.1
+   },
+   "D2150": {
+    "adult": 74.1,
+    "child": 111.72
+   },
+   "D2391": {
+    "adult": 61.75,
+    "child": 93.1
+   },
+   "D2392": {
+    "adult": 74.1,
+    "child": 111.72
+   },
+   "D2393": {
+    "adult": 94.25,
+    "child": 142.1
+   },
+   "D2394": {
+    "adult": 130.0,
+    "child": 196.0
+   },
+   "D2751": {
+    "adult": 523.25,
+    "child": 788.9
+   },
+   "D2930": {
+    "adult": 149.5,
+    "child": 200.0
+   },
+   "D2950": {
+    "adult": 80.6,
+    "child": 121.52
+   },
+   "D3220": {
+    "adult": 86.45,
+    "child": 130.34
+   },
+   "D3310": {
+    "adult": 577.22,
+    "child": 577.22
+   },
+   "D3320": {
+    "adult": 742.84,
+    "child": 742.84
+   },
+   "D3330": {
+    "adult": 857.5,
+    "child": 857.5
+   },
+   "D3346": {
+    "child": 431.2
+   },
+   "D3347": {
+    "child": 697.76
+   },
+   "D3348": {
+    "child": 857.5
+   },
+   "D4341": {
+    "adult": 223.0,
+    "child": 223.0
+   },
+   "D4342": {
+    "adult": 129.0,
+    "child": 129.0
+   },
+   "D4355": {
+    "adult": 153.0,
+    "child": 153.0
+   },
+   "D4910": {
+    "adult": 138.0,
+    "child": 138.0
+   },
+   "D5110": {
+    "adult": 692.9,
+    "child": 1044.68
+   },
+   "D5120": {
+    "adult": 692.9,
+    "child": 1044.68
+   },
+   "D5211": {
+    "adult": 649.35,
+    "child": 979.02
+   },
+   "D5212": {
+    "adult": 630.5,
+    "child": 950.6
+   },
+   "D5213": {
+    "adult": 778.05,
+    "child": 1173.06
+   },
+   "D5214": {
+    "adult": 764.4,
+    "child": 1152.48
+   },
+   "D7140": {
+    "adult": 74.75,
+    "child": 112.7
+   },
+   "D7210": {
+    "adult": 130.0,
+    "child": 196.0
+   },
+   "D7220": {
+    "adult": 148.2,
+    "child": 223.44
+   },
+   "D7230": {
+    "adult": 187.2,
+    "child": 282.24
+   },
+   "D7240": {
+    "adult": 243.75,
+    "child": 367.5
+   },
+   "D7241": {
+    "adult": 272.35,
+    "child": 410.62
+   },
+   "D7250": {
+    "adult": 185.9,
+    "child": 280.28
+   },
+   "D8080": {
+    "child": 584.31
+   },
+   "D8670": {
+    "child": 87.13
+   },
+   "D9222": {
+    "adult": 82.55,
+    "child": 124.46
+   },
+   "D9223": {
+    "adult": 82.55,
+    "child": 124.46
+   },
+   "D9230": {
+    "adult": 39.0,
+    "child": 58.8
+   },
+   "D9239": {
+    "adult": 82.55,
+    "child": 124.46
+   },
+   "D9243": {
+    "adult": 82.55,
+    "child": 124.46
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "adult": 34.3,
+    "child": 34.3
+   },
+   "D0140": {
+    "adult": 31.2,
+    "child": 47.04
+   },
+   "D0150": {
+    "adult": 49.3,
+    "child": 63.7
+   },
+   "D0210": {
+    "adult": 65.65,
+    "child": 98.98
+   },
+   "D0220": {
+    "adult": 12.35,
+    "child": 18.62
+   },
+   "D0274": {
+    "adult": 31.2,
+    "child": 47.04
+   },
+   "D0330": {
+    "adult": 56.55,
+    "child": 85.26
+   },
+   "D1110": {
+    "adult": 62.72,
+    "child": 62.72
+   },
+   "D1120": {
+    "child": 45.08
+   },
+   "D1206": {
+    "adult": 18.85,
+    "child": 28.42
+   },
+   "D1351": {
+    "child": 39.2
+   },
+   "D2140": {
+    "adult": 61.75,
+    "child": 93.1
+   },
+   "D2150": {
+    "adult": 74.1,
+    "child": 111.72
+   },
+   "D2391": {
+    "adult": 61.75,
+    "child": 93.1
+   },
+   "D2392": {
+    "adult": 74.1,
+    "child": 111.72
+   },
+   "D2393": {
+    "adult": 94.25,
+    "child": 142.1
+   },
+   "D2394": {
+    "adult": 130.0,
+    "child": 196.0
+   },
+   "D2740": {
+    "adult": 523.25,
+    "child": 788.9
+   },
+   "D2751": {
+    "adult": 523.25,
+    "child": 788.9
+   },
+   "D2930": {
+    "adult": 149.5,
+    "child": 200.0
+   },
+   "D2950": {
+    "adult": 80.6,
+    "child": 121.52
+   },
+   "D3220": {
+    "adult": 86.45,
+    "child": 130.34
+   },
+   "D3310": {
+    "adult": 577.22,
+    "child": 577.22
+   },
+   "D3320": {
+    "adult": 742.84,
+    "child": 742.84
+   },
+   "D3330": {
+    "adult": 857.5,
+    "child": 857.5
+   },
+   "D3346": {
+    "adult": 577.22,
+    "child": 577.22
+   },
+   "D3347": {
+    "adult": 742.84,
+    "child": 742.84
+   },
+   "D3348": {
+    "adult": 857.5,
+    "child": 857.5
+   },
+   "D4341": {
+    "adult": 223.0,
+    "child": 223.0
+   },
+   "D4342": {
+    "adult": 129.0,
+    "child": 129.0
+   },
+   "D4355": {
+    "adult": 153.0,
+    "child": 153.0
+   },
+   "D4910": {
+    "adult": 138.0,
+    "child": 138.0
+   },
+   "D5110": {
+    "adult": 692.9,
+    "child": 1044.68
+   },
+   "D5120": {
+    "adult": 692.9,
+    "child": 1044.68
+   },
+   "D5211": {
+    "adult": 649.35,
+    "child": 979.02
+   },
+   "D5212": {
+    "adult": 630.5,
+    "child": 950.6
+   },
+   "D5213": {
+    "adult": 778.05,
+    "child": 1173.06
+   },
+   "D5214": {
+    "adult": 764.4,
+    "child": 1152.48
+   },
+   "D7140": {
+    "adult": 74.75,
+    "child": 112.7
+   },
+   "D7210": {
+    "adult": 130.0,
+    "child": 196.0
+   },
+   "D7220": {
+    "adult": 148.2,
+    "child": 223.44
+   },
+   "D7230": {
+    "adult": 187.2,
+    "child": 282.24
+   },
+   "D7240": {
+    "adult": 243.75,
+    "child": 367.5
+   },
+   "D7241": {
+    "adult": 272.35,
+    "child": 410.62
+   },
+   "D7250": {
+    "adult": 185.9,
+    "child": 280.28
+   },
+   "D7953": {
+    "adult": 280.0,
+    "child": 280.0
+   },
+   "D8070": {
+    "child": 584.31
+   },
+   "D8080": {
+    "child": 584.31
+   },
+   "D8670": {
+    "child": 87.13
+   },
+   "D9222": {
+    "adult": 82.55,
+    "child": 124.46
+   },
+   "D9223": {
+    "adult": 82.55,
+    "child": 124.46
+   },
+   "D9230": {
+    "adult": 39.0,
+    "child": 58.8
+   },
+   "D9239": {
+    "adult": 82.55,
+    "child": 124.46
+   },
+   "D9243": {
+    "adult": 82.55,
+    "child": 124.46
+   }
+  }
+ },
+ {
+  "code": "FL",
+  "name": "Florida",
+  "slug": "florida",
+  "program": "Florida Medicaid - Dental General Services (fee-for-service)",
+  "title": "Dental General Services Fee Schedule January 1, 2026 (Incorporated by reference in Rule 59G-4.002, F.A.C.)",
+  "url": "https://www.flrules.org/gateway/readRefFile.asp?refId=19997&filename=Dental%20General%20Fee%20Schedule%20January%201%202026.pdf",
+  "page": "https://www.flrules.org/gateway/reference.asp?No=Ref-19997",
+  "effective": "2026-01-01",
+  "retrieved": "2026-10-20",
+  "notes": "Columns used: '0 - 20 Year Rate' -> child, '21+ Year Rate' -> adult; '$ -' in the adult column means no adult rate (adult key omitted). Source is the official Florida Administrative Code reference file (Florida Dept. of State, flrules.org) for Ref-19997, adopted into Rule 59G-4.002 (amendment effective 10/26/2026). DOUBT: AHCA's own rule page (ahca.myflorida.com) lists a newer 'Dental General Fee Schedule' dated July 1, 2026 (file 2026_Dental_Fee_Schedule_July_1_2026.pdf); it could not be downloaded (Cloudflare 403 from this machine, no archive copy), so fees here are the January 1, 2026 version and may differ from July 1, 2026 rates. Codes flagged 'Y' (prior authorization): D5110, D5120, D5211, D5212, D5213, D5214, D5820, D5821, D8070, D8080, D8090, D8670, D8680. Florida Medicaid dental is mostly delivered through Statewide Medicaid Managed Care dental plans; this is the FFS schedule. The PDF header reads 'January 1, 2026 2025' (2025 struck through in the strike/underline version).",
+  "url2024": "https://www.flrules.org/gateway/readRefFile.asp?refId=16999&filename=Dental%20General%20Fee%20Schedule_2024.pdf",
+  "effective2024": "2024-01-01",
+  "notes2024": "Edition: 'DENTAL GENERAL FEE SCHEDULE JANUARY 1, 2024' (Florida Administrative Code reference Ref-16999, https://www.flrules.org/gateway/reference.asp?No=Ref-16999), the edition dated for calendar 2024 and next superseded by the 2025 schedule. Caveat: it was formally adopted into Rule 59G-4.002 by the amendment effective 10/21/2024; the rule version legally in force on 2024-07-01 (effective 12/31/2023) incorporated the 'Dental General Fee Schedule 2023' (Ref-16119, January 1, 2023), which has identical child and adult rates for all 53 requested codes present (checked code by code). AHCA applies schedules by their printed effective date, so the January 1, 2024 edition is used. Parsed by column position: 0-20 Year Rate -> child, 21+ Year Rate -> adult (blank = no adult rate). Prior authorization Y on dentures, D5820/D5821 and ortho codes.",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.2224,
+   "adultCharge": null,
+   "childPrivate": 0.4081,
+   "adultPrivate": null
+  },
+  "adultBenefit": "Emergency",
+  "fees": {
+   "D0120": {
+    "child": 22.39
+   },
+   "D0140": {
+    "child": 11.94,
+    "adult": 8.04
+   },
+   "D0150": {
+    "child": 23.88,
+    "adult": 16.07
+   },
+   "D0210": {
+    "child": 47.77,
+    "adult": 32.14
+   },
+   "D0220": {
+    "child": 5.98,
+    "adult": 4.02
+   },
+   "D0274": {
+    "child": 16.42
+   },
+   "D0330": {
+    "child": 44.79,
+    "adult": 30.13
+   },
+   "D1110": {
+    "child": 26.87
+   },
+   "D1120": {
+    "child": 20.9
+   },
+   "D1206": {
+    "child": 16.42
+   },
+   "D1351": {
+    "child": 19.41
+   },
+   "D2140": {
+    "child": 46.28
+   },
+   "D2150": {
+    "child": 61.21
+   },
+   "D2391": {
+    "child": 46.28
+   },
+   "D2392": {
+    "child": 61.21
+   },
+   "D2393": {
+    "child": 76.13
+   },
+   "D2394": {
+    "child": 91.06
+   },
+   "D2740": {
+    "child": 340.37
+   },
+   "D2751": {
+    "child": 340.37
+   },
+   "D2930": {
+    "child": 101.52
+   },
+   "D2950": {
+    "child": 97.04
+   },
+   "D3220": {
+    "child": 74.65
+   },
+   "D3310": {
+    "child": 220.94
+   },
+   "D3320": {
+    "child": 283.64
+   },
+   "D3330": {
+    "child": 350.82
+   },
+   "D4341": {
+    "child": 29.86
+   },
+   "D4342": {
+    "child": 14.93
+   },
+   "D4355": {
+    "child": 77.63
+   },
+   "D5110": {
+    "child": 462.78,
+    "adult": 311.37
+   },
+   "D5120": {
+    "child": 462.78,
+    "adult": 311.37
+   },
+   "D5211": {
+    "child": 246.32,
+    "adult": 165.73
+   },
+   "D5212": {
+    "child": 246.32,
+    "adult": 165.73
+   },
+   "D5213": {
+    "child": 470.24,
+    "adult": 316.39
+   },
+   "D5214": {
+    "child": 470.24,
+    "adult": 316.39
+   },
+   "D5820": {
+    "child": 164.21
+   },
+   "D5821": {
+    "child": 164.21
+   },
+   "D7140": {
+    "child": 40.31,
+    "adult": 27.12
+   },
+   "D7210": {
+    "child": 59.71,
+    "adult": 40.18
+   },
+   "D7220": {
+    "child": 92.56,
+    "adult": 62.27
+   },
+   "D7230": {
+    "child": 114.95,
+    "adult": 77.34
+   },
+   "D7240": {
+    "child": 117.94,
+    "adult": 79.35
+   },
+   "D7241": {
+    "child": 122.42,
+    "adult": 82.36
+   },
+   "D7250": {
+    "child": 80.61,
+    "adult": 54.24
+   },
+   "D8070": {
+    "child": 567.28
+   },
+   "D8080": {
+    "child": 567.28
+   },
+   "D8090": {
+    "child": 567.28
+   },
+   "D8670": {
+    "child": 77.63
+   },
+   "D8680": {
+    "child": 159.57
+   },
+   "D9222": {
+    "child": 62.11,
+    "adult": 41.79
+   },
+   "D9223": {
+    "child": 62.11,
+    "adult": 41.79
+   },
+   "D9239": {
+    "child": 62.11,
+    "adult": 41.79
+   },
+   "D9243": {
+    "child": 62.11,
+    "adult": 41.79
+   },
+   "D9230": {
+    "child": 41.8,
+    "adult": 28.12
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "child": 22.39
+   },
+   "D0140": {
+    "child": 11.94,
+    "adult": 8.04
+   },
+   "D0150": {
+    "child": 23.88,
+    "adult": 16.07
+   },
+   "D0210": {
+    "child": 47.77,
+    "adult": 32.14
+   },
+   "D0220": {
+    "child": 5.98,
+    "adult": 4.02
+   },
+   "D0274": {
+    "child": 16.42
+   },
+   "D0330": {
+    "child": 44.79,
+    "adult": 30.13
+   },
+   "D1110": {
+    "child": 42.7
+   },
+   "D1120": {
+    "child": 33.21
+   },
+   "D1206": {
+    "child": 26.09
+   },
+   "D1351": {
+    "child": 30.84
+   },
+   "D2140": {
+    "child": 46.28
+   },
+   "D2150": {
+    "child": 61.21
+   },
+   "D2391": {
+    "child": 46.28
+   },
+   "D2392": {
+    "child": 61.21
+   },
+   "D2393": {
+    "child": 76.13
+   },
+   "D2394": {
+    "child": 91.06
+   },
+   "D2740": {
+    "child": 340.37
+   },
+   "D2751": {
+    "child": 340.37
+   },
+   "D2930": {
+    "child": 101.52
+   },
+   "D2950": {
+    "child": 97.04
+   },
+   "D3220": {
+    "child": 74.65
+   },
+   "D3310": {
+    "child": 220.94
+   },
+   "D3320": {
+    "child": 283.64
+   },
+   "D3330": {
+    "child": 350.82
+   },
+   "D4341": {
+    "child": 29.86
+   },
+   "D4342": {
+    "child": 14.93
+   },
+   "D4355": {
+    "child": 77.63
+   },
+   "D5110": {
+    "child": 462.78,
+    "adult": 311.37
+   },
+   "D5120": {
+    "child": 462.78,
+    "adult": 311.37
+   },
+   "D5211": {
+    "child": 246.32,
+    "adult": 165.73
+   },
+   "D5212": {
+    "child": 246.32,
+    "adult": 165.73
+   },
+   "D5213": {
+    "child": 470.24,
+    "adult": 316.39
+   },
+   "D5214": {
+    "child": 470.24,
+    "adult": 316.39
+   },
+   "D5820": {
+    "child": 164.21
+   },
+   "D5821": {
+    "child": 164.21
+   },
+   "D7140": {
+    "child": 40.31,
+    "adult": 27.12
+   },
+   "D7210": {
+    "child": 59.71,
+    "adult": 40.18
+   },
+   "D7220": {
+    "child": 92.56,
+    "adult": 62.27
+   },
+   "D7230": {
+    "child": 114.95,
+    "adult": 77.34
+   },
+   "D7240": {
+    "child": 117.94,
+    "adult": 79.35
+   },
+   "D7241": {
+    "child": 122.42,
+    "adult": 82.36
+   },
+   "D7250": {
+    "child": 80.61,
+    "adult": 54.24
+   },
+   "D8070": {
+    "child": 567.28
+   },
+   "D8080": {
+    "child": 567.28
+   },
+   "D8090": {
+    "child": 567.28
+   },
+   "D8670": {
+    "child": 77.63
+   },
+   "D8680": {
+    "child": 159.57
+   },
+   "D9222": {
+    "child": 62.11,
+    "adult": 41.79
+   },
+   "D9223": {
+    "child": 62.11,
+    "adult": 41.79
+   },
+   "D9239": {
+    "child": 62.11,
+    "adult": 41.79
+   },
+   "D9243": {
+    "child": 62.11,
+    "adult": 41.79
+   },
+   "D9230": {
+    "child": 41.8,
+    "adult": 28.12
+   }
+  }
+ },
+ {
+  "code": "GA",
+  "name": "Georgia",
+  "slug": "georgia",
+  "program": "Georgia Medicaid / PeachCare for Kids - Dental Services (fee-for-service)",
+  "title": "Part II Policies and Procedures for Dental Services - Appendix B Maximum Allowable Charges (manual edition 'Dental Services Q2 - April 2026')",
+  "url": "https://www.mmis.georgia.gov/portal/Portals/0/StaticContent/Public/ALL/Handbooks/Dental%20Services%20Q2%20-%20April%202026%2020260318181621.pdf",
+  "page": "https://www.mmis.georgia.gov/portal/PubAccess.Provider%20Information/Provider%20Manuals/tabId/18/Default.aspx",
+  "effective": "2026-04-01",
+  "retrieved": "2026-10-20",
+  "notes": "ACCESS CAVEAT: mmis.georgia.gov times out from this machine (and WebFetch is refused), so the official PDF was downloaded as the Wayback Machine capture of its official URL dated 2026-06-09 (http://web.archive.org/web/20260609235102id_/<source_url>). It is the newest Dental Services manual found in the archive; quarterly July 2026 / October 2026 editions may exist on GAMMIS but could not be seen - DOUBT, re-check from a US connection. Effective date = edition quarter (April 2026); the CMS-approved SPA GA-25-0005 raised most of these codes by 2.5% effective 2025-07-01 and states all rates are published in this manual. Single 'Max Allow' column; COS indicator 'Health Check & Adults' for most codes (population 'all'); D1120 is 'Health Check Only' (children under 21); D4342 and D4910 are 'Pregnant Women Only'. Multiple rows in Appendix B (value recorded under 'all' = permanent tooth / two-or-more-teeth / first tooth row): D2140 primary 67.56 (Health Check Only) vs permanent 73.51; D2150 primary 87.03 (Health Check Only) vs permanent 95.05; D2392 primary 108.45 vs permanent 113.51; D2393 primary 133.67 vs permanent 160.17; D2394 primary 147.04 vs permanent 176.18; D3310 primary 79.58 vs permanent 389.34; D5211 single tooth 283.56 vs two or more 583.48; D5212 single tooth 283.56 vs two or more 677.89; D7140 first tooth 82.80, each additional 79.19. Most Georgia Medicaid/PeachCare members are in CMOs whose dental vendors may pay differently; these are the state FFS maximum allowable charges.",
+  "url2024": "https://www.mmis.georgia.gov/portal/Portals/0/StaticContent/Public/ALL/HANDBOOKS/Dental%20Services%20Q4-October%202024%2020241022142959.pdf",
+  "effective2024": "2024-07-01",
+  "notes2024": "Edition 'Dental Services Q4-October 2024' (file stamped 2024-10-22), Appendix B Maximum Allowable Charges, downloaded via Wayback capture of the official URL dated 2025-01-14. The April 2024 v2 edition that was current on 2024-07-01 is not archived (Wayback shows 404). The October 2024 edition is used as the closest proxy: it already states 'Effective July 1, 2024, all procedure codes indicated in Appendix B are available to Members regardless of age', Georgia dental rate changes are made on July 1 (state fiscal year), and for most codes its fees are about 2.5% below the April 2026 fees, matching SPA GA-25-0005 effective 2025-07-01 (exception: D9223 115.19 -> 142.51; D2140/D2150 permanent unchanged). So these fees are very probably the ones in force on 2024-07-01, but no document dated on or before 2024-07-01 was seen - small DOUBT. Same multi-row convention: D2140 primary 65.91 vs permanent 73.51; D2150 primary 84.91 vs permanent 95.05; D2392 primary 105.80 vs permanent 110.74; D2393 primary 130.41 vs permanent 156.26; D2394 primary 143.45 vs permanent 171.88; D3310 primary 77.64 vs permanent 379.84; D5211 single 276.64 vs two or more 569.25; D5212 single 276.64 vs two or more 661.36; D7140 first 80.78, each additional 77.26.",
+  "override": "The edition in force on July 1, 2024 (April 2024) is not archived; the October 2024 edition of Appendix B is used. Georgia changes dental rates on July 1, and this edition carries the rates set on July 1, 2024.",
+  "ratios": {
+   "childCharge": 0.398,
+   "adultCharge": null,
+   "childPrivate": 0.6548,
+   "adultPrivate": null
+  },
+  "adultBenefit": "Emergency",
+  "fees": {
+   "D0120": {
+    "all": 25.3
+   },
+   "D0140": {
+    "all": 38.29
+   },
+   "D0150": {
+    "all": 43.7
+   },
+   "D0210": {
+    "all": 72.45
+   },
+   "D0220": {
+    "all": 16.0
+   },
+   "D0274": {
+    "all": 39.38
+   },
+   "D0330": {
+    "all": 63.25
+   },
+   "D1110": {
+    "all": 35.64
+   },
+   "D1120": {
+    "all": 35.64
+   },
+   "D1206": {
+    "all": 19.54
+   },
+   "D1351": {
+    "all": 31.05
+   },
+   "D2140": {
+    "all": 73.51
+   },
+   "D2150": {
+    "all": 95.05
+   },
+   "D2391": {
+    "all": 89.7
+   },
+   "D2392": {
+    "all": 110.74
+   },
+   "D2393": {
+    "all": 156.26
+   },
+   "D2394": {
+    "all": 171.88
+   },
+   "D2930": {
+    "all": 176.15
+   },
+   "D3220": {
+    "all": 102.21
+   },
+   "D3310": {
+    "all": 379.84
+   },
+   "D3320": {
+    "all": 463.68
+   },
+   "D4341": {
+    "all": 140.76
+   },
+   "D4342": {
+    "all": 105.57
+   },
+   "D4910": {
+    "all": 42.2
+   },
+   "D5110": {
+    "all": 673.78
+   },
+   "D5120": {
+    "all": 673.78
+   },
+   "D5211": {
+    "all": 569.25
+   },
+   "D5212": {
+    "all": 661.36
+   },
+   "D6240": {
+    "all": 556.07
+   },
+   "D6750": {
+    "all": 581.17
+   },
+   "D7140": {
+    "all": 80.78
+   },
+   "D7210": {
+    "all": 149.77
+   },
+   "D7220": {
+    "all": 160.42
+   },
+   "D7230": {
+    "all": 214.24
+   },
+   "D7240": {
+    "all": 251.5
+   },
+   "D7250": {
+    "all": 135.58
+   },
+   "D8080": {
+    "all": 844.62
+   },
+   "D8670": {
+    "all": 105.57
+   },
+   "D9222": {
+    "all": 115.19
+   },
+   "D9223": {
+    "all": 115.19
+   },
+   "D9239": {
+    "all": 113.28
+   },
+   "D9243": {
+    "all": 113.28
+   },
+   "D9230": {
+    "all": 26.91
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "all": 25.93
+   },
+   "D0140": {
+    "all": 39.25
+   },
+   "D0150": {
+    "all": 44.79
+   },
+   "D0210": {
+    "all": 74.26
+   },
+   "D0220": {
+    "all": 16.4
+   },
+   "D0274": {
+    "all": 40.36
+   },
+   "D0330": {
+    "all": 64.83
+   },
+   "D1110": {
+    "all": 36.53
+   },
+   "D1120": {
+    "all": 36.53
+   },
+   "D1206": {
+    "all": 20.03
+   },
+   "D1351": {
+    "all": 31.83
+   },
+   "D2140": {
+    "all": 73.51
+   },
+   "D2150": {
+    "all": 95.05
+   },
+   "D2391": {
+    "all": 91.94
+   },
+   "D2392": {
+    "all": 113.51
+   },
+   "D2393": {
+    "all": 160.17
+   },
+   "D2394": {
+    "all": 176.18
+   },
+   "D2930": {
+    "all": 180.55
+   },
+   "D3220": {
+    "all": 104.77
+   },
+   "D3310": {
+    "all": 389.34
+   },
+   "D3320": {
+    "all": 475.27
+   },
+   "D4341": {
+    "all": 144.28
+   },
+   "D4342": {
+    "all": 108.21
+   },
+   "D4910": {
+    "all": 43.26
+   },
+   "D5110": {
+    "all": 690.62
+   },
+   "D5120": {
+    "all": 690.62
+   },
+   "D5211": {
+    "all": 583.48
+   },
+   "D5212": {
+    "all": 677.89
+   },
+   "D6240": {
+    "all": 569.97
+   },
+   "D6750": {
+    "all": 595.7
+   },
+   "D7140": {
+    "all": 82.8
+   },
+   "D7210": {
+    "all": 153.51
+   },
+   "D7220": {
+    "all": 164.43
+   },
+   "D7230": {
+    "all": 219.6
+   },
+   "D7240": {
+    "all": 257.79
+   },
+   "D7250": {
+    "all": 138.97
+   },
+   "D8080": {
+    "all": 865.74
+   },
+   "D8670": {
+    "all": 108.21
+   },
+   "D9222": {
+    "all": 118.07
+   },
+   "D9223": {
+    "all": 142.51
+   },
+   "D9239": {
+    "all": 116.11
+   },
+   "D9243": {
+    "all": 116.11
+   },
+   "D9230": {
+    "all": 27.58
+   }
+  }
+ },
+ {
+  "code": "IA",
+  "name": "Iowa",
+  "slug": "iowa",
+  "program": "Iowa Medicaid fee-for-service - Fee Schedule #04 DENTIST",
+  "title": "Fee Schedule #04 - DENTIST (Iowa Medicaid Open Fee Schedules)",
+  "url": "https://secureapp.dhs.state.ia.us/MedicaidFeeSched/C04.csv",
+  "page": "https://hhs.iowa.gov/medicaid/provider-services/covered-services-rates-and-payments/fee-schedules",
+  "effective": "2026-03-01",
+  "retrieved": "2026-10-20",
+  "notes": "'Factor' column used with Factor Code F (fee schedule). Factor Code M with 0.00 (manual pricing) recorded in by_report: D6059, D6065, D6066, D7953. Single schedule, no age split. Per-code Eff Date varies: diagnostic/preventive codes 03/01/2026 (5.874% D&P increase, SPA IA-26-0002), restorative/prosthetic/sedation mostly 07/01/2025, periodontal/oral surgery many 07/01/2013; effective_date field = latest per-code date. Page says 'Open Fee Schedules (Updated October 2026)'. Same data in X04.xml. Most Iowa Medicaid members get dental through the Dental Wellness Plan / Hawki dental PAHPs (managed care); this is the FFS schedule. Listing does not imply coverage (adult implants etc. subject to criteria).",
+  "url2024": null,
+  "effective2024": null,
+  "notes2024": "",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.3108,
+   "adultCharge": 0.2987,
+   "childPrivate": 0.4826,
+   "adultPrivate": 0.4551
+  },
+  "adultBenefit": "Enhanced",
+  "fees": {},
+  "feesNow": {
+   "D0120": {
+    "all": 19.26
+   },
+   "D0140": {
+    "all": 30.1
+   },
+   "D0150": {
+    "all": 27.69
+   },
+   "D0210": {
+    "all": 60.19
+   },
+   "D0220": {
+    "all": 12.04
+   },
+   "D0274": {
+    "all": 28.9
+   },
+   "D0330": {
+    "all": 54.17
+   },
+   "D1110": {
+    "all": 44.75
+   },
+   "D1120": {
+    "all": 30.69
+   },
+   "D1206": {
+    "all": 17.9
+   },
+   "D1351": {
+    "all": 25.57
+   },
+   "D2140": {
+    "all": 51.06
+   },
+   "D2150": {
+    "all": 64.68
+   },
+   "D2391": {
+    "all": 57.86
+   },
+   "D2392": {
+    "all": 80.35
+   },
+   "D2393": {
+    "all": 85.1
+   },
+   "D2394": {
+    "all": 96.45
+   },
+   "D2740": {
+    "all": 469.79
+   },
+   "D2750": {
+    "all": 522.0
+   },
+   "D2751": {
+    "all": 465.25
+   },
+   "D2752": {
+    "all": 527.67
+   },
+   "D2790": {
+    "all": 465.25
+   },
+   "D2930": {
+    "all": 113.48
+   },
+   "D2950": {
+    "all": 122.82
+   },
+   "D3220": {
+    "all": 62.6
+   },
+   "D3310": {
+    "all": 269.81
+   },
+   "D3320": {
+    "all": 323.78
+   },
+   "D3330": {
+    "all": 415.53
+   },
+   "D3346": {
+    "all": 296.79
+   },
+   "D3347": {
+    "all": 356.17
+   },
+   "D3348": {
+    "all": 534.24
+   },
+   "D4341": {
+    "all": 102.35
+   },
+   "D4342": {
+    "all": 38.4
+   },
+   "D4355": {
+    "all": 51.17
+   },
+   "D4910": {
+    "all": 61.41
+   },
+   "D5110": {
+    "all": 677.04
+   },
+   "D5120": {
+    "all": 670.54
+   },
+   "D5211": {
+    "all": 325.49
+   },
+   "D5212": {
+    "all": 423.15
+   },
+   "D5213": {
+    "all": 751.86
+   },
+   "D5214": {
+    "all": 751.86
+   },
+   "D5225": {
+    "all": 641.88
+   },
+   "D5226": {
+    "all": 641.88
+   },
+   "D6010": {
+    "all": 1078.94
+   },
+   "D6056": {
+    "all": 471.43
+   },
+   "D6057": {
+    "all": 552.0
+   },
+   "D6058": {
+    "all": 775.79
+   },
+   "D6240": {
+    "all": 399.17
+   },
+   "D6245": {
+    "all": 399.17
+   },
+   "D6740": {
+    "all": 423.73
+   },
+   "D6750": {
+    "all": 430.89
+   },
+   "D6790": {
+    "all": 262.39
+   },
+   "D7140": {
+    "all": 55.18
+   },
+   "D7210": {
+    "all": 97.23
+   },
+   "D7220": {
+    "all": 138.17
+   },
+   "D7230": {
+    "all": 184.23
+   },
+   "D7240": {
+    "all": 214.92
+   },
+   "D7241": {
+    "all": 191.38
+   },
+   "D7250": {
+    "all": 100.3
+   },
+   "D8070": {
+    "all": 1104.03
+   },
+   "D8080": {
+    "all": 3172.88
+   },
+   "D8680": {
+    "all": 149.06
+   },
+   "D9222": {
+    "all": 89.39
+   },
+   "D9223": {
+    "all": 86.11
+   },
+   "D9230": {
+    "all": 28.18
+   },
+   "D9239": {
+    "all": 78.7
+   },
+   "D9243": {
+    "all": 77.51
+   }
+  }
+ },
+ {
+  "code": "IL",
+  "name": "Illinois",
+  "slug": "illinois",
+  "program": "Illinois Medicaid (HFS) Dental Program, fee-for-service",
+  "title": "HFS Dental Program Fee Schedule for Child and Adult Beneficiaries Updated July 21, 2026, Effective July 1, 2026 (Statewide Rates)",
+  "url": "https://hfs.illinois.gov/content/dam/soi/en/web/hfs/medicalproviders/medicaidreimbursement/dental/07212026dentalfs.xlsx",
+  "page": "https://hfs.illinois.gov/medicalproviders/medicaidreimbursement/dental.html",
+  "effective": "2026-07-01",
+  "retrieved": "2026-10-20",
+  "notes": "Columns used: 'Maximum Allowance Children' -> child, 'Maximum Allowance Adults' -> adult; 'N/A' = not covered for that group (key omitted). A third column 'Maximum Allowance Pregnant Women' equals the adult column for every requested code. Age-specific rows: D0120 child row 'Ages 0 thru 20' ($29.40), adult row 'Ages 21 and older and Pregnant Women' ($28.00); D1110 adult 'Ages 21 and Older and Pregnant Women'; D1120 'Ages 0 thru 20'; D1206 rows 'Ages 0 thru 18' and 'Ages 19 thru 20' both $27.30. Prior approval (Y) required e.g. for crowns D2740-D2790, dentures, D4910, D7220-D7250, ortho, IV sedation/GA; D4341 PA for children only. D8670 described 'Periodic Adjustments (11 maximum)'. Same values in the PDF version (07212026dentalfs.pdf). Most IL Medicaid members are in HealthChoice Illinois managed care; this is the FFS schedule.",
+  "url2024": "https://hfs.illinois.gov/content/dam/soi/en/web/hfs/medicalproviders/medicaidreimbursement/dental/archive/122122-dentalfeescheduleeff010123.xlsx",
+  "effective2024": "2023-01-01",
+  "notes2024": "Edition in force on 2024-07-01: 'HFS Dental Program Fee Schedule for Child and Adult Beneficiaries Updated 12/21/22, Effective January 1, 2023' (listed on https://hfs.illinois.gov/medicalproviders/medicaidreimbursement/dental/archive.html). The HFS archive lists no 2024 edition; the next one is 'Updated 04-09-2025 Effective 01-01-2025'. Same column rules as current (child/adult; pregnant-women column equals adult). An HFS public notice of 2024-05-23 (effective 2024-07-01) only allowed medical anesthesiologists to bill dental anesthesia codes, described as budget neutral; it did not publish new fees.",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.2393,
+   "adultCharge": 0.2659,
+   "childPrivate": 0.3967,
+   "adultPrivate": 0.4319
+  },
+  "adultBenefit": "Enhanced",
+  "fees": {
+   "D0120": {
+    "child": 29.4,
+    "adult": 28.0
+   },
+   "D0140": {
+    "child": 19.12,
+    "adult": 19.12
+   },
+   "D0150": {
+    "child": 26.08,
+    "adult": 26.08
+   },
+   "D0210": {
+    "child": 35.52,
+    "adult": 35.52
+   },
+   "D0220": {
+    "child": 6.61,
+    "adult": 6.61
+   },
+   "D0274": {
+    "child": 19.94,
+    "adult": 19.94
+   },
+   "D0330": {
+    "child": 28.0,
+    "adult": 28.0
+   },
+   "D1110": {
+    "adult": 48.38
+   },
+   "D1120": {
+    "child": 43.05
+   },
+   "D1206": {
+    "child": 27.3
+   },
+   "D1351": {
+    "child": 37.8
+   },
+   "D2140": {
+    "child": 36.4,
+    "adult": 36.4
+   },
+   "D2150": {
+    "child": 56.82,
+    "adult": 56.82
+   },
+   "D2391": {
+    "child": 36.4,
+    "adult": 36.4
+   },
+   "D2392": {
+    "child": 56.82,
+    "adult": 56.82
+   },
+   "D2393": {
+    "child": 87.55,
+    "adult": 87.55
+   },
+   "D2394": {
+    "child": 87.55,
+    "adult": 87.55
+   },
+   "D2740": {
+    "child": 272.83,
+    "adult": 272.83
+   },
+   "D2750": {
+    "child": 272.83,
+    "adult": 272.83
+   },
+   "D2751": {
+    "child": 272.83,
+    "adult": 272.83
+   },
+   "D2752": {
+    "child": 272.83,
+    "adult": 272.83
+   },
+   "D2790": {
+    "child": 169.19,
+    "adult": 169.19
+   },
+   "D2930": {
+    "child": 110.69
+   },
+   "D2950": {
+    "child": 67.34,
+    "adult": 67.34
+   },
+   "D3220": {
+    "child": 61.13
+   },
+   "D3310": {
+    "child": 158.22,
+    "adult": 158.22
+   },
+   "D3320": {
+    "child": 155.25
+   },
+   "D3330": {
+    "child": 234.67
+   },
+   "D4341": {
+    "child": 122.0,
+    "adult": 122.0
+   },
+   "D4342": {
+    "child": 77.0,
+    "adult": 77.0
+   },
+   "D4355": {
+    "child": 41.0,
+    "adult": 41.0
+   },
+   "D4910": {
+    "child": 67.0,
+    "adult": 67.0
+   },
+   "D5110": {
+    "child": 444.09,
+    "adult": 444.09
+   },
+   "D5120": {
+    "child": 444.09,
+    "adult": 444.09
+   },
+   "D5211": {
+    "child": 376.35
+   },
+   "D5212": {
+    "child": 376.35
+   },
+   "D5213": {
+    "child": 436.57
+   },
+   "D5214": {
+    "child": 436.57
+   },
+   "D6240": {
+    "child": 178.8
+   },
+   "D6750": {
+    "child": 159.95
+   },
+   "D6790": {
+    "child": 159.95
+   },
+   "D7140": {
+    "child": 53.55,
+    "adult": 53.55
+   },
+   "D7210": {
+    "child": 78.57,
+    "adult": 78.57
+   },
+   "D7220": {
+    "child": 77.49,
+    "adult": 77.49
+   },
+   "D7230": {
+    "child": 100.46,
+    "adult": 100.46
+   },
+   "D7240": {
+    "child": 116.81,
+    "adult": 116.81
+   },
+   "D7250": {
+    "child": 66.58,
+    "adult": 66.58
+   },
+   "D8080": {
+    "child": 900.0
+   },
+   "D8670": {
+    "child": 240.0
+   },
+   "D8680": {
+    "child": 150.0
+   },
+   "D9222": {
+    "child": 214.0,
+    "adult": 214.0
+   },
+   "D9223": {
+    "child": 214.0,
+    "adult": 214.0
+   },
+   "D9239": {
+    "child": 181.0,
+    "adult": 181.0
+   },
+   "D9243": {
+    "child": 181.0,
+    "adult": 181.0
+   },
+   "D9230": {
+    "child": 70.0,
+    "adult": 70.0
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "child": 29.4,
+    "adult": 28.0
+   },
+   "D0140": {
+    "child": 19.12,
+    "adult": 19.12
+   },
+   "D0150": {
+    "child": 26.08,
+    "adult": 26.08
+   },
+   "D0210": {
+    "child": 35.52,
+    "adult": 35.52
+   },
+   "D0220": {
+    "child": 6.61,
+    "adult": 6.61
+   },
+   "D0274": {
+    "child": 19.94,
+    "adult": 19.94
+   },
+   "D0330": {
+    "child": 28.0,
+    "adult": 28.0
+   },
+   "D1110": {
+    "adult": 48.38
+   },
+   "D1120": {
+    "child": 43.05
+   },
+   "D1206": {
+    "child": 27.3
+   },
+   "D1351": {
+    "child": 37.8
+   },
+   "D2140": {
+    "child": 36.4,
+    "adult": 36.4
+   },
+   "D2150": {
+    "child": 56.82,
+    "adult": 56.82
+   },
+   "D2391": {
+    "child": 36.4,
+    "adult": 36.4
+   },
+   "D2392": {
+    "child": 56.82,
+    "adult": 56.82
+   },
+   "D2393": {
+    "child": 87.55,
+    "adult": 87.55
+   },
+   "D2394": {
+    "child": 87.55,
+    "adult": 87.55
+   },
+   "D2740": {
+    "child": 272.83,
+    "adult": 272.83
+   },
+   "D2750": {
+    "child": 272.83,
+    "adult": 272.83
+   },
+   "D2751": {
+    "child": 272.83,
+    "adult": 272.83
+   },
+   "D2752": {
+    "child": 272.83,
+    "adult": 272.83
+   },
+   "D2790": {
+    "child": 169.19,
+    "adult": 169.19
+   },
+   "D2930": {
+    "child": 110.69
+   },
+   "D2950": {
+    "child": 67.34,
+    "adult": 67.34
+   },
+   "D3220": {
+    "child": 61.13
+   },
+   "D3310": {
+    "child": 158.22,
+    "adult": 158.22
+   },
+   "D3320": {
+    "child": 155.25
+   },
+   "D3330": {
+    "child": 234.67
+   },
+   "D4341": {
+    "child": 122.0,
+    "adult": 122.0
+   },
+   "D4342": {
+    "child": 77.0,
+    "adult": 77.0
+   },
+   "D4355": {
+    "child": 41.0,
+    "adult": 41.0
+   },
+   "D4910": {
+    "child": 67.0,
+    "adult": 67.0
+   },
+   "D5110": {
+    "child": 444.09,
+    "adult": 444.09
+   },
+   "D5120": {
+    "child": 444.09,
+    "adult": 444.09
+   },
+   "D5211": {
+    "child": 376.35
+   },
+   "D5212": {
+    "child": 376.35
+   },
+   "D5213": {
+    "child": 436.57
+   },
+   "D5214": {
+    "child": 436.57
+   },
+   "D6240": {
+    "child": 178.8
+   },
+   "D6750": {
+    "child": 159.95
+   },
+   "D6790": {
+    "child": 159.95
+   },
+   "D7140": {
+    "child": 53.55,
+    "adult": 53.55
+   },
+   "D7210": {
+    "child": 78.57,
+    "adult": 78.57
+   },
+   "D7220": {
+    "child": 77.49,
+    "adult": 77.49
+   },
+   "D7230": {
+    "child": 100.46,
+    "adult": 100.46
+   },
+   "D7240": {
+    "child": 116.81,
+    "adult": 116.81
+   },
+   "D7250": {
+    "child": 66.58,
+    "adult": 66.58
+   },
+   "D8080": {
+    "child": 900.0
+   },
+   "D8670": {
+    "child": 240.0
+   },
+   "D8680": {
+    "child": 150.0
+   },
+   "D9222": {
+    "child": 284.62,
+    "adult": 284.62
+   },
+   "D9223": {
+    "child": 284.62,
+    "adult": 284.62
+   },
+   "D9239": {
+    "child": 240.73,
+    "adult": 240.73
+   },
+   "D9243": {
+    "child": 240.73,
+    "adult": 240.73
+   },
+   "D9230": {
+    "child": 70.0,
+    "adult": 70.0
+   }
+  }
+ },
+ {
+  "code": "IN",
+  "name": "Indiana",
+  "slug": "indiana",
+  "program": "Indiana Health Coverage Programs (IHCP) - Medicaid fee-for-service",
+  "title": "Professional Fee Schedule, Last Updated: June 9, 2026 (reflects changes completed as of 5/26/2026)",
+  "url": "https://www.in.gov/medicaid/providers/files/IHCP-Professional-Fee-Schedule-With-Cutbacks.xlsx",
+  "page": "https://www.in.gov/medicaid/providers/business-transactions/billing-and-remittance/ihcp-fee-schedules/",
+  "effective": "2024-01-01",
+  "retrieved": "2026-10-20",
+  "notes": "Column used: 'Max Fee/Non-Facility RBRVS Rate' (base IHCP max fee; other columns are reduced cutback rates, e.g. 85% for certain provider types, not used). Dental rows have 'Rate Effective Date' 01/01/2024; file last updated 2026-06-09. Codes in 'NOCOV - Non Covered Services' with $0 SYSMAN pricing (crowns D2740-D2790, D2950, D2962, D5820/D5821, implants, bridges, D7953, D8670, D8680) are listed as not covered. Where the same code has separate age rows (e.g. D5110-D5214 0-20 vs 21-999), the fee is identical, so recorded as 'all'; 'child' key used where the printed age limit stops at 20. Printed age limits: D1110: 12 - 999 Years; D1120: 1 - 11 Years / 0 - 11 Months; D1206: 1 - 20 Years; D1351: 0 - 20 Years; D3310: 1 - 20 Years; D3320: 1 - 20 Years; D3330: 1 - 20 Years; D3346: 1 - 20 Years; D3347: 1 - 20 Years; D3348: 1 - 20 Years; D4910: 3 - 999 Years; D5110: 0 - 20 Years / 21 - 999 Years; D5120: 0 - 20 Years / 21 - 999 Years; D5211: 0 - 20 Years / 21 - 999 Years; D5212: 21 - 999 Years / 0 - 20 Years; D5213: 21 - 999 Years / 0 - 20 Years; D5214: 0 - 20 Years / 21 - 999 Years; D8070: 1 - 20 Years; D8080: 1 - 20 Years; D8090: 1 - 20 Years; D9222: 0 - 20 Years; D9223: 0 - 20 Years; D9230: 0 - 20 Years. FFS schedule; most IHCP members are in managed care (Hoosier Healthwise/HIP/Hoosier Care Connect) whose dental contractors may pay differently. D8070/D8080/D8090 require PA.",
+  "url2024": "https://www.in.gov/medicaid/providers/files/IHCP-Professional-Fee-Schedule-With-Cutbacks.xlsx",
+  "effective2024": "2024-01-01",
+  "notes2024": "Copied from the current file: every covered target code carries 'Rate Effective Date' 01/01/2024 with no end date in the Professional Fee Schedule (last updated 2026-06-09), so the same max fee was in force on 2024-07-01. Exception noted: the D1120 row for ages 0-11 months is dated 08/01/2024 (same $46.34 as the 1-11 years row dated 01/01/2024). No mid-2024 archived edition was downloaded.",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.4969,
+   "adultCharge": 0.4959,
+   "childPrivate": 0.7867,
+   "adultPrivate": 0.7776
+  },
+  "adultBenefit": "Limited",
+  "fees": {
+   "D0120": {
+    "all": 29.4
+   },
+   "D0140": {
+    "all": 43.05
+   },
+   "D0150": {
+    "all": 51.44
+   },
+   "D0210": {
+    "all": 74.81
+   },
+   "D0220": {
+    "all": 16.98
+   },
+   "D0274": {
+    "all": 36.76
+   },
+   "D0330": {
+    "all": 64.28
+   },
+   "D1110": {
+    "all": 62.05
+   },
+   "D1120": {
+    "child": 46.34
+   },
+   "D1206": {
+    "child": 26.48
+   },
+   "D1351": {
+    "child": 32.62
+   },
+   "D2140": {
+    "all": 63.47
+   },
+   "D2150": {
+    "all": 80.56
+   },
+   "D2391": {
+    "all": 82.45
+   },
+   "D2392": {
+    "all": 104.53
+   },
+   "D2393": {
+    "all": 130.4
+   },
+   "D2394": {
+    "all": 152.65
+   },
+   "D2930": {
+    "all": 159.83
+   },
+   "D3220": {
+    "all": 126.48
+   },
+   "D3310": {
+    "child": 517.3
+   },
+   "D3320": {
+    "child": 594.87
+   },
+   "D3330": {
+    "child": 719.77
+   },
+   "D3346": {
+    "child": 562.03
+   },
+   "D3347": {
+    "child": 638.74
+   },
+   "D3348": {
+    "child": 759.51
+   },
+   "D4341": {
+    "all": 192.65
+   },
+   "D4342": {
+    "all": 145.34
+   },
+   "D4355": {
+    "all": 138.5
+   },
+   "D4910": {
+    "all": 102.03
+   },
+   "D5110": {
+    "all": 559.03
+   },
+   "D5120": {
+    "all": 562.39
+   },
+   "D5211": {
+    "all": 443.96
+   },
+   "D5212": {
+    "all": 441.56
+   },
+   "D5213": {
+    "all": 574.15
+   },
+   "D5214": {
+    "all": 574.51
+   },
+   "D5225": {
+    "all": 488.47
+   },
+   "D5226": {
+    "all": 489.07
+   },
+   "D7140": {
+    "all": 137.15
+   },
+   "D7210": {
+    "all": 200.86
+   },
+   "D7220": {
+    "all": 226.5
+   },
+   "D7230": {
+    "all": 279.43
+   },
+   "D7240": {
+    "all": 344.48
+   },
+   "D7241": {
+    "all": 403.08
+   },
+   "D7250": {
+    "all": 222.73
+   },
+   "D8070": {
+    "child": 3768.4
+   },
+   "D8080": {
+    "child": 3875.59
+   },
+   "D8090": {
+    "child": 3826.84
+   },
+   "D9222": {
+    "child": 95.78
+   },
+   "D9223": {
+    "child": 96.4
+   },
+   "D9239": {
+    "all": 94.54
+   },
+   "D9243": {
+    "all": 91.91
+   },
+   "D9230": {
+    "child": 33.17
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "all": 29.4
+   },
+   "D0140": {
+    "all": 43.05
+   },
+   "D0150": {
+    "all": 51.44
+   },
+   "D0210": {
+    "all": 74.81
+   },
+   "D0220": {
+    "all": 16.98
+   },
+   "D0274": {
+    "all": 36.76
+   },
+   "D0330": {
+    "all": 64.28
+   },
+   "D1110": {
+    "all": 62.05
+   },
+   "D1120": {
+    "child": 46.34
+   },
+   "D1206": {
+    "child": 26.48
+   },
+   "D1351": {
+    "child": 32.62
+   },
+   "D2140": {
+    "all": 63.47
+   },
+   "D2150": {
+    "all": 80.56
+   },
+   "D2391": {
+    "all": 82.45
+   },
+   "D2392": {
+    "all": 104.53
+   },
+   "D2393": {
+    "all": 130.4
+   },
+   "D2394": {
+    "all": 152.65
+   },
+   "D2930": {
+    "all": 159.83
+   },
+   "D3220": {
+    "all": 126.48
+   },
+   "D3310": {
+    "child": 517.3
+   },
+   "D3320": {
+    "child": 594.87
+   },
+   "D3330": {
+    "child": 719.77
+   },
+   "D3346": {
+    "child": 562.03
+   },
+   "D3347": {
+    "child": 638.74
+   },
+   "D3348": {
+    "child": 759.51
+   },
+   "D4341": {
+    "all": 192.65
+   },
+   "D4342": {
+    "all": 145.34
+   },
+   "D4355": {
+    "all": 138.5
+   },
+   "D4910": {
+    "all": 102.03
+   },
+   "D5110": {
+    "all": 559.03
+   },
+   "D5120": {
+    "all": 562.39
+   },
+   "D5211": {
+    "all": 443.96
+   },
+   "D5212": {
+    "all": 441.56
+   },
+   "D5213": {
+    "all": 574.15
+   },
+   "D5214": {
+    "all": 574.51
+   },
+   "D5225": {
+    "all": 488.47
+   },
+   "D5226": {
+    "all": 489.07
+   },
+   "D7140": {
+    "all": 137.15
+   },
+   "D7210": {
+    "all": 200.86
+   },
+   "D7220": {
+    "all": 226.5
+   },
+   "D7230": {
+    "all": 279.43
+   },
+   "D7240": {
+    "all": 344.48
+   },
+   "D7241": {
+    "all": 403.08
+   },
+   "D7250": {
+    "all": 222.73
+   },
+   "D8070": {
+    "child": 3768.4
+   },
+   "D8080": {
+    "child": 3875.59
+   },
+   "D8090": {
+    "child": 3826.84
+   },
+   "D9222": {
+    "child": 95.78
+   },
+   "D9223": {
+    "child": 96.4
+   },
+   "D9239": {
+    "all": 94.54
+   },
+   "D9243": {
+    "all": 91.91
+   },
+   "D9230": {
+    "child": 33.17
+   }
+  }
+ },
+ {
+  "code": "KY",
+  "name": "Kentucky",
+  "slug": "kentucky",
+  "program": "Kentucky Medicaid (DMS) dental fee-for-service",
+  "title": "KY Medicaid Dental Fee Schedule 2026 - Revised 5.5.2026 (running header misprinted 'Revised 5.5.2025')",
+  "url": "https://www.chfs.ky.gov/agencies/dms/DMSFeeRateSchedules/2024DentalFeeSchedule.pdf (via Wayback capture https://web.archive.org/web/20241230085005id_/https://www.chfs.ky.gov/agencies/dms/DMSFeeRateSchedules/2024DentalFeeSchedule.pdf)",
+  "page": "https://www.chfs.ky.gov/agencies/dms/Pages/feesrates.aspx",
+  "effective": "2024-01-01",
+  "retrieved": "2026-10-20",
+  "notes": "DOUBT: chfs.ky.gov returns HTTP 403 to this network (and to WebFetch), so the official PDF was obtained from an unaltered Wayback Machine capture (id_ raw mode, 2026-07-26) of the official chfs.ky.gov URL. A NEWER official edition exists that could not be downloaded: 'KY Medicaid Dental Fee Schedule 2026 Revised 8.17.2026' (https://www.chfs.ky.gov/agencies/dms/DMSFeeRateSchedules/2026DentalFeeSchedule81926.pdf), which per search-engine snippets states 'dental rebasing is effective 7/1/2026' and shows D0120 at $34.00 (vs $27.50 here). The fees recorded here are therefore the PRE-rebasing rates in force until 2026-06-30 and are likely outdated for many codes. Columns: 'UNDER AGE 21 Rate' -> child, 'OVER AGE 21 RATE' -> adult; 'n/c' = not covered (not_covered_child/adult). Values from the 'Dentist Procedures and Fee Schedule' section; where the 'Oral Surgeon Procedures and Fee Schedule' section lists a different rate it is recorded as child_oral_surgeon/adult_oral_surgeon (D0330 adult, D7220-D7241, D9222/D9223). Orthodontics are paid per case by severity (not D8070-D8090 fee lines): early phase $1367 orthodontist/$1234 general dentist; moderately severe $1825/$1659; severe $3000/$2674; paid 2/3 then 1/3 after six monthly visits; D8670 n/c.",
+  "url2024": "https://www.chfs.ky.gov/agencies/dms/DMSFeeRateSchedules/2024DentalFeeSchedule.pdf (via Wayback capture https://web.archive.org/web/20241230085005id_/https://www.chfs.ky.gov/agencies/dms/DMSFeeRateSchedules/2024DentalFeeSchedule.pdf)",
+  "effective2024": "2024-01-01",
+  "notes2024": "Edition 'KY Medicaid Dental Fee Schedule 2024 Revised 10.21.2024' (PDF created 2024-10-21), official URL captured by the Wayback Machine 2024-12-30. Only that 2024 revision could be retrieved; the fee-schedule change log printed in the 2026 edition shows that the only 2024 revisions after 2024-07-01 were non-rate (10.21.2024: D4342 corrected to quadrants), and the last rate change among the requested codes before then was D1110 -> $60.13 effective 11/1/2023; so these rates were in force on 2024-07-01. Same column rules as current.",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.4333,
+   "adultCharge": 0.4142,
+   "childPrivate": 0.7527,
+   "adultPrivate": 0.7173
+  },
+  "adultBenefit": "Limited",
+  "fees": {
+   "D0120": {
+    "child": 27.5,
+    "adult": 27.5
+   },
+   "D0140": {
+    "child": 46.65,
+    "adult": 46.65
+   },
+   "D0150": {
+    "child": 32.5,
+    "adult": 32.5
+   },
+   "D0210": {
+    "child": 79.63,
+    "adult": 61.25
+   },
+   "D0220": {
+    "child": 13.0,
+    "adult": 10.0
+   },
+   "D0274": {
+    "child": 37.38,
+    "adult": 28.75
+   },
+   "D0330": {
+    "child": 73.7,
+    "adult": 56.69,
+    "adult_oral_surgeon": 73.7
+   },
+   "D1110": {
+    "adult": 60.13
+   },
+   "D1120": {
+    "child": 60.13
+   },
+   "D1206": {
+    "child": 18.75
+   },
+   "D1351": {
+    "child": 24.38
+   },
+   "D2140": {
+    "child": 49.4,
+    "adult": 38.0
+   },
+   "D2150": {
+    "child": 65.0,
+    "adult": 50.0
+   },
+   "D2391": {
+    "child": 57.2,
+    "adult": 44.0
+   },
+   "D2392": {
+    "child": 71.5,
+    "adult": 55.0
+   },
+   "D2393": {
+    "child": 85.8,
+    "adult": 66.0
+   },
+   "D2394": {
+    "child": 101.4,
+    "adult": 78.0
+   },
+   "D2740": {
+    "child": 529.95,
+    "adult": 529.95
+   },
+   "D2750": {
+    "child": 599.25,
+    "adult": 599.25
+   },
+   "D2751": {
+    "child": 457.33,
+    "adult": 457.33
+   },
+   "D2752": {
+    "child": 528.29,
+    "adult": 528.29
+   },
+   "D2790": {
+    "child": 492.81,
+    "adult": 492.81
+   },
+   "D2930": {
+    "child": 119.6,
+    "adult": 119.6
+   },
+   "D2950": {
+    "child": 100.0,
+    "adult": 100.0
+   },
+   "D3220": {
+    "child": 67.6
+   },
+   "D3310": {
+    "child": 274.3,
+    "adult": 274.3
+   },
+   "D3320": {
+    "child": 344.5,
+    "adult": 344.5
+   },
+   "D3330": {
+    "child": 481.0,
+    "adult": 481.0
+   },
+   "D3346": {
+    "child": 606.58,
+    "adult": 606.58
+   },
+   "D3347": {
+    "child": 696.2,
+    "adult": 696.2
+   },
+   "D3348": {
+    "child": 724.31,
+    "adult": 724.31
+   },
+   "D4341": {
+    "child": 101.4,
+    "adult": 78.0
+   },
+   "D4342": {
+    "child": 36.42,
+    "adult": 28.02
+   },
+   "D4355": {
+    "child": 68.5,
+    "adult": 68.5
+   },
+   "D4910": {
+    "child": 96.88,
+    "adult": 96.88
+   },
+   "D5110": {
+    "child": 656.11,
+    "adult": 656.11
+   },
+   "D5120": {
+    "child": 611.73,
+    "adult": 611.73
+   },
+   "D5211": {
+    "child": 624.64,
+    "adult": 624.64
+   },
+   "D5212": {
+    "child": 595.8,
+    "adult": 595.8
+   },
+   "D5213": {
+    "child": 545.3,
+    "adult": 545.3
+   },
+   "D5214": {
+    "child": 571.75,
+    "adult": 571.75
+   },
+   "D5225": {
+    "child": 793.0,
+    "adult": 793.0
+   },
+   "D5226": {
+    "child": 920.55,
+    "adult": 920.55
+   },
+   "D5820": {
+    "child": 319.8,
+    "adult": 319.8
+   },
+   "D5821": {
+    "child": 336.7,
+    "adult": 336.7
+   },
+   "D6010": {
+    "child": 2001.07,
+    "adult": 2001.07
+   },
+   "D6056": {
+    "child": 600.29,
+    "adult": 600.29
+   },
+   "D6057": {
+    "child": 729.95,
+    "adult": 729.95
+   },
+   "D6058": {
+    "child": 1076.11,
+    "adult": 1076.11
+   },
+   "D6059": {
+    "child": 1324.39,
+    "adult": 1324.39
+   },
+   "D6065": {
+    "child": 1400.93,
+    "adult": 1400.93
+   },
+   "D6066": {
+    "child": 1057.0,
+    "adult": 1057.0
+   },
+   "D6240": {
+    "child": 483.0,
+    "adult": 483.0
+   },
+   "D6750": {
+    "child": 553.96,
+    "adult": 553.96
+   },
+   "D7140": {
+    "child": 82.5,
+    "adult": 82.5
+   },
+   "D7210": {
+    "child": 148.5,
+    "adult": 148.5
+   },
+   "D7220": {
+    "child": 127.4,
+    "adult": 98.0,
+    "child_oral_surgeon": 187.0,
+    "adult_oral_surgeon": 187.0
+   },
+   "D7230": {
+    "child": 179.4,
+    "adult": 138.0,
+    "child_oral_surgeon": 236.5,
+    "adult_oral_surgeon": 236.5
+   },
+   "D7240": {
+    "child": 215.8,
+    "adult": 166.0,
+    "child_oral_surgeon": 295.0,
+    "adult_oral_surgeon": 295.0
+   },
+   "D7241": {
+    "child": 222.3,
+    "adult": 171.0,
+    "child_oral_surgeon": 333.0,
+    "adult_oral_surgeon": 333.0
+   },
+   "D7250": {
+    "child": 142.0,
+    "adult": 142.0
+   },
+   "D9222": {
+    "child": 75.0,
+    "adult": 75.0,
+    "child_oral_surgeon": 138.75,
+    "adult_oral_surgeon": 138.75
+   },
+   "D9223": {
+    "child": 75.0,
+    "adult": 75.0,
+    "child_oral_surgeon": 138.75,
+    "adult_oral_surgeon": 138.75
+   },
+   "D9230": {
+    "child": 39.0,
+    "adult": 39.0
+   },
+   "D9239": {
+    "child": 138.78,
+    "adult": 138.78
+   },
+   "D9243": {
+    "child": 138.78,
+    "adult": 138.78
+   }
+  },
+  "feesNow": {}
+ },
+ {
+  "code": "LA",
+  "name": "Louisiana",
+  "slug": "louisiana",
+  "program": "Louisiana Medicaid Dental Program (EPSDT dental under 21; Adult Denture Program 21+)",
+  "title": "LOUISIANA MEDICAID DENTAL PROGRAM FEE SCHEDULES - EFFECTIVE FOR DOS ON AND AFTER JANUARY 1, 2026 (sheets: EPSDT DENTAL PROGRAM, ADULT DENTURE PROGRAM, ADULT WAIVER DENTAL PROGRAM, ADULT ICF/IID DENTAL PROGRAM)",
+  "url": "https://www.lamedicaid.com/provweb1/fee_schedules/Dental_Fee.xlsx",
+  "page": "https://www.lamedicaid.com/Provweb1/Fee_Schedules/Dental_Fee.htm",
+  "effective": "2026-01-01",
+  "retrieved": "2026-10-20",
+  "notes": "child = 'EPSDT DENTAL PROGRAM' sheet (under 21); adult = 'ADULT DENTURE PROGRAM' sheet (only 6 codes: D0150, D0210, D5110, D5120, D5211, D5212 - general adults 21+ are covered for dentures only). Separate sheets exist for the ADULT WAIVER DENTAL PROGRAM (NOW/ROW waiver adults) and ADULT ICF/IID DENTAL PROGRAM, whose fees for the listed codes are identical to EPSDT; they were not recorded as 'adult'. Restoration codes D2140-D2394 have several rows (primary vs permanent teeth, surface combinations): the 'child' key is the first listed row (primary teeth), and each variant is recorded under child_<variant> keys exactly as listed. by_report: orthodontic D8070/D8080/D8090 show '***** Max Fee' (prior authorization and manual pricing): max fees printed {\"D8070\": \"***** Max Fee 4,182.00\", \"D8080\": \"***** Max Fee 4,281.00\", \"D8090\": \"***** Max Fee 4,515.00\"}. Per-row EFF DATE is mostly 20250421 (sedation codes 20260101; adult denture rows 20230830). Most Louisiana Medicaid dental benefits are administered by Dental Benefit Program Managers (MCNA, DentaQuest); this is the state fee-for-service schedule. Page lists '01/01/26 EXCEL' (this file) and a prior '10/15/25 EXCEL'.",
+  "url2024": "https://www.lamedicaid.com/provweb1/fee_schedules/EPSDT_DENTAL_PROGRAM_FS_05-01-24.pdf ; https://www.lamedicaid.com/provweb1/fee_schedules/ADULT_DENTURE_PROGRAM_FS_08-30-23.pdf",
+  "effective2024": "2024-05-01",
+  "notes2024": "child = EPSDT Dental Program Fee Schedule 'ISSUED: 05/01/24, REPLACED: 12/28/23' (in force 2024-05-01 until replaced by the 04-21-25 edition, so in force on 2024-07-01); adult = Adult Denture Program Fee Schedule 'ISSUED: 08/30/23' (next edition is the 2026 Excel; in force on 2024-07-01). Both linked from the same lamedicaid.com Dental_Fee.htm page. Variant keys for restoration codes follow the same row order as the 2026 file (primary row first; row descriptions match). Orthodontics D8070/80/90 '***** Maximum Fee' = manual pricing: {\"D8070\": \"***** Maximum Fee $4,182.00\", \"D8080\": \"***** Maximum Fee $4,281.00\", \"D8090\": \"***** Maximum Fee $4,515.00\"}. D0140 not listed in the 05/01/24 EPSDT schedule. Values parsed with pdfplumber table extraction. Note adult D5110/D5120 = 837.00 in 2024 (adult schedule) vs 837.66 in EPSDT.",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.5911,
+   "adultCharge": 0.5648,
+   "childPrivate": 0.8988,
+   "adultPrivate": 0.8648
+  },
+  "adultBenefit": "Limited",
+  "fees": {
+   "D0120": {
+    "child": 36.88
+   },
+   "D0150": {
+    "child": 64.13,
+    "adult": 64.13
+   },
+   "D0210": {
+    "child": 81.46,
+    "adult": 81.46
+   },
+   "D0220": {
+    "child": 19.89
+   },
+   "D0330": {
+    "child": 77.23
+   },
+   "D1110": {
+    "child": 65.0
+   },
+   "D1120": {
+    "child": 47.41
+   },
+   "D1206": {
+    "child": 32.88
+   },
+   "D1351": {
+    "child": 34.54
+   },
+   "D2140": {
+    "child": 87.71,
+    "child_primary": 87.71,
+    "child_permanent": 101.25
+   },
+   "D2150": {
+    "child": 111.2,
+    "child_primary": 111.2,
+    "child_permanent_except_MO_DO": 124.74,
+    "child_permanent_MO_or_DO": 158.58
+   },
+   "D2391": {
+    "child": 87.71,
+    "child_primary": 87.71,
+    "child_permanent": 101.25
+   },
+   "D2392": {
+    "child": 111.2,
+    "child_primary_or_permanent": 111.2,
+    "child_permanent_except_MO_DO": 124.74,
+    "child_permanent_MO_or_DO": 158.58
+   },
+   "D2393": {
+    "child": 134.68,
+    "child_primary": 134.68,
+    "child_permanent_except_OBL": 178.0,
+    "child_permanent_OBL": 148.21
+   },
+   "D2394": {
+    "child": 158.85,
+    "child_primary": 158.85,
+    "child_permanent": 178.0
+   },
+   "D2930": {
+    "child": 215.83
+   },
+   "D2950": {
+    "child": 174.04
+   },
+   "D3220": {
+    "child": 127.77
+   },
+   "D3310": {
+    "child": 455.84
+   },
+   "D3320": {
+    "child": 535.25
+   },
+   "D3330": {
+    "child": 642.31
+   },
+   "D3346": {
+    "child": 529.73
+   },
+   "D4341": {
+    "child": 158.85
+   },
+   "D4355": {
+    "child": 117.41
+   },
+   "D5110": {
+    "child": 837.66,
+    "adult": 837.0
+   },
+   "D5120": {
+    "child": 837.66,
+    "adult": 837.0
+   },
+   "D5211": {
+    "child": 795.36,
+    "adult": 795.36
+   },
+   "D5212": {
+    "child": 795.36,
+    "adult": 795.36
+   },
+   "D5213": {
+    "child": 1164.27
+   },
+   "D5214": {
+    "child": 1164.27
+   },
+   "D5820": {
+    "child": 634.59
+   },
+   "D5821": {
+    "child": 634.59
+   },
+   "D7140": {
+    "child": 107.04
+   },
+   "D7210": {
+    "child": 176.12
+   },
+   "D7220": {
+    "child": 203.75
+   },
+   "D7230": {
+    "child": 271.11
+   },
+   "D7240": {
+    "child": 332.52
+   },
+   "D7241": {
+    "child": 376.41
+   },
+   "D7250": {
+    "child": 195.46
+   },
+   "D9222": {
+    "child": 147.79
+   },
+   "D9223": {
+    "child": 100.15
+   },
+   "D9230": {
+    "child": 49.72
+   },
+   "D9239": {
+    "child": 147.79
+   },
+   "D9243": {
+    "child": 100.15
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "child": 36.88
+   },
+   "D0140": {
+    "child": 15.0
+   },
+   "D0150": {
+    "child": 64.13,
+    "adult": 64.13
+   },
+   "D0210": {
+    "child": 81.46,
+    "adult": 81.46
+   },
+   "D0220": {
+    "child": 19.89
+   },
+   "D0330": {
+    "child": 77.23
+   },
+   "D1110": {
+    "child": 65.0
+   },
+   "D1120": {
+    "child": 47.41
+   },
+   "D1206": {
+    "child": 32.88
+   },
+   "D1351": {
+    "child": 34.54
+   },
+   "D2140": {
+    "child": 87.71,
+    "child_primary": 87.71,
+    "child_permanent": 101.25
+   },
+   "D2150": {
+    "child": 111.2,
+    "child_primary": 111.2,
+    "child_permanent_except_MO_DO": 124.74,
+    "child_permanent_MO_or_DO": 158.58
+   },
+   "D2391": {
+    "child": 87.71,
+    "child_primary": 87.71,
+    "child_permanent": 101.25
+   },
+   "D2392": {
+    "child": 111.2,
+    "child_primary_or_permanent": 111.2,
+    "child_permanent_except_MO_DO": 124.74,
+    "child_permanent_MO_or_DO": 158.58
+   },
+   "D2393": {
+    "child": 134.68,
+    "child_primary": 134.68,
+    "child_permanent_except_OBL": 178.0,
+    "child_permanent_OBL": 148.21
+   },
+   "D2394": {
+    "child": 158.85,
+    "child_primary": 158.85,
+    "child_permanent": 178.0
+   },
+   "D2930": {
+    "child": 215.83
+   },
+   "D2950": {
+    "child": 174.04
+   },
+   "D3220": {
+    "child": 127.77
+   },
+   "D3310": {
+    "child": 455.84
+   },
+   "D3320": {
+    "child": 535.25
+   },
+   "D3330": {
+    "child": 642.31
+   },
+   "D3346": {
+    "child": 529.73
+   },
+   "D4341": {
+    "child": 158.85
+   },
+   "D4355": {
+    "child": 117.41
+   },
+   "D5110": {
+    "child": 837.66,
+    "adult": 837.0
+   },
+   "D5120": {
+    "child": 837.66,
+    "adult": 837.0
+   },
+   "D5211": {
+    "child": 795.36,
+    "adult": 795.36
+   },
+   "D5212": {
+    "child": 795.36,
+    "adult": 795.36
+   },
+   "D5213": {
+    "child": 1164.27
+   },
+   "D5214": {
+    "child": 1164.27
+   },
+   "D5820": {
+    "child": 634.59
+   },
+   "D5821": {
+    "child": 634.59
+   },
+   "D7140": {
+    "child": 107.04
+   },
+   "D7210": {
+    "child": 176.12
+   },
+   "D7220": {
+    "child": 203.75
+   },
+   "D7230": {
+    "child": 271.11
+   },
+   "D7240": {
+    "child": 332.52
+   },
+   "D7241": {
+    "child": 376.41
+   },
+   "D7250": {
+    "child": 195.46
+   },
+   "D9222": {
+    "child": 147.79
+   },
+   "D9223": {
+    "child": 100.15
+   },
+   "D9230": {
+    "child": 49.72
+   },
+   "D9239": {
+    "child": 147.79
+   },
+   "D9243": {
+    "child": 100.15
+   }
+  }
+ },
+ {
+  "code": "MA",
+  "name": "Massachusetts",
+  "slug": "massachusetts",
+  "program": "MassHealth Dental Program (101 CMR 314.00 Rates for Dental Services)",
+  "title": "101 CMR 314.00: Rates for Dental Services - Final Adoption, Date Published in Mass Register: June 21, 2024",
+  "url": "https://www.mass.gov/files/documents/2024/06/07/101-cmr-314.pdf",
+  "page": "https://www.mass.gov/regulations/101-CMR-31400-rates-for-dental-services",
+  "effective": "2024-06-01",
+  "retrieved": "2026-10-20",
+  "notes": "Two columns in 314.05: 'Allowed Fee' (recorded as adult, members 21+) and 'Allowed Fee (EPSDT-eligible members)' (recorded as child, under 21). Rates apply to dates of service on or after June 1, 2024; still the regulation in force on 2026-10-20 (amendments heard 2026-08-07 only add bundled limited-ortho rates from 2027-01-01, other rates unchanged). Administrative Bulletin 26-12 (eff. 2026-01-01, https://www.mass.gov/files/documents/2026/05/08/ab-26-12.pdf) only revises descriptors of D9222/D9223/D9230/D9239/D9243, no rate change; AB 26-06 (CDT 2025) touches none of the target codes. I.C. (individual consideration) codes listed under by_report: D6245, D6740, D7953, D8070, D8090. Mixed: D5225 adult I.C.; D5226 adult I.C. (EPSDT fee recorded). Fees printed in whole dollars. An adult annual benefit maximum (Dental Bulletin 58, eff. 2026-08-01) was reported by search but not verified here. mass.gov 'download' links first serve an ADA CDT license page; the actual file is the linked /files/documents/ URL. mass.gov returns 403 to browser User-Agents; fetched with curl's default UA.",
+  "url2024": "https://www.mass.gov/files/documents/2024/06/07/101-cmr-314.pdf",
+  "effective2024": "2024-06-01",
+  "notes2024": "Same edition as current: 101 CMR 314.00 final adoption, rates apply to dates of service on or after June 1, 2024 (published Mass Register June 21, 2024), so in force on 2024-07-01; no rate amendment since (AB 26-06 and 26-12 do not change target-code rates). Fees copied. I.C. codes (D6245, D6740, D7953, D8070, D8090) also I.C. in 2024; D5225/D5226 adult I.C.",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.4456,
+   "adultCharge": 0.339,
+   "childPrivate": 0.8831,
+   "adultPrivate": 0.6096
+  },
+  "adultBenefit": "Enhanced",
+  "fees": {
+   "D0120": {
+    "adult": 24.0,
+    "child": 31.0
+   },
+   "D0140": {
+    "adult": 43.0,
+    "child": 49.0
+   },
+   "D0150": {
+    "adult": 41.0,
+    "child": 62.0
+   },
+   "D0210": {
+    "adult": 76.0,
+    "child": 94.0
+   },
+   "D0220": {
+    "adult": 15.0,
+    "child": 21.0
+   },
+   "D0274": {
+    "adult": 36.0,
+    "child": 46.0
+   },
+   "D0330": {
+    "adult": 69.0,
+    "child": 94.0
+   },
+   "D1110": {
+    "adult": 60.0,
+    "child": 75.0
+   },
+   "D1120": {
+    "adult": 39.0,
+    "child": 55.0
+   },
+   "D1206": {
+    "adult": 26.0,
+    "child": 28.0
+   },
+   "D1351": {
+    "adult": 30.0,
+    "child": 44.0
+   },
+   "D2140": {
+    "adult": 62.0,
+    "child": 77.0
+   },
+   "D2150": {
+    "adult": 77.0,
+    "child": 95.0
+   },
+   "D2391": {
+    "adult": 62.0,
+    "child": 99.0
+   },
+   "D2392": {
+    "adult": 77.0,
+    "child": 123.0
+   },
+   "D2393": {
+    "adult": 92.0,
+    "child": 133.0
+   },
+   "D2394": {
+    "adult": 116.0,
+    "child": 182.0
+   },
+   "D2740": {
+    "adult": 729.0,
+    "child": 853.0
+   },
+   "D2750": {
+    "adult": 686.0,
+    "child": 800.0
+   },
+   "D2751": {
+    "adult": 613.0,
+    "child": 727.0
+   },
+   "D2752": {
+    "adult": 633.0,
+    "child": 735.0
+   },
+   "D2790": {
+    "adult": 690.0,
+    "child": 808.0
+   },
+   "D2930": {
+    "adult": 153.0,
+    "child": 205.0
+   },
+   "D2950": {
+    "adult": 164.0,
+    "child": 197.0
+   },
+   "D2962": {
+    "adult": 574.0,
+    "child": 688.0
+   },
+   "D3220": {
+    "adult": 88.0,
+    "child": 106.0
+   },
+   "D3310": {
+    "adult": 544.0,
+    "child": 544.0
+   },
+   "D3320": {
+    "adult": 639.0,
+    "child": 639.0
+   },
+   "D3330": {
+    "adult": 829.0,
+    "child": 829.0
+   },
+   "D3346": {
+    "adult": 456.0,
+    "child": 545.0
+   },
+   "D3347": {
+    "adult": 538.0,
+    "child": 641.0
+   },
+   "D3348": {
+    "adult": 613.0,
+    "child": 789.0
+   },
+   "D4341": {
+    "adult": 134.0,
+    "child": 160.0
+   },
+   "D4342": {
+    "adult": 90.0,
+    "child": 107.0
+   },
+   "D4355": {
+    "adult": 77.0,
+    "child": 93.0
+   },
+   "D4910": {
+    "adult": 80.0,
+    "child": 111.0
+   },
+   "D5110": {
+    "adult": 730.0,
+    "child": 858.0
+   },
+   "D5120": {
+    "adult": 730.0,
+    "child": 852.0
+   },
+   "D5211": {
+    "adult": 556.0,
+    "child": 650.0
+   },
+   "D5212": {
+    "adult": 595.0,
+    "child": 691.0
+   },
+   "D5213": {
+    "adult": 1097.0,
+    "child": 974.0
+   },
+   "D5214": {
+    "adult": 1134.0,
+    "child": 986.0
+   },
+   "D5225": {
+    "child": 974.0
+   },
+   "D5226": {
+    "child": 986.0
+   },
+   "D5820": {
+    "adult": 268.0,
+    "child": 321.0
+   },
+   "D5821": {
+    "adult": 295.0,
+    "child": 316.0
+   },
+   "D6010": {
+    "adult": 1151.0,
+    "child": 1374.0
+   },
+   "D6056": {
+    "adult": 278.0,
+    "child": 331.0
+   },
+   "D6057": {
+    "adult": 402.0,
+    "child": 480.0
+   },
+   "D6058": {
+    "adult": 920.0,
+    "child": 982.0
+   },
+   "D6059": {
+    "adult": 756.0,
+    "child": 894.0
+   },
+   "D6065": {
+    "adult": 920.0,
+    "child": 1015.0
+   },
+   "D6066": {
+    "adult": 878.0,
+    "child": 1049.0
+   },
+   "D6240": {
+    "adult": 671.0,
+    "child": 792.0
+   },
+   "D6750": {
+    "adult": 678.0,
+    "child": 779.0
+   },
+   "D6790": {
+    "adult": 703.0,
+    "child": 897.0
+   },
+   "D7140": {
+    "adult": 77.0,
+    "child": 107.0
+   },
+   "D7210": {
+    "adult": 149.0,
+    "child": 179.0
+   },
+   "D7220": {
+    "adult": 191.0,
+    "child": 223.0
+   },
+   "D7230": {
+    "adult": 249.0,
+    "child": 286.0
+   },
+   "D7240": {
+    "adult": 295.0,
+    "child": 378.0
+   },
+   "D7241": {
+    "adult": 326.0,
+    "child": 427.0
+   },
+   "D7250": {
+    "adult": 144.0,
+    "child": 173.0
+   },
+   "D8080": {
+    "adult": 1227.0,
+    "child": 1302.0
+   },
+   "D8670": {
+    "adult": 215.0,
+    "child": 288.0
+   },
+   "D8680": {
+    "adult": 85.0,
+    "child": 102.0
+   },
+   "D9222": {
+    "adult": 90.0,
+    "child": 109.0
+   },
+   "D9223": {
+    "adult": 90.0,
+    "child": 109.0
+   },
+   "D9239": {
+    "adult": 78.0,
+    "child": 101.0
+   },
+   "D9243": {
+    "adult": 78.0,
+    "child": 101.0
+   },
+   "D9230": {
+    "adult": 15.0,
+    "child": 22.0
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "adult": 24.0,
+    "child": 31.0
+   },
+   "D0140": {
+    "adult": 43.0,
+    "child": 49.0
+   },
+   "D0150": {
+    "adult": 41.0,
+    "child": 62.0
+   },
+   "D0210": {
+    "adult": 76.0,
+    "child": 94.0
+   },
+   "D0220": {
+    "adult": 15.0,
+    "child": 21.0
+   },
+   "D0274": {
+    "adult": 36.0,
+    "child": 46.0
+   },
+   "D0330": {
+    "adult": 69.0,
+    "child": 94.0
+   },
+   "D1110": {
+    "adult": 60.0,
+    "child": 75.0
+   },
+   "D1120": {
+    "adult": 39.0,
+    "child": 55.0
+   },
+   "D1206": {
+    "adult": 26.0,
+    "child": 28.0
+   },
+   "D1351": {
+    "adult": 30.0,
+    "child": 44.0
+   },
+   "D2140": {
+    "adult": 62.0,
+    "child": 77.0
+   },
+   "D2150": {
+    "adult": 77.0,
+    "child": 95.0
+   },
+   "D2391": {
+    "adult": 62.0,
+    "child": 99.0
+   },
+   "D2392": {
+    "adult": 77.0,
+    "child": 123.0
+   },
+   "D2393": {
+    "adult": 92.0,
+    "child": 133.0
+   },
+   "D2394": {
+    "adult": 116.0,
+    "child": 182.0
+   },
+   "D2740": {
+    "adult": 729.0,
+    "child": 853.0
+   },
+   "D2750": {
+    "adult": 686.0,
+    "child": 800.0
+   },
+   "D2751": {
+    "adult": 613.0,
+    "child": 727.0
+   },
+   "D2752": {
+    "adult": 633.0,
+    "child": 735.0
+   },
+   "D2790": {
+    "adult": 690.0,
+    "child": 808.0
+   },
+   "D2930": {
+    "adult": 153.0,
+    "child": 205.0
+   },
+   "D2950": {
+    "adult": 164.0,
+    "child": 197.0
+   },
+   "D2962": {
+    "adult": 574.0,
+    "child": 688.0
+   },
+   "D3220": {
+    "adult": 88.0,
+    "child": 106.0
+   },
+   "D3310": {
+    "adult": 544.0,
+    "child": 544.0
+   },
+   "D3320": {
+    "adult": 639.0,
+    "child": 639.0
+   },
+   "D3330": {
+    "adult": 829.0,
+    "child": 829.0
+   },
+   "D3346": {
+    "adult": 456.0,
+    "child": 545.0
+   },
+   "D3347": {
+    "adult": 538.0,
+    "child": 641.0
+   },
+   "D3348": {
+    "adult": 613.0,
+    "child": 789.0
+   },
+   "D4341": {
+    "adult": 134.0,
+    "child": 160.0
+   },
+   "D4342": {
+    "adult": 90.0,
+    "child": 107.0
+   },
+   "D4355": {
+    "adult": 77.0,
+    "child": 93.0
+   },
+   "D4910": {
+    "adult": 80.0,
+    "child": 111.0
+   },
+   "D5110": {
+    "adult": 730.0,
+    "child": 858.0
+   },
+   "D5120": {
+    "adult": 730.0,
+    "child": 852.0
+   },
+   "D5211": {
+    "adult": 556.0,
+    "child": 650.0
+   },
+   "D5212": {
+    "adult": 595.0,
+    "child": 691.0
+   },
+   "D5213": {
+    "adult": 1097.0,
+    "child": 974.0
+   },
+   "D5214": {
+    "adult": 1134.0,
+    "child": 986.0
+   },
+   "D5225": {
+    "child": 974.0
+   },
+   "D5226": {
+    "child": 986.0
+   },
+   "D5820": {
+    "adult": 268.0,
+    "child": 321.0
+   },
+   "D5821": {
+    "adult": 295.0,
+    "child": 316.0
+   },
+   "D6010": {
+    "adult": 1151.0,
+    "child": 1374.0
+   },
+   "D6056": {
+    "adult": 278.0,
+    "child": 331.0
+   },
+   "D6057": {
+    "adult": 402.0,
+    "child": 480.0
+   },
+   "D6058": {
+    "adult": 920.0,
+    "child": 982.0
+   },
+   "D6059": {
+    "adult": 756.0,
+    "child": 894.0
+   },
+   "D6065": {
+    "adult": 920.0,
+    "child": 1015.0
+   },
+   "D6066": {
+    "adult": 878.0,
+    "child": 1049.0
+   },
+   "D6240": {
+    "adult": 671.0,
+    "child": 792.0
+   },
+   "D6750": {
+    "adult": 678.0,
+    "child": 779.0
+   },
+   "D6790": {
+    "adult": 703.0,
+    "child": 897.0
+   },
+   "D7140": {
+    "adult": 77.0,
+    "child": 107.0
+   },
+   "D7210": {
+    "adult": 149.0,
+    "child": 179.0
+   },
+   "D7220": {
+    "adult": 191.0,
+    "child": 223.0
+   },
+   "D7230": {
+    "adult": 249.0,
+    "child": 286.0
+   },
+   "D7240": {
+    "adult": 295.0,
+    "child": 378.0
+   },
+   "D7241": {
+    "adult": 326.0,
+    "child": 427.0
+   },
+   "D7250": {
+    "adult": 144.0,
+    "child": 173.0
+   },
+   "D8080": {
+    "adult": 1227.0,
+    "child": 1302.0
+   },
+   "D8670": {
+    "adult": 215.0,
+    "child": 288.0
+   },
+   "D8680": {
+    "adult": 85.0,
+    "child": 102.0
+   },
+   "D9222": {
+    "adult": 90.0,
+    "child": 109.0
+   },
+   "D9223": {
+    "adult": 90.0,
+    "child": 109.0
+   },
+   "D9239": {
+    "adult": 78.0,
+    "child": 101.0
+   },
+   "D9243": {
+    "adult": 78.0,
+    "child": 101.0
+   },
+   "D9230": {
+    "adult": 15.0,
+    "child": 22.0
+   }
+  }
+ },
+ {
+  "code": "MD",
+  "name": "Maryland",
+  "slug": "maryland",
+  "program": "Maryland Medicaid - Maryland Healthy Smiles Dental Program (fee-for-service, administered by SKYGEN)",
+  "title": "Maryland Medicaid Dental Fee Schedule and Procedure Codes CDT 2026 (COMAR 10.09.05), Revised 8/18/2026",
+  "url": "https://health.maryland.gov/mmcp/Documents/2026%20CDT%20Fee%20Schedule%20-%20Section%20508%20Compliant%20-%208.18.26.pdf",
+  "page": "https://health.maryland.gov/mmcp/Pages/Provider-Information.aspx",
+  "effective": "2023-08-01",
+  "retrieved": "2026-10-20",
+  "notes": "Document prints 'EFFECTIVE DATE August 1, 2023' and 'Revised 8/18/2026' (CDT 2026 code set); fees are those in force as of the 8/18/2026 revision. One schedule, no separate adult/child columns (population 'all'); D1110 is labelled 'Prophylaxis - Adult', D1120 'Child'. 'Y' column = preauthorization/claim submission requirement, not part of the fee. D3346-D3348 not covered when same provider/associate did the original RCT within a period. D8080/D8090 limited to 1 per lifetime. Implants (D60xx), fixed bridges (D62xx/D67xx), D5213/D5214, D5820/D5821, D7953, D8070 not listed.",
+  "url2024": "https://health.maryland.gov/mmcp/Documents/2024%20Dental%20Fee%20Schedule%20and%20Procedure%20Codes.pdf",
+  "effective2024": "2024-01-01",
+  "notes2024": "Parsed the official 2024 edition ('Maryland Medicaid Dental Fee Schedule and Procedure Codes CDT 2024', EFFECTIVE DATE January 1, 2024, Revised 12/8/2023; raw/MD/2024_Dental_Fee_Schedule_and_Procedure_Codes.pdf), still on health.maryland.gov. All 58 fees identical to the 2026 revision; same 18 target codes absent.",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.4718,
+   "adultCharge": 0.4555,
+   "childPrivate": 0.9168,
+   "adultPrivate": 0.8731
+  },
+  "adultBenefit": "Enhanced",
+  "fees": {
+   "D0120": {
+    "all": 31.81
+   },
+   "D0140": {
+    "all": 47.26
+   },
+   "D0150": {
+    "all": 56.34
+   },
+   "D0210": {
+    "all": 57.0
+   },
+   "D0220": {
+    "all": 11.82
+   },
+   "D0274": {
+    "all": 24.07
+   },
+   "D0330": {
+    "all": 45.95
+   },
+   "D1110": {
+    "all": 67.12
+   },
+   "D1120": {
+    "all": 48.9
+   },
+   "D1206": {
+    "all": 26.29
+   },
+   "D1351": {
+    "all": 39.88
+   },
+   "D2140": {
+    "all": 73.85
+   },
+   "D2150": {
+    "all": 92.84
+   },
+   "D2391": {
+    "all": 107.33
+   },
+   "D2392": {
+    "all": 138.49
+   },
+   "D2393": {
+    "all": 173.12
+   },
+   "D2394": {
+    "all": 173.12
+   },
+   "D2740": {
+    "all": 393.84
+   },
+   "D2750": {
+    "all": 492.3
+   },
+   "D2751": {
+    "all": 395.61
+   },
+   "D2752": {
+    "all": 395.61
+   },
+   "D2790": {
+    "all": 308.05
+   },
+   "D2930": {
+    "all": 177.74
+   },
+   "D2950": {
+    "all": 85.45
+   },
+   "D2962": {
+    "all": 113.93
+   },
+   "D3220": {
+    "all": 78.77
+   },
+   "D3310": {
+    "all": 550.0
+   },
+   "D3320": {
+    "all": 650.0
+   },
+   "D3330": {
+    "all": 748.0
+   },
+   "D3346": {
+    "all": 634.0
+   },
+   "D3347": {
+    "all": 721.0
+   },
+   "D3348": {
+    "all": 829.0
+   },
+   "D4341": {
+    "all": 90.0
+   },
+   "D4342": {
+    "all": 64.8
+   },
+   "D4355": {
+    "all": 100.0
+   },
+   "D4910": {
+    "all": 54.0
+   },
+   "D5110": {
+    "all": 375.0
+   },
+   "D5120": {
+    "all": 375.0
+   },
+   "D5211": {
+    "all": 225.0
+   },
+   "D5212": {
+    "all": 225.0
+   },
+   "D5225": {
+    "all": 275.0
+   },
+   "D5226": {
+    "all": 275.0
+   },
+   "D7140": {
+    "all": 135.23
+   },
+   "D7210": {
+    "all": 112.69
+   },
+   "D7220": {
+    "all": 157.54
+   },
+   "D7230": {
+    "all": 230.83
+   },
+   "D7240": {
+    "all": 303.04
+   },
+   "D7241": {
+    "all": 415.0
+   },
+   "D7250": {
+    "all": 103.01
+   },
+   "D8080": {
+    "all": 1035.0
+   },
+   "D8090": {
+    "all": 900.0
+   },
+   "D8670": {
+    "all": 75.0
+   },
+   "D8680": {
+    "all": 200.0
+   },
+   "D9222": {
+    "all": 77.67
+   },
+   "D9223": {
+    "all": 77.67
+   },
+   "D9239": {
+    "all": 59.0
+   },
+   "D9243": {
+    "all": 59.0
+   },
+   "D9230": {
+    "all": 19.69
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "all": 31.81
+   },
+   "D0140": {
+    "all": 47.26
+   },
+   "D0150": {
+    "all": 56.34
+   },
+   "D0210": {
+    "all": 57.0
+   },
+   "D0220": {
+    "all": 11.82
+   },
+   "D0274": {
+    "all": 24.07
+   },
+   "D0330": {
+    "all": 45.95
+   },
+   "D1110": {
+    "all": 67.12
+   },
+   "D1120": {
+    "all": 48.9
+   },
+   "D1206": {
+    "all": 26.29
+   },
+   "D1351": {
+    "all": 39.88
+   },
+   "D2140": {
+    "all": 73.85
+   },
+   "D2150": {
+    "all": 92.84
+   },
+   "D2391": {
+    "all": 107.33
+   },
+   "D2392": {
+    "all": 138.49
+   },
+   "D2393": {
+    "all": 173.12
+   },
+   "D2394": {
+    "all": 173.12
+   },
+   "D2740": {
+    "all": 393.84
+   },
+   "D2750": {
+    "all": 492.3
+   },
+   "D2751": {
+    "all": 395.61
+   },
+   "D2752": {
+    "all": 395.61
+   },
+   "D2790": {
+    "all": 308.05
+   },
+   "D2930": {
+    "all": 177.74
+   },
+   "D2950": {
+    "all": 85.45
+   },
+   "D2962": {
+    "all": 113.93
+   },
+   "D3220": {
+    "all": 78.77
+   },
+   "D3310": {
+    "all": 550.0
+   },
+   "D3320": {
+    "all": 650.0
+   },
+   "D3330": {
+    "all": 748.0
+   },
+   "D3346": {
+    "all": 634.0
+   },
+   "D3347": {
+    "all": 721.0
+   },
+   "D3348": {
+    "all": 829.0
+   },
+   "D4341": {
+    "all": 90.0
+   },
+   "D4342": {
+    "all": 64.8
+   },
+   "D4355": {
+    "all": 100.0
+   },
+   "D4910": {
+    "all": 54.0
+   },
+   "D5110": {
+    "all": 375.0
+   },
+   "D5120": {
+    "all": 375.0
+   },
+   "D5211": {
+    "all": 225.0
+   },
+   "D5212": {
+    "all": 225.0
+   },
+   "D5225": {
+    "all": 275.0
+   },
+   "D5226": {
+    "all": 275.0
+   },
+   "D7140": {
+    "all": 135.23
+   },
+   "D7210": {
+    "all": 112.69
+   },
+   "D7220": {
+    "all": 157.54
+   },
+   "D7230": {
+    "all": 230.83
+   },
+   "D7240": {
+    "all": 303.04
+   },
+   "D7241": {
+    "all": 415.0
+   },
+   "D7250": {
+    "all": 103.01
+   },
+   "D8080": {
+    "all": 1035.0
+   },
+   "D8090": {
+    "all": 900.0
+   },
+   "D8670": {
+    "all": 75.0
+   },
+   "D8680": {
+    "all": 200.0
+   },
+   "D9222": {
+    "all": 77.67
+   },
+   "D9223": {
+    "all": 77.67
+   },
+   "D9239": {
+    "all": 59.0
+   },
+   "D9243": {
+    "all": 59.0
+   },
+   "D9230": {
+    "all": 19.69
+   }
+  }
+ },
+ {
+  "code": "MI",
+  "name": "Michigan",
+  "slug": "michigan",
+  "program": "Michigan Medicaid (MDHHS) fee-for-service Dental",
+  "title": "Michigan Department of Health and Human Services - Dental Fee Schedule - January 2026 (Revised: 03/11/2026)",
+  "url": "https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Assistance-Programs/Medicaid-BPHASA/January-2026-DBs/Dental-January-2026.xlsx?rev=085941a4676547a0ad5b7e3281b76441",
+  "page": "https://www.michigan.gov/mdhhs/doing-business/providers/providers/billingreimbursement/dental",
+  "effective": "2026-01-01",
+  "retrieved": "2026-10-20",
+  "notes": "ACCESS CAVEAT: michigan.gov returns HTTP 403 (Akamai) to this machine and to WebFetch. The link list was read from the Wayback capture of the official Dental page dated 2026-08-25 (newest dental schedule listed: 'Jan 2026 XLSX'); the official file was fetched through a Wayback 'Save Page Now' capture made 2026-10-20 of the exact official URL (https://web.archive.org/web/20261020091052/<official URL>, origin Last-Modified 2026-03-16). Re-check from a US connection. Single 'Rate' column, 'Age Range' column empty for all extracted codes, so population 'all'. Footnote: '*Covered benefit for CSHCS only' (Children's Special Health Care Services) lists implant, bridge and orthodontic codes (D6010-D6790, D8070-D8670), which are absent from the rate rows of this file. Children under 21 are mostly served through Healthy Kids Dental (managed by Delta Dental / Blue Cross dental plans), so this FFS schedule mainly applies to adult FFS and CSHCS; the page says the Medicaid Provider Manual prevails on discrepancies.",
+  "url2024": "https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Assistance-Programs/Medicaid-BPHASA/January-2024-DBs/Dental-Fee-Schedule-January-2024-XLSX.xlsx?rev=3d49066cb8b84ccea3784b645e2468b9",
+  "effective2024": "2024-01-01",
+  "notes2024": "Document 'Michigan Department of Health and Human Services - Dental Fee Schedule - January 2024'. The official Dental page lists Jan 2023, April 2023, Jan 2024, Jan 2025 and Jan 2026 editions, so January 2024 is the edition in force on 2024-07-01. Downloaded from the Wayback capture of the official URL dated 2025-10-31 (http://web.archive.org/web/20251031061325id_/<official URL>) because michigan.gov is 403 from here. Same column used ('Rate'); by_report_2024: [].",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.5199,
+   "adultCharge": 0.5165,
+   "childPrivate": 0.8149,
+   "adultPrivate": 0.8233
+  },
+  "adultBenefit": "Enhanced",
+  "fees": {
+   "D0120": {
+    "all": 30.25
+   },
+   "D0140": {
+    "all": 47.5
+   },
+   "D0150": {
+    "all": 48.0
+   },
+   "D0210": {
+    "all": 85.25
+   },
+   "D0220": {
+    "all": 18.25
+   },
+   "D0274": {
+    "all": 38.5
+   },
+   "D0330": {
+    "all": 77.5
+   },
+   "D1110": {
+    "all": 57.75
+   },
+   "D1120": {
+    "all": 43.25
+   },
+   "D1206": {
+    "all": 30.0
+   },
+   "D1351": {
+    "all": 31.75
+   },
+   "D2140": {
+    "all": 74.75
+   },
+   "D2150": {
+    "all": 93.0
+   },
+   "D2391": {
+    "all": 104.0
+   },
+   "D2392": {
+    "all": 135.25
+   },
+   "D2393": {
+    "all": 165.25
+   },
+   "D2394": {
+    "all": 193.5
+   },
+   "D2740": {
+    "all": 767.25
+   },
+   "D2750": {
+    "all": 672.5
+   },
+   "D2751": {
+    "all": 667.75
+   },
+   "D2752": {
+    "all": 652.5
+   },
+   "D2790": {
+    "all": 660.0
+   },
+   "D2930": {
+    "all": 185.75
+   },
+   "D2950": {
+    "all": 191.75
+   },
+   "D3220": {
+    "all": 121.0
+   },
+   "D3310": {
+    "all": 461.0
+   },
+   "D3320": {
+    "all": 536.75
+   },
+   "D3330": {
+    "all": 666.25
+   },
+   "D3346": {
+    "all": 552.0
+   },
+   "D3347": {
+    "all": 643.25
+   },
+   "D3348": {
+    "all": 739.5
+   },
+   "D4341": {
+    "all": 162.5
+   },
+   "D4342": {
+    "all": 106.5
+   },
+   "D4355": {
+    "all": 116.75
+   },
+   "D4910": {
+    "all": 101.0
+   },
+   "D5110": {
+    "all": 939.0
+   },
+   "D5120": {
+    "all": 932.5
+   },
+   "D5211": {
+    "all": 722.0
+   },
+   "D5212": {
+    "all": 754.25
+   },
+   "D5213": {
+    "all": 1054.0
+   },
+   "D5214": {
+    "all": 1056.0
+   },
+   "D5225": {
+    "all": 889.75
+   },
+   "D5226": {
+    "all": 926.25
+   },
+   "D5820": {
+    "all": 351.5
+   },
+   "D5821": {
+    "all": 356.0
+   },
+   "D7140": {
+    "all": 93.25
+   },
+   "D7210": {
+    "all": 173.5
+   },
+   "D7220": {
+    "all": 207.0
+   },
+   "D7230": {
+    "all": 270.25
+   },
+   "D7240": {
+    "all": 310.5
+   },
+   "D7250": {
+    "all": 187.0
+   },
+   "D9222": {
+    "all": 127.75
+   },
+   "D9223": {
+    "all": 106.44
+   },
+   "D9239": {
+    "all": 137.75
+   },
+   "D9243": {
+    "all": 97.0
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "all": 33.99
+   },
+   "D0140": {
+    "all": 51.71
+   },
+   "D0150": {
+    "all": 54.14
+   },
+   "D0210": {
+    "all": 90.0
+   },
+   "D0220": {
+    "all": 19.14
+   },
+   "D0274": {
+    "all": 40.92
+   },
+   "D0330": {
+    "all": 81.29
+   },
+   "D1110": {
+    "all": 62.14
+   },
+   "D1120": {
+    "all": 46.71
+   },
+   "D1206": {
+    "all": 32.29
+   },
+   "D1351": {
+    "all": 33.71
+   },
+   "D2140": {
+    "all": 77.14
+   },
+   "D2150": {
+    "all": 96.43
+   },
+   "D2391": {
+    "all": 113.57
+   },
+   "D2392": {
+    "all": 147.0
+   },
+   "D2393": {
+    "all": 178.43
+   },
+   "D2394": {
+    "all": 205.86
+   },
+   "D2740": {
+    "all": 817.57
+   },
+   "D2750": {
+    "all": 744.14
+   },
+   "D2751": {
+    "all": 677.0
+   },
+   "D2752": {
+    "all": 684.57
+   },
+   "D2790": {
+    "all": 708.0
+   },
+   "D2930": {
+    "all": 190.14
+   },
+   "D2950": {
+    "all": 192.29
+   },
+   "D3220": {
+    "all": 124.86
+   },
+   "D3310": {
+    "all": 499.43
+   },
+   "D3320": {
+    "all": 584.86
+   },
+   "D3330": {
+    "all": 742.86
+   },
+   "D3346": {
+    "all": 628.57
+   },
+   "D3347": {
+    "all": 713.57
+   },
+   "D3348": {
+    "all": 845.57
+   },
+   "D4341": {
+    "all": 170.0
+   },
+   "D4342": {
+    "all": 116.14
+   },
+   "D4355": {
+    "all": 118.29
+   },
+   "D4910": {
+    "all": 105.29
+   },
+   "D5110": {
+    "all": 937.0
+   },
+   "D5120": {
+    "all": 932.0
+   },
+   "D5211": {
+    "all": 729.43
+   },
+   "D5212": {
+    "all": 767.86
+   },
+   "D5213": {
+    "all": 1056.29
+   },
+   "D5214": {
+    "all": 1057.43
+   },
+   "D5225": {
+    "all": 916.86
+   },
+   "D5226": {
+    "all": 959.0
+   },
+   "D5820": {
+    "all": 360.43
+   },
+   "D5821": {
+    "all": 367.29
+   },
+   "D7140": {
+    "all": 101.0
+   },
+   "D7210": {
+    "all": 181.86
+   },
+   "D7220": {
+    "all": 215.0
+   },
+   "D7230": {
+    "all": 277.86
+   },
+   "D7240": {
+    "all": 324.29
+   },
+   "D7250": {
+    "all": 192.0
+   },
+   "D9222": {
+    "all": 140.43
+   },
+   "D9223": {
+    "all": 120.68
+   },
+   "D9239": {
+    "all": 152.97
+   },
+   "D9243": {
+    "all": 110.86
+   }
+  }
+ },
+ {
+  "code": "MN",
+  "name": "Minnesota",
+  "slug": "minnesota",
+  "program": "Minnesota Health Care Programs (Medical Assistance / MinnesotaCare) fee-for-service",
+  "title": "Minnesota Health Care Programs Fee Schedule - CURRENT FEE SCHEDULE AS OF 10/12/2026",
+  "url": "https://mn.gov/dhs/assets/mhcp-fee-schedule_tcm1053-293968.xlsx",
+  "page": "https://mn.gov/dhs/partners-and-providers/policies-procedures/minnesota-health-care-programs/provider/billing/fee-schedule/mhcp.jsp",
+  "effective": "2026-10-12",
+  "retrieved": "2026-10-20",
+  "notes": "Value used = 'TOTAL ALLOW' column (base fee schedule). IMPORTANT: the document's header states 'For all dental services provided on or after 01/01/22, an additional 98% must be added to the fee schedule total amount to determine the total reimbursement amount' - the fees recorded here are the listed base amounts WITHOUT that +98% add-on (actual payment is approx. base x 1.98; not computed here). Header also says exam/x-ray fees for children under 21 are based on 85% of 1999 median charge under factor code Q, but no separate Q-factor rows exist in the file for these codes, so one value per code ('all'). by_report = codes listed with FACT CODE 3 ('general price by report') and no total allowable (crowns D2740-D2790, D2962, implants, D6245, D6740, D7953). 'Inclusion on this report does not imply coverage' (adult coverage limits per MHCP Provider Manual). Fees for D7xxx codes: the 'APC/ASC ALLOW' column (facility) was ignored. Many dental members are in managed care (PMAP) - rates there may differ. Document date: sheet header 'AS OF 10/12/2026' (file modified 2026-10-13).",
+  "url2024": "https://mn.gov/dhs/assets/mhcp-fee-schedule_tcm1053-293968.xlsx",
+  "effective2024": "2024-07-01",
+  "notes2024": "No archived mid-2024 edition could be retrieved (mn.gov serves only the current file; web.archive.org was rate-limited/offline during this run). Values are derived from the CURRENT schedule (AS OF 10/12/2026) using its 'EFF DATE' column, which the document defines as 'the effective date of the current TOTAL ALLOWABLE': only codes whose current total allowable has an effective date on or before 2024-07-01 are included (that amount was therefore already in force on 2024-07-01). Excluded because the current amount took effect after 2024-07-01 (2024 value unknown): D6010(eff 2025-01-01), D7140(eff 2026-10-01), D7210(eff 2026-10-01), D7220(eff 2026-10-01), D7230(eff 2026-10-01), D7240(eff 2026-10-01), D7241(eff 2026-10-01), D7250(eff 2026-10-01). Base amounts only. +98% add-on: the current header says the additional 98% applies to all dental services provided on or after 01/01/22, and the MHCP Provider Manual 'Payment Methodology - Non-Hospital' page lists '98 percent for dental services MA and MinnesotaCare members (January 2022)', so the add-on applied in 2024 as well (actual 2024 payment approx. base x 1.98). D8070/D8080/D8090 = 73.09 each (FACT CODE 1, eff 2000-01-01): the unit basis (per visit / per month / per case) is NOT stated in the fee schedule, and the MHCP dental manual pages were blocked by a bot-protection captcha, so it could not be verified; 73.09 is clearly not a full-case comprehensive orthodontic fee - treat as unverified.",
+  "override": "The Minnesota schedule's header states that for all dental services provided on or after January 1, 2022, an additional 98 % must be added to the fee schedule total to determine the reimbursement, so listed amounts are multiplied by 1.98. Orthodontic codes D8080 and D8090 are listed at an amount that is not a full-treatment fee and are left out.",
+  "ratios": {
+   "childCharge": 0.323,
+   "adultCharge": 0.331,
+   "childPrivate": 0.5396,
+   "adultPrivate": 0.5161
+  },
+  "adultBenefit": "Enhanced",
+  "fees": {
+   "D0120": {
+    "all": 24.2
+   },
+   "D0140": {
+    "all": 31.54
+   },
+   "D0150": {
+    "all": 31.54
+   },
+   "D0210": {
+    "all": 76.72
+   },
+   "D0220": {
+    "all": 12.08
+   },
+   "D0274": {
+    "all": 32.29
+   },
+   "D0330": {
+    "all": 70.67
+   },
+   "D1110": {
+    "all": 52.51
+   },
+   "D1120": {
+    "all": 36.31
+   },
+   "D1206": {
+    "all": 27.72
+   },
+   "D1351": {
+    "all": 34.25
+   },
+   "D2140": {
+    "all": 64.49
+   },
+   "D2150": {
+    "all": 82.47
+   },
+   "D2391": {
+    "all": 64.49
+   },
+   "D2392": {
+    "all": 82.47
+   },
+   "D2393": {
+    "all": 100.45
+   },
+   "D2394": {
+    "all": 121.59
+   },
+   "D2930": {
+    "all": 151.49
+   },
+   "D2950": {
+    "all": 151.49
+   },
+   "D3220": {
+    "all": 80.78
+   },
+   "D3310": {
+    "all": 353.53
+   },
+   "D3320": {
+    "all": 424.23
+   },
+   "D3330": {
+    "all": 537.37
+   },
+   "D3346": {
+    "all": 264.67
+   },
+   "D3347": {
+    "all": 319.79
+   },
+   "D3348": {
+    "all": 419.05
+   },
+   "D4341": {
+    "all": 170.58
+   },
+   "D4342": {
+    "all": 119.61
+   },
+   "D4355": {
+    "all": 52.51
+   },
+   "D4910": {
+    "all": 70.67
+   },
+   "D5110": {
+    "all": 939.41
+   },
+   "D5120": {
+    "all": 949.53
+   },
+   "D5211": {
+    "all": 649.52
+   },
+   "D5212": {
+    "all": 754.3
+   },
+   "D5213": {
+    "all": 1090.96
+   },
+   "D5214": {
+    "all": 1101.06
+   },
+   "D5225": {
+    "all": 1104.84
+   },
+   "D5226": {
+    "all": 1104.84
+   },
+   "D5820": {
+    "all": 303.02
+   },
+   "D5821": {
+    "all": 323.22
+   },
+   "D6240": {
+    "all": 810.53
+   },
+   "D6750": {
+    "all": 810.53
+   },
+   "D6790": {
+    "all": 810.53
+   },
+   "D8070": {
+    "all": 144.72
+   },
+   "D8670": {
+    "all": 164.1
+   },
+   "D8680": {
+    "all": 228.49
+   },
+   "D9222": {
+    "all": 167.01
+   },
+   "D9223": {
+    "all": 129.31
+   },
+   "D9230": {
+    "all": 18.14
+   },
+   "D9239": {
+    "all": 113.08
+   },
+   "D9243": {
+    "all": 99.71
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "all": 24.2
+   },
+   "D0140": {
+    "all": 31.54
+   },
+   "D0150": {
+    "all": 31.54
+   },
+   "D0210": {
+    "all": 76.72
+   },
+   "D0220": {
+    "all": 12.08
+   },
+   "D0274": {
+    "all": 32.29
+   },
+   "D0330": {
+    "all": 70.67
+   },
+   "D1110": {
+    "all": 52.51
+   },
+   "D1120": {
+    "all": 36.31
+   },
+   "D1206": {
+    "all": 27.72
+   },
+   "D1351": {
+    "all": 34.25
+   },
+   "D2140": {
+    "all": 64.49
+   },
+   "D2150": {
+    "all": 82.47
+   },
+   "D2391": {
+    "all": 64.49
+   },
+   "D2392": {
+    "all": 82.47
+   },
+   "D2393": {
+    "all": 100.45
+   },
+   "D2394": {
+    "all": 121.59
+   },
+   "D2930": {
+    "all": 151.49
+   },
+   "D2950": {
+    "all": 151.49
+   },
+   "D3220": {
+    "all": 80.78
+   },
+   "D3310": {
+    "all": 353.53
+   },
+   "D3320": {
+    "all": 424.23
+   },
+   "D3330": {
+    "all": 537.37
+   },
+   "D3346": {
+    "all": 264.67
+   },
+   "D3347": {
+    "all": 319.79
+   },
+   "D3348": {
+    "all": 419.05
+   },
+   "D4341": {
+    "all": 170.58
+   },
+   "D4342": {
+    "all": 119.61
+   },
+   "D4355": {
+    "all": 52.51
+   },
+   "D4910": {
+    "all": 70.67
+   },
+   "D5110": {
+    "all": 939.41
+   },
+   "D5120": {
+    "all": 949.53
+   },
+   "D5211": {
+    "all": 649.52
+   },
+   "D5212": {
+    "all": 754.3
+   },
+   "D5213": {
+    "all": 1090.96
+   },
+   "D5214": {
+    "all": 1101.06
+   },
+   "D5225": {
+    "all": 1104.84
+   },
+   "D5226": {
+    "all": 1104.84
+   },
+   "D5820": {
+    "all": 303.02
+   },
+   "D5821": {
+    "all": 323.22
+   },
+   "D6240": {
+    "all": 810.53
+   },
+   "D6750": {
+    "all": 810.53
+   },
+   "D6790": {
+    "all": 810.53
+   },
+   "D7140": {
+    "all": 88.51
+   },
+   "D7210": {
+    "all": 121.2
+   },
+   "D7220": {
+    "all": 171.71
+   },
+   "D7230": {
+    "all": 222.2
+   },
+   "D7240": {
+    "all": 262.63
+   },
+   "D7241": {
+    "all": 303.02
+   },
+   "D7250": {
+    "all": 151.49
+   },
+   "D8070": {
+    "all": 144.72
+   },
+   "D8670": {
+    "all": 164.1
+   },
+   "D8680": {
+    "all": 228.49
+   },
+   "D9222": {
+    "all": 167.01
+   },
+   "D9223": {
+    "all": 129.31
+   },
+   "D9230": {
+    "all": 18.14
+   },
+   "D9239": {
+    "all": 113.08
+   },
+   "D9243": {
+    "all": 99.71
+   }
+  }
+ },
+ {
+  "code": "MO",
+  "name": "Missouri",
+  "slug": "missouri",
+  "program": "MO HealthNet (Missouri Medicaid) - fee-for-service dental",
+  "title": "MO HealthNet Division Fee Schedule - Dental (Dental.xlsx, dated 10/02/2026)",
+  "url": "https://apps.dss.mo.gov/fmsFeeSchedules/dlfiles/Dental.xlsx",
+  "page": "https://apps.dss.mo.gov/fmsFeeSchedules/DLFiles.aspx",
+  "effective": "2026-10-02",
+  "retrieved": "2026-10-20",
+  "notes": "Monthly-updated MHD fee schedule; file header dated 2026-10-02, download page shows 'Updated 10/05/2026'. effective_date is the file date; per-code 'Rate Effective Date' varies: most 2022-07-01, extractions/D9230 2024-07-01, D4355/D6010/D9222/D9223/D9239/D9243 2025-03-01, D6056/D6057 2019-07-01. Rows with no modifier used; modifier rows (YG, W5, W6, W9) are all 'Noncovered' and ignored. One rate column, no age split (population 'all'); age/benefit limits for adults are in the Dental Manual, not this file. 'Manually Priced' codes under by_report. D6058/D6059/D6065/D6066 are listed 'Noncovered'. Reached via the disclaimer page https://apps.dss.mo.gov/fmsFeeSchedules/default.aspx. Most MO HealthNet participants are in managed care, whose plans may pay differently.",
+  "url2024": "https://apps.dss.mo.gov/fmsFeeSchedules/dlfiles/Dental.xlsx",
+  "effective2024": "2024-07-01",
+  "notes2024": "No mid-2024 edition of Dental.xlsx found (no web.archive.org capture of the file; MHD replaces it monthly). Fees copied from the current file only where the per-code 'Rate Effective Date' is on or before 2024-07-01 (2019-07-01, 2022-07-01 or 2024-07-01), i.e. the rate was in force on 2024-07-01. Omitted because their current rate took effect later and the prior rate is unknown: D4355 (2025-03-01), D6010 (2025-03-01), D9222 (2025-03-01), D9223 (2025-03-01), D9239 (2025-03-01), D9243 (2025-03-01). 'Manually Priced' codes (D7953, D8070, D8080, D8090, D8670) not recorded; D7953's row is dated 2025-03-01 so its 2024 status is unknown. effective_date_2024 here is the reference date, not an edition date.",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.5931,
+   "adultCharge": null,
+   "childPrivate": 0.9891,
+   "adultPrivate": null
+  },
+  "adultBenefit": "Emergency",
+  "fees": {
+   "D0120": {
+    "all": 48.8
+   },
+   "D0140": {
+    "all": 71.2
+   },
+   "D0150": {
+    "all": 83.2
+   },
+   "D0210": {
+    "all": 123.2
+   },
+   "D0220": {
+    "all": 27.2
+   },
+   "D0274": {
+    "all": 60.0
+   },
+   "D0330": {
+    "all": 104.8
+   },
+   "D1110": {
+    "all": 85.6
+   },
+   "D1120": {
+    "all": 62.4
+   },
+   "D1206": {
+    "all": 36.8
+   },
+   "D1351": {
+    "all": 50.4
+   },
+   "D2140": {
+    "all": 132.0
+   },
+   "D2150": {
+    "all": 165.6
+   },
+   "D2391": {
+    "all": 169.6
+   },
+   "D2392": {
+    "all": 214.4
+   },
+   "D2393": {
+    "all": 264.0
+   },
+   "D2394": {
+    "all": 312.8
+   },
+   "D2740": {
+    "all": 1048.8
+   },
+   "D2750": {
+    "all": 1029.6
+   },
+   "D2751": {
+    "all": 971.2
+   },
+   "D2752": {
+    "all": 999.2
+   },
+   "D2790": {
+    "all": 1064.8
+   },
+   "D2930": {
+    "all": 244.8
+   },
+   "D2950": {
+    "all": 249.6
+   },
+   "D2962": {
+    "all": 1062.4
+   },
+   "D3220": {
+    "all": 188.8
+   },
+   "D3310": {
+    "all": 695.2
+   },
+   "D3320": {
+    "all": 787.2
+   },
+   "D3330": {
+    "all": 956.0
+   },
+   "D3346": {
+    "all": 804.0
+   },
+   "D3347": {
+    "all": 912.0
+   },
+   "D3348": {
+    "all": 1100.0
+   },
+   "D4341": {
+    "all": 238.4
+   },
+   "D4342": {
+    "all": 175.2
+   },
+   "D4910": {
+    "all": 125.6
+   },
+   "D5110": {
+    "all": 1608.0
+   },
+   "D5120": {
+    "all": 1627.2
+   },
+   "D5211": {
+    "all": 1279.2
+   },
+   "D5212": {
+    "all": 1272.8
+   },
+   "D5213": {
+    "all": 1658.4
+   },
+   "D5214": {
+    "all": 1669.6
+   },
+   "D5225": {
+    "all": 1438.4
+   },
+   "D5226": {
+    "all": 1436.0
+   },
+   "D5820": {
+    "all": 633.6
+   },
+   "D5821": {
+    "all": 634.4
+   },
+   "D6056": {
+    "all": 276.47
+   },
+   "D6057": {
+    "all": 276.47
+   },
+   "D6240": {
+    "all": 1026.4
+   },
+   "D6245": {
+    "all": 1029.6
+   },
+   "D6750": {
+    "all": 1028.8
+   },
+   "D6740": {
+    "all": 1049.6
+   },
+   "D6790": {
+    "all": 1012.0
+   },
+   "D7140": {
+    "all": 93.56
+   },
+   "D7210": {
+    "all": 138.22
+   },
+   "D7220": {
+    "all": 156.31
+   },
+   "D7230": {
+    "all": 194.04
+   },
+   "D7240": {
+    "all": 233.7
+   },
+   "D7241": {
+    "all": 272.2
+   },
+   "D7250": {
+    "all": 149.0
+   },
+   "D8680": {
+    "all": 407.2
+   },
+   "D9230": {
+    "all": 77.6
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "all": 48.8
+   },
+   "D0140": {
+    "all": 71.2
+   },
+   "D0150": {
+    "all": 83.2
+   },
+   "D0210": {
+    "all": 123.2
+   },
+   "D0220": {
+    "all": 27.2
+   },
+   "D0274": {
+    "all": 60.0
+   },
+   "D0330": {
+    "all": 104.8
+   },
+   "D1110": {
+    "all": 85.6
+   },
+   "D1120": {
+    "all": 62.4
+   },
+   "D1206": {
+    "all": 36.8
+   },
+   "D1351": {
+    "all": 50.4
+   },
+   "D2140": {
+    "all": 132.0
+   },
+   "D2150": {
+    "all": 165.6
+   },
+   "D2391": {
+    "all": 169.6
+   },
+   "D2392": {
+    "all": 214.4
+   },
+   "D2393": {
+    "all": 264.0
+   },
+   "D2394": {
+    "all": 312.8
+   },
+   "D2740": {
+    "all": 1048.8
+   },
+   "D2750": {
+    "all": 1029.6
+   },
+   "D2751": {
+    "all": 971.2
+   },
+   "D2752": {
+    "all": 999.2
+   },
+   "D2790": {
+    "all": 1064.8
+   },
+   "D2930": {
+    "all": 244.8
+   },
+   "D2950": {
+    "all": 249.6
+   },
+   "D2962": {
+    "all": 1062.4
+   },
+   "D3220": {
+    "all": 188.8
+   },
+   "D3310": {
+    "all": 695.2
+   },
+   "D3320": {
+    "all": 787.2
+   },
+   "D3330": {
+    "all": 956.0
+   },
+   "D3346": {
+    "all": 804.0
+   },
+   "D3347": {
+    "all": 912.0
+   },
+   "D3348": {
+    "all": 1100.0
+   },
+   "D4341": {
+    "all": 238.4
+   },
+   "D4342": {
+    "all": 175.2
+   },
+   "D4355": {
+    "all": 168.0
+   },
+   "D4910": {
+    "all": 125.6
+   },
+   "D5110": {
+    "all": 1608.0
+   },
+   "D5120": {
+    "all": 1627.2
+   },
+   "D5211": {
+    "all": 1279.2
+   },
+   "D5212": {
+    "all": 1272.8
+   },
+   "D5213": {
+    "all": 1658.4
+   },
+   "D5214": {
+    "all": 1669.6
+   },
+   "D5225": {
+    "all": 1438.4
+   },
+   "D5226": {
+    "all": 1436.0
+   },
+   "D5820": {
+    "all": 633.6
+   },
+   "D5821": {
+    "all": 634.4
+   },
+   "D6010": {
+    "all": 373.11
+   },
+   "D6056": {
+    "all": 276.47
+   },
+   "D6057": {
+    "all": 276.47
+   },
+   "D6240": {
+    "all": 1026.4
+   },
+   "D6245": {
+    "all": 1029.6
+   },
+   "D6750": {
+    "all": 1028.8
+   },
+   "D6740": {
+    "all": 1049.6
+   },
+   "D6790": {
+    "all": 1012.0
+   },
+   "D7140": {
+    "all": 93.56
+   },
+   "D7210": {
+    "all": 138.22
+   },
+   "D7220": {
+    "all": 156.31
+   },
+   "D7230": {
+    "all": 194.04
+   },
+   "D7240": {
+    "all": 233.7
+   },
+   "D7241": {
+    "all": 272.2
+   },
+   "D7250": {
+    "all": 149.0
+   },
+   "D8680": {
+    "all": 407.2
+   },
+   "D9222": {
+    "all": 244.0
+   },
+   "D9223": {
+    "all": 230.4
+   },
+   "D9239": {
+    "all": 232.0
+   },
+   "D9243": {
+    "all": 208.8
+   },
+   "D9230": {
+    "all": 77.6
+   }
+  }
+ },
+ {
+  "code": "NC",
+  "name": "North Carolina",
+  "slug": "north-carolina",
+  "program": "NC Medicaid (Medicaid Direct / fee-for-service) Dental",
+  "title": "NC Medicaid Dental Reimbursement Rates - General Dentist, Oral Surgeon, Pediatric Dentist, Periodontist, & Orthodontist - Last Revison Date: Apr 1, 2026",
+  "url": "https://ncdhhs.servicenowservices.com/api/g_ncd2/pubatt/dl/9d2c5d16cf488790b5a0b3842f851c45",
+  "page": "https://ncdhhs.servicenowservices.com/fee_schedules (NC DHB Fee Schedule & Covered Codes Portal, linked from https://medicaid.ncdhhs.gov/providers/fee-schedules/dental-fee-schedules-archive)",
+  "effective": "2025-10-01",
+  "retrieved": "2026-10-20",
+  "notes": "File 'General Dental.xlsx' (Fee Schedule: General Dental, program Dental), posted on the portal 2026-04-06, the latest General Dental entry; document header 'Last Revison Date: Apr 1, 2026'. Every recorded rate carries Effective Date 2025-10-01 and End Date 9999-12-31. Header states 'All rates depicted on this fee schedule do not contain rate reductions.' (NC applied temporary Medicaid rate reductions in late 2025; this schedule shows unreduced rates). Single rate column, no age split, so population 'all'; coverage/age limits are in the NC dental clinical coverage policies, not in this file. D8070 and D8680 are 'Manually Priced'. Separate schedules exist for FQHC, Rural Health Center and Ambulatory Surgical Center dental (not used). Most NC Medicaid enrollees are in Standard Plans, but dental remains carved out and paid fee-for-service by NC Medicaid. Crowns D2740-D2790, retreatment D3346-D3348, partials D5213-D5226, implants and bridges are absent from the schedule.",
+  "url2024": "https://ncdhhs.servicenowservices.com/api/g_ncd2/pubatt/dl/1493f44b47cb8290583f61d2e16d4305",
+  "effective2024": "2024-07-01",
+  "notes2024": "'General Dental.xlsx' entry posted on the NC DHB Fee Schedule portal 2024-07-01 (archived entry), header 'Last Revison Date: July 1, 2024', so in force on 2024-07-01. Per-code Effective Dates are 2022-01-01 for the extracted codes (one schedule since January 2022). Raw values carry 3 decimals in some cells (e.g. D0120 26.961) and were rounded to cents (D1206 raw 16.775 recorded as 16.78, the value the 2026 file prints). by_report_2024 (Manually Priced): ['D8070', 'D8680'].",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.343,
+   "adultCharge": 0.3629,
+   "childPrivate": 0.5284,
+   "adultPrivate": 0.5484
+  },
+  "adultBenefit": "Enhanced",
+  "fees": {
+   "D0120": {
+    "all": 26.96
+   },
+   "D0140": {
+    "all": 38.43
+   },
+   "D0150": {
+    "all": 46.65
+   },
+   "D0210": {
+    "all": 75.08
+   },
+   "D0220": {
+    "all": 15.6
+   },
+   "D0274": {
+    "all": 33.55
+   },
+   "D0330": {
+    "all": 61.95
+   },
+   "D1110": {
+    "all": 39.83
+   },
+   "D1120": {
+    "all": 28.46
+   },
+   "D1206": {
+    "all": 16.78
+   },
+   "D1351": {
+    "all": 29.89
+   },
+   "D2140": {
+    "all": 78.12
+   },
+   "D2150": {
+    "all": 98.99
+   },
+   "D2391": {
+    "all": 83.6
+   },
+   "D2392": {
+    "all": 110.92
+   },
+   "D2393": {
+    "all": 134.9
+   },
+   "D2394": {
+    "all": 163.46
+   },
+   "D2930": {
+    "all": 150.87
+   },
+   "D2950": {
+    "all": 102.73
+   },
+   "D3220": {
+    "all": 84.8
+   },
+   "D3310": {
+    "all": 296.52
+   },
+   "D3320": {
+    "all": 350.44
+   },
+   "D3330": {
+    "all": 428.62
+   },
+   "D4341": {
+    "all": 105.13
+   },
+   "D4342": {
+    "all": 61.15
+   },
+   "D4355": {
+    "all": 70.44
+   },
+   "D4910": {
+    "all": 51.85
+   },
+   "D5110": {
+    "all": 611.52
+   },
+   "D5120": {
+    "all": 611.52
+   },
+   "D5211": {
+    "all": 453.5
+   },
+   "D5212": {
+    "all": 453.5
+   },
+   "D7140": {
+    "all": 66.44
+   },
+   "D7210": {
+    "all": 114.21
+   },
+   "D7220": {
+    "all": 129.93
+   },
+   "D7230": {
+    "all": 173.57
+   },
+   "D7240": {
+    "all": 202.18
+   },
+   "D7241": {
+    "all": 242.62
+   },
+   "D7250": {
+    "all": 124.54
+   },
+   "D8080": {
+    "all": 856.1
+   },
+   "D8670": {
+    "all": 100.64
+   },
+   "D9222": {
+    "all": 74.1
+   },
+   "D9223": {
+    "all": 74.1
+   },
+   "D9239": {
+    "all": 75.36
+   },
+   "D9243": {
+    "all": 75.36
+   },
+   "D9230": {
+    "all": 44.94
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "all": 26.96
+   },
+   "D0140": {
+    "all": 38.43
+   },
+   "D0150": {
+    "all": 46.65
+   },
+   "D0210": {
+    "all": 75.08
+   },
+   "D0220": {
+    "all": 15.6
+   },
+   "D0274": {
+    "all": 33.55
+   },
+   "D0330": {
+    "all": 61.95
+   },
+   "D1110": {
+    "all": 39.83
+   },
+   "D1120": {
+    "all": 28.46
+   },
+   "D1206": {
+    "all": 16.78
+   },
+   "D1351": {
+    "all": 29.89
+   },
+   "D2140": {
+    "all": 78.12
+   },
+   "D2150": {
+    "all": 98.99
+   },
+   "D2391": {
+    "all": 83.6
+   },
+   "D2392": {
+    "all": 110.92
+   },
+   "D2393": {
+    "all": 134.9
+   },
+   "D2394": {
+    "all": 163.46
+   },
+   "D2930": {
+    "all": 150.87
+   },
+   "D2950": {
+    "all": 102.73
+   },
+   "D3220": {
+    "all": 84.8
+   },
+   "D3310": {
+    "all": 296.52
+   },
+   "D3320": {
+    "all": 350.44
+   },
+   "D3330": {
+    "all": 428.62
+   },
+   "D4341": {
+    "all": 105.13
+   },
+   "D4342": {
+    "all": 61.15
+   },
+   "D4355": {
+    "all": 70.44
+   },
+   "D4910": {
+    "all": 51.85
+   },
+   "D5110": {
+    "all": 611.52
+   },
+   "D5120": {
+    "all": 611.52
+   },
+   "D5211": {
+    "all": 453.5
+   },
+   "D5212": {
+    "all": 453.5
+   },
+   "D7140": {
+    "all": 66.44
+   },
+   "D7210": {
+    "all": 114.21
+   },
+   "D7220": {
+    "all": 129.93
+   },
+   "D7230": {
+    "all": 173.57
+   },
+   "D7240": {
+    "all": 202.18
+   },
+   "D7241": {
+    "all": 242.62
+   },
+   "D7250": {
+    "all": 124.54
+   },
+   "D8080": {
+    "all": 856.1
+   },
+   "D8670": {
+    "all": 100.64
+   },
+   "D9222": {
+    "all": 74.1
+   },
+   "D9223": {
+    "all": 74.1
+   },
+   "D9239": {
+    "all": 75.36
+   },
+   "D9243": {
+    "all": 75.36
+   },
+   "D9230": {
+    "all": 44.94
+   }
+  }
+ },
+ {
+  "code": "NY",
+  "name": "New York",
+  "slug": "new-york",
+  "program": "New York State Medicaid (fee-for-service dental)",
+  "title": "NEW YORK STATE MEDICAID FEE SCHEDULE EFFECTIVE January 1, 2026 (Dental Fee Schedule, sheet 'Covered Procedures')",
+  "url": "https://www.emedny.org/ProviderManuals/Dental/PDFS/Dental_Fee_Schedule.xls",
+  "page": "https://www.emedny.org/ProviderManuals/Dental/index.aspx",
+  "effective": "2026-01-01",
+  "retrieved": "2026-10-20",
+  "notes": "Single 'Fee' column for all ages (population 'all'). Codes marked BR or with fee 0.00 recorded as by_report. Age limits printed in the Min/Max Age columns: D0150 min 3.0 max -; D0210 min 12.0 max -; D0274 min 6.0 max -; D0330 min 2.0 max -; D1110 min 13.0 max -; D1120 min - max 12.0; D1206 min - max 20.0; D1351 min 5.0 max 15.0; D2740 min 6.0 max -; D2750 min 6.0 max -; D2751 min 6.0 max -; D2752 min 6.0 max -; D2790 min 6.0 max -; D2930 min - max 12.0; D3220 min - max 20.0; D3320 min 6.0 max -; D3330 min 6.0 max -; D3346 min 6.0 max -; D3347 min 6.0 max -; D3348 min 6.0 max -; D4341 min 13.0 max -; D4342 min 13.0 max -; D4910 min 13.0 max -; D5110 min 18.0 max -; D5120 min 18.0 max -; D5211 min 15.0 max -; D5212 min 15.0 max -; D5213 min 15.0 max -; D5214 min 15.0 max -; D5225 min 15.0 max -; D5226 min 15.0 max -; D5820 min 6.0 max 15.0; D5821 min 6.0 max 15.0; D6240 min 15.0 max -; D6245 min 15.0 max -; D6740 min 15.0 max -; D6750 min 15.0 max -; D6790 min 15.0 max -; D8070 min 5.0 max 20.0; D8080 min 5.0 max 20.0; D8090 min 5.0 max 20.0; D8670 min 5.0 max 20.0; D8680 min 5.0 max 20.0. Most NY Medicaid enrollees are in managed care (MCO rates may differ); this is the FFS schedule. File last saved 2025-12-01.",
+  "url2024": "https://www.emedny.org/ProviderManuals/Dental/PDFS/archive/ARCHIVED_Dental_Fee_Schedule_-_2024-1.xls",
+  "effective2024": "2024-01-31",
+  "notes2024": "Edition: 'NEW YORK STATE MEDICAID FEE SCHEDULE EFFECTIVE January 31, 2024 - ARCHIVED' (eMedNY Dental archive page https://www.emedny.org/ProviderManuals/Dental/archive.aspx: 'Effective Date 2024: Jan. 31, 2024', archived November 27, 2024), so in force on 2024-07-01. Same column rules as current ('Fee' column, population 'all'; BR/0.00 -> by_report).",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.3405,
+   "adultCharge": 0.2614,
+   "childPrivate": 0.6767,
+   "adultPrivate": 0.5168
+  },
+  "adultBenefit": "Enhanced",
+  "fees": {
+   "D0120": {
+    "all": 25.25
+   },
+   "D0140": {
+    "all": 14.14
+   },
+   "D0150": {
+    "all": 30.3
+   },
+   "D0210": {
+    "all": 50.5
+   },
+   "D0220": {
+    "all": 8.08
+   },
+   "D0274": {
+    "all": 24.24
+   },
+   "D0330": {
+    "all": 35.35
+   },
+   "D1110": {
+    "all": 45.45
+   },
+   "D1120": {
+    "all": 43.43
+   },
+   "D1206": {
+    "all": 30.3
+   },
+   "D1351": {
+    "all": 35.35
+   },
+   "D2140": {
+    "all": 50.5
+   },
+   "D2150": {
+    "all": 67.67
+   },
+   "D2391": {
+    "all": 50.5
+   },
+   "D2392": {
+    "all": 67.67
+   },
+   "D2393": {
+    "all": 82.82
+   },
+   "D2394": {
+    "all": 98.98
+   },
+   "D2740": {
+    "all": 505.0
+   },
+   "D2750": {
+    "all": 505.0
+   },
+   "D2751": {
+    "all": 505.0
+   },
+   "D2752": {
+    "all": 505.0
+   },
+   "D2790": {
+    "all": 505.0
+   },
+   "D2930": {
+    "all": 117.16
+   },
+   "D3220": {
+    "all": 87.87
+   },
+   "D3310": {
+    "all": 252.5
+   },
+   "D3320": {
+    "all": 303.0
+   },
+   "D3330": {
+    "all": 404.0
+   },
+   "D3346": {
+    "all": 252.5
+   },
+   "D3347": {
+    "all": 303.0
+   },
+   "D3348": {
+    "all": 404.0
+   },
+   "D4341": {
+    "all": 45.45
+   },
+   "D4342": {
+    "all": 30.3
+   },
+   "D4910": {
+    "all": 45.45
+   },
+   "D5110": {
+    "all": 565.6
+   },
+   "D5120": {
+    "all": 565.6
+   },
+   "D5211": {
+    "all": 353.5
+   },
+   "D5212": {
+    "all": 353.5
+   },
+   "D5213": {
+    "all": 565.6
+   },
+   "D5214": {
+    "all": 565.6
+   },
+   "D5225": {
+    "all": 565.6
+   },
+   "D5226": {
+    "all": 565.6
+   },
+   "D5820": {
+    "all": 175.74
+   },
+   "D5821": {
+    "all": 175.74
+   },
+   "D6010": {
+    "all": 1010.0
+   },
+   "D6056": {
+    "all": 404.0
+   },
+   "D6057": {
+    "all": 404.0
+   },
+   "D6058": {
+    "all": 808.0
+   },
+   "D6059": {
+    "all": 808.0
+   },
+   "D6065": {
+    "all": 808.0
+   },
+   "D6066": {
+    "all": 808.0
+   },
+   "D6240": {
+    "all": 404.0
+   },
+   "D6245": {
+    "all": 404.0
+   },
+   "D6750": {
+    "all": 505.0
+   },
+   "D6740": {
+    "all": 505.0
+   },
+   "D6790": {
+    "all": 505.0
+   },
+   "D7140": {
+    "all": 50.5
+   },
+   "D7210": {
+    "all": 85.85
+   },
+   "D7220": {
+    "all": 101.0
+   },
+   "D7230": {
+    "all": 181.8
+   },
+   "D7240": {
+    "all": 303.0
+   },
+   "D7250": {
+    "all": 58.58
+   },
+   "D7953": {
+    "all": 252.5
+   },
+   "D8070": {
+    "all": 995.86
+   },
+   "D8080": {
+    "all": 995.86
+   },
+   "D8090": {
+    "all": 995.86
+   },
+   "D8670": {
+    "all": 234.32
+   },
+   "D8680": {
+    "all": 175.74
+   },
+   "D9222": {
+    "all": 76.76
+   },
+   "D9223": {
+    "all": 76.76
+   },
+   "D9239": {
+    "all": 76.76
+   },
+   "D9243": {
+    "all": 76.76
+   },
+   "D9230": {
+    "all": 25.0
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "all": 25.25
+   },
+   "D0140": {
+    "all": 14.14
+   },
+   "D0150": {
+    "all": 30.3
+   },
+   "D0210": {
+    "all": 50.5
+   },
+   "D0220": {
+    "all": 8.08
+   },
+   "D0274": {
+    "all": 24.24
+   },
+   "D0330": {
+    "all": 35.35
+   },
+   "D1110": {
+    "all": 45.45
+   },
+   "D1120": {
+    "all": 43.43
+   },
+   "D1206": {
+    "all": 30.3
+   },
+   "D1351": {
+    "all": 35.35
+   },
+   "D2140": {
+    "all": 50.5
+   },
+   "D2150": {
+    "all": 67.67
+   },
+   "D2391": {
+    "all": 50.5
+   },
+   "D2392": {
+    "all": 67.67
+   },
+   "D2393": {
+    "all": 82.82
+   },
+   "D2394": {
+    "all": 98.98
+   },
+   "D2740": {
+    "all": 505.0
+   },
+   "D2750": {
+    "all": 505.0
+   },
+   "D2751": {
+    "all": 505.0
+   },
+   "D2752": {
+    "all": 505.0
+   },
+   "D2790": {
+    "all": 505.0
+   },
+   "D2930": {
+    "all": 117.16
+   },
+   "D3220": {
+    "all": 87.87
+   },
+   "D3310": {
+    "all": 252.5
+   },
+   "D3320": {
+    "all": 303.0
+   },
+   "D3330": {
+    "all": 404.0
+   },
+   "D3346": {
+    "all": 252.5
+   },
+   "D3347": {
+    "all": 303.0
+   },
+   "D3348": {
+    "all": 404.0
+   },
+   "D4341": {
+    "all": 45.45
+   },
+   "D4342": {
+    "all": 30.3
+   },
+   "D4910": {
+    "all": 45.45
+   },
+   "D5110": {
+    "all": 565.6
+   },
+   "D5120": {
+    "all": 565.6
+   },
+   "D5211": {
+    "all": 353.5
+   },
+   "D5212": {
+    "all": 353.5
+   },
+   "D5213": {
+    "all": 565.6
+   },
+   "D5214": {
+    "all": 565.6
+   },
+   "D5225": {
+    "all": 565.6
+   },
+   "D5226": {
+    "all": 565.6
+   },
+   "D5820": {
+    "all": 175.74
+   },
+   "D5821": {
+    "all": 175.74
+   },
+   "D6010": {
+    "all": 1010.0
+   },
+   "D6056": {
+    "all": 404.0
+   },
+   "D6057": {
+    "all": 404.0
+   },
+   "D6058": {
+    "all": 808.0
+   },
+   "D6059": {
+    "all": 808.0
+   },
+   "D6065": {
+    "all": 808.0
+   },
+   "D6066": {
+    "all": 808.0
+   },
+   "D6240": {
+    "all": 404.0
+   },
+   "D6245": {
+    "all": 404.0
+   },
+   "D6750": {
+    "all": 505.0
+   },
+   "D6740": {
+    "all": 505.0
+   },
+   "D6790": {
+    "all": 505.0
+   },
+   "D7140": {
+    "all": 50.5
+   },
+   "D7210": {
+    "all": 85.85
+   },
+   "D7220": {
+    "all": 101.0
+   },
+   "D7230": {
+    "all": 181.8
+   },
+   "D7240": {
+    "all": 303.0
+   },
+   "D7250": {
+    "all": 58.58
+   },
+   "D7953": {
+    "all": 252.5
+   },
+   "D8070": {
+    "all": 995.86
+   },
+   "D8080": {
+    "all": 995.86
+   },
+   "D8090": {
+    "all": 995.86
+   },
+   "D8670": {
+    "all": 234.32
+   },
+   "D8680": {
+    "all": 175.74
+   },
+   "D9222": {
+    "all": 76.76
+   },
+   "D9223": {
+    "all": 76.76
+   },
+   "D9239": {
+    "all": 76.76
+   },
+   "D9243": {
+    "all": 76.76
+   },
+   "D9230": {
+    "all": 25.0
+   }
+  }
+ },
+ {
+  "code": "OH",
+  "name": "Ohio",
+  "slug": "ohio",
+  "program": "Ohio Medicaid (ODM) dental, fee-for-service",
+  "title": "Dental CDT Procedures, Effective 1/1/2025 (ODM_Dental_CDT_Procedures_1.1.25)",
+  "url": "https://dam.assets.ohio.gov/raw/upload/medicaid.ohio.gov/Providers/FeeScheduleRates/Dental/ODM_Dental_CDT_Procedures_1.1.25.xlsx",
+  "page": "https://medicaid.ohio.gov/resources-for-providers/billing/fee-schedule-and-rates/schedules-and-rates",
+  "effective": "2025-01-01",
+  "retrieved": "2026-10-20",
+  "notes": "Column used: 'Current Maximum Payment' (single rate, population 'all'). Values in the XLSX carry extra decimals (e.g. D2740 816.55119); rounded to cents, matching the PDF version ($816.55). Document is titled 'Effective 1/1/2025' but every requested code shows per-code 'Effective Date' 01/01/2024 (the January 2024 Ohio dental fee increase; 'Previous Maximum Payment' column holds the pre-2024 fees). The ODM page (Dental Services section) says this table 'lists the current fees' and reflects OAC rule 5160-5-01; it is still the only dental table posted as of 2026-10-20, no 2026 edition found. Legend: NC = no coverage, PA = payment determined by prior authorization, BR = by report, D = discontinued. Requested codes not listed at all: crowns D2750/D2790, D2962, D3346-D3348, D4355, D5820/D5821, implants, fixed bridge codes, D7953, D8070, D8090. Age limits/frequencies are in the OAC 5160-5-01 appendix (not reproduced). Most Ohio Medicaid members are in managed care; this is the FFS schedule.",
+  "url2024": "https://dam.assets.ohio.gov/raw/upload/medicaid.ohio.gov/Providers/FeeScheduleRates/Dental/ODM_Dental_CDT_Procedures_1.1.25.xlsx",
+  "effective2024": "2024-01-01",
+  "notes2024": "Fees copied from the current ODM table (Dental CDT Procedures, Effective 1/1/2025): its per-code 'Effective Date' column shows 01/01/2024 for every requested code, i.e. the current maximum payment took effect 2024-01-01 and was unchanged on 2024-07-01. No separate mid-2024 edition was downloaded.",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.5333,
+   "adultCharge": 0.5,
+   "childPrivate": 0.8699,
+   "adultPrivate": 0.8242
+  },
+  "adultBenefit": "Enhanced",
+  "fees": {
+   "D0120": {
+    "all": 33.56
+   },
+   "D0140": {
+    "all": 43.15
+   },
+   "D0150": {
+    "all": 50.35
+   },
+   "D0210": {
+    "all": 117.9
+   },
+   "D0220": {
+    "all": 9.83
+   },
+   "D0274": {
+    "all": 39.3
+   },
+   "D0330": {
+    "all": 88.52
+   },
+   "D1110": {
+    "all": 65.22
+   },
+   "D1120": {
+    "all": 38.22
+   },
+   "D1206": {
+    "all": 29.48
+   },
+   "D1351": {
+    "all": 43.23
+   },
+   "D2140": {
+    "all": 78.6
+   },
+   "D2150": {
+    "all": 103.19
+   },
+   "D2391": {
+    "all": 97.86
+   },
+   "D2392": {
+    "all": 103.19
+   },
+   "D2393": {
+    "all": 124.22
+   },
+   "D2394": {
+    "all": 146.27
+   },
+   "D2740": {
+    "all": 816.55
+   },
+   "D2751": {
+    "all": 470.02
+   },
+   "D2752": {
+    "all": 470.02
+   },
+   "D2930": {
+    "all": 200.27
+   },
+   "D2950": {
+    "all": 146.27
+   },
+   "D3220": {
+    "all": 121.81
+   },
+   "D3310": {
+    "all": 473.22
+   },
+   "D3320": {
+    "all": 569.67
+   },
+   "D3330": {
+    "all": 724.31
+   },
+   "D4341": {
+    "all": 188.62
+   },
+   "D4342": {
+    "all": 127.72
+   },
+   "D4910": {
+    "all": 67.07
+   },
+   "D5110": {
+    "all": 764.4
+   },
+   "D5120": {
+    "all": 764.4
+   },
+   "D5211": {
+    "all": 391.75
+   },
+   "D5212": {
+    "all": 391.75
+   },
+   "D5213": {
+    "all": 1032.42
+   },
+   "D5214": {
+    "all": 1032.42
+   },
+   "D5225": {
+    "all": 650.0
+   },
+   "D5226": {
+    "all": 650.0
+   },
+   "D7140": {
+    "all": 113.36
+   },
+   "D7210": {
+    "all": 113.36
+   },
+   "D7220": {
+    "all": 194.92
+   },
+   "D7230": {
+    "all": 297.62
+   },
+   "D7240": {
+    "all": 370.99
+   },
+   "D7241": {
+    "all": 382.2
+   },
+   "D7250": {
+    "all": 126.13
+   },
+   "D8080": {
+    "all": 1192.46
+   },
+   "D8670": {
+    "all": 500.57
+   },
+   "D8680": {
+    "all": 391.75
+   },
+   "D9222": {
+    "all": 229.32
+   },
+   "D9223": {
+    "all": 133.77
+   },
+   "D9239": {
+    "all": 133.77
+   },
+   "D9243": {
+    "all": 76.44
+   },
+   "D9230": {
+    "all": 57.33
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "all": 33.56
+   },
+   "D0140": {
+    "all": 43.15
+   },
+   "D0150": {
+    "all": 50.35
+   },
+   "D0210": {
+    "all": 117.9
+   },
+   "D0220": {
+    "all": 9.83
+   },
+   "D0274": {
+    "all": 39.3
+   },
+   "D0330": {
+    "all": 88.52
+   },
+   "D1110": {
+    "all": 65.22
+   },
+   "D1120": {
+    "all": 38.22
+   },
+   "D1206": {
+    "all": 29.48
+   },
+   "D1351": {
+    "all": 43.23
+   },
+   "D2140": {
+    "all": 78.6
+   },
+   "D2150": {
+    "all": 103.19
+   },
+   "D2391": {
+    "all": 97.86
+   },
+   "D2392": {
+    "all": 103.19
+   },
+   "D2393": {
+    "all": 124.22
+   },
+   "D2394": {
+    "all": 146.27
+   },
+   "D2740": {
+    "all": 816.55
+   },
+   "D2751": {
+    "all": 470.02
+   },
+   "D2752": {
+    "all": 470.02
+   },
+   "D2930": {
+    "all": 200.27
+   },
+   "D2950": {
+    "all": 146.27
+   },
+   "D3220": {
+    "all": 121.81
+   },
+   "D3310": {
+    "all": 473.22
+   },
+   "D3320": {
+    "all": 569.67
+   },
+   "D3330": {
+    "all": 724.31
+   },
+   "D4341": {
+    "all": 188.62
+   },
+   "D4342": {
+    "all": 127.72
+   },
+   "D4910": {
+    "all": 67.07
+   },
+   "D5110": {
+    "all": 764.4
+   },
+   "D5120": {
+    "all": 764.4
+   },
+   "D5211": {
+    "all": 391.75
+   },
+   "D5212": {
+    "all": 391.75
+   },
+   "D5213": {
+    "all": 1032.42
+   },
+   "D5214": {
+    "all": 1032.42
+   },
+   "D5225": {
+    "all": 650.0
+   },
+   "D5226": {
+    "all": 650.0
+   },
+   "D7140": {
+    "all": 113.36
+   },
+   "D7210": {
+    "all": 113.36
+   },
+   "D7220": {
+    "all": 194.92
+   },
+   "D7230": {
+    "all": 297.62
+   },
+   "D7240": {
+    "all": 370.99
+   },
+   "D7241": {
+    "all": 382.2
+   },
+   "D7250": {
+    "all": 126.13
+   },
+   "D8080": {
+    "all": 1192.46
+   },
+   "D8670": {
+    "all": 500.57
+   },
+   "D8680": {
+    "all": 391.75
+   },
+   "D9222": {
+    "all": 229.32
+   },
+   "D9223": {
+    "all": 133.77
+   },
+   "D9239": {
+    "all": 133.77
+   },
+   "D9243": {
+    "all": 76.44
+   },
+   "D9230": {
+    "all": 57.33
+   }
+  }
+ },
+ {
+  "code": "OK",
+  "name": "Oklahoma",
+  "slug": "oklahoma",
+  "program": "SoonerCare (Oklahoma Health Care Authority) dental fee-for-service",
+  "title": "SoonerCare Dental Fee Schedule 1/01/2026",
+  "url": "https://oklahoma.gov/content/dam/ok/en/okhca/docs/providers/claim-tools/fee-schedules/2026/Dental%20Fee%20Schedule%2001-01-2026%20UPDATED%20FINAL.xlsx",
+  "page": "https://oklahoma.gov/ohca/providers/claim-tools/fee-schedule.html",
+  "effective": "2026-01-01",
+  "retrieved": "2026-10-20",
+  "notes": "Columns 'Child (Age 0-20) Rate' and 'Adult (Age 21+) Rate'. Blank adult rate = not covered for adults (listed in not_covered_adult). XLSX values are cached formula results (VLOOKUP to an internal 'Dental Calculator'); cross-checked against the PDF version of the same schedule (Dental Fee Schedule 01-01-2026 UPDATED FINAL.pdf). D8080 = 'MANUAL' (manual pricing). D3348 row has no effective date printed. Since 2024 most SoonerCare children/adults are in SoonerSelect dental plans (managed care); this is the FFS maximum allowable schedule.",
+  "url2024": null,
+  "effective2024": null,
+  "notes2024": "",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.3802,
+   "adultCharge": 0.4524,
+   "childPrivate": 0.5258,
+   "adultPrivate": 0.6562
+  },
+  "adultBenefit": "Enhanced",
+  "fees": {},
+  "feesNow": {
+   "D0120": {
+    "child": 21.34,
+    "adult": 23.5
+   },
+   "D0140": {
+    "child": 30.49,
+    "adult": 33.57
+   },
+   "D0150": {
+    "child": 30.49,
+    "adult": 33.57
+   },
+   "D0210": {
+    "child": 60.98,
+    "adult": 67.14
+   },
+   "D0220": {
+    "child": 15.24,
+    "adult": 16.79
+   },
+   "D0274": {
+    "child": 30.49,
+    "adult": 33.57
+   },
+   "D0330": {
+    "child": 48.78,
+    "adult": 53.71
+   },
+   "D1110": {
+    "child": 45.73,
+    "adult": 50.36
+   },
+   "D1120": {
+    "child": 30.49
+   },
+   "D1206": {
+    "child": 18.29,
+    "adult": 20.14
+   },
+   "D1351": {
+    "child": 24.39
+   },
+   "D2140": {
+    "child": 60.98,
+    "adult": 67.14
+   },
+   "D2150": {
+    "child": 121.95,
+    "adult": 134.28
+   },
+   "D2391": {
+    "child": 60.98,
+    "adult": 67.14
+   },
+   "D2392": {
+    "child": 121.95,
+    "adult": 134.28
+   },
+   "D2393": {
+    "child": 164.64,
+    "adult": 181.28
+   },
+   "D2394": {
+    "child": 173.79,
+    "adult": 191.35
+   },
+   "D2740": {
+    "child": 609.77
+   },
+   "D2750": {
+    "child": 670.75
+   },
+   "D2751": {
+    "child": 487.82
+   },
+   "D2752": {
+    "child": 548.8
+   },
+   "D2790": {
+    "child": 579.29
+   },
+   "D2930": {
+    "child": 121.95
+   },
+   "D2950": {
+    "child": 121.95
+   },
+   "D2962": {
+    "child": 439.04
+   },
+   "D3220": {
+    "child": 91.47
+   },
+   "D3310": {
+    "child": 310.98
+   },
+   "D3320": {
+    "child": 350.62
+   },
+   "D3330": {
+    "child": 426.84
+   },
+   "D3346": {
+    "child": 335.38
+   },
+   "D3347": {
+    "child": 408.55
+   },
+   "D4341": {
+    "child": 152.44,
+    "adult": 167.85
+   },
+   "D4342": {
+    "child": 82.32,
+    "adult": 90.64
+   },
+   "D4910": {
+    "child": 60.98,
+    "adult": 67.14
+   },
+   "D5110": {
+    "child": 762.22,
+    "adult": 839.25
+   },
+   "D5120": {
+    "child": 762.22,
+    "adult": 839.25
+   },
+   "D5211": {
+    "child": 518.31,
+    "adult": 570.69
+   },
+   "D5212": {
+    "child": 539.65,
+    "adult": 594.19
+   },
+   "D5213": {
+    "child": 914.66,
+    "adult": 1007.1
+   },
+   "D5214": {
+    "child": 914.66,
+    "adult": 1007.1
+   },
+   "D5225": {
+    "child": 649.41,
+    "adult": 715.04
+   },
+   "D5226": {
+    "child": 649.41,
+    "adult": 715.04
+   },
+   "D5820": {
+    "child": 304.89,
+    "adult": 335.7
+   },
+   "D5821": {
+    "child": 304.89,
+    "adult": 335.7
+   },
+   "D7140": {
+    "child": 67.08,
+    "adult": 73.85
+   },
+   "D7210": {
+    "child": 121.95,
+    "adult": 134.28
+   },
+   "D7220": {
+    "child": 140.25,
+    "adult": 154.42
+   },
+   "D7230": {
+    "child": 182.93,
+    "adult": 201.42
+   },
+   "D7240": {
+    "child": 219.52,
+    "adult": 241.7
+   },
+   "D7241": {
+    "child": 304.89,
+    "adult": 335.7
+   },
+   "D7250": {
+    "child": 121.95,
+    "adult": 134.28
+   },
+   "D9222": {
+    "child": 79.27,
+    "adult": 87.28
+   },
+   "D9223": {
+    "child": 79.27,
+    "adult": 87.28
+   },
+   "D9230": {
+    "child": 27.44
+   },
+   "D3348": {
+    "child": 503.06,
+    "adult": 553.91
+   }
+  }
+ },
+ {
+  "code": "OR",
+  "name": "Oregon",
+  "slug": "oregon",
+  "program": "Oregon Health Plan (OHP) fee-for-service (Open Card)",
+  "title": "September 2026 Fee Schedule (September 2026 Medical-Dental Fee Schedule)",
+  "url": "https://www.oregon.gov/oha/HSD/OHP/DataReportsDocs/fee-schedule0926.csv",
+  "page": "https://www.oregon.gov/oha/hsd/ohp/pages/fee-schedule.aspx",
+  "effective": "2026-01-01",
+  "retrieved": "2026-10-20",
+  "notes": "Single medical-dental FFS schedule, no age split ('all'); same file also published as XLSX/PDF (fee-schedule0926.xlsx/.pdf, posted 2026-10-01). 'Price' column used. Per-code effective dates mostly 20260101 (D7140 and D8680 20250101). D8670 price listed as 'Manual'. Page: files are informational only, inclusion does not guarantee payment; adult coverage limited by the Prioritized List. Most OHP members receive dental through CCOs (managed care); this is the FFS schedule. effective_date = latest per-code effective date for most codes; the document itself is the September 2026 monthly edition.",
+  "url2024": "https://www.oregon.gov/oha/HSD/OHP/DataReportsDocs/fee-schedule0624.csv",
+  "effective2024": "2024-06-13",
+  "notes2024": "June 2024 Medical-Dental Fee Schedule (fee-schedule0624, posted 2024-06-13 in the same OHA DataReportsDocs library linked from the fee schedule page; no 0724/0824 edition was published). Every requested dental code has identical price and effective date in the September 2024 edition (fee-schedule0924.xlsx, posted 2024-09-20), so these fees were in force on 2024-07-01. Per-code effective dates: mostly 20110801 / 20180201 (D2740 20220101, D7241 20231001, D8080 and D8680 20240101). 'Manual' (manual pricing) in 2024: D3346, D8070, D8090, D8670, D9222, D9223, D9239. OHP dental FFS rates were raised substantially on 2025-01-01 and 2026-01-01 (e.g. D1110 40.89 -> 73.28). effective_date_2024 = posting date of the edition.",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.2689,
+   "adultCharge": 0.2547,
+   "childPrivate": 0.3908,
+   "adultPrivate": 0.3626
+  },
+  "adultBenefit": "Enhanced",
+  "fees": {
+   "D0120": {
+    "all": 26.03
+   },
+   "D0140": {
+    "all": 34.69
+   },
+   "D0150": {
+    "all": 40.49
+   },
+   "D0210": {
+    "all": 33.61
+   },
+   "D0220": {
+    "all": 10.38
+   },
+   "D0274": {
+    "all": 14.4
+   },
+   "D0330": {
+    "all": 25.21
+   },
+   "D1110": {
+    "all": 40.89
+   },
+   "D1120": {
+    "all": 31.45
+   },
+   "D1206": {
+    "all": 14.27
+   },
+   "D1351": {
+    "all": 21.24
+   },
+   "D2140": {
+    "all": 37.05
+   },
+   "D2150": {
+    "all": 46.6
+   },
+   "D2391": {
+    "all": 37.05
+   },
+   "D2392": {
+    "all": 46.6
+   },
+   "D2393": {
+    "all": 56.71
+   },
+   "D2394": {
+    "all": 64.45
+   },
+   "D2740": {
+    "all": 272.79
+   },
+   "D2751": {
+    "all": 261.89
+   },
+   "D2752": {
+    "all": 272.79
+   },
+   "D2930": {
+    "all": 73.12
+   },
+   "D2950": {
+    "all": 49.11
+   },
+   "D3220": {
+    "all": 49.23
+   },
+   "D3310": {
+    "all": 147.31
+   },
+   "D3320": {
+    "all": 169.14
+   },
+   "D3330": {
+    "all": 212.77
+   },
+   "D4341": {
+    "all": 63.17
+   },
+   "D4342": {
+    "all": 47.37
+   },
+   "D4355": {
+    "all": 49.11
+   },
+   "D4910": {
+    "all": 32.75
+   },
+   "D5110": {
+    "all": 354.63
+   },
+   "D5120": {
+    "all": 354.63
+   },
+   "D5211": {
+    "all": 226.96
+   },
+   "D5212": {
+    "all": 226.96
+   },
+   "D5820": {
+    "all": 154.83
+   },
+   "D5821": {
+    "all": 161.03
+   },
+   "D7140": {
+    "all": 99.58
+   },
+   "D7210": {
+    "all": 113.5
+   },
+   "D7220": {
+    "all": 122.76
+   },
+   "D7230": {
+    "all": 166.4
+   },
+   "D7240": {
+    "all": 204.59
+   },
+   "D7241": {
+    "all": 329.86
+   },
+   "D7250": {
+    "all": 152.76
+   },
+   "D8080": {
+    "all": 3947.0
+   },
+   "D8680": {
+    "all": 290.0
+   },
+   "D9230": {
+    "all": 8.73
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "all": 46.57
+   },
+   "D0140": {
+    "all": 57.0
+   },
+   "D0150": {
+    "all": 66.51
+   },
+   "D0210": {
+    "all": 83.12
+   },
+   "D0220": {
+    "all": 20.87
+   },
+   "D0274": {
+    "all": 45.66
+   },
+   "D0330": {
+    "all": 73.06
+   },
+   "D1110": {
+    "all": 73.28
+   },
+   "D1120": {
+    "all": 56.5
+   },
+   "D1206": {
+    "all": 32.48
+   },
+   "D1351": {
+    "all": 42.9
+   },
+   "D2140": {
+    "all": 93.16
+   },
+   "D2150": {
+    "all": 114.93
+   },
+   "D2391": {
+    "all": 114.22
+   },
+   "D2392": {
+    "all": 147.02
+   },
+   "D2393": {
+    "all": 173.7
+   },
+   "D2394": {
+    "all": 198.0
+   },
+   "D2740": {
+    "all": 571.61
+   },
+   "D2751": {
+    "all": 646.79
+   },
+   "D2752": {
+    "all": 666.59
+   },
+   "D2930": {
+    "all": 192.66
+   },
+   "D2950": {
+    "all": 149.8
+   },
+   "D3220": {
+    "all": 131.06
+   },
+   "D3310": {
+    "all": 467.67
+   },
+   "D3320": {
+    "all": 542.56
+   },
+   "D3330": {
+    "all": 690.7
+   },
+   "D3346": {
+    "all": 758.31
+   },
+   "D4341": {
+    "all": 187.89
+   },
+   "D4342": {
+    "all": 118.0
+   },
+   "D4355": {
+    "all": 119.09
+   },
+   "D4910": {
+    "all": 108.41
+   },
+   "D5110": {
+    "all": 1000.18
+   },
+   "D5120": {
+    "all": 998.05
+   },
+   "D5211": {
+    "all": 781.1
+   },
+   "D5212": {
+    "all": 806.86
+   },
+   "D5820": {
+    "all": 366.89
+   },
+   "D5821": {
+    "all": 362.02
+   },
+   "D7140": {
+    "all": 139.58
+   },
+   "D7210": {
+    "all": 200.82
+   },
+   "D7220": {
+    "all": 228.09
+   },
+   "D7230": {
+    "all": 302.0
+   },
+   "D7240": {
+    "all": 359.6
+   },
+   "D7241": {
+    "all": 356.74
+   },
+   "D7250": {
+    "all": 250.33
+   },
+   "D8070": {
+    "all": 2982.06
+   },
+   "D8080": {
+    "all": 4203.64
+   },
+   "D8090": {
+    "all": 4203.64
+   },
+   "D8680": {
+    "all": 300.15
+   },
+   "D9222": {
+    "all": 139.59
+   },
+   "D9223": {
+    "all": 9.83
+   },
+   "D9230": {
+    "all": 44.08
+   },
+   "D9239": {
+    "all": 41.32
+   },
+   "D9243": {
+    "all": 45.76
+   }
+  }
+ },
+ {
+  "code": "PA",
+  "name": "Pennsylvania",
+  "slug": "pennsylvania",
+  "program": "Pennsylvania Medical Assistance (Medicaid) fee-for-service dental",
+  "title": "Medical Assistance Program Dental Fee Schedule, Effective August 1, 2026",
+  "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/documents/dental-care/dental-fee-schedule.pdf",
+  "page": "https://www.pa.gov/agencies/dhs/resources/for-providers/ma-for-providers/dental-care-provider-information",
+  "effective": "2026-08-01",
+  "retrieved": "2026-10-20",
+  "notes": "Single 'MA Fee' column (population 'all'). Codes marked '*' require a Benefit Limit Exception for individuals 21 and older unless they reside in a NF or ICF: D2740, D2751, D3310, D3320, D3330, D4341, D4342, D4355, D4910. Age limits printed in Limits column: D1110 12 years and older only; D1120 under 12 only; D1206, D1351, D2930, D3220, D9230 under 21 only; D8080 under 21 only; D8670 and D8680 'under 23 years of age only' (as printed). Radiographs: maximum allowance for any combination of dental radiographs per patient per provider per calendar year is $69.00. Crowns: only D2740 and D2751 of the requested crown codes are listed. Not in schedule (omitted): D2750, D2752, D2790, D2950, D2962, D3346-D3348, D5225/D5226, D5820/D5821, implants D6010-D6066, fixed bridge D6240-D6790, D7241, D7953, D8070, D8090. Adults 21+: diagnostic/preventive limited to 1 per 180 days; endodontics, crowns and periodontal services require an approved BLE (per DHS dental provider page). Most PA MA members are in HealthChoices managed care; this is the FFS schedule.",
+  "url2024": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/docs/publications/documents/forms-and-pubs-omap/MAB2024060501.pdf",
+  "effective2024": "2024-05-28",
+  "notes2024": "Edition: attachment 'Medical Assistance Program Dental Fee Schedule, Effective May 28, 2024' to MA Bulletin 27-24-03 (issued June 5, 2024), in force on 2024-07-01 (the next update, MAB 27-25-41, took effect August 1, 2025). Cross-check: the web.archive.org capture of 2024-02-09 of the official file https://www.dhs.pa.gov/providers/Documents/Dental%20Care/Dental%20Fee%20Schedule.pdf ('Effective October 1, 2023', saved in raw/PA) gives identical fees for all 48 requested codes. Single MA Fee column (population all); same 48 codes as the current schedule.",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.3092,
+   "adultCharge": 0.2821,
+   "childPrivate": 0.605,
+   "adultPrivate": 0.5543
+  },
+  "adultBenefit": "Enhanced",
+  "fees": {
+   "D0120": {
+    "all": 20.0
+   },
+   "D0140": {
+    "all": 55.22
+   },
+   "D0150": {
+    "all": 20.0
+   },
+   "D0210": {
+    "all": 45.0
+   },
+   "D0220": {
+    "all": 8.0
+   },
+   "D0274": {
+    "all": 28.0
+   },
+   "D0330": {
+    "all": 37.0
+   },
+   "D1110": {
+    "all": 36.0
+   },
+   "D1120": {
+    "all": 30.0
+   },
+   "D1206": {
+    "all": 18.0
+   },
+   "D1351": {
+    "all": 25.0
+   },
+   "D2140": {
+    "all": 45.0
+   },
+   "D2150": {
+    "all": 55.0
+   },
+   "D2391": {
+    "all": 50.0
+   },
+   "D2392": {
+    "all": 60.0
+   },
+   "D2393": {
+    "all": 65.0
+   },
+   "D2394": {
+    "all": 65.0
+   },
+   "D2740": {
+    "all": 500.0
+   },
+   "D2751": {
+    "all": 500.0
+   },
+   "D2930": {
+    "all": 99.0
+   },
+   "D3220": {
+    "all": 75.0
+   },
+   "D3310": {
+    "all": 275.0
+   },
+   "D3320": {
+    "all": 375.0
+   },
+   "D3330": {
+    "all": 500.0
+   },
+   "D4341": {
+    "all": 75.0
+   },
+   "D4342": {
+    "all": 72.89
+   },
+   "D4355": {
+    "all": 60.0
+   },
+   "D4910": {
+    "all": 44.0
+   },
+   "D5110": {
+    "all": 525.0
+   },
+   "D5120": {
+    "all": 525.0
+   },
+   "D5211": {
+    "all": 375.0
+   },
+   "D5212": {
+    "all": 375.0
+   },
+   "D5213": {
+    "all": 550.0
+   },
+   "D5214": {
+    "all": 550.0
+   },
+   "D7140": {
+    "all": 65.0
+   },
+   "D7210": {
+    "all": 65.0
+   },
+   "D7220": {
+    "all": 90.0
+   },
+   "D7230": {
+    "all": 170.0
+   },
+   "D7240": {
+    "all": 200.0
+   },
+   "D7250": {
+    "all": 100.0
+   },
+   "D8080": {
+    "all": 1000.0
+   },
+   "D8670": {
+    "all": 350.0
+   },
+   "D8680": {
+    "all": 150.0
+   },
+   "D9222": {
+    "all": 122.0
+   },
+   "D9223": {
+    "all": 122.0
+   },
+   "D9239": {
+    "all": 128.5
+   },
+   "D9243": {
+    "all": 128.5
+   },
+   "D9230": {
+    "all": 44.0
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "all": 20.0
+   },
+   "D0140": {
+    "all": 55.22
+   },
+   "D0150": {
+    "all": 20.0
+   },
+   "D0210": {
+    "all": 45.0
+   },
+   "D0220": {
+    "all": 8.0
+   },
+   "D0274": {
+    "all": 28.0
+   },
+   "D0330": {
+    "all": 37.0
+   },
+   "D1110": {
+    "all": 36.0
+   },
+   "D1120": {
+    "all": 30.0
+   },
+   "D1206": {
+    "all": 18.0
+   },
+   "D1351": {
+    "all": 25.0
+   },
+   "D2140": {
+    "all": 45.0
+   },
+   "D2150": {
+    "all": 55.0
+   },
+   "D2391": {
+    "all": 50.0
+   },
+   "D2392": {
+    "all": 60.0
+   },
+   "D2393": {
+    "all": 65.0
+   },
+   "D2394": {
+    "all": 65.0
+   },
+   "D2740": {
+    "all": 500.0
+   },
+   "D2751": {
+    "all": 500.0
+   },
+   "D2930": {
+    "all": 99.0
+   },
+   "D3220": {
+    "all": 75.0
+   },
+   "D3310": {
+    "all": 275.0
+   },
+   "D3320": {
+    "all": 375.0
+   },
+   "D3330": {
+    "all": 500.0
+   },
+   "D4341": {
+    "all": 75.0
+   },
+   "D4342": {
+    "all": 72.89
+   },
+   "D4355": {
+    "all": 60.0
+   },
+   "D4910": {
+    "all": 44.0
+   },
+   "D5110": {
+    "all": 525.0
+   },
+   "D5120": {
+    "all": 525.0
+   },
+   "D5211": {
+    "all": 375.0
+   },
+   "D5212": {
+    "all": 375.0
+   },
+   "D5213": {
+    "all": 550.0
+   },
+   "D5214": {
+    "all": 550.0
+   },
+   "D7140": {
+    "all": 65.0
+   },
+   "D7210": {
+    "all": 65.0
+   },
+   "D7220": {
+    "all": 90.0
+   },
+   "D7230": {
+    "all": 170.0
+   },
+   "D7240": {
+    "all": 200.0
+   },
+   "D7250": {
+    "all": 100.0
+   },
+   "D8080": {
+    "all": 1000.0
+   },
+   "D8670": {
+    "all": 350.0
+   },
+   "D8680": {
+    "all": 150.0
+   },
+   "D9222": {
+    "all": 122.0
+   },
+   "D9223": {
+    "all": 122.0
+   },
+   "D9239": {
+    "all": 128.5
+   },
+   "D9243": {
+    "all": 128.5
+   },
+   "D9230": {
+    "all": 44.0
+   }
+  }
+ },
+ {
+  "code": "TX",
+  "name": "Texas",
+  "slug": "texas",
+  "program": "Texas Medicaid - Texas Health Steps (THSteps) Dental, fee-for-service",
+  "title": "Texas Medicaid Fee Schedule Information - DENTAL (file Texas_Medicaid_Fee_Schedule_PRCR496C, report dated 9/14/2026)",
+  "url": "https://public.tmhp.com/FeeSchedules/StaticFeeSchedule/FeeSchedules.aspx?fn=%5c%5ctmhp.net%5cFeeSchedule%5cPROD%5cStatic%5cTexas_Medicaid_Fee_Schedule_PRCR496C.xls",
+  "page": "https://public.tmhp.com/FeeSchedules/StaticFeeSchedule/FeeSchedules.aspx",
+  "effective": "2026-09-01",
+  "retrieved": "2026-10-20",
+  "notes": "Schedule = static TMHP 'DENTAL' fee schedule (PRCR496C), modified date 9/14/2026 on the page. Used rows for provider type 'TEXAS HEALTH STEPS - DENTAL', Non-facility 'Medicaid Fee' column; fees identical across the other dental provider types except as noted. All listed dental codes are THSteps (children, under 21) benefits; Texas Medicaid has no adult comprehensive dental FFS fees in this schedule, so all fees recorded as 'child'. Per-code 'Fee Effect Date' varies: 29 codes 2026-09-01, 31 codes 2025-09-01, D8070/D8080 2024-10-01, D0140 2025-03-01, D2394 2018-09-01. effective_date = most recent fee effect date in the file. Note codes on restorations: fee is for a permanent tooth; primary tooth paid at a % (D2140 94.31% [D7], D2150 94.79% [D8], D2391 91.56% [D6], D2392 89.82% [D5], D2393 & D2394 86.09% [D3]). D9222: base row 58.50; with modifier UZ 81.76 (recorded base row only). D8090 not in schedule. Most Texas Medicaid/CHIP children's dental is delivered via dental managed care (DMOs), whose rates may differ. Age ranges printed (Frm-Thru, units): D0120 0-20 years; D0140 0-20 years; D0150 0-20 years; D0210 2-20 years; D0220 1-20 years; D0274 2-20 years; D0330 3-20 years; D1110 13-20 years; D1120 6-155 months; D1206 6-251 months; D1351 1-20 years; D2140 0-20 years; D2150 0-20 years; D2391 0-20 years; D2392 0-20 years; D2393 1-20 years; D2394 1-20 years; D2740 13-20 years; D2750 13-20 years; D2751 13-20 years; D2752 13-20 years; D2790 13-20 years; D2930 0-20 years; D2950 4-20 years; D2962 13-20 years; D3220 0-20 years; D3310 6-20 years; D3320 6-20 years; D3330 6-20 years; D3346 6-20 years; D3347 6-20 years; D3348 6-20 years; D4341 13-20 years; D4342 13-20 years; D4355 13-20 years; D4910 13-20 years; D5110 3-20 years; D5120 3-20 years; D5211 6-20 years; D5212 6-20 years; D5213 9-20 years; D5214 9-20 years; D5820 3-20 years; D5821 3-20 years; D6240 16-20 years; D6245 16-20 years; D6750 16-20 years; D6740 16-20 years; D6790 16-20 years; D7140 0-20 years; D7210 1-20 years; D7220 1-20 years; D7230 1-20 years; D7240 1-20 years; D7241 1-20 years; D7250 1-20 years; D8070 0-20 years; D8080 0-20 years; D8670 0-20 years; D8680 0-20 years; D9222 1-20 years; D9222 1-20 years; D9239 1-20 years; D9230 1-20 years",
+  "url2024": "https://web.archive.org/web/20240718005108id_/https://public.tmhp.com/feeschedules/staticfeeschedule/feeschedules.aspx?fn=%5c%5ctmhp.net%5cFeeSchedule%5cPROD%5cStatic%5cTexas_Medicaid_Fee_Schedule_PRCR496C.xls",
+  "effective2024": "2018-09-01",
+  "notes2024": "Edition: web.archive.org capture of 2024-07-18 of the official TMHP static 'DENTAL' fee schedule file (PRCR496C.xls; workbook last saved 2024-06-07), i.e. the file posted on public.tmhp.com in July 2024. Same rules as current: provider type 'TEXAS HEALTH STEPS - DENTAL', non-facility 'Medicaid Fee' column, all fees are THSteps (under 21) -> 'child'. Per-code fee effect dates: 50 codes 2018-09-01, 10 codes 2007-09-01, others 2001/2003; none after 2024-07-01 (effective_date_2024 = most common/latest fee effect date). CAUTION: in this 2024 file 12 codes carry an 'Adjust %' of -2.0, so the 'Adjusted Fee for Report Date' (the amount actually payable) is 2% lower: D0120 29.44->28.85; D0140 19.16->18.78; D0150 36.04->35.32; D0210 72.08->70.64; D0220 12.82->12.56; D0274 35.32->34.61; D0330 65.08->63.78; D1110 56.0->54.88; D1120 37.5->36.75; D1206 15.0->14.7; D1351 28.82->28.24. fees_2024 records the unadjusted 'Medicaid Fee' column (consistent with the current file, where Adjust % is 0); the adjusted amounts are in fees_2024_adjusted. D9222 base row recorded (UZ modifier row 81.76 excluded).",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.4209,
+   "adultCharge": null,
+   "childPrivate": 0.7238,
+   "adultPrivate": null
+  },
+  "adultBenefit": "Emergency",
+  "fees": {
+   "D0120": {
+    "child": 29.44
+   },
+   "D0140": {
+    "child": 19.16
+   },
+   "D0150": {
+    "child": 36.04
+   },
+   "D0210": {
+    "child": 72.08
+   },
+   "D0220": {
+    "child": 12.82
+   },
+   "D0274": {
+    "child": 35.32
+   },
+   "D0330": {
+    "child": 65.08
+   },
+   "D1110": {
+    "child": 56.0
+   },
+   "D1120": {
+    "child": 37.5
+   },
+   "D1206": {
+    "child": 15.0
+   },
+   "D1351": {
+    "child": 28.82
+   },
+   "D2140": {
+    "child": 62.8
+   },
+   "D2150": {
+    "child": 83.57
+   },
+   "D2391": {
+    "child": 80.34
+   },
+   "D2392": {
+    "child": 105.3
+   },
+   "D2393": {
+    "child": 117.98
+   },
+   "D2394": {
+    "child": 131.63
+   },
+   "D2740": {
+    "child": 252.25
+   },
+   "D2750": {
+    "child": 504.5
+   },
+   "D2751": {
+    "child": 504.5
+   },
+   "D2752": {
+    "child": 504.5
+   },
+   "D2790": {
+    "child": 504.5
+   },
+   "D2930": {
+    "child": 149.12
+   },
+   "D2950": {
+    "child": 43.0
+   },
+   "D2962": {
+    "child": 203.04
+   },
+   "D3220": {
+    "child": 84.05
+   },
+   "D3310": {
+    "child": 340.14
+   },
+   "D3320": {
+    "child": 394.14
+   },
+   "D3330": {
+    "child": 596.48
+   },
+   "D3346": {
+    "child": 149.3
+   },
+   "D3347": {
+    "child": 197.08
+   },
+   "D3348": {
+    "child": 262.76
+   },
+   "D4341": {
+    "child": 53.75
+   },
+   "D4342": {
+    "child": 6.69
+   },
+   "D4355": {
+    "child": 71.66
+   },
+   "D4910": {
+    "child": 35.83
+   },
+   "D5110": {
+    "child": 358.31
+   },
+   "D5120": {
+    "child": 358.31
+   },
+   "D5211": {
+    "child": 262.76
+   },
+   "D5212": {
+    "child": 262.76
+   },
+   "D5213": {
+    "child": 382.2
+   },
+   "D5214": {
+    "child": 382.2
+   },
+   "D5820": {
+    "child": 155.27
+   },
+   "D5821": {
+    "child": 155.27
+   },
+   "D6240": {
+    "child": 252.25
+   },
+   "D6245": {
+    "child": 252.25
+   },
+   "D6750": {
+    "child": 252.25
+   },
+   "D6740": {
+    "child": 252.25
+   },
+   "D6790": {
+    "child": 252.25
+   },
+   "D7140": {
+    "child": 64.06
+   },
+   "D7210": {
+    "child": 98.23
+   },
+   "D7220": {
+    "child": 150.49
+   },
+   "D7230": {
+    "child": 171.99
+   },
+   "D7240": {
+    "child": 286.65
+   },
+   "D7241": {
+    "child": 149.3
+   },
+   "D7250": {
+    "child": 88.38
+   },
+   "D8670": {
+    "child": 65.07
+   },
+   "D8680": {
+    "child": 95.55
+   },
+   "D9222": {
+    "child": 58.5
+   },
+   "D9239": {
+    "child": 57.04
+   },
+   "D9230": {
+    "child": 27.11
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "child": 30.59
+   },
+   "D0140": {
+    "child": 18.78
+   },
+   "D0150": {
+    "child": 43.74
+   },
+   "D0210": {
+    "child": 74.9
+   },
+   "D0220": {
+    "child": 13.31
+   },
+   "D0274": {
+    "child": 36.7
+   },
+   "D0330": {
+    "child": 67.63
+   },
+   "D1110": {
+    "child": 58.19
+   },
+   "D1120": {
+    "child": 38.96
+   },
+   "D1206": {
+    "child": 21.16
+   },
+   "D1351": {
+    "child": 29.94
+   },
+   "D2140": {
+    "child": 66.58
+   },
+   "D2150": {
+    "child": 88.6
+   },
+   "D2391": {
+    "child": 85.19
+   },
+   "D2392": {
+    "child": 111.65
+   },
+   "D2393": {
+    "child": 125.09
+   },
+   "D2394": {
+    "child": 131.63
+   },
+   "D2740": {
+    "child": 252.25
+   },
+   "D2750": {
+    "child": 534.93
+   },
+   "D2751": {
+    "child": 534.93
+   },
+   "D2752": {
+    "child": 534.93
+   },
+   "D2790": {
+    "child": 534.93
+   },
+   "D2930": {
+    "child": 158.11
+   },
+   "D2950": {
+    "child": 43.0
+   },
+   "D2962": {
+    "child": 203.04
+   },
+   "D3220": {
+    "child": 89.12
+   },
+   "D3310": {
+    "child": 360.65
+   },
+   "D3320": {
+    "child": 417.91
+   },
+   "D3330": {
+    "child": 632.45
+   },
+   "D3346": {
+    "child": 149.3
+   },
+   "D3347": {
+    "child": 197.08
+   },
+   "D3348": {
+    "child": 262.76
+   },
+   "D4341": {
+    "child": 53.75
+   },
+   "D4342": {
+    "child": 6.69
+   },
+   "D4355": {
+    "child": 71.66
+   },
+   "D4910": {
+    "child": 35.83
+   },
+   "D5110": {
+    "child": 358.31
+   },
+   "D5120": {
+    "child": 358.31
+   },
+   "D5211": {
+    "child": 262.76
+   },
+   "D5212": {
+    "child": 262.76
+   },
+   "D5213": {
+    "child": 382.2
+   },
+   "D5214": {
+    "child": 382.2
+   },
+   "D5820": {
+    "child": 155.27
+   },
+   "D5821": {
+    "child": 155.27
+   },
+   "D6240": {
+    "child": 252.25
+   },
+   "D6245": {
+    "child": 252.25
+   },
+   "D6750": {
+    "child": 252.25
+   },
+   "D6740": {
+    "child": 252.25
+   },
+   "D6790": {
+    "child": 252.25
+   },
+   "D7140": {
+    "child": 67.92
+   },
+   "D7210": {
+    "child": 104.15
+   },
+   "D7220": {
+    "child": 159.56
+   },
+   "D7230": {
+    "child": 182.36
+   },
+   "D7240": {
+    "child": 303.93
+   },
+   "D7241": {
+    "child": 149.3
+   },
+   "D7250": {
+    "child": 88.38
+   },
+   "D8070": {
+    "child": 544.05
+   },
+   "D8080": {
+    "child": 544.05
+   },
+   "D8670": {
+    "child": 65.07
+   },
+   "D8680": {
+    "child": 95.55
+   },
+   "D9222": {
+    "child": 58.5
+   },
+   "D9239": {
+    "child": 57.04
+   },
+   "D9230": {
+    "child": 27.11
+   }
+  }
+ },
+ {
+  "code": "VA",
+  "name": "Virginia",
+  "slug": "virginia",
+  "program": "Virginia Medicaid / FAMIS - Cardinal Care Smiles (dental benefits administrator DentaQuest)",
+  "title": "ATTACHMENT A-1 CARDINAL CARE SMILES (GVWB2005) SCHEDULE OF ALLOWABLE FEES (footer: VA Cardinal Care Smiles 07.01.24)",
+  "url": "https://www.dmas.virginia.gov/media/y3zdxuvi/va-cardinal-care-smiles-fee-schedule-07-01-2024.pdf",
+  "page": "https://www.dmas.virginia.gov/for-providers/rates-and-rate-setting/procedure-fee-files-cpt-codes/",
+  "effective": "2024-07-01",
+  "retrieved": "2026-10-20",
+  "notes": "Most recent schedule published by DMAS; no 2025 or 2026 Cardinal Care Smiles schedule found on dmas.virginia.gov as of 2026-10-20 (PDF metadata shows the file re-saved 2026-05-28 but the content and footer are still 07.01.24). Identical content also at https://dmas.virginia.gov/media/wa4jhogz/va-cardinal-care-smiles-fee-schedule-070124_final.pdf, linked from https://www.dmas.virginia.gov/for-providers/benefits-services-for-providers/dental/for-dentists/. Single fee column, no age split, so population 'all'; header says to refer to DentaQuest's Office Reference Manual for covered services and age limits (e.g. D1120 child prophy, D8xxx orthodontics for children only; adult dental coverage exists since 2021). Dental is carved out to a single PAHP administrator (DentaQuest), not classic FFS; this is the state's schedule of allowable fees. The DMAS procedure fee file (hcpcmedical.csv) lists dental D codes as 'IC' and was not used. Fixed bridge codes D6240/D6245/D6740/D6750/D6790 and veneer D2962 appear with fees in the schedule even though coverage is limited per the ORM.",
+  "url2024": "https://www.dmas.virginia.gov/media/y3zdxuvi/va-cardinal-care-smiles-fee-schedule-07-01-2024.pdf",
+  "effective2024": "2024-07-01",
+  "notes2024": "The current Cardinal Care Smiles schedule is itself the edition effective 07.01.24 (footer 'VA Cardinal Care Smiles 07.01.24'), so it is the schedule in force on 2024-07-01; fees copied unchanged. by_report_2024: none.",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.4625,
+   "adultCharge": 0.4545,
+   "childPrivate": 0.7974,
+   "adultPrivate": 0.7675
+  },
+  "adultBenefit": "Enhanced",
+  "fees": {
+   "D0120": {
+    "all": 26.99
+   },
+   "D0140": {
+    "all": 33.25
+   },
+   "D0150": {
+    "all": 41.92
+   },
+   "D0210": {
+    "all": 96.28
+   },
+   "D0220": {
+    "all": 14.97
+   },
+   "D0274": {
+    "all": 36.96
+   },
+   "D0330": {
+    "all": 72.3
+   },
+   "D1110": {
+    "all": 63.19
+   },
+   "D1120": {
+    "all": 44.89
+   },
+   "D1206": {
+    "all": 27.84
+   },
+   "D1351": {
+    "all": 43.22
+   },
+   "D2140": {
+    "all": 79.51
+   },
+   "D2150": {
+    "all": 101.14
+   },
+   "D2391": {
+    "all": 99.46
+   },
+   "D2392": {
+    "all": 119.41
+   },
+   "D2393": {
+    "all": 154.35
+   },
+   "D2394": {
+    "all": 170.99
+   },
+   "D2740": {
+    "all": 669.5
+   },
+   "D2750": {
+    "all": 669.5
+   },
+   "D2751": {
+    "all": 669.5
+   },
+   "D2752": {
+    "all": 669.5
+   },
+   "D2790": {
+    "all": 669.5
+   },
+   "D2930": {
+    "all": 183.35
+   },
+   "D2950": {
+    "all": 147.65
+   },
+   "D2962": {
+    "all": 484.8
+   },
+   "D3220": {
+    "all": 111.39
+   },
+   "D3310": {
+    "all": 502.13
+   },
+   "D3320": {
+    "all": 575.77
+   },
+   "D3330": {
+    "all": 909.18
+   },
+   "D3346": {
+    "all": 577.45
+   },
+   "D3347": {
+    "all": 662.14
+   },
+   "D3348": {
+    "all": 1045.56
+   },
+   "D4341": {
+    "all": 124.71
+   },
+   "D4342": {
+    "all": 65.71
+   },
+   "D4355": {
+    "all": 104.81
+   },
+   "D4910": {
+    "all": 83.14
+   },
+   "D5110": {
+    "all": 903.63
+   },
+   "D5120": {
+    "all": 903.63
+   },
+   "D5211": {
+    "all": 884.62
+   },
+   "D5212": {
+    "all": 884.62
+   },
+   "D5213": {
+    "all": 993.99
+   },
+   "D5214": {
+    "all": 993.99
+   },
+   "D5225": {
+    "all": 884.62
+   },
+   "D5226": {
+    "all": 884.62
+   },
+   "D6240": {
+    "all": 669.5
+   },
+   "D6245": {
+    "all": 669.5
+   },
+   "D6740": {
+    "all": 669.5
+   },
+   "D6750": {
+    "all": 669.5
+   },
+   "D6790": {
+    "all": 669.5
+   },
+   "D7140": {
+    "all": 92.39
+   },
+   "D7210": {
+    "all": 171.39
+   },
+   "D7220": {
+    "all": 206.21
+   },
+   "D7230": {
+    "all": 285.21
+   },
+   "D7240": {
+    "all": 330.73
+   },
+   "D7241": {
+    "all": 356.17
+   },
+   "D7250": {
+    "all": 171.39
+   },
+   "D8080": {
+    "all": 1408.63
+   },
+   "D8670": {
+    "all": 545.29
+   },
+   "D8680": {
+    "all": 563.75
+   },
+   "D9222": {
+    "all": 85.7
+   },
+   "D9223": {
+    "all": 85.7
+   },
+   "D9230": {
+    "all": 45.18
+   },
+   "D9239": {
+    "all": 70.3
+   },
+   "D9243": {
+    "all": 70.3
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "all": 26.99
+   },
+   "D0140": {
+    "all": 33.25
+   },
+   "D0150": {
+    "all": 41.92
+   },
+   "D0210": {
+    "all": 96.28
+   },
+   "D0220": {
+    "all": 14.97
+   },
+   "D0274": {
+    "all": 36.96
+   },
+   "D0330": {
+    "all": 72.3
+   },
+   "D1110": {
+    "all": 63.19
+   },
+   "D1120": {
+    "all": 44.89
+   },
+   "D1206": {
+    "all": 27.84
+   },
+   "D1351": {
+    "all": 43.22
+   },
+   "D2140": {
+    "all": 79.51
+   },
+   "D2150": {
+    "all": 101.14
+   },
+   "D2391": {
+    "all": 99.46
+   },
+   "D2392": {
+    "all": 119.41
+   },
+   "D2393": {
+    "all": 154.35
+   },
+   "D2394": {
+    "all": 170.99
+   },
+   "D2740": {
+    "all": 669.5
+   },
+   "D2750": {
+    "all": 669.5
+   },
+   "D2751": {
+    "all": 669.5
+   },
+   "D2752": {
+    "all": 669.5
+   },
+   "D2790": {
+    "all": 669.5
+   },
+   "D2930": {
+    "all": 183.35
+   },
+   "D2950": {
+    "all": 147.65
+   },
+   "D2962": {
+    "all": 484.8
+   },
+   "D3220": {
+    "all": 111.39
+   },
+   "D3310": {
+    "all": 502.13
+   },
+   "D3320": {
+    "all": 575.77
+   },
+   "D3330": {
+    "all": 909.18
+   },
+   "D3346": {
+    "all": 577.45
+   },
+   "D3347": {
+    "all": 662.14
+   },
+   "D3348": {
+    "all": 1045.56
+   },
+   "D4341": {
+    "all": 124.71
+   },
+   "D4342": {
+    "all": 65.71
+   },
+   "D4355": {
+    "all": 104.81
+   },
+   "D4910": {
+    "all": 83.14
+   },
+   "D5110": {
+    "all": 903.63
+   },
+   "D5120": {
+    "all": 903.63
+   },
+   "D5211": {
+    "all": 884.62
+   },
+   "D5212": {
+    "all": 884.62
+   },
+   "D5213": {
+    "all": 993.99
+   },
+   "D5214": {
+    "all": 993.99
+   },
+   "D5225": {
+    "all": 884.62
+   },
+   "D5226": {
+    "all": 884.62
+   },
+   "D6240": {
+    "all": 669.5
+   },
+   "D6245": {
+    "all": 669.5
+   },
+   "D6740": {
+    "all": 669.5
+   },
+   "D6750": {
+    "all": 669.5
+   },
+   "D6790": {
+    "all": 669.5
+   },
+   "D7140": {
+    "all": 92.39
+   },
+   "D7210": {
+    "all": 171.39
+   },
+   "D7220": {
+    "all": 206.21
+   },
+   "D7230": {
+    "all": 285.21
+   },
+   "D7240": {
+    "all": 330.73
+   },
+   "D7241": {
+    "all": 356.17
+   },
+   "D7250": {
+    "all": 171.39
+   },
+   "D8080": {
+    "all": 1408.63
+   },
+   "D8670": {
+    "all": 545.29
+   },
+   "D8680": {
+    "all": 563.75
+   },
+   "D9222": {
+    "all": 85.7
+   },
+   "D9223": {
+    "all": 85.7
+   },
+   "D9230": {
+    "all": 45.18
+   },
+   "D9239": {
+    "all": 70.3
+   },
+   "D9243": {
+    "all": 70.3
+   }
+  }
+ },
+ {
+  "code": "WA",
+  "name": "Washington",
+  "slug": "washington",
+  "program": "Washington Apple Health (Medicaid) Dental Program, fee-for-service",
+  "title": "Washington State Health Care Authority (HCA) - Dental Program Fee Schedule - Effective July 1, 2026",
+  "url": "https://www.hca.wa.gov/assets/billers-and-providers/dental-20260701.xlsx",
+  "page": "https://www.hca.wa.gov/billers-providers-partners/prior-authorization-claims-and-billing/provider-billing-guides-and-fee-schedules",
+  "effective": "2026-07-01",
+  "retrieved": "2026-10-20",
+  "notes": "Listed on HCA page as 'July 1, 2026 to present - Dental program fee schedule (published June 23, 2026)'. child = column 'Max fee Dental ages 0-20'; adult = 'Max fee Dental ages 21+'. For D8xxx orthodontic codes the child value comes from column 'Max fee Ortho ages 0-20' (no adult ortho fee). Separate higher ABCD (Access to Baby and Child Dentistry) column not recorded (e.g. D0120 ABCD 41.24, D0150 56.53, D2140 89.05). D1351 adult fee $32.97 is marked '**' = services only for eligible DDA clients 21 and over; D4355 is 'DDA coverage only'. Many codes require PA/EPA (e.g. D2740-D2752 crowns child-only with PA for ages 15-20; no adult crown fee listed). Codes absent from the schedule: implants, bridges (D62xx/D67xx), partials D5213/D5214/D5225/D5226, interim D5820/D5821. Most Apple Health clients are in managed care for medical but dental is FFS via ProviderOne (Apple Health dental is fee-for-service statewide).",
+  "url2024": "https://www.hca.wa.gov/assets/billers-and-providers/dental-20240701.xlsx",
+  "effective2024": "2024-07-01",
+  "notes2024": "Document 'Washington State Health Care Authority (HCA) - Dental Program Fee Schedule - Effective July 1, 2024', downloaded directly from the official HCA assets URL (still served, though no longer linked from the current billing-guides page, which lists editions from July 2025). Same column rules as the current file: child = 'Max fee Dental ages 0-20' (ortho codes from 'Max fee Ortho ages 0-20'), adult = 'Max fee Dental ages 21+'. This edition has an extra 'Max fee Oral Health Connections' column (not recorded) and the ABCD column (not recorded). by_report_2024: [].",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.307,
+   "adultCharge": 0.3937,
+   "childPrivate": 0.4967,
+   "adultPrivate": 0.6227
+  },
+  "adultBenefit": "Enhanced",
+  "fees": {
+   "D0120": {
+    "child": 32.41,
+    "adult": 40.48
+   },
+   "D0140": {
+    "child": 25.76,
+    "adult": 36.8
+   },
+   "D0150": {
+    "child": 44.42,
+    "adult": 49.68
+   },
+   "D0210": {
+    "child": 45.08,
+    "adult": 64.4
+   },
+   "D0220": {
+    "child": 9.02,
+    "adult": 12.88
+   },
+   "D0274": {
+    "child": 15.03,
+    "adult": 16.56
+   },
+   "D0330": {
+    "child": 42.55,
+    "adult": 49.68
+   },
+   "D1110": {
+    "child": 48.13,
+    "adult": 68.76
+   },
+   "D1120": {
+    "child": 32.17
+   },
+   "D1206": {
+    "child": 25.75,
+    "adult": 24.64
+   },
+   "D1351": {
+    "child": 30.77,
+    "adult": 43.96
+   },
+   "D2140": {
+    "child": 69.97,
+    "adult": 66.31
+   },
+   "D2150": {
+    "child": 76.97,
+    "adult": 89.02
+   },
+   "D2391": {
+    "child": 69.97,
+    "adult": 66.31
+   },
+   "D2392": {
+    "child": 82.5,
+    "adult": 89.02
+   },
+   "D2393": {
+    "child": 88.0,
+    "adult": 128.49
+   },
+   "D2394": {
+    "child": 90.16,
+    "adult": 128.8
+   },
+   "D2740": {
+    "child": 560.97
+   },
+   "D2750": {
+    "child": 560.97
+   },
+   "D2751": {
+    "child": 560.97
+   },
+   "D2752": {
+    "child": 560.97
+   },
+   "D2930": {
+    "child": 170.5
+   },
+   "D2950": {
+    "child": 67.9
+   },
+   "D3220": {
+    "child": 104.95
+   },
+   "D3310": {
+    "child": 395.69,
+    "adult": 469.26
+   },
+   "D3320": {
+    "child": 446.12
+   },
+   "D3330": {
+    "child": 543.11
+   },
+   "D3346": {
+    "child": 426.73,
+    "adult": 538.0
+   },
+   "D3347": {
+    "child": 519.83
+   },
+   "D3348": {
+    "child": 640.09
+   },
+   "D4341": {
+    "child": 33.85,
+    "adult": 48.36
+   },
+   "D4342": {
+    "child": 17.59,
+    "adult": 25.13
+   },
+   "D4355": {
+    "child": 98.0,
+    "adult": 140.0
+   },
+   "D4910": {
+    "child": 64.4,
+    "adult": 92.0
+   },
+   "D5110": {
+    "child": 546.32,
+    "adult": 780.45
+   },
+   "D5120": {
+    "child": 546.32,
+    "adult": 780.45
+   },
+   "D5211": {
+    "child": 386.79,
+    "adult": 552.55
+   },
+   "D5212": {
+    "child": 386.79,
+    "adult": 552.55
+   },
+   "D7140": {
+    "child": 57.65,
+    "adult": 60.98
+   },
+   "D7210": {
+    "child": 89.05,
+    "adult": 119.6
+   },
+   "D7220": {
+    "child": 98.81,
+    "adult": 141.15
+   },
+   "D7230": {
+    "child": 154.56,
+    "adult": 220.8
+   },
+   "D7240": {
+    "child": 180.32,
+    "adult": 257.6
+   },
+   "D7241": {
+    "child": 231.84,
+    "adult": 331.2
+   },
+   "D7250": {
+    "child": 89.06,
+    "adult": 119.6
+   },
+   "D8070": {
+    "child": 1432.22
+   },
+   "D8080": {
+    "child": 1432.22
+   },
+   "D8670": {
+    "child": 240.6
+   },
+   "D8680": {
+    "child": 303.6
+   },
+   "D9222": {
+    "child": 109.2,
+    "adult": 156.0
+   },
+   "D9223": {
+    "child": 109.2,
+    "adult": 156.0
+   },
+   "D9239": {
+    "child": 70.0,
+    "adult": 100.0
+   },
+   "D9243": {
+    "child": 70.0,
+    "adult": 100.0
+   },
+   "D9230": {
+    "child": 28.0,
+    "adult": 40.0
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "child": 27.07,
+    "adult": 30.36
+   },
+   "D0140": {
+    "child": 22.78,
+    "adult": 27.6
+   },
+   "D0150": {
+    "child": 39.03,
+    "adult": 37.26
+   },
+   "D0210": {
+    "child": 44.81,
+    "adult": 48.3
+   },
+   "D0220": {
+    "child": 8.47,
+    "adult": 9.66
+   },
+   "D0274": {
+    "child": 15.03,
+    "adult": 12.42
+   },
+   "D0330": {
+    "child": 42.55,
+    "adult": 37.26
+   },
+   "D1110": {
+    "child": 42.19,
+    "adult": 51.57
+   },
+   "D1120": {
+    "child": 32.17
+   },
+   "D1206": {
+    "child": 19.5,
+    "adult": 19.5
+   },
+   "D1351": {
+    "child": 30.93,
+    "adult": 32.97
+   },
+   "D2140": {
+    "child": 59.97,
+    "adult": 49.74
+   },
+   "D2150": {
+    "child": 69.47,
+    "adult": 66.76
+   },
+   "D2391": {
+    "child": 59.97,
+    "adult": 49.74
+   },
+   "D2392": {
+    "child": 72.24,
+    "adult": 66.76
+   },
+   "D2393": {
+    "child": 78.98,
+    "adult": 96.37
+   },
+   "D2394": {
+    "child": 80.06,
+    "adult": 96.6
+   },
+   "D2740": {
+    "child": 560.97
+   },
+   "D2750": {
+    "child": 560.97
+   },
+   "D2751": {
+    "child": 560.97
+   },
+   "D2752": {
+    "child": 560.97
+   },
+   "D2930": {
+    "child": 129.78
+   },
+   "D2950": {
+    "child": 67.9
+   },
+   "D3220": {
+    "child": 74.46
+   },
+   "D3310": {
+    "child": 395.69,
+    "adult": 351.94
+   },
+   "D3320": {
+    "child": 446.12
+   },
+   "D3330": {
+    "child": 543.11
+   },
+   "D3346": {
+    "child": 426.73,
+    "adult": 403.5
+   },
+   "D3347": {
+    "child": 519.83
+   },
+   "D3348": {
+    "child": 640.09
+   },
+   "D4341": {
+    "child": 29.67,
+    "adult": 36.27
+   },
+   "D4342": {
+    "child": 15.42,
+    "adult": 18.85
+   },
+   "D4355": {
+    "child": 84.0,
+    "adult": 105.0
+   },
+   "D4910": {
+    "child": 56.94,
+    "adult": 69.0
+   },
+   "D5110": {
+    "child": 470.07,
+    "adult": 585.34
+   },
+   "D5120": {
+    "child": 470.07,
+    "adult": 585.34
+   },
+   "D5211": {
+    "child": 312.14,
+    "adult": 414.41
+   },
+   "D5212": {
+    "child": 312.14,
+    "adult": 414.41
+   },
+   "D7140": {
+    "child": 57.65,
+    "adult": 45.73
+   },
+   "D7210": {
+    "child": 89.05,
+    "adult": 89.7
+   },
+   "D7220": {
+    "child": 94.38,
+    "adult": 105.86
+   },
+   "D7230": {
+    "child": 141.6,
+    "adult": 165.6
+   },
+   "D7240": {
+    "child": 164.37,
+    "adult": 193.2
+   },
+   "D7241": {
+    "child": 214.87,
+    "adult": 248.4
+   },
+   "D7250": {
+    "child": 89.06,
+    "adult": 89.7
+   },
+   "D8070": {
+    "child": 1432.22
+   },
+   "D8080": {
+    "child": 1432.22
+   },
+   "D8670": {
+    "child": 240.6
+   },
+   "D8680": {
+    "child": 303.6
+   },
+   "D9222": {
+    "child": 93.6,
+    "adult": 117.0
+   },
+   "D9223": {
+    "child": 93.6,
+    "adult": 117.0
+   },
+   "D9239": {
+    "child": 60.0,
+    "adult": 75.0
+   },
+   "D9243": {
+    "child": 60.0,
+    "adult": 75.0
+   },
+   "D9230": {
+    "child": 24.0,
+    "adult": 30.0
+   }
+  }
+ }
+]

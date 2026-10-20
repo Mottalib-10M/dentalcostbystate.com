@@ -1,0 +1,393 @@
+{
+  "state": "MN",
+  "status": "ok",
+  "program": "Minnesota Health Care Programs (Medical Assistance / MinnesotaCare) fee-for-service",
+  "document_title": "Minnesota Health Care Programs Fee Schedule - CURRENT FEE SCHEDULE AS OF 10/12/2026",
+  "source_url": "https://mn.gov/dhs/assets/mhcp-fee-schedule_tcm1053-293968.xlsx",
+  "source_page": "https://mn.gov/dhs/partners-and-providers/policies-procedures/minnesota-health-care-programs/provider/billing/fee-schedule/mhcp.jsp",
+  "effective_date": "2026-10-12",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "all": 12.22
+    },
+    "D0140": {
+      "all": 15.93
+    },
+    "D0150": {
+      "all": 15.93
+    },
+    "D0210": {
+      "all": 38.75
+    },
+    "D0220": {
+      "all": 6.1
+    },
+    "D0274": {
+      "all": 16.31
+    },
+    "D0330": {
+      "all": 35.69
+    },
+    "D1110": {
+      "all": 26.52
+    },
+    "D1120": {
+      "all": 18.34
+    },
+    "D1206": {
+      "all": 14.0
+    },
+    "D1351": {
+      "all": 17.3
+    },
+    "D2140": {
+      "all": 32.57
+    },
+    "D2150": {
+      "all": 41.65
+    },
+    "D2391": {
+      "all": 32.57
+    },
+    "D2392": {
+      "all": 41.65
+    },
+    "D2393": {
+      "all": 50.73
+    },
+    "D2394": {
+      "all": 61.41
+    },
+    "D2930": {
+      "all": 76.51
+    },
+    "D2950": {
+      "all": 76.51
+    },
+    "D3220": {
+      "all": 40.8
+    },
+    "D3310": {
+      "all": 178.55
+    },
+    "D3320": {
+      "all": 214.26
+    },
+    "D3330": {
+      "all": 271.4
+    },
+    "D3346": {
+      "all": 133.67
+    },
+    "D3347": {
+      "all": 161.51
+    },
+    "D3348": {
+      "all": 211.64
+    },
+    "D4341": {
+      "all": 86.15
+    },
+    "D4342": {
+      "all": 60.41
+    },
+    "D4355": {
+      "all": 26.52
+    },
+    "D4910": {
+      "all": 35.69
+    },
+    "D5110": {
+      "all": 474.45
+    },
+    "D5120": {
+      "all": 479.56
+    },
+    "D5211": {
+      "all": 328.04
+    },
+    "D5212": {
+      "all": 380.96
+    },
+    "D5213": {
+      "all": 550.99
+    },
+    "D5214": {
+      "all": 556.09
+    },
+    "D5225": {
+      "all": 558.0
+    },
+    "D5226": {
+      "all": 558.0
+    },
+    "D5820": {
+      "all": 153.04
+    },
+    "D5821": {
+      "all": 163.24
+    },
+    "D6240": {
+      "all": 409.36
+    },
+    "D6750": {
+      "all": 409.36
+    },
+    "D6790": {
+      "all": 409.36
+    },
+    "D7140": {
+      "all": 44.7
+    },
+    "D7210": {
+      "all": 61.21
+    },
+    "D7220": {
+      "all": 86.72
+    },
+    "D7230": {
+      "all": 112.22
+    },
+    "D7240": {
+      "all": 132.64
+    },
+    "D7241": {
+      "all": 153.04
+    },
+    "D7250": {
+      "all": 76.51
+    },
+    "D8070": {
+      "all": 73.09
+    },
+    "D8080": {
+      "all": 73.09
+    },
+    "D8090": {
+      "all": 73.09
+    },
+    "D8670": {
+      "all": 82.88
+    },
+    "D8680": {
+      "all": 115.4
+    },
+    "D9222": {
+      "all": 84.35
+    },
+    "D9223": {
+      "all": 65.31
+    },
+    "D9230": {
+      "all": 9.16
+    },
+    "D9239": {
+      "all": 57.11
+    },
+    "D9243": {
+      "all": 50.36
+    }
+  },
+  "by_report": [
+    "D2740",
+    "D2750",
+    "D2751",
+    "D2752",
+    "D2790",
+    "D2962",
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D6245",
+    "D6740",
+    "D7953"
+  ],
+  "not_covered_or_absent": [],
+  "notes": "Value used = 'TOTAL ALLOW' column (base fee schedule). IMPORTANT: the document's header states 'For all dental services provided on or after 01/01/22, an additional 98% must be added to the fee schedule total amount to determine the total reimbursement amount' - the fees recorded here are the listed base amounts WITHOUT that +98% add-on (actual payment is approx. base x 1.98; not computed here). Header also says exam/x-ray fees for children under 21 are based on 85% of 1999 median charge under factor code Q, but no separate Q-factor rows exist in the file for these codes, so one value per code ('all'). by_report = codes listed with FACT CODE 3 ('general price by report') and no total allowable (crowns D2740-D2790, D2962, implants, D6245, D6740, D7953). 'Inclusion on this report does not imply coverage' (adult coverage limits per MHCP Provider Manual). Fees for D7xxx codes: the 'APC/ASC ALLOW' column (facility) was ignored. Many dental members are in managed care (PMAP) - rates there may differ. Document date: sheet header 'AS OF 10/12/2026' (file modified 2026-10-13).",
+  "fees_2024": {
+    "D0120": {
+      "all": 12.22
+    },
+    "D0140": {
+      "all": 15.93
+    },
+    "D0150": {
+      "all": 15.93
+    },
+    "D0210": {
+      "all": 38.75
+    },
+    "D0220": {
+      "all": 6.1
+    },
+    "D0274": {
+      "all": 16.31
+    },
+    "D0330": {
+      "all": 35.69
+    },
+    "D1110": {
+      "all": 26.52
+    },
+    "D1120": {
+      "all": 18.34
+    },
+    "D1206": {
+      "all": 14.0
+    },
+    "D1351": {
+      "all": 17.3
+    },
+    "D2140": {
+      "all": 32.57
+    },
+    "D2150": {
+      "all": 41.65
+    },
+    "D2391": {
+      "all": 32.57
+    },
+    "D2392": {
+      "all": 41.65
+    },
+    "D2393": {
+      "all": 50.73
+    },
+    "D2394": {
+      "all": 61.41
+    },
+    "D2930": {
+      "all": 76.51
+    },
+    "D2950": {
+      "all": 76.51
+    },
+    "D3220": {
+      "all": 40.8
+    },
+    "D3310": {
+      "all": 178.55
+    },
+    "D3320": {
+      "all": 214.26
+    },
+    "D3330": {
+      "all": 271.4
+    },
+    "D3346": {
+      "all": 133.67
+    },
+    "D3347": {
+      "all": 161.51
+    },
+    "D3348": {
+      "all": 211.64
+    },
+    "D4341": {
+      "all": 86.15
+    },
+    "D4342": {
+      "all": 60.41
+    },
+    "D4355": {
+      "all": 26.52
+    },
+    "D4910": {
+      "all": 35.69
+    },
+    "D5110": {
+      "all": 474.45
+    },
+    "D5120": {
+      "all": 479.56
+    },
+    "D5211": {
+      "all": 328.04
+    },
+    "D5212": {
+      "all": 380.96
+    },
+    "D5213": {
+      "all": 550.99
+    },
+    "D5214": {
+      "all": 556.09
+    },
+    "D5225": {
+      "all": 558.0
+    },
+    "D5226": {
+      "all": 558.0
+    },
+    "D5820": {
+      "all": 153.04
+    },
+    "D5821": {
+      "all": 163.24
+    },
+    "D6240": {
+      "all": 409.36
+    },
+    "D6750": {
+      "all": 409.36
+    },
+    "D6790": {
+      "all": 409.36
+    },
+    "D8070": {
+      "all": 73.09
+    },
+    "D8080": {
+      "all": 73.09
+    },
+    "D8090": {
+      "all": 73.09
+    },
+    "D8670": {
+      "all": 82.88
+    },
+    "D8680": {
+      "all": 115.4
+    },
+    "D9222": {
+      "all": 84.35
+    },
+    "D9223": {
+      "all": 65.31
+    },
+    "D9230": {
+      "all": 9.16
+    },
+    "D9239": {
+      "all": 57.11
+    },
+    "D9243": {
+      "all": 50.36
+    }
+  },
+  "by_report_2024": [
+    "D2740",
+    "D2750",
+    "D2751",
+    "D2752",
+    "D2790",
+    "D2962",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D6245",
+    "D6740",
+    "D7953"
+  ],
+  "source_url_2024": "https://mn.gov/dhs/assets/mhcp-fee-schedule_tcm1053-293968.xlsx",
+  "effective_date_2024": "2024-07-01",
+  "notes_2024": "No archived mid-2024 edition could be retrieved (mn.gov serves only the current file; web.archive.org was rate-limited/offline during this run). Values are derived from the CURRENT schedule (AS OF 10/12/2026) using its 'EFF DATE' column, which the document defines as 'the effective date of the current TOTAL ALLOWABLE': only codes whose current total allowable has an effective date on or before 2024-07-01 are included (that amount was therefore already in force on 2024-07-01). Excluded because the current amount took effect after 2024-07-01 (2024 value unknown): D6010(eff 2025-01-01), D7140(eff 2026-10-01), D7210(eff 2026-10-01), D7220(eff 2026-10-01), D7230(eff 2026-10-01), D7240(eff 2026-10-01), D7241(eff 2026-10-01), D7250(eff 2026-10-01). Base amounts only. +98% add-on: the current header says the additional 98% applies to all dental services provided on or after 01/01/22, and the MHCP Provider Manual 'Payment Methodology - Non-Hospital' page lists '98 percent for dental services MA and MinnesotaCare members (January 2022)', so the add-on applied in 2024 as well (actual 2024 payment approx. base x 1.98). D8070/D8080/D8090 = 73.09 each (FACT CODE 1, eff 2000-01-01): the unit basis (per visit / per month / per case) is NOT stated in the fee schedule, and the MHCP dental manual pages were blocked by a bot-protection captcha, so it could not be verified; 73.09 is clearly not a full-case comprehensive orthodontic fee - treat as unverified."
+}

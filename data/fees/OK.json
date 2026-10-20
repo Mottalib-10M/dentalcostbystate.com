@@ -1,0 +1,261 @@
+{
+  "state": "OK",
+  "status": "ok",
+  "program": "SoonerCare (Oklahoma Health Care Authority) dental fee-for-service",
+  "document_title": "SoonerCare Dental Fee Schedule 1/01/2026",
+  "source_url": "https://oklahoma.gov/content/dam/ok/en/okhca/docs/providers/claim-tools/fee-schedules/2026/Dental%20Fee%20Schedule%2001-01-2026%20UPDATED%20FINAL.xlsx",
+  "source_page": "https://oklahoma.gov/ohca/providers/claim-tools/fee-schedule.html",
+  "effective_date": "2026-01-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "child": 21.34,
+      "adult": 23.5
+    },
+    "D0140": {
+      "child": 30.49,
+      "adult": 33.57
+    },
+    "D0150": {
+      "child": 30.49,
+      "adult": 33.57
+    },
+    "D0210": {
+      "child": 60.98,
+      "adult": 67.14
+    },
+    "D0220": {
+      "child": 15.24,
+      "adult": 16.79
+    },
+    "D0274": {
+      "child": 30.49,
+      "adult": 33.57
+    },
+    "D0330": {
+      "child": 48.78,
+      "adult": 53.71
+    },
+    "D1110": {
+      "child": 45.73,
+      "adult": 50.36
+    },
+    "D1120": {
+      "child": 30.49
+    },
+    "D1206": {
+      "child": 18.29,
+      "adult": 20.14
+    },
+    "D1351": {
+      "child": 24.39
+    },
+    "D2140": {
+      "child": 60.98,
+      "adult": 67.14
+    },
+    "D2150": {
+      "child": 121.95,
+      "adult": 134.28
+    },
+    "D2391": {
+      "child": 60.98,
+      "adult": 67.14
+    },
+    "D2392": {
+      "child": 121.95,
+      "adult": 134.28
+    },
+    "D2393": {
+      "child": 164.64,
+      "adult": 181.28
+    },
+    "D2394": {
+      "child": 173.79,
+      "adult": 191.35
+    },
+    "D2740": {
+      "child": 609.77
+    },
+    "D2750": {
+      "child": 670.75
+    },
+    "D2751": {
+      "child": 487.82
+    },
+    "D2752": {
+      "child": 548.8
+    },
+    "D2790": {
+      "child": 579.29
+    },
+    "D2930": {
+      "child": 121.95
+    },
+    "D2950": {
+      "child": 121.95
+    },
+    "D2962": {
+      "child": 439.04
+    },
+    "D3220": {
+      "child": 91.47
+    },
+    "D3310": {
+      "child": 310.98
+    },
+    "D3320": {
+      "child": 350.62
+    },
+    "D3330": {
+      "child": 426.84
+    },
+    "D3346": {
+      "child": 335.38
+    },
+    "D3347": {
+      "child": 408.55
+    },
+    "D4341": {
+      "child": 152.44,
+      "adult": 167.85
+    },
+    "D4342": {
+      "child": 82.32,
+      "adult": 90.64
+    },
+    "D4910": {
+      "child": 60.98,
+      "adult": 67.14
+    },
+    "D5110": {
+      "child": 762.22,
+      "adult": 839.25
+    },
+    "D5120": {
+      "child": 762.22,
+      "adult": 839.25
+    },
+    "D5211": {
+      "child": 518.31,
+      "adult": 570.69
+    },
+    "D5212": {
+      "child": 539.65,
+      "adult": 594.19
+    },
+    "D5213": {
+      "child": 914.66,
+      "adult": 1007.1
+    },
+    "D5214": {
+      "child": 914.66,
+      "adult": 1007.1
+    },
+    "D5225": {
+      "child": 649.41,
+      "adult": 715.04
+    },
+    "D5226": {
+      "child": 649.41,
+      "adult": 715.04
+    },
+    "D5820": {
+      "child": 304.89,
+      "adult": 335.7
+    },
+    "D5821": {
+      "child": 304.89,
+      "adult": 335.7
+    },
+    "D7140": {
+      "child": 67.08,
+      "adult": 73.85
+    },
+    "D7210": {
+      "child": 121.95,
+      "adult": 134.28
+    },
+    "D7220": {
+      "child": 140.25,
+      "adult": 154.42
+    },
+    "D7230": {
+      "child": 182.93,
+      "adult": 201.42
+    },
+    "D7240": {
+      "child": 219.52,
+      "adult": 241.7
+    },
+    "D7241": {
+      "child": 304.89,
+      "adult": 335.7
+    },
+    "D7250": {
+      "child": 121.95,
+      "adult": 134.28
+    },
+    "D9222": {
+      "child": 79.27,
+      "adult": 87.28
+    },
+    "D9223": {
+      "child": 79.27,
+      "adult": 87.28
+    },
+    "D9230": {
+      "child": 27.44
+    },
+    "D3348": {
+      "child": 503.06,
+      "adult": 553.91
+    }
+  },
+  "by_report": [
+    "D8080"
+  ],
+  "not_covered_or_absent": [
+    "D4355",
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D6240",
+    "D6245",
+    "D6750",
+    "D6740",
+    "D6790",
+    "D7953",
+    "D8070",
+    "D8090",
+    "D8670",
+    "D8680",
+    "D9239",
+    "D9243"
+  ],
+  "not_covered_adult": [
+    "D1120",
+    "D1351",
+    "D2740",
+    "D2750",
+    "D2751",
+    "D2752",
+    "D2790",
+    "D2930",
+    "D2950",
+    "D2962",
+    "D3220",
+    "D3310",
+    "D3320",
+    "D3330",
+    "D3346",
+    "D3347",
+    "D8080",
+    "D9230"
+  ],
+  "notes": "Columns 'Child (Age 0-20) Rate' and 'Adult (Age 21+) Rate'. Blank adult rate = not covered for adults (listed in not_covered_adult). XLSX values are cached formula results (VLOOKUP to an internal 'Dental Calculator'); cross-checked against the PDF version of the same schedule (Dental Fee Schedule 01-01-2026 UPDATED FINAL.pdf). D8080 = 'MANUAL' (manual pricing). D3348 row has no effective date printed. Since 2024 most SoonerCare children/adults are in SoonerSelect dental plans (managed care); this is the FFS maximum allowable schedule."
+}

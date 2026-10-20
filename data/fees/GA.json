@@ -1,0 +1,312 @@
+{
+  "state": "GA",
+  "status": "ok",
+  "program": "Georgia Medicaid / PeachCare for Kids - Dental Services (fee-for-service)",
+  "document_title": "Part II Policies and Procedures for Dental Services - Appendix B Maximum Allowable Charges (manual edition 'Dental Services Q2 - April 2026')",
+  "source_url": "https://www.mmis.georgia.gov/portal/Portals/0/StaticContent/Public/ALL/Handbooks/Dental%20Services%20Q2%20-%20April%202026%2020260318181621.pdf",
+  "source_page": "https://www.mmis.georgia.gov/portal/PubAccess.Provider%20Information/Provider%20Manuals/tabId/18/Default.aspx",
+  "effective_date": "2026-04-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "all": 25.93
+    },
+    "D0140": {
+      "all": 39.25
+    },
+    "D0150": {
+      "all": 44.79
+    },
+    "D0210": {
+      "all": 74.26
+    },
+    "D0220": {
+      "all": 16.4
+    },
+    "D0274": {
+      "all": 40.36
+    },
+    "D0330": {
+      "all": 64.83
+    },
+    "D1110": {
+      "all": 36.53
+    },
+    "D1120": {
+      "all": 36.53
+    },
+    "D1206": {
+      "all": 20.03
+    },
+    "D1351": {
+      "all": 31.83
+    },
+    "D2140": {
+      "all": 73.51
+    },
+    "D2150": {
+      "all": 95.05
+    },
+    "D2391": {
+      "all": 91.94
+    },
+    "D2392": {
+      "all": 113.51
+    },
+    "D2393": {
+      "all": 160.17
+    },
+    "D2394": {
+      "all": 176.18
+    },
+    "D2930": {
+      "all": 180.55
+    },
+    "D3220": {
+      "all": 104.77
+    },
+    "D3310": {
+      "all": 389.34
+    },
+    "D3320": {
+      "all": 475.27
+    },
+    "D4341": {
+      "all": 144.28
+    },
+    "D4342": {
+      "all": 108.21
+    },
+    "D4910": {
+      "all": 43.26
+    },
+    "D5110": {
+      "all": 690.62
+    },
+    "D5120": {
+      "all": 690.62
+    },
+    "D5211": {
+      "all": 583.48
+    },
+    "D5212": {
+      "all": 677.89
+    },
+    "D6240": {
+      "all": 569.97
+    },
+    "D6750": {
+      "all": 595.7
+    },
+    "D7140": {
+      "all": 82.8
+    },
+    "D7210": {
+      "all": 153.51
+    },
+    "D7220": {
+      "all": 164.43
+    },
+    "D7230": {
+      "all": 219.6
+    },
+    "D7240": {
+      "all": 257.79
+    },
+    "D7250": {
+      "all": 138.97
+    },
+    "D8080": {
+      "all": 865.74
+    },
+    "D8670": {
+      "all": 108.21
+    },
+    "D9222": {
+      "all": 118.07
+    },
+    "D9223": {
+      "all": 142.51
+    },
+    "D9239": {
+      "all": 116.11
+    },
+    "D9243": {
+      "all": 116.11
+    },
+    "D9230": {
+      "all": 27.58
+    }
+  },
+  "by_report": [],
+  "not_covered_or_absent": [
+    "D2740",
+    "D2750",
+    "D2751",
+    "D2752",
+    "D2790",
+    "D2950",
+    "D2962",
+    "D3330",
+    "D3346",
+    "D3347",
+    "D3348",
+    "D4355",
+    "D5213",
+    "D5214",
+    "D5225",
+    "D5226",
+    "D5820",
+    "D5821",
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D6245",
+    "D6740",
+    "D6790",
+    "D7241",
+    "D7953",
+    "D8070",
+    "D8090",
+    "D8680"
+  ],
+  "notes": "ACCESS CAVEAT: mmis.georgia.gov times out from this machine (and WebFetch is refused), so the official PDF was downloaded as the Wayback Machine capture of its official URL dated 2026-06-09 (http://web.archive.org/web/20260609235102id_/<source_url>). It is the newest Dental Services manual found in the archive; quarterly July 2026 / October 2026 editions may exist on GAMMIS but could not be seen - DOUBT, re-check from a US connection. Effective date = edition quarter (April 2026); the CMS-approved SPA GA-25-0005 raised most of these codes by 2.5% effective 2025-07-01 and states all rates are published in this manual. Single 'Max Allow' column; COS indicator 'Health Check & Adults' for most codes (population 'all'); D1120 is 'Health Check Only' (children under 21); D4342 and D4910 are 'Pregnant Women Only'. Multiple rows in Appendix B (value recorded under 'all' = permanent tooth / two-or-more-teeth / first tooth row): D2140 primary 67.56 (Health Check Only) vs permanent 73.51; D2150 primary 87.03 (Health Check Only) vs permanent 95.05; D2392 primary 108.45 vs permanent 113.51; D2393 primary 133.67 vs permanent 160.17; D2394 primary 147.04 vs permanent 176.18; D3310 primary 79.58 vs permanent 389.34; D5211 single tooth 283.56 vs two or more 583.48; D5212 single tooth 283.56 vs two or more 677.89; D7140 first tooth 82.80, each additional 79.19. Most Georgia Medicaid/PeachCare members are in CMOs whose dental vendors may pay differently; these are the state FFS maximum allowable charges.",
+  "fees_2024": {
+    "D0120": {
+      "all": 25.3
+    },
+    "D0140": {
+      "all": 38.29
+    },
+    "D0150": {
+      "all": 43.7
+    },
+    "D0210": {
+      "all": 72.45
+    },
+    "D0220": {
+      "all": 16.0
+    },
+    "D0274": {
+      "all": 39.38
+    },
+    "D0330": {
+      "all": 63.25
+    },
+    "D1110": {
+      "all": 35.64
+    },
+    "D1120": {
+      "all": 35.64
+    },
+    "D1206": {
+      "all": 19.54
+    },
+    "D1351": {
+      "all": 31.05
+    },
+    "D2140": {
+      "all": 73.51
+    },
+    "D2150": {
+      "all": 95.05
+    },
+    "D2391": {
+      "all": 89.7
+    },
+    "D2392": {
+      "all": 110.74
+    },
+    "D2393": {
+      "all": 156.26
+    },
+    "D2394": {
+      "all": 171.88
+    },
+    "D2930": {
+      "all": 176.15
+    },
+    "D3220": {
+      "all": 102.21
+    },
+    "D3310": {
+      "all": 379.84
+    },
+    "D3320": {
+      "all": 463.68
+    },
+    "D4341": {
+      "all": 140.76
+    },
+    "D4342": {
+      "all": 105.57
+    },
+    "D4910": {
+      "all": 42.2
+    },
+    "D5110": {
+      "all": 673.78
+    },
+    "D5120": {
+      "all": 673.78
+    },
+    "D5211": {
+      "all": 569.25
+    },
+    "D5212": {
+      "all": 661.36
+    },
+    "D6240": {
+      "all": 556.07
+    },
+    "D6750": {
+      "all": 581.17
+    },
+    "D7140": {
+      "all": 80.78
+    },
+    "D7210": {
+      "all": 149.77
+    },
+    "D7220": {
+      "all": 160.42
+    },
+    "D7230": {
+      "all": 214.24
+    },
+    "D7240": {
+      "all": 251.5
+    },
+    "D7250": {
+      "all": 135.58
+    },
+    "D8080": {
+      "all": 844.62
+    },
+    "D8670": {
+      "all": 105.57
+    },
+    "D9222": {
+      "all": 115.19
+    },
+    "D9223": {
+      "all": 115.19
+    },
+    "D9239": {
+      "all": 113.28
+    },
+    "D9243": {
+      "all": 113.28
+    },
+    "D9230": {
+      "all": 26.91
+    }
+  },
+  "source_url_2024": "https://www.mmis.georgia.gov/portal/Portals/0/StaticContent/Public/ALL/HANDBOOKS/Dental%20Services%20Q4-October%202024%2020241022142959.pdf",
+  "effective_date_2024": "2024-10-01",
+  "notes_2024": "Edition 'Dental Services Q4-October 2024' (file stamped 2024-10-22), Appendix B Maximum Allowable Charges, downloaded via Wayback capture of the official URL dated 2025-01-14. The April 2024 v2 edition that was current on 2024-07-01 is not archived (Wayback shows 404). The October 2024 edition is used as the closest proxy: it already states 'Effective July 1, 2024, all procedure codes indicated in Appendix B are available to Members regardless of age', Georgia dental rate changes are made on July 1 (state fiscal year), and for most codes its fees are about 2.5% below the April 2026 fees, matching SPA GA-25-0005 effective 2025-07-01 (exception: D9223 115.19 -> 142.51; D2140/D2150 permanent unchanged). So these fees are very probably the ones in force on 2024-07-01, but no document dated on or before 2024-07-01 was seen - small DOUBT. Same multi-row convention: D2140 primary 65.91 vs permanent 73.51; D2150 primary 84.91 vs permanent 95.05; D2392 primary 105.80 vs permanent 110.74; D2393 primary 130.41 vs permanent 156.26; D2394 primary 143.45 vs permanent 171.88; D3310 primary 77.64 vs permanent 379.84; D5211 single 276.64 vs two or more 569.25; D5212 single 276.64 vs two or more 661.36; D7140 first 80.78, each additional 77.26."
+}

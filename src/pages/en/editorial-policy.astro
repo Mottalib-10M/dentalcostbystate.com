@@ -1,0 +1,23 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route } from '../../i18n/routes';
+import { AUTHOR_NAME, REVIEW_CYCLE_MONTHS } from '../../data/site-config';
+const lang = 'en';
+---
+<PageLayout title="Editorial policy of Dental Cost by State: public schedules, dated" description="How Dental Cost by State writes its pages: state fee schedules and published ratios only, every price computed by a script from dated documents, no treatment advice, no money from dentists." lang={lang} noindex={true} breadcrumbs={[{ label: 'Editorial policy' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Editorial policy</h1>
+    <h2>What counts as a source</h2>
+    <p>Fees come from the dental fee schedules published by state Medicaid programs, read in the official file and recorded with its address and effective date. The ratios that turn a Medicaid fee into a typical charge come from the American Dental Association Health Policy Institute's public workbook. Price changes come from the Bureau of Labor Statistics, plan rules from the documents of a public exchange, credit rates from the Federal Reserve and credit rules from Regulation Z. Clinic, lender and insurer articles are read to know what people ask, never as a source of a number.</p>
+    <h2>How a price reaches a page</h2>
+    <p>No price is typed into the text. A script reads each schedule and writes the fees by code; the pages compute every figure from those files when the site is built. A procedure whose codes are not all in a state's schedule is not priced there. Commercial fee databases sold under license are not used or copied.</p>
+    <h2>Health pages</h2>
+    <p>The site describes prices and how plans pay, never which treatment a person needs. It does not compare the medical merits of an implant, a bridge or a denture, and it says so on the pages where the question arises. Anything about your mouth is a question for a dentist.</p>
+    <h2>What is to come is labeled</h2>
+    <p>A fee schedule announced but not yet in force, or a plan change for next year, is shown as to come, with its date, never as the current rule. A figure we cannot trace to an official or public document is not published.</p>
+    <h2>Independence</h2>
+    <p>{AUTHOR_NAME} receives nothing from dentists, dental chains, insurers, discount plans, lenders or lead buyers and links to none of them. There is no advertising today; if some is added it will be labeled, limited to three places a page, and never placed above a calculator.</p>
+    <h2>Review and corrections</h2>
+    <p>The site is reviewed at least every {REVIEW_CYCLE_MONTHS} months, and when a state publishes a new schedule, the ADA publishes new ratios or the price index moves. A reported error is checked against the source and, once fixed, moves the date shown on the page. Write through the <a href={route('contact', lang)}>contact page</a>; the steps are on the <a href={route('method', lang)}>method page</a>.</p>
+  </div>
+</PageLayout>

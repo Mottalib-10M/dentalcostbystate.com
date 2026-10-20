@@ -1,0 +1,227 @@
+{
+  "state": "IA",
+  "status": "ok",
+  "program": "Iowa Medicaid fee-for-service - Fee Schedule #04 DENTIST",
+  "document_title": "Fee Schedule #04 - DENTIST (Iowa Medicaid Open Fee Schedules)",
+  "source_url": "https://secureapp.dhs.state.ia.us/MedicaidFeeSched/C04.csv",
+  "source_page": "https://hhs.iowa.gov/medicaid/provider-services/covered-services-rates-and-payments/fee-schedules",
+  "effective_date": "2026-03-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "all": 19.26
+    },
+    "D0140": {
+      "all": 30.1
+    },
+    "D0150": {
+      "all": 27.69
+    },
+    "D0210": {
+      "all": 60.19
+    },
+    "D0220": {
+      "all": 12.04
+    },
+    "D0274": {
+      "all": 28.9
+    },
+    "D0330": {
+      "all": 54.17
+    },
+    "D1110": {
+      "all": 44.75
+    },
+    "D1120": {
+      "all": 30.69
+    },
+    "D1206": {
+      "all": 17.9
+    },
+    "D1351": {
+      "all": 25.57
+    },
+    "D2140": {
+      "all": 51.06
+    },
+    "D2150": {
+      "all": 64.68
+    },
+    "D2391": {
+      "all": 57.86
+    },
+    "D2392": {
+      "all": 80.35
+    },
+    "D2393": {
+      "all": 85.1
+    },
+    "D2394": {
+      "all": 96.45
+    },
+    "D2740": {
+      "all": 469.79
+    },
+    "D2750": {
+      "all": 522.0
+    },
+    "D2751": {
+      "all": 465.25
+    },
+    "D2752": {
+      "all": 527.67
+    },
+    "D2790": {
+      "all": 465.25
+    },
+    "D2930": {
+      "all": 113.48
+    },
+    "D2950": {
+      "all": 122.82
+    },
+    "D3220": {
+      "all": 62.6
+    },
+    "D3310": {
+      "all": 269.81
+    },
+    "D3320": {
+      "all": 323.78
+    },
+    "D3330": {
+      "all": 415.53
+    },
+    "D3346": {
+      "all": 296.79
+    },
+    "D3347": {
+      "all": 356.17
+    },
+    "D3348": {
+      "all": 534.24
+    },
+    "D4341": {
+      "all": 102.35
+    },
+    "D4342": {
+      "all": 38.4
+    },
+    "D4355": {
+      "all": 51.17
+    },
+    "D4910": {
+      "all": 61.41
+    },
+    "D5110": {
+      "all": 677.04
+    },
+    "D5120": {
+      "all": 670.54
+    },
+    "D5211": {
+      "all": 325.49
+    },
+    "D5212": {
+      "all": 423.15
+    },
+    "D5213": {
+      "all": 751.86
+    },
+    "D5214": {
+      "all": 751.86
+    },
+    "D5225": {
+      "all": 641.88
+    },
+    "D5226": {
+      "all": 641.88
+    },
+    "D6010": {
+      "all": 1078.94
+    },
+    "D6056": {
+      "all": 471.43
+    },
+    "D6057": {
+      "all": 552.0
+    },
+    "D6058": {
+      "all": 775.79
+    },
+    "D6240": {
+      "all": 399.17
+    },
+    "D6245": {
+      "all": 399.17
+    },
+    "D6740": {
+      "all": 423.73
+    },
+    "D6750": {
+      "all": 430.89
+    },
+    "D6790": {
+      "all": 262.39
+    },
+    "D7140": {
+      "all": 55.18
+    },
+    "D7210": {
+      "all": 97.23
+    },
+    "D7220": {
+      "all": 138.17
+    },
+    "D7230": {
+      "all": 184.23
+    },
+    "D7240": {
+      "all": 214.92
+    },
+    "D7241": {
+      "all": 191.38
+    },
+    "D7250": {
+      "all": 100.3
+    },
+    "D8070": {
+      "all": 1104.03
+    },
+    "D8080": {
+      "all": 3172.88
+    },
+    "D8680": {
+      "all": 149.06
+    },
+    "D9222": {
+      "all": 89.39
+    },
+    "D9223": {
+      "all": 86.11
+    },
+    "D9230": {
+      "all": 28.18
+    },
+    "D9239": {
+      "all": 78.7
+    },
+    "D9243": {
+      "all": 77.51
+    }
+  },
+  "by_report": [
+    "D6059",
+    "D6065",
+    "D6066",
+    "D7953"
+  ],
+  "not_covered_or_absent": [
+    "D2962",
+    "D5820",
+    "D5821",
+    "D8090",
+    "D8670"
+  ],
+  "notes": "'Factor' column used with Factor Code F (fee schedule). Factor Code M with 0.00 (manual pricing) recorded in by_report: D6059, D6065, D6066, D7953. Single schedule, no age split. Per-code Eff Date varies: diagnostic/preventive codes 03/01/2026 (5.874% D&P increase, SPA IA-26-0002), restorative/prosthetic/sedation mostly 07/01/2025, periodontal/oral surgery many 07/01/2013; effective_date field = latest per-code date. Page says 'Open Fee Schedules (Updated October 2026)'. Same data in X04.xml. Most Iowa Medicaid members get dental through the Dental Wellness Plan / Hawki dental PAHPs (managed care); this is the FFS schedule. Listing does not imply coverage (adult implants etc. subject to criteria)."
+}

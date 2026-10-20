@@ -1,0 +1,32 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { route } from '../../i18n/routes';
+import { AUTHOR_NAME, AUTHOR_DESC, CONTACT_EMAIL } from '../../data/site-config';
+import { src } from '../../lib/helpers';
+import { VALUE } from '../../content/home';
+import { KIT as K } from '../../lib/kit';
+import { profilePageSchema, breadcrumbSchema } from '../../lib/seo';
+const lang = 'en';
+const path = route('about', lang);
+const title = 'Dental Price Estimates 2026: Who Runs Dental Cost by State';
+const description = 'Dental Cost by State is published by Radif Partners from state Medicaid fee schedules and ADA ratios: no referral, no plan or loan sold, no details asked.';
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={[profilePageSchema({ path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'About', path }])]} breadcrumbs={[{ label: 'About' }]}>
+  <article class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>About Dental Cost by State</h1>
+    <p>{AUTHOR_DESC.en}</p>
+    <h2>The gap this site fills</h2>
+    <p>Search for the cost of an implant, a crown or braces and the first pages are written by clinics, lenders and insurers. They give one national range, rarely say where it comes from or what year it describes, and end with a booking button or a credit application. A patient holding a quote cannot tell from them whether it is usual for the state, or how much of it a dental plan will really pay once the deductible and the yearly maximum are counted.</p>
+    <p>{VALUE}</p>
+    <h2>Who publishes it</h2>
+    <p>The site is published by {AUTHOR_NAME}, a company that builds calculators on public rules and public data. It is not a dental office, a dental association, an insurer, a discount plan, a lender or a referral service. It has no partner to send you to, receives no commission and carries no affiliate link.</p>
+    <LegalIdentity lang={lang} />
+    <h2>What we rely on</h2>
+    <p>The dental fee schedules that {K.STATES.length} state Medicaid programs publish, each named and dated on its state page; the ratios of the American Dental Association Health Policy Institute between Medicaid fees, dentists' charges and private insurance payments in each state (<Fragment set:html={src('ada_hpi_2024', '2024 workbook')} />); the Bureau of Labor Statistics price index for dental services (<Fragment set:html={src('bls_cpi_dental', 'series CUUR0000SEMC02')} />); the 2026 dental plan designs of Covered California for the example plan (<Fragment set:html={src('covered_ca_2026', 'board document')} />); and the Federal Reserve's G.19 release for credit rates.</p>
+    <h2>What the site leaves out</h2>
+    <p>It gives prices, never treatment advice: whether a tooth should be saved, replaced or left alone is a question for a dentist. It does not quote your own office's fees, and it does not reproduce the commercial fee databases that dentists and insurers license. Brand-name aligner prices and procedures whose codes are missing from a state's schedule are not estimated. The <a href={route('method', lang)}>method page</a> lists every step and its limits; the <a href={route('editorial', lang)}>editorial policy</a> explains corrections.</p>
+    <h2>Contact</h2>
+    <p><a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>, for corrections and sources. We answer questions about a figure or a document, not about your own teeth or your own plan.</p>
+  </article>
+</PageLayout>

@@ -1,0 +1,337 @@
+{
+  "state": "PA",
+  "status": "ok",
+  "program": "Pennsylvania Medical Assistance (Medicaid) fee-for-service dental",
+  "document_title": "Medical Assistance Program Dental Fee Schedule, Effective August 1, 2026",
+  "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/documents/dental-care/dental-fee-schedule.pdf",
+  "source_page": "https://www.pa.gov/agencies/dhs/resources/for-providers/ma-for-providers/dental-care-provider-information",
+  "effective_date": "2026-08-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "all": 20.0
+    },
+    "D0140": {
+      "all": 55.22
+    },
+    "D0150": {
+      "all": 20.0
+    },
+    "D0210": {
+      "all": 45.0
+    },
+    "D0220": {
+      "all": 8.0
+    },
+    "D0274": {
+      "all": 28.0
+    },
+    "D0330": {
+      "all": 37.0
+    },
+    "D1110": {
+      "all": 36.0
+    },
+    "D1120": {
+      "all": 30.0
+    },
+    "D1206": {
+      "all": 18.0
+    },
+    "D1351": {
+      "all": 25.0
+    },
+    "D2140": {
+      "all": 45.0
+    },
+    "D2150": {
+      "all": 55.0
+    },
+    "D2391": {
+      "all": 50.0
+    },
+    "D2392": {
+      "all": 60.0
+    },
+    "D2393": {
+      "all": 65.0
+    },
+    "D2394": {
+      "all": 65.0
+    },
+    "D2740": {
+      "all": 500.0
+    },
+    "D2751": {
+      "all": 500.0
+    },
+    "D2930": {
+      "all": 99.0
+    },
+    "D3220": {
+      "all": 75.0
+    },
+    "D3310": {
+      "all": 275.0
+    },
+    "D3320": {
+      "all": 375.0
+    },
+    "D3330": {
+      "all": 500.0
+    },
+    "D4341": {
+      "all": 75.0
+    },
+    "D4342": {
+      "all": 72.89
+    },
+    "D4355": {
+      "all": 60.0
+    },
+    "D4910": {
+      "all": 44.0
+    },
+    "D5110": {
+      "all": 525.0
+    },
+    "D5120": {
+      "all": 525.0
+    },
+    "D5211": {
+      "all": 375.0
+    },
+    "D5212": {
+      "all": 375.0
+    },
+    "D5213": {
+      "all": 550.0
+    },
+    "D5214": {
+      "all": 550.0
+    },
+    "D7140": {
+      "all": 65.0
+    },
+    "D7210": {
+      "all": 65.0
+    },
+    "D7220": {
+      "all": 90.0
+    },
+    "D7230": {
+      "all": 170.0
+    },
+    "D7240": {
+      "all": 200.0
+    },
+    "D7250": {
+      "all": 100.0
+    },
+    "D8080": {
+      "all": 1000.0
+    },
+    "D8670": {
+      "all": 350.0
+    },
+    "D8680": {
+      "all": 150.0
+    },
+    "D9222": {
+      "all": 122.0
+    },
+    "D9223": {
+      "all": 122.0
+    },
+    "D9239": {
+      "all": 128.5
+    },
+    "D9243": {
+      "all": 128.5
+    },
+    "D9230": {
+      "all": 44.0
+    }
+  },
+  "by_report": [],
+  "not_covered_or_absent": [
+    "D2750",
+    "D2752",
+    "D2790",
+    "D2950",
+    "D2962",
+    "D3346",
+    "D3347",
+    "D3348",
+    "D5225",
+    "D5226",
+    "D5820",
+    "D5821",
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D6240",
+    "D6245",
+    "D6750",
+    "D6740",
+    "D6790",
+    "D7241",
+    "D7953",
+    "D8070",
+    "D8090"
+  ],
+  "notes": "Single 'MA Fee' column (population 'all'). Codes marked '*' require a Benefit Limit Exception for individuals 21 and older unless they reside in a NF or ICF: D2740, D2751, D3310, D3320, D3330, D4341, D4342, D4355, D4910. Age limits printed in Limits column: D1110 12 years and older only; D1120 under 12 only; D1206, D1351, D2930, D3220, D9230 under 21 only; D8080 under 21 only; D8670 and D8680 'under 23 years of age only' (as printed). Radiographs: maximum allowance for any combination of dental radiographs per patient per provider per calendar year is $69.00. Crowns: only D2740 and D2751 of the requested crown codes are listed. Not in schedule (omitted): D2750, D2752, D2790, D2950, D2962, D3346-D3348, D5225/D5226, D5820/D5821, implants D6010-D6066, fixed bridge D6240-D6790, D7241, D7953, D8070, D8090. Adults 21+: diagnostic/preventive limited to 1 per 180 days; endodontics, crowns and periodontal services require an approved BLE (per DHS dental provider page). Most PA MA members are in HealthChoices managed care; this is the FFS schedule.",
+  "fees_2024": {
+    "D0120": {
+      "all": 20.0
+    },
+    "D0140": {
+      "all": 55.22
+    },
+    "D0150": {
+      "all": 20.0
+    },
+    "D0210": {
+      "all": 45.0
+    },
+    "D0220": {
+      "all": 8.0
+    },
+    "D0274": {
+      "all": 28.0
+    },
+    "D0330": {
+      "all": 37.0
+    },
+    "D1110": {
+      "all": 36.0
+    },
+    "D1120": {
+      "all": 30.0
+    },
+    "D1206": {
+      "all": 18.0
+    },
+    "D1351": {
+      "all": 25.0
+    },
+    "D2140": {
+      "all": 45.0
+    },
+    "D2150": {
+      "all": 55.0
+    },
+    "D2391": {
+      "all": 50.0
+    },
+    "D2392": {
+      "all": 60.0
+    },
+    "D2393": {
+      "all": 65.0
+    },
+    "D2394": {
+      "all": 65.0
+    },
+    "D2740": {
+      "all": 500.0
+    },
+    "D2751": {
+      "all": 500.0
+    },
+    "D2930": {
+      "all": 99.0
+    },
+    "D3220": {
+      "all": 75.0
+    },
+    "D3310": {
+      "all": 275.0
+    },
+    "D3320": {
+      "all": 375.0
+    },
+    "D3330": {
+      "all": 500.0
+    },
+    "D4341": {
+      "all": 75.0
+    },
+    "D4342": {
+      "all": 72.89
+    },
+    "D4355": {
+      "all": 60.0
+    },
+    "D4910": {
+      "all": 44.0
+    },
+    "D5110": {
+      "all": 525.0
+    },
+    "D5120": {
+      "all": 525.0
+    },
+    "D5211": {
+      "all": 375.0
+    },
+    "D5212": {
+      "all": 375.0
+    },
+    "D5213": {
+      "all": 550.0
+    },
+    "D5214": {
+      "all": 550.0
+    },
+    "D7140": {
+      "all": 65.0
+    },
+    "D7210": {
+      "all": 65.0
+    },
+    "D7220": {
+      "all": 90.0
+    },
+    "D7230": {
+      "all": 170.0
+    },
+    "D7240": {
+      "all": 200.0
+    },
+    "D7250": {
+      "all": 100.0
+    },
+    "D8080": {
+      "all": 1000.0
+    },
+    "D8670": {
+      "all": 350.0
+    },
+    "D8680": {
+      "all": 150.0
+    },
+    "D9222": {
+      "all": 122.0
+    },
+    "D9223": {
+      "all": 122.0
+    },
+    "D9239": {
+      "all": 128.5
+    },
+    "D9243": {
+      "all": 128.5
+    },
+    "D9230": {
+      "all": 44.0
+    }
+  },
+  "source_url_2024": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/docs/publications/documents/forms-and-pubs-omap/MAB2024060501.pdf",
+  "effective_date_2024": "2024-05-28",
+  "notes_2024": "Edition: attachment 'Medical Assistance Program Dental Fee Schedule, Effective May 28, 2024' to MA Bulletin 27-24-03 (issued June 5, 2024), in force on 2024-07-01 (the next update, MAB 27-25-41, took effect August 1, 2025). Cross-check: the web.archive.org capture of 2024-02-09 of the official file https://www.dhs.pa.gov/providers/Documents/Dental%20Care/Dental%20Fee%20Schedule.pdf ('Effective October 1, 2023', saved in raw/PA) gives identical fees for all 48 requested codes. Single MA Fee column (population all); same 48 codes as the current schedule."
+}

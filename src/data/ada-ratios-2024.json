@@ -1,0 +1,470 @@
+{
+ "national": {
+  "childCharge": 0.392,
+  "adultCharge": 0.299,
+  "childPrivate": 0.666,
+  "adultPrivate": 0.4977,
+  "adultBenefit": null
+ },
+ "states": [
+  {
+   "code": "AL",
+   "name": "Alabama",
+   "childCharge": 0.4637,
+   "adultCharge": null,
+   "childPrivate": 0.7495,
+   "adultPrivate": null,
+   "adultBenefit": "None"
+  },
+  {
+   "code": "AK",
+   "name": "Alaska",
+   "childCharge": 0.5191,
+   "adultCharge": 0.4451,
+   "childPrivate": 0.7247,
+   "adultPrivate": 0.5912,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "AZ",
+   "name": "Arizona",
+   "childCharge": 0.4082,
+   "adultCharge": null,
+   "childPrivate": 0.8045,
+   "adultPrivate": null,
+   "adultBenefit": "Emergency"
+  },
+  {
+   "code": "AR",
+   "name": "Arkansas",
+   "childCharge": 0.361,
+   "adultCharge": 0.3118,
+   "childPrivate": 0.6834,
+   "adultPrivate": 0.5882,
+   "adultBenefit": "Limited"
+  },
+  {
+   "code": "CA",
+   "name": "California",
+   "childCharge": 0.3686,
+   "adultCharge": 0.414,
+   "childPrivate": 0.5969,
+   "adultPrivate": 0.6832,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "CO",
+   "name": "Colorado",
+   "childCharge": 0.4504,
+   "adultCharge": 0.4278,
+   "childPrivate": 0.7854,
+   "adultPrivate": 0.7311,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "CT",
+   "name": "Connecticut",
+   "childCharge": 0.4697,
+   "adultCharge": 0.2986,
+   "childPrivate": 0.7961,
+   "adultPrivate": 0.4941,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "DE",
+   "name": "Delaware",
+   "childCharge": 0.8007,
+   "adultCharge": 0.7799,
+   "childPrivate": 1.1587,
+   "adultPrivate": 1.111,
+   "adultBenefit": "Limited"
+  },
+  {
+   "code": "DC",
+   "name": "District of Columbia",
+   "childCharge": 0.4782,
+   "adultCharge": 0.3928,
+   "childPrivate": 0.8628,
+   "adultPrivate": 0.69,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "FL",
+   "name": "Florida",
+   "childCharge": 0.2224,
+   "adultCharge": null,
+   "childPrivate": 0.4081,
+   "adultPrivate": null,
+   "adultBenefit": "Emergency"
+  },
+  {
+   "code": "GA",
+   "name": "Georgia",
+   "childCharge": 0.398,
+   "adultCharge": null,
+   "childPrivate": 0.6548,
+   "adultPrivate": null,
+   "adultBenefit": "Emergency"
+  },
+  {
+   "code": "HI",
+   "name": "Hawaii",
+   "childCharge": 0.4965,
+   "adultCharge": 0.4407,
+   "childPrivate": 0.8317,
+   "adultPrivate": 0.7971,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "ID",
+   "name": "Idaho",
+   "childCharge": 0.3466,
+   "adultCharge": 0.3386,
+   "childPrivate": 0.5244,
+   "adultPrivate": 0.5322,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "IL",
+   "name": "Illinois",
+   "childCharge": 0.2393,
+   "adultCharge": 0.2659,
+   "childPrivate": 0.3967,
+   "adultPrivate": 0.4319,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "IN",
+   "name": "Indiana",
+   "childCharge": 0.4969,
+   "adultCharge": 0.4959,
+   "childPrivate": 0.7867,
+   "adultPrivate": 0.7776,
+   "adultBenefit": "Limited"
+  },
+  {
+   "code": "IA",
+   "name": "Iowa",
+   "childCharge": 0.3108,
+   "adultCharge": 0.2987,
+   "childPrivate": 0.4826,
+   "adultPrivate": 0.4551,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "KS",
+   "name": "Kansas",
+   "childCharge": 0.3528,
+   "adultCharge": 0.3838,
+   "childPrivate": 0.5982,
+   "adultPrivate": 0.6458,
+   "adultBenefit": "Limited"
+  },
+  {
+   "code": "KY",
+   "name": "Kentucky",
+   "childCharge": 0.4333,
+   "adultCharge": 0.4142,
+   "childPrivate": 0.7527,
+   "adultPrivate": 0.7173,
+   "adultBenefit": "Limited"
+  },
+  {
+   "code": "LA",
+   "name": "Louisiana",
+   "childCharge": 0.5911,
+   "adultCharge": 0.5648,
+   "childPrivate": 0.8988,
+   "adultPrivate": 0.8648,
+   "adultBenefit": "Limited"
+  },
+  {
+   "code": "ME",
+   "name": "Maine",
+   "childCharge": 0.47,
+   "adultCharge": 0.4944,
+   "childPrivate": 0.6459,
+   "adultPrivate": 0.682,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "MD",
+   "name": "Maryland",
+   "childCharge": 0.4718,
+   "adultCharge": 0.4555,
+   "childPrivate": 0.9168,
+   "adultPrivate": 0.8731,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "MA",
+   "name": "Massachusetts",
+   "childCharge": 0.4456,
+   "adultCharge": 0.339,
+   "childPrivate": 0.8831,
+   "adultPrivate": 0.6096,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "MI",
+   "name": "Michigan",
+   "childCharge": 0.5199,
+   "adultCharge": 0.5165,
+   "childPrivate": 0.8149,
+   "adultPrivate": 0.8233,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "MN",
+   "name": "Minnesota",
+   "childCharge": 0.323,
+   "adultCharge": 0.331,
+   "childPrivate": 0.5396,
+   "adultPrivate": 0.5161,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "MS",
+   "name": "Mississippi",
+   "childCharge": 0.5095,
+   "adultCharge": null,
+   "childPrivate": 0.8217,
+   "adultPrivate": null,
+   "adultBenefit": "Emergency"
+  },
+  {
+   "code": "MO",
+   "name": "Missouri",
+   "childCharge": 0.5931,
+   "adultCharge": null,
+   "childPrivate": 0.9891,
+   "adultPrivate": null,
+   "adultBenefit": "Emergency"
+  },
+  {
+   "code": "MT",
+   "name": "Montana",
+   "childCharge": 0.5128,
+   "adultCharge": 0.5233,
+   "childPrivate": 0.7711,
+   "adultPrivate": 0.7754,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "NE",
+   "name": "Nebraska",
+   "childCharge": 0.3773,
+   "adultCharge": 0.3583,
+   "childPrivate": 0.6399,
+   "adultPrivate": 0.5841,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "NV",
+   "name": "Nevada",
+   "childCharge": 0.342,
+   "adultCharge": null,
+   "childPrivate": 0.6283,
+   "adultPrivate": null,
+   "adultBenefit": "Emergency"
+  },
+  {
+   "code": "NH",
+   "name": "New Hampshire",
+   "childCharge": 0.4203,
+   "adultCharge": 0.1164,
+   "childPrivate": 0.6477,
+   "adultPrivate": 0.1682,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "NJ",
+   "name": "New Jersey",
+   "childCharge": 0.4997,
+   "adultCharge": 0.1215,
+   "childPrivate": 0.9352,
+   "adultPrivate": 0.2187,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "NM",
+   "name": "New Mexico",
+   "childCharge": 0.3472,
+   "adultCharge": 0.36,
+   "childPrivate": 0.5869,
+   "adultPrivate": 0.6033,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "NY",
+   "name": "New York",
+   "childCharge": 0.3405,
+   "adultCharge": 0.2614,
+   "childPrivate": 0.6767,
+   "adultPrivate": 0.5168,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "NC",
+   "name": "North Carolina",
+   "childCharge": 0.343,
+   "adultCharge": 0.3629,
+   "childPrivate": 0.5284,
+   "adultPrivate": 0.5484,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "ND",
+   "name": "North Dakota",
+   "childCharge": 0.5532,
+   "adultCharge": 0.537,
+   "childPrivate": 0.7853,
+   "adultPrivate": 0.7423,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "OH",
+   "name": "Ohio",
+   "childCharge": 0.5333,
+   "adultCharge": 0.5,
+   "childPrivate": 0.8699,
+   "adultPrivate": 0.8242,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "OK",
+   "name": "Oklahoma",
+   "childCharge": 0.3802,
+   "adultCharge": 0.4524,
+   "childPrivate": 0.5258,
+   "adultPrivate": 0.6562,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "OR",
+   "name": "Oregon",
+   "childCharge": 0.2689,
+   "adultCharge": 0.2547,
+   "childPrivate": 0.3908,
+   "adultPrivate": 0.3626,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "PA",
+   "name": "Pennsylvania",
+   "childCharge": 0.3092,
+   "adultCharge": 0.2821,
+   "childPrivate": 0.605,
+   "adultPrivate": 0.5543,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "RI",
+   "name": "Rhode Island",
+   "childCharge": 0.4023,
+   "adultCharge": 0.3825,
+   "childPrivate": 0.7023,
+   "adultPrivate": 0.6662,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "SC",
+   "name": "South Carolina",
+   "childCharge": 0.4719,
+   "adultCharge": 0.3762,
+   "childPrivate": 0.7015,
+   "adultPrivate": 0.5547,
+   "adultBenefit": "Limited"
+  },
+  {
+   "code": "SD",
+   "name": "South Dakota",
+   "childCharge": 0.6457,
+   "adultCharge": 0.6335,
+   "childPrivate": 0.8692,
+   "adultPrivate": 0.8344,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "TN",
+   "name": "Tennessee",
+   "childCharge": 0.418,
+   "adultCharge": 0.3964,
+   "childPrivate": 0.6716,
+   "adultPrivate": 0.6475,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "TX",
+   "name": "Texas",
+   "childCharge": 0.4209,
+   "adultCharge": null,
+   "childPrivate": 0.7238,
+   "adultPrivate": null,
+   "adultBenefit": "Emergency"
+  },
+  {
+   "code": "UT",
+   "name": "Utah",
+   "childCharge": 0.428,
+   "adultCharge": null,
+   "childPrivate": 0.7995,
+   "adultPrivate": null,
+   "adultBenefit": "Emergency"
+  },
+  {
+   "code": "VT",
+   "name": "Vermont",
+   "childCharge": 0.5759,
+   "adultCharge": 0.5897,
+   "childPrivate": 0.779,
+   "adultPrivate": 0.8198,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "VA",
+   "name": "Virginia",
+   "childCharge": 0.4625,
+   "adultCharge": 0.4545,
+   "childPrivate": 0.7974,
+   "adultPrivate": 0.7675,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "WA",
+   "name": "Washington",
+   "childCharge": 0.307,
+   "adultCharge": 0.3937,
+   "childPrivate": 0.4967,
+   "adultPrivate": 0.6227,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "WV",
+   "name": "West Virginia",
+   "childCharge": 0.5682,
+   "adultCharge": 0.4896,
+   "childPrivate": 0.9666,
+   "adultPrivate": 0.82,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "WI",
+   "name": "Wisconsin",
+   "childCharge": 0.3068,
+   "adultCharge": 0.2907,
+   "childPrivate": 0.5666,
+   "adultPrivate": 0.4878,
+   "adultBenefit": "Enhanced"
+  },
+  {
+   "code": "WY",
+   "name": "Wyoming",
+   "childCharge": 0.5204,
+   "adultCharge": 0.3713,
+   "childPrivate": 0.7083,
+   "adultPrivate": 0.5002,
+   "adultBenefit": "Limited"
+  }
+ ]
+}

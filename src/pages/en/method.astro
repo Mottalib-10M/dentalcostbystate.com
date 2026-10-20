@@ -1,0 +1,54 @@
+---
+/** Method: the documents, the steps, a worked example, the limits. Figures from the kit. */
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route } from '../../i18n/routes';
+import { KIT as K } from '../../lib/kit';
+import { SCREEN } from '../../lib/tool-specs';
+import { src, ext, table } from '../../lib/helpers';
+import { VALUE } from '../../content/home';
+import { breadcrumbSchema, webPageSchema } from '../../lib/seo';
+const lang = 'en';
+const path = route('method', lang);
+const P = K.P;
+const title = 'Dental Cost Estimate Method 2026: Fee Schedules and Ratios';
+const description = `Dental cost estimate method for 2026: ${K.STATES.length} state Medicaid fee schedules, the ADA's 2024 Medicaid to dentist charge ratios, the BLS price index, the limits.`;
+const up = P.cpiDental.latest / P.cpiDental.chargesBase;
+const upP = P.cpiDental.latest / P.cpiDental.privateBase;
+// Worked example: the first priced state that lists every code of a molar root canal.
+const ex = K.across('rootcanal_molar')[0];
+const schedRows = K.STATES.map((s) => [ext(s.url2024 ?? s.url, s.name), s.program, s.effective2024 ? K.day(s.effective2024) : 'n/a', Object.keys(s.feesNow).length ? K.day(s.effective) : 'not readable', s.ratios.adultCharge ? K.pct(s.ratios.adultCharge, 1) : 'none', K.pct(s.ratios.childCharge!, 1)]);
+const procRows = K.PROC_IDS.map((id) => { const p = K.PR(id); return [p.label, p.slots.map((s) => `${s.n > 1 ? `${s.n} × ` : ''}${s.codes.join(' or ')}`).join(' + '), P.classes[p.cls as keyof typeof P.classes].label.split(' (')[0]]; });
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={[webPageSchema({ name: 'How prices are estimated', description, path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'How prices are estimated', path }])]} breadcrumbs={[{ label: 'How prices are estimated' }]}>
+  <article class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>How prices are estimated</h1>
+    <p><strong>Every price on this site is a state's own Medicaid fee for the codes of a procedure, divided by that state's published ratio between Medicaid pay and dentists' charges, then carried to today with the federal price index for dental services.</strong> {K.STATES.length} schedules were read code by code; one script, rerun when a document changes, produces every figure.</p>
+    <p>{VALUE}</p>
+    <h2>1. The state fee schedules</h2>
+    <p>Each state Medicaid program publishes the maximum it pays a dentist for each code of the Current Dental Terminology (CDT), the codes that appear on every dental claim. We read the official file of each state, recorded its address and effective date, and kept the codes of the procedures priced here. Where a schedule gives different fees for children and adults, both are kept. Several states pay adults for few services, or none; a code that a state lists for patients under 21 only is used for an adult procedure only with that state's children's ratio, so that fee and ratio describe the same patients.</p>
+    <p>The ratios described below were built on Medicaid fees collected through July 2024, so the estimate divides the schedule in force on July 1, 2024. Today's schedule is shown beside it, because it is what Medicaid pays now; a state that has raised its fees since 2024 shows a higher current fee, and the estimate does not move with it, since the ratio was not measured on it. A state for which the 2024 edition could not be found is not priced.</p>
+    <Fragment set:html={table(['State', 'Program', 'Schedule used (in force July 1, 2024)', 'Current edition', 'Medicaid / charges, adults', 'Medicaid / charges, children'], schedRows, 'Ratios: ADA Health Policy Institute, 2024. "none": the state had no adult ratio in 2024 (no adult dental benefit, or emergency care only).', ['l', 'l', 'l', 'l', 'r', 'r'])} />
+    <h2>2. The ADA ratios</h2>
+    <p>The <Fragment set:html={src('ada_hpi_2024', "American Dental Association Health Policy Institute's 2024 workbook")} />, published in {K.month(P.ada.published)}, gives for every state two ratios, for children and for adults: Medicaid fee-for-service pay as a share of the average charges of dentists, and as a share of the average payments of private dental insurance. The ADA built them on a basket of common codes (exams, cleanings, X-rays, fillings, extractions), weighted by how often each is billed. Dentist charges cover {P.ada.chargesWindow}; private payments cover the {P.ada.privateWindow}. Nationally, Medicaid paid {K.pct(K.ADA.national.adultCharge!, 1)} of dentists' charges for adults and {K.pct(K.ADA.national.childCharge, 1)} for children.</p>
+    <p>We divide by the first ratio to estimate the full fee, the price billed to a patient with no plan, and by the second to estimate the network price, the amount a private plan allows its network dentists. The dentists' charges themselves come from a commercial database used by the ADA under license; this site uses only the ADA's published percentages, never that database.</p>
+    <h2>3. From 2024 to today</h2>
+    <p>Prices rose after the ADA windows. We multiply the full fee by the change of the <Fragment set:html={src('bls_cpi_dental', 'consumer price index for dental services')} /> between the average of {P.ada.chargesWindow} and {K.month(P.cpiDental.latestPeriod)}, a factor of {K.dec(up, 3)}, and the network price by its change since the second quarter of 2024, a factor of {K.dec(upP, 3)}. Over the last twelve months the index rose {K.pct(K.cpiChange, 1)}.</p>
+    <h2>4. A worked example</h2>
+    {ex && <p>A molar root canal (code D3330) in {ex.s.name}: the schedule in force on July 1, 2024 paid {K.usd(ex.e.medicaid)}. {ex.s.name}'s {ex.e.ratioPop === 'adult' ? 'adult' : "children's"} ratio is {K.pct(ex.e.rCharge, 1)} of dentists' charges, so the typical charge in the ADA window was {K.usd(ex.e.charge24)}; times {K.dec(up, 3)}, that gives {K.usd(ex.e.charge)} today. The network price follows the same path with the ratio of {K.pct(ex.e.rPrivate, 1)}: {K.usd(ex.e.allowed)}.</p>}
+    <h2>5. The procedures and their codes</h2>
+    <p>A procedure is the set of codes a dentist usually bills for it. When a slot accepts several codes, the first one the schedule lists is used. A procedure is priced in a state only when every slot is filled; nothing is guessed.</p>
+    <p>One screen follows. A state's estimate of a procedure is withheld when it falls below {K.pct(SCREEN.low, 0)} or above {K.pct(SCREEN.high, 0)} of the median of the states that price it (when at least {SCREEN.minStates} do). The ratio is measured on common codes, and a state that pays one procedure on another basis, orthodontics by treatment phase or a fee that covers only part of the work, would otherwise print a price several times too low or too high. Corrections printed in a schedule itself, such as Minnesota's instruction to add 98 % to its listed fees, are applied and recorded with their reason.</p>
+    <Fragment set:html={table(['Procedure', 'CDT codes', 'Class in the example plan'], procRows, 'Classes follow the Covered California 2026 dental plan designs.', ['l', 'l', 'l'])} />
+    <h2>6. The plan calculations</h2>
+    <p>In network, the patient is billed the network price; out of network, the full fee, and the plan pays on its own allowance, taken here as the network price, so the gap falls to the patient. The deductible comes off first, the plan pays its percentage for the class of the work, and its payment stops at the yearly maximum still available. During a waiting period it pays nothing for that class. Default values come from the <Fragment set:html={src('covered_ca_2026', 'Covered California 2026 dental plan designs')} />: deductible {K.usd(P.examplePlan.deductible)}, yearly maximum {K.usd(P.examplePlan.annualMax)}, {K.pct(1 - P.examplePlan.memberShare.basic, 0)} for basic and {K.pct(1 - P.examplePlan.memberShare.major, 0)} for major services, a {P.examplePlan.waitingMajorMonths}-month wait for major services. Financing uses the average rates of the Federal Reserve's <Fragment set:html={src('fed_g19', 'G.19 release')} /> and the deferred interest rules of <Fragment set:html={src('cfr_1026_16', 'Regulation Z')} />.</p>
+    <h2>7. Limits</h2>
+    <ul>
+      <li>A state's ratio is measured on a basket of common codes; Medicaid may pay some codes, such as crowns or orthodontics, closer to or further from dentists' fees than the basket. The estimate of such a procedure carries that error.</li>
+      <li>Prices are state averages. Fees differ between cities and offices, and by the materials and the lab.</li>
+      <li>Many Medicaid programs pay dentists through managed care plans whose rates are not public; the ratios and our estimates use the public fee-for-service schedule.</li>
+      <li>Implants and veneers are rarely in Medicaid schedules, so they are priced in few states. Brand-name aligner prices are not published by any public body and are not estimated.</li>
+      <li>Nothing here is medical advice or a quote. Only a dentist can say what treatment a mouth needs and what it will cost.</li>
+    </ul>
+    <p>Corrections: <a href={route('contact', lang)}>contact page</a>.</p>
+  </article>
+</PageLayout>

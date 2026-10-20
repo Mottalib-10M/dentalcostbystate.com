@@ -1,0 +1,367 @@
+{
+  "state": "LA",
+  "status": "ok",
+  "program": "Louisiana Medicaid Dental Program (EPSDT dental under 21; Adult Denture Program 21+)",
+  "document_title": "LOUISIANA MEDICAID DENTAL PROGRAM FEE SCHEDULES - EFFECTIVE FOR DOS ON AND AFTER JANUARY 1, 2026 (sheets: EPSDT DENTAL PROGRAM, ADULT DENTURE PROGRAM, ADULT WAIVER DENTAL PROGRAM, ADULT ICF/IID DENTAL PROGRAM)",
+  "source_url": "https://www.lamedicaid.com/provweb1/fee_schedules/Dental_Fee.xlsx",
+  "source_page": "https://www.lamedicaid.com/Provweb1/Fee_Schedules/Dental_Fee.htm",
+  "effective_date": "2026-01-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "child": 36.88
+    },
+    "D0140": {
+      "child": 15.0
+    },
+    "D0150": {
+      "child": 64.13,
+      "adult": 64.13
+    },
+    "D0210": {
+      "child": 81.46,
+      "adult": 81.46
+    },
+    "D0220": {
+      "child": 19.89
+    },
+    "D0330": {
+      "child": 77.23
+    },
+    "D1110": {
+      "child": 65.0
+    },
+    "D1120": {
+      "child": 47.41
+    },
+    "D1206": {
+      "child": 32.88
+    },
+    "D1351": {
+      "child": 34.54
+    },
+    "D2140": {
+      "child": 87.71,
+      "child_primary": 87.71,
+      "child_permanent": 101.25
+    },
+    "D2150": {
+      "child": 111.2,
+      "child_primary": 111.2,
+      "child_permanent_except_MO_DO": 124.74,
+      "child_permanent_MO_or_DO": 158.58
+    },
+    "D2391": {
+      "child": 87.71,
+      "child_primary": 87.71,
+      "child_permanent": 101.25
+    },
+    "D2392": {
+      "child": 111.2,
+      "child_primary_or_permanent": 111.2,
+      "child_permanent_except_MO_DO": 124.74,
+      "child_permanent_MO_or_DO": 158.58
+    },
+    "D2393": {
+      "child": 134.68,
+      "child_primary": 134.68,
+      "child_permanent_except_OBL": 178.0,
+      "child_permanent_OBL": 148.21
+    },
+    "D2394": {
+      "child": 158.85,
+      "child_primary": 158.85,
+      "child_permanent": 178.0
+    },
+    "D2930": {
+      "child": 215.83
+    },
+    "D2950": {
+      "child": 174.04
+    },
+    "D3220": {
+      "child": 127.77
+    },
+    "D3310": {
+      "child": 455.84
+    },
+    "D3320": {
+      "child": 535.25
+    },
+    "D3330": {
+      "child": 642.31
+    },
+    "D3346": {
+      "child": 529.73
+    },
+    "D4341": {
+      "child": 158.85
+    },
+    "D4355": {
+      "child": 117.41
+    },
+    "D5110": {
+      "child": 837.66,
+      "adult": 837.0
+    },
+    "D5120": {
+      "child": 837.66,
+      "adult": 837.0
+    },
+    "D5211": {
+      "child": 795.36,
+      "adult": 795.36
+    },
+    "D5212": {
+      "child": 795.36,
+      "adult": 795.36
+    },
+    "D5213": {
+      "child": 1164.27
+    },
+    "D5214": {
+      "child": 1164.27
+    },
+    "D5820": {
+      "child": 634.59
+    },
+    "D5821": {
+      "child": 634.59
+    },
+    "D7140": {
+      "child": 107.04
+    },
+    "D7210": {
+      "child": 176.12
+    },
+    "D7220": {
+      "child": 203.75
+    },
+    "D7230": {
+      "child": 271.11
+    },
+    "D7240": {
+      "child": 332.52
+    },
+    "D7241": {
+      "child": 376.41
+    },
+    "D7250": {
+      "child": 195.46
+    },
+    "D9222": {
+      "child": 147.79
+    },
+    "D9223": {
+      "child": 100.15
+    },
+    "D9230": {
+      "child": 49.72
+    },
+    "D9239": {
+      "child": 147.79
+    },
+    "D9243": {
+      "child": 100.15
+    }
+  },
+  "by_report": [
+    "D8070",
+    "D8080",
+    "D8090"
+  ],
+  "not_covered_or_absent": [
+    "D0274",
+    "D2740",
+    "D2750",
+    "D2751",
+    "D2752",
+    "D2790",
+    "D2962",
+    "D3347",
+    "D3348",
+    "D4342",
+    "D4910",
+    "D5225",
+    "D5226",
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D6240",
+    "D6245",
+    "D6750",
+    "D6740",
+    "D6790",
+    "D7953",
+    "D8670",
+    "D8680"
+  ],
+  "notes": "child = 'EPSDT DENTAL PROGRAM' sheet (under 21); adult = 'ADULT DENTURE PROGRAM' sheet (only 6 codes: D0150, D0210, D5110, D5120, D5211, D5212 - general adults 21+ are covered for dentures only). Separate sheets exist for the ADULT WAIVER DENTAL PROGRAM (NOW/ROW waiver adults) and ADULT ICF/IID DENTAL PROGRAM, whose fees for the listed codes are identical to EPSDT; they were not recorded as 'adult'. Restoration codes D2140-D2394 have several rows (primary vs permanent teeth, surface combinations): the 'child' key is the first listed row (primary teeth), and each variant is recorded under child_<variant> keys exactly as listed. by_report: orthodontic D8070/D8080/D8090 show '***** Max Fee' (prior authorization and manual pricing): max fees printed {\"D8070\": \"***** Max Fee 4,182.00\", \"D8080\": \"***** Max Fee 4,281.00\", \"D8090\": \"***** Max Fee 4,515.00\"}. Per-row EFF DATE is mostly 20250421 (sedation codes 20260101; adult denture rows 20230830). Most Louisiana Medicaid dental benefits are administered by Dental Benefit Program Managers (MCNA, DentaQuest); this is the state fee-for-service schedule. Page lists '01/01/26 EXCEL' (this file) and a prior '10/15/25 EXCEL'.",
+  "fees_2024": {
+    "D0120": {
+      "child": 36.88
+    },
+    "D0150": {
+      "child": 64.13,
+      "adult": 64.13
+    },
+    "D0210": {
+      "child": 81.46,
+      "adult": 81.46
+    },
+    "D0220": {
+      "child": 19.89
+    },
+    "D0330": {
+      "child": 77.23
+    },
+    "D1110": {
+      "child": 65.0
+    },
+    "D1120": {
+      "child": 47.41
+    },
+    "D1206": {
+      "child": 32.88
+    },
+    "D1351": {
+      "child": 34.54
+    },
+    "D2140": {
+      "child": 87.71,
+      "child_primary": 87.71,
+      "child_permanent": 101.25
+    },
+    "D2150": {
+      "child": 111.2,
+      "child_primary": 111.2,
+      "child_permanent_except_MO_DO": 124.74,
+      "child_permanent_MO_or_DO": 158.58
+    },
+    "D2391": {
+      "child": 87.71,
+      "child_primary": 87.71,
+      "child_permanent": 101.25
+    },
+    "D2392": {
+      "child": 111.2,
+      "child_primary_or_permanent": 111.2,
+      "child_permanent_except_MO_DO": 124.74,
+      "child_permanent_MO_or_DO": 158.58
+    },
+    "D2393": {
+      "child": 134.68,
+      "child_primary": 134.68,
+      "child_permanent_except_OBL": 178.0,
+      "child_permanent_OBL": 148.21
+    },
+    "D2394": {
+      "child": 158.85,
+      "child_primary": 158.85,
+      "child_permanent": 178.0
+    },
+    "D2930": {
+      "child": 215.83
+    },
+    "D2950": {
+      "child": 174.04
+    },
+    "D3220": {
+      "child": 127.77
+    },
+    "D3310": {
+      "child": 455.84
+    },
+    "D3320": {
+      "child": 535.25
+    },
+    "D3330": {
+      "child": 642.31
+    },
+    "D3346": {
+      "child": 529.73
+    },
+    "D4341": {
+      "child": 158.85
+    },
+    "D4355": {
+      "child": 117.41
+    },
+    "D5110": {
+      "child": 837.66,
+      "adult": 837.0
+    },
+    "D5120": {
+      "child": 837.66,
+      "adult": 837.0
+    },
+    "D5211": {
+      "child": 795.36,
+      "adult": 795.36
+    },
+    "D5212": {
+      "child": 795.36,
+      "adult": 795.36
+    },
+    "D5213": {
+      "child": 1164.27
+    },
+    "D5214": {
+      "child": 1164.27
+    },
+    "D5820": {
+      "child": 634.59
+    },
+    "D5821": {
+      "child": 634.59
+    },
+    "D7140": {
+      "child": 107.04
+    },
+    "D7210": {
+      "child": 176.12
+    },
+    "D7220": {
+      "child": 203.75
+    },
+    "D7230": {
+      "child": 271.11
+    },
+    "D7240": {
+      "child": 332.52
+    },
+    "D7241": {
+      "child": 376.41
+    },
+    "D7250": {
+      "child": 195.46
+    },
+    "D9222": {
+      "child": 147.79
+    },
+    "D9223": {
+      "child": 100.15
+    },
+    "D9230": {
+      "child": 49.72
+    },
+    "D9239": {
+      "child": 147.79
+    },
+    "D9243": {
+      "child": 100.15
+    }
+  },
+  "by_report_2024": [
+    "D8070",
+    "D8080",
+    "D8090"
+  ],
+  "source_url_2024": "https://www.lamedicaid.com/provweb1/fee_schedules/EPSDT_DENTAL_PROGRAM_FS_05-01-24.pdf ; https://www.lamedicaid.com/provweb1/fee_schedules/ADULT_DENTURE_PROGRAM_FS_08-30-23.pdf",
+  "effective_date_2024": "2024-05-01",
+  "notes_2024": "child = EPSDT Dental Program Fee Schedule 'ISSUED: 05/01/24, REPLACED: 12/28/23' (in force 2024-05-01 until replaced by the 04-21-25 edition, so in force on 2024-07-01); adult = Adult Denture Program Fee Schedule 'ISSUED: 08/30/23' (next edition is the 2026 Excel; in force on 2024-07-01). Both linked from the same lamedicaid.com Dental_Fee.htm page. Variant keys for restoration codes follow the same row order as the 2026 file (primary row first; row descriptions match). Orthodontics D8070/80/90 '***** Maximum Fee' = manual pricing: {\"D8070\": \"***** Maximum Fee $4,182.00\", \"D8080\": \"***** Maximum Fee $4,281.00\", \"D8090\": \"***** Maximum Fee $4,515.00\"}. D0140 not listed in the 05/01/24 EPSDT schedule. Values parsed with pdfplumber table extraction. Note adult D5110/D5120 = 837.00 in 2024 (adult schedule) vs 837.66 in EPSDT."
+}

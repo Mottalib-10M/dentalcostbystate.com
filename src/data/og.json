@@ -1,0 +1,13 @@
+{
+ "accent": "#0E5E6F",
+ "symbol": "dent",
+ "variants": [
+  {
+   "file": "og-en.png",
+   "title": "Dental costs by procedure\nin your state, and with your insurance",
+   "subtitle": "Implant · crown · root canal · braces · dentures · extraction",
+   "badge": "State Medicaid fee schedules 2025-2026 · ADA HPI 2024 ratios",
+   "brand": "Dental Cost by State"
+  }
+ ]
+}

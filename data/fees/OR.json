@@ -1,0 +1,351 @@
+{
+  "state": "OR",
+  "status": "ok",
+  "program": "Oregon Health Plan (OHP) fee-for-service (Open Card)",
+  "document_title": "September 2026 Fee Schedule (September 2026 Medical-Dental Fee Schedule)",
+  "source_url": "https://www.oregon.gov/oha/HSD/OHP/DataReportsDocs/fee-schedule0926.csv",
+  "source_page": "https://www.oregon.gov/oha/hsd/ohp/pages/fee-schedule.aspx",
+  "effective_date": "2026-01-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "all": 46.57
+    },
+    "D0140": {
+      "all": 57.0
+    },
+    "D0150": {
+      "all": 66.51
+    },
+    "D0210": {
+      "all": 83.12
+    },
+    "D0220": {
+      "all": 20.87
+    },
+    "D0274": {
+      "all": 45.66
+    },
+    "D0330": {
+      "all": 73.06
+    },
+    "D1110": {
+      "all": 73.28
+    },
+    "D1120": {
+      "all": 56.5
+    },
+    "D1206": {
+      "all": 32.48
+    },
+    "D1351": {
+      "all": 42.9
+    },
+    "D2140": {
+      "all": 93.16
+    },
+    "D2150": {
+      "all": 114.93
+    },
+    "D2391": {
+      "all": 114.22
+    },
+    "D2392": {
+      "all": 147.02
+    },
+    "D2393": {
+      "all": 173.7
+    },
+    "D2394": {
+      "all": 198.0
+    },
+    "D2740": {
+      "all": 571.61
+    },
+    "D2751": {
+      "all": 646.79
+    },
+    "D2752": {
+      "all": 666.59
+    },
+    "D2930": {
+      "all": 192.66
+    },
+    "D2950": {
+      "all": 149.8
+    },
+    "D3220": {
+      "all": 131.06
+    },
+    "D3310": {
+      "all": 467.67
+    },
+    "D3320": {
+      "all": 542.56
+    },
+    "D3330": {
+      "all": 690.7
+    },
+    "D3346": {
+      "all": 758.31
+    },
+    "D4341": {
+      "all": 187.89
+    },
+    "D4342": {
+      "all": 118.0
+    },
+    "D4355": {
+      "all": 119.09
+    },
+    "D4910": {
+      "all": 108.41
+    },
+    "D5110": {
+      "all": 1000.18
+    },
+    "D5120": {
+      "all": 998.05
+    },
+    "D5211": {
+      "all": 781.1
+    },
+    "D5212": {
+      "all": 806.86
+    },
+    "D5820": {
+      "all": 366.89
+    },
+    "D5821": {
+      "all": 362.02
+    },
+    "D7140": {
+      "all": 139.58
+    },
+    "D7210": {
+      "all": 200.82
+    },
+    "D7220": {
+      "all": 228.09
+    },
+    "D7230": {
+      "all": 302.0
+    },
+    "D7240": {
+      "all": 359.6
+    },
+    "D7241": {
+      "all": 356.74
+    },
+    "D7250": {
+      "all": 250.33
+    },
+    "D8070": {
+      "all": 2982.06
+    },
+    "D8080": {
+      "all": 4203.64
+    },
+    "D8090": {
+      "all": 4203.64
+    },
+    "D8680": {
+      "all": 300.15
+    },
+    "D9222": {
+      "all": 139.59
+    },
+    "D9223": {
+      "all": 9.83
+    },
+    "D9230": {
+      "all": 44.08
+    },
+    "D9239": {
+      "all": 41.32
+    },
+    "D9243": {
+      "all": 45.76
+    }
+  },
+  "by_report": [
+    "D8670"
+  ],
+  "not_covered_or_absent": [
+    "D2750",
+    "D2790",
+    "D2962",
+    "D3347",
+    "D3348",
+    "D5213",
+    "D5214",
+    "D5225",
+    "D5226",
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D6240",
+    "D6245",
+    "D6750",
+    "D6740",
+    "D6790",
+    "D7953"
+  ],
+  "notes": "Single medical-dental FFS schedule, no age split ('all'); same file also published as XLSX/PDF (fee-schedule0926.xlsx/.pdf, posted 2026-10-01). 'Price' column used. Per-code effective dates mostly 20260101 (D7140 and D8680 20250101). D8670 price listed as 'Manual'. Page: files are informational only, inclusion does not guarantee payment; adult coverage limited by the Prioritized List. Most OHP members receive dental through CCOs (managed care); this is the FFS schedule. effective_date = latest per-code effective date for most codes; the document itself is the September 2026 monthly edition.",
+  "fees_2024": {
+    "D0120": {
+      "all": 26.03
+    },
+    "D0140": {
+      "all": 34.69
+    },
+    "D0150": {
+      "all": 40.49
+    },
+    "D0210": {
+      "all": 33.61
+    },
+    "D0220": {
+      "all": 10.38
+    },
+    "D0274": {
+      "all": 14.4
+    },
+    "D0330": {
+      "all": 25.21
+    },
+    "D1110": {
+      "all": 40.89
+    },
+    "D1120": {
+      "all": 31.45
+    },
+    "D1206": {
+      "all": 14.27
+    },
+    "D1351": {
+      "all": 21.24
+    },
+    "D2140": {
+      "all": 37.05
+    },
+    "D2150": {
+      "all": 46.6
+    },
+    "D2391": {
+      "all": 37.05
+    },
+    "D2392": {
+      "all": 46.6
+    },
+    "D2393": {
+      "all": 56.71
+    },
+    "D2394": {
+      "all": 64.45
+    },
+    "D2740": {
+      "all": 272.79
+    },
+    "D2751": {
+      "all": 261.89
+    },
+    "D2752": {
+      "all": 272.79
+    },
+    "D2930": {
+      "all": 73.12
+    },
+    "D2950": {
+      "all": 49.11
+    },
+    "D3220": {
+      "all": 49.23
+    },
+    "D3310": {
+      "all": 147.31
+    },
+    "D3320": {
+      "all": 169.14
+    },
+    "D3330": {
+      "all": 212.77
+    },
+    "D4341": {
+      "all": 63.17
+    },
+    "D4342": {
+      "all": 47.37
+    },
+    "D4355": {
+      "all": 49.11
+    },
+    "D4910": {
+      "all": 32.75
+    },
+    "D5110": {
+      "all": 354.63
+    },
+    "D5120": {
+      "all": 354.63
+    },
+    "D5211": {
+      "all": 226.96
+    },
+    "D5212": {
+      "all": 226.96
+    },
+    "D5820": {
+      "all": 154.83
+    },
+    "D5821": {
+      "all": 161.03
+    },
+    "D7140": {
+      "all": 99.58
+    },
+    "D7210": {
+      "all": 113.5
+    },
+    "D7220": {
+      "all": 122.76
+    },
+    "D7230": {
+      "all": 166.4
+    },
+    "D7240": {
+      "all": 204.59
+    },
+    "D7241": {
+      "all": 329.86
+    },
+    "D7250": {
+      "all": 152.76
+    },
+    "D8080": {
+      "all": 3947.0
+    },
+    "D8680": {
+      "all": 290.0
+    },
+    "D9230": {
+      "all": 8.73
+    }
+  },
+  "by_report_2024": [
+    "D3346",
+    "D8070",
+    "D8090",
+    "D8670",
+    "D9222",
+    "D9223",
+    "D9239"
+  ],
+  "source_url_2024": "https://www.oregon.gov/oha/HSD/OHP/DataReportsDocs/fee-schedule0624.csv",
+  "effective_date_2024": "2024-06-13",
+  "notes_2024": "June 2024 Medical-Dental Fee Schedule (fee-schedule0624, posted 2024-06-13 in the same OHA DataReportsDocs library linked from the fee schedule page; no 0724/0824 edition was published). Every requested dental code has identical price and effective date in the September 2024 edition (fee-schedule0924.xlsx, posted 2024-09-20), so these fees were in force on 2024-07-01. Per-code effective dates: mostly 20110801 / 20180201 (D2740 20220101, D7241 20231001, D8080 and D8680 20240101). 'Manual' (manual pricing) in 2024: D3346, D8070, D8090, D8670, D9222, D9223, D9239. OHP dental FFS rates were raised substantially on 2025-01-01 and 2026-01-01 (e.g. D1110 40.89 -> 73.28). effective_date_2024 = posting date of the edition."
+}

@@ -1,0 +1,446 @@
+{
+  "state": "IL",
+  "status": "ok",
+  "program": "Illinois Medicaid (HFS) Dental Program, fee-for-service",
+  "document_title": "HFS Dental Program Fee Schedule for Child and Adult Beneficiaries Updated July 21, 2026, Effective July 1, 2026 (Statewide Rates)",
+  "source_url": "https://hfs.illinois.gov/content/dam/soi/en/web/hfs/medicalproviders/medicaidreimbursement/dental/07212026dentalfs.xlsx",
+  "source_page": "https://hfs.illinois.gov/medicalproviders/medicaidreimbursement/dental.html",
+  "effective_date": "2026-07-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "child": 29.4,
+      "adult": 28.0
+    },
+    "D0140": {
+      "child": 19.12,
+      "adult": 19.12
+    },
+    "D0150": {
+      "child": 26.08,
+      "adult": 26.08
+    },
+    "D0210": {
+      "child": 35.52,
+      "adult": 35.52
+    },
+    "D0220": {
+      "child": 6.61,
+      "adult": 6.61
+    },
+    "D0274": {
+      "child": 19.94,
+      "adult": 19.94
+    },
+    "D0330": {
+      "child": 28.0,
+      "adult": 28.0
+    },
+    "D1110": {
+      "adult": 48.38
+    },
+    "D1120": {
+      "child": 43.05
+    },
+    "D1206": {
+      "child": 27.3
+    },
+    "D1351": {
+      "child": 37.8
+    },
+    "D2140": {
+      "child": 36.4,
+      "adult": 36.4
+    },
+    "D2150": {
+      "child": 56.82,
+      "adult": 56.82
+    },
+    "D2391": {
+      "child": 36.4,
+      "adult": 36.4
+    },
+    "D2392": {
+      "child": 56.82,
+      "adult": 56.82
+    },
+    "D2393": {
+      "child": 87.55,
+      "adult": 87.55
+    },
+    "D2394": {
+      "child": 87.55,
+      "adult": 87.55
+    },
+    "D2740": {
+      "child": 272.83,
+      "adult": 272.83
+    },
+    "D2750": {
+      "child": 272.83,
+      "adult": 272.83
+    },
+    "D2751": {
+      "child": 272.83,
+      "adult": 272.83
+    },
+    "D2752": {
+      "child": 272.83,
+      "adult": 272.83
+    },
+    "D2790": {
+      "child": 169.19,
+      "adult": 169.19
+    },
+    "D2930": {
+      "child": 110.69
+    },
+    "D2950": {
+      "child": 67.34,
+      "adult": 67.34
+    },
+    "D3220": {
+      "child": 61.13
+    },
+    "D3310": {
+      "child": 158.22,
+      "adult": 158.22
+    },
+    "D3320": {
+      "child": 155.25
+    },
+    "D3330": {
+      "child": 234.67
+    },
+    "D4341": {
+      "child": 122.0,
+      "adult": 122.0
+    },
+    "D4342": {
+      "child": 77.0,
+      "adult": 77.0
+    },
+    "D4355": {
+      "child": 41.0,
+      "adult": 41.0
+    },
+    "D4910": {
+      "child": 67.0,
+      "adult": 67.0
+    },
+    "D5110": {
+      "child": 444.09,
+      "adult": 444.09
+    },
+    "D5120": {
+      "child": 444.09,
+      "adult": 444.09
+    },
+    "D5211": {
+      "child": 376.35
+    },
+    "D5212": {
+      "child": 376.35
+    },
+    "D5213": {
+      "child": 436.57
+    },
+    "D5214": {
+      "child": 436.57
+    },
+    "D6240": {
+      "child": 178.8
+    },
+    "D6750": {
+      "child": 159.95
+    },
+    "D6790": {
+      "child": 159.95
+    },
+    "D7140": {
+      "child": 53.55,
+      "adult": 53.55
+    },
+    "D7210": {
+      "child": 78.57,
+      "adult": 78.57
+    },
+    "D7220": {
+      "child": 77.49,
+      "adult": 77.49
+    },
+    "D7230": {
+      "child": 100.46,
+      "adult": 100.46
+    },
+    "D7240": {
+      "child": 116.81,
+      "adult": 116.81
+    },
+    "D7250": {
+      "child": 66.58,
+      "adult": 66.58
+    },
+    "D8080": {
+      "child": 900.0
+    },
+    "D8670": {
+      "child": 240.0
+    },
+    "D8680": {
+      "child": 150.0
+    },
+    "D9222": {
+      "child": 284.62,
+      "adult": 284.62
+    },
+    "D9223": {
+      "child": 284.62,
+      "adult": 284.62
+    },
+    "D9239": {
+      "child": 240.73,
+      "adult": 240.73
+    },
+    "D9243": {
+      "child": 240.73,
+      "adult": 240.73
+    },
+    "D9230": {
+      "child": 70.0,
+      "adult": 70.0
+    }
+  },
+  "by_report": [],
+  "not_covered_or_absent": [
+    "D2962",
+    "D3346",
+    "D3347",
+    "D3348",
+    "D5225",
+    "D5226",
+    "D5820",
+    "D5821",
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D6245",
+    "D6740",
+    "D7241",
+    "D7953",
+    "D8070",
+    "D8090"
+  ],
+  "notes": "Columns used: 'Maximum Allowance Children' -> child, 'Maximum Allowance Adults' -> adult; 'N/A' = not covered for that group (key omitted). A third column 'Maximum Allowance Pregnant Women' equals the adult column for every requested code. Age-specific rows: D0120 child row 'Ages 0 thru 20' ($29.40), adult row 'Ages 21 and older and Pregnant Women' ($28.00); D1110 adult 'Ages 21 and Older and Pregnant Women'; D1120 'Ages 0 thru 20'; D1206 rows 'Ages 0 thru 18' and 'Ages 19 thru 20' both $27.30. Prior approval (Y) required e.g. for crowns D2740-D2790, dentures, D4910, D7220-D7250, ortho, IV sedation/GA; D4341 PA for children only. D8670 described 'Periodic Adjustments (11 maximum)'. Same values in the PDF version (07212026dentalfs.pdf). Most IL Medicaid members are in HealthChoice Illinois managed care; this is the FFS schedule.",
+  "fees_2024": {
+    "D0120": {
+      "child": 29.4,
+      "adult": 28.0
+    },
+    "D0140": {
+      "child": 19.12,
+      "adult": 19.12
+    },
+    "D0150": {
+      "child": 26.08,
+      "adult": 26.08
+    },
+    "D0210": {
+      "child": 35.52,
+      "adult": 35.52
+    },
+    "D0220": {
+      "child": 6.61,
+      "adult": 6.61
+    },
+    "D0274": {
+      "child": 19.94,
+      "adult": 19.94
+    },
+    "D0330": {
+      "child": 28.0,
+      "adult": 28.0
+    },
+    "D1110": {
+      "adult": 48.38
+    },
+    "D1120": {
+      "child": 43.05
+    },
+    "D1206": {
+      "child": 27.3
+    },
+    "D1351": {
+      "child": 37.8
+    },
+    "D2140": {
+      "child": 36.4,
+      "adult": 36.4
+    },
+    "D2150": {
+      "child": 56.82,
+      "adult": 56.82
+    },
+    "D2391": {
+      "child": 36.4,
+      "adult": 36.4
+    },
+    "D2392": {
+      "child": 56.82,
+      "adult": 56.82
+    },
+    "D2393": {
+      "child": 87.55,
+      "adult": 87.55
+    },
+    "D2394": {
+      "child": 87.55,
+      "adult": 87.55
+    },
+    "D2740": {
+      "child": 272.83,
+      "adult": 272.83
+    },
+    "D2750": {
+      "child": 272.83,
+      "adult": 272.83
+    },
+    "D2751": {
+      "child": 272.83,
+      "adult": 272.83
+    },
+    "D2752": {
+      "child": 272.83,
+      "adult": 272.83
+    },
+    "D2790": {
+      "child": 169.19,
+      "adult": 169.19
+    },
+    "D2930": {
+      "child": 110.69
+    },
+    "D2950": {
+      "child": 67.34,
+      "adult": 67.34
+    },
+    "D3220": {
+      "child": 61.13
+    },
+    "D3310": {
+      "child": 158.22,
+      "adult": 158.22
+    },
+    "D3320": {
+      "child": 155.25
+    },
+    "D3330": {
+      "child": 234.67
+    },
+    "D4341": {
+      "child": 122.0,
+      "adult": 122.0
+    },
+    "D4342": {
+      "child": 77.0,
+      "adult": 77.0
+    },
+    "D4355": {
+      "child": 41.0,
+      "adult": 41.0
+    },
+    "D4910": {
+      "child": 67.0,
+      "adult": 67.0
+    },
+    "D5110": {
+      "child": 444.09,
+      "adult": 444.09
+    },
+    "D5120": {
+      "child": 444.09,
+      "adult": 444.09
+    },
+    "D5211": {
+      "child": 376.35
+    },
+    "D5212": {
+      "child": 376.35
+    },
+    "D5213": {
+      "child": 436.57
+    },
+    "D5214": {
+      "child": 436.57
+    },
+    "D6240": {
+      "child": 178.8
+    },
+    "D6750": {
+      "child": 159.95
+    },
+    "D6790": {
+      "child": 159.95
+    },
+    "D7140": {
+      "child": 53.55,
+      "adult": 53.55
+    },
+    "D7210": {
+      "child": 78.57,
+      "adult": 78.57
+    },
+    "D7220": {
+      "child": 77.49,
+      "adult": 77.49
+    },
+    "D7230": {
+      "child": 100.46,
+      "adult": 100.46
+    },
+    "D7240": {
+      "child": 116.81,
+      "adult": 116.81
+    },
+    "D7250": {
+      "child": 66.58,
+      "adult": 66.58
+    },
+    "D8080": {
+      "child": 900.0
+    },
+    "D8670": {
+      "child": 240.0
+    },
+    "D8680": {
+      "child": 150.0
+    },
+    "D9222": {
+      "child": 214.0,
+      "adult": 214.0
+    },
+    "D9223": {
+      "child": 214.0,
+      "adult": 214.0
+    },
+    "D9239": {
+      "child": 181.0,
+      "adult": 181.0
+    },
+    "D9243": {
+      "child": 181.0,
+      "adult": 181.0
+    },
+    "D9230": {
+      "child": 70.0,
+      "adult": 70.0
+    }
+  },
+  "source_url_2024": "https://hfs.illinois.gov/content/dam/soi/en/web/hfs/medicalproviders/medicaidreimbursement/dental/archive/122122-dentalfeescheduleeff010123.xlsx",
+  "effective_date_2024": "2023-01-01",
+  "notes_2024": "Edition in force on 2024-07-01: 'HFS Dental Program Fee Schedule for Child and Adult Beneficiaries Updated 12/21/22, Effective January 1, 2023' (listed on https://hfs.illinois.gov/medicalproviders/medicaidreimbursement/dental/archive.html). The HFS archive lists no 2024 edition; the next one is 'Updated 04-09-2025 Effective 01-01-2025'. Same column rules as current (child/adult; pregnant-women column equals adult). An HFS public notice of 2024-05-23 (effective 2024-07-01) only allowed medical anesthesiologists to bill dental anesthesia codes, described as budget neutral; it did not publish new fees."
+}

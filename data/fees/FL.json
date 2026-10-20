@@ -1,0 +1,408 @@
+{
+  "state": "FL",
+  "status": "ok",
+  "program": "Florida Medicaid - Dental General Services (fee-for-service)",
+  "document_title": "Dental General Services Fee Schedule January 1, 2026 (Incorporated by reference in Rule 59G-4.002, F.A.C.)",
+  "source_url": "https://www.flrules.org/gateway/readRefFile.asp?refId=19997&filename=Dental%20General%20Fee%20Schedule%20January%201%202026.pdf",
+  "source_page": "https://www.flrules.org/gateway/reference.asp?No=Ref-19997",
+  "effective_date": "2026-01-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "child": 22.39
+    },
+    "D0140": {
+      "child": 11.94,
+      "adult": 8.04
+    },
+    "D0150": {
+      "child": 23.88,
+      "adult": 16.07
+    },
+    "D0210": {
+      "child": 47.77,
+      "adult": 32.14
+    },
+    "D0220": {
+      "child": 5.98,
+      "adult": 4.02
+    },
+    "D0274": {
+      "child": 16.42
+    },
+    "D0330": {
+      "child": 44.79,
+      "adult": 30.13
+    },
+    "D1110": {
+      "child": 42.7
+    },
+    "D1120": {
+      "child": 33.21
+    },
+    "D1206": {
+      "child": 26.09
+    },
+    "D1351": {
+      "child": 30.84
+    },
+    "D2140": {
+      "child": 46.28
+    },
+    "D2150": {
+      "child": 61.21
+    },
+    "D2391": {
+      "child": 46.28
+    },
+    "D2392": {
+      "child": 61.21
+    },
+    "D2393": {
+      "child": 76.13
+    },
+    "D2394": {
+      "child": 91.06
+    },
+    "D2740": {
+      "child": 340.37
+    },
+    "D2751": {
+      "child": 340.37
+    },
+    "D2930": {
+      "child": 101.52
+    },
+    "D2950": {
+      "child": 97.04
+    },
+    "D3220": {
+      "child": 74.65
+    },
+    "D3310": {
+      "child": 220.94
+    },
+    "D3320": {
+      "child": 283.64
+    },
+    "D3330": {
+      "child": 350.82
+    },
+    "D4341": {
+      "child": 29.86
+    },
+    "D4342": {
+      "child": 14.93
+    },
+    "D4355": {
+      "child": 77.63
+    },
+    "D5110": {
+      "child": 462.78,
+      "adult": 311.37
+    },
+    "D5120": {
+      "child": 462.78,
+      "adult": 311.37
+    },
+    "D5211": {
+      "child": 246.32,
+      "adult": 165.73
+    },
+    "D5212": {
+      "child": 246.32,
+      "adult": 165.73
+    },
+    "D5213": {
+      "child": 470.24,
+      "adult": 316.39
+    },
+    "D5214": {
+      "child": 470.24,
+      "adult": 316.39
+    },
+    "D5820": {
+      "child": 164.21
+    },
+    "D5821": {
+      "child": 164.21
+    },
+    "D7140": {
+      "child": 40.31,
+      "adult": 27.12
+    },
+    "D7210": {
+      "child": 59.71,
+      "adult": 40.18
+    },
+    "D7220": {
+      "child": 92.56,
+      "adult": 62.27
+    },
+    "D7230": {
+      "child": 114.95,
+      "adult": 77.34
+    },
+    "D7240": {
+      "child": 117.94,
+      "adult": 79.35
+    },
+    "D7241": {
+      "child": 122.42,
+      "adult": 82.36
+    },
+    "D7250": {
+      "child": 80.61,
+      "adult": 54.24
+    },
+    "D8070": {
+      "child": 567.28
+    },
+    "D8080": {
+      "child": 567.28
+    },
+    "D8090": {
+      "child": 567.28
+    },
+    "D8670": {
+      "child": 77.63
+    },
+    "D8680": {
+      "child": 159.57
+    },
+    "D9222": {
+      "child": 62.11,
+      "adult": 41.79
+    },
+    "D9223": {
+      "child": 62.11,
+      "adult": 41.79
+    },
+    "D9239": {
+      "child": 62.11,
+      "adult": 41.79
+    },
+    "D9243": {
+      "child": 62.11,
+      "adult": 41.79
+    },
+    "D9230": {
+      "child": 41.8,
+      "adult": 28.12
+    }
+  },
+  "by_report": [],
+  "not_covered_or_absent": [
+    "D2750",
+    "D2752",
+    "D2790",
+    "D2962",
+    "D3346",
+    "D3347",
+    "D3348",
+    "D4910",
+    "D5225",
+    "D5226",
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D6240",
+    "D6245",
+    "D6750",
+    "D6740",
+    "D6790",
+    "D7953"
+  ],
+  "notes": "Columns used: '0 - 20 Year Rate' -> child, '21+ Year Rate' -> adult; '$ -' in the adult column means no adult rate (adult key omitted). Source is the official Florida Administrative Code reference file (Florida Dept. of State, flrules.org) for Ref-19997, adopted into Rule 59G-4.002 (amendment effective 10/26/2026). DOUBT: AHCA's own rule page (ahca.myflorida.com) lists a newer 'Dental General Fee Schedule' dated July 1, 2026 (file 2026_Dental_Fee_Schedule_July_1_2026.pdf); it could not be downloaded (Cloudflare 403 from this machine, no archive copy), so fees here are the January 1, 2026 version and may differ from July 1, 2026 rates. Codes flagged 'Y' (prior authorization): D5110, D5120, D5211, D5212, D5213, D5214, D5820, D5821, D8070, D8080, D8090, D8670, D8680. Florida Medicaid dental is mostly delivered through Statewide Medicaid Managed Care dental plans; this is the FFS schedule. The PDF header reads 'January 1, 2026 2025' (2025 struck through in the strike/underline version).",
+  "fees_2024": {
+    "D0120": {
+      "child": 22.39
+    },
+    "D0140": {
+      "child": 11.94,
+      "adult": 8.04
+    },
+    "D0150": {
+      "child": 23.88,
+      "adult": 16.07
+    },
+    "D0210": {
+      "child": 47.77,
+      "adult": 32.14
+    },
+    "D0220": {
+      "child": 5.98,
+      "adult": 4.02
+    },
+    "D0274": {
+      "child": 16.42
+    },
+    "D0330": {
+      "child": 44.79,
+      "adult": 30.13
+    },
+    "D1110": {
+      "child": 26.87
+    },
+    "D1120": {
+      "child": 20.9
+    },
+    "D1206": {
+      "child": 16.42
+    },
+    "D1351": {
+      "child": 19.41
+    },
+    "D2140": {
+      "child": 46.28
+    },
+    "D2150": {
+      "child": 61.21
+    },
+    "D2391": {
+      "child": 46.28
+    },
+    "D2392": {
+      "child": 61.21
+    },
+    "D2393": {
+      "child": 76.13
+    },
+    "D2394": {
+      "child": 91.06
+    },
+    "D2740": {
+      "child": 340.37
+    },
+    "D2751": {
+      "child": 340.37
+    },
+    "D2930": {
+      "child": 101.52
+    },
+    "D2950": {
+      "child": 97.04
+    },
+    "D3220": {
+      "child": 74.65
+    },
+    "D3310": {
+      "child": 220.94
+    },
+    "D3320": {
+      "child": 283.64
+    },
+    "D3330": {
+      "child": 350.82
+    },
+    "D4341": {
+      "child": 29.86
+    },
+    "D4342": {
+      "child": 14.93
+    },
+    "D4355": {
+      "child": 77.63
+    },
+    "D5110": {
+      "child": 462.78,
+      "adult": 311.37
+    },
+    "D5120": {
+      "child": 462.78,
+      "adult": 311.37
+    },
+    "D5211": {
+      "child": 246.32,
+      "adult": 165.73
+    },
+    "D5212": {
+      "child": 246.32,
+      "adult": 165.73
+    },
+    "D5213": {
+      "child": 470.24,
+      "adult": 316.39
+    },
+    "D5214": {
+      "child": 470.24,
+      "adult": 316.39
+    },
+    "D5820": {
+      "child": 164.21
+    },
+    "D5821": {
+      "child": 164.21
+    },
+    "D7140": {
+      "child": 40.31,
+      "adult": 27.12
+    },
+    "D7210": {
+      "child": 59.71,
+      "adult": 40.18
+    },
+    "D7220": {
+      "child": 92.56,
+      "adult": 62.27
+    },
+    "D7230": {
+      "child": 114.95,
+      "adult": 77.34
+    },
+    "D7240": {
+      "child": 117.94,
+      "adult": 79.35
+    },
+    "D7241": {
+      "child": 122.42,
+      "adult": 82.36
+    },
+    "D7250": {
+      "child": 80.61,
+      "adult": 54.24
+    },
+    "D8070": {
+      "child": 567.28
+    },
+    "D8080": {
+      "child": 567.28
+    },
+    "D8090": {
+      "child": 567.28
+    },
+    "D8670": {
+      "child": 77.63
+    },
+    "D8680": {
+      "child": 159.57
+    },
+    "D9222": {
+      "child": 62.11,
+      "adult": 41.79
+    },
+    "D9223": {
+      "child": 62.11,
+      "adult": 41.79
+    },
+    "D9239": {
+      "child": 62.11,
+      "adult": 41.79
+    },
+    "D9243": {
+      "child": 62.11,
+      "adult": 41.79
+    },
+    "D9230": {
+      "child": 41.8,
+      "adult": 28.12
+    }
+  },
+  "source_url_2024": "https://www.flrules.org/gateway/readRefFile.asp?refId=16999&filename=Dental%20General%20Fee%20Schedule_2024.pdf",
+  "effective_date_2024": "2024-01-01",
+  "notes_2024": "Edition: 'DENTAL GENERAL FEE SCHEDULE JANUARY 1, 2024' (Florida Administrative Code reference Ref-16999, https://www.flrules.org/gateway/reference.asp?No=Ref-16999), the edition dated for calendar 2024 and next superseded by the 2025 schedule. Caveat: it was formally adopted into Rule 59G-4.002 by the amendment effective 10/21/2024; the rule version legally in force on 2024-07-01 (effective 12/31/2023) incorporated the 'Dental General Fee Schedule 2023' (Ref-16119, January 1, 2023), which has identical child and adult rates for all 53 requested codes present (checked code by code). AHCA applies schedules by their printed effective date, so the January 1, 2024 edition is used. Parsed by column position: 0-20 Year Rate -> child, 21+ Year Rate -> adult (blank = no adult rate). Prior authorization Y on dentures, D5820/D5821 and ortho codes."
+}

@@ -1,0 +1,372 @@
+{
+  "state": "MI",
+  "status": "ok",
+  "program": "Michigan Medicaid (MDHHS) fee-for-service Dental",
+  "document_title": "Michigan Department of Health and Human Services - Dental Fee Schedule - January 2026 (Revised: 03/11/2026)",
+  "source_url": "https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Assistance-Programs/Medicaid-BPHASA/January-2026-DBs/Dental-January-2026.xlsx?rev=085941a4676547a0ad5b7e3281b76441",
+  "source_page": "https://www.michigan.gov/mdhhs/doing-business/providers/providers/billingreimbursement/dental",
+  "effective_date": "2026-01-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "all": 33.99
+    },
+    "D0140": {
+      "all": 51.71
+    },
+    "D0150": {
+      "all": 54.14
+    },
+    "D0210": {
+      "all": 90.0
+    },
+    "D0220": {
+      "all": 19.14
+    },
+    "D0274": {
+      "all": 40.92
+    },
+    "D0330": {
+      "all": 81.29
+    },
+    "D1110": {
+      "all": 62.14
+    },
+    "D1120": {
+      "all": 46.71
+    },
+    "D1206": {
+      "all": 32.29
+    },
+    "D1351": {
+      "all": 33.71
+    },
+    "D2140": {
+      "all": 77.14
+    },
+    "D2150": {
+      "all": 96.43
+    },
+    "D2391": {
+      "all": 113.57
+    },
+    "D2392": {
+      "all": 147.0
+    },
+    "D2393": {
+      "all": 178.43
+    },
+    "D2394": {
+      "all": 205.86
+    },
+    "D2740": {
+      "all": 817.57
+    },
+    "D2750": {
+      "all": 744.14
+    },
+    "D2751": {
+      "all": 677.0
+    },
+    "D2752": {
+      "all": 684.57
+    },
+    "D2790": {
+      "all": 708.0
+    },
+    "D2930": {
+      "all": 190.14
+    },
+    "D2950": {
+      "all": 192.29
+    },
+    "D3220": {
+      "all": 124.86
+    },
+    "D3310": {
+      "all": 499.43
+    },
+    "D3320": {
+      "all": 584.86
+    },
+    "D3330": {
+      "all": 742.86
+    },
+    "D3346": {
+      "all": 628.57
+    },
+    "D3347": {
+      "all": 713.57
+    },
+    "D3348": {
+      "all": 845.57
+    },
+    "D4341": {
+      "all": 170.0
+    },
+    "D4342": {
+      "all": 116.14
+    },
+    "D4355": {
+      "all": 118.29
+    },
+    "D4910": {
+      "all": 105.29
+    },
+    "D5110": {
+      "all": 937.0
+    },
+    "D5120": {
+      "all": 932.0
+    },
+    "D5211": {
+      "all": 729.43
+    },
+    "D5212": {
+      "all": 767.86
+    },
+    "D5213": {
+      "all": 1056.29
+    },
+    "D5214": {
+      "all": 1057.43
+    },
+    "D5225": {
+      "all": 916.86
+    },
+    "D5226": {
+      "all": 959.0
+    },
+    "D5820": {
+      "all": 360.43
+    },
+    "D5821": {
+      "all": 367.29
+    },
+    "D7140": {
+      "all": 101.0
+    },
+    "D7210": {
+      "all": 181.86
+    },
+    "D7220": {
+      "all": 215.0
+    },
+    "D7230": {
+      "all": 277.86
+    },
+    "D7240": {
+      "all": 324.29
+    },
+    "D7250": {
+      "all": 192.0
+    },
+    "D9222": {
+      "all": 140.43
+    },
+    "D9223": {
+      "all": 120.68
+    },
+    "D9239": {
+      "all": 152.97
+    },
+    "D9243": {
+      "all": 110.86
+    }
+  },
+  "by_report": [],
+  "not_covered_or_absent": [
+    "D2962",
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D6240",
+    "D6245",
+    "D6750",
+    "D6740",
+    "D6790",
+    "D7241",
+    "D7953",
+    "D8070",
+    "D8080",
+    "D8090",
+    "D8670",
+    "D8680",
+    "D9230"
+  ],
+  "notes": "ACCESS CAVEAT: michigan.gov returns HTTP 403 (Akamai) to this machine and to WebFetch. The link list was read from the Wayback capture of the official Dental page dated 2026-08-25 (newest dental schedule listed: 'Jan 2026 XLSX'); the official file was fetched through a Wayback 'Save Page Now' capture made 2026-10-20 of the exact official URL (https://web.archive.org/web/20261020091052/<official URL>, origin Last-Modified 2026-03-16). Re-check from a US connection. Single 'Rate' column, 'Age Range' column empty for all extracted codes, so population 'all'. Footnote: '*Covered benefit for CSHCS only' (Children's Special Health Care Services) lists implant, bridge and orthodontic codes (D6010-D6790, D8070-D8670), which are absent from the rate rows of this file. Children under 21 are mostly served through Healthy Kids Dental (managed by Delta Dental / Blue Cross dental plans), so this FFS schedule mainly applies to adult FFS and CSHCS; the page says the Medicaid Provider Manual prevails on discrepancies.",
+  "fees_2024": {
+    "D0120": {
+      "all": 30.25
+    },
+    "D0140": {
+      "all": 47.5
+    },
+    "D0150": {
+      "all": 48.0
+    },
+    "D0210": {
+      "all": 85.25
+    },
+    "D0220": {
+      "all": 18.25
+    },
+    "D0274": {
+      "all": 38.5
+    },
+    "D0330": {
+      "all": 77.5
+    },
+    "D1110": {
+      "all": 57.75
+    },
+    "D1120": {
+      "all": 43.25
+    },
+    "D1206": {
+      "all": 30.0
+    },
+    "D1351": {
+      "all": 31.75
+    },
+    "D2140": {
+      "all": 74.75
+    },
+    "D2150": {
+      "all": 93.0
+    },
+    "D2391": {
+      "all": 104.0
+    },
+    "D2392": {
+      "all": 135.25
+    },
+    "D2393": {
+      "all": 165.25
+    },
+    "D2394": {
+      "all": 193.5
+    },
+    "D2740": {
+      "all": 767.25
+    },
+    "D2750": {
+      "all": 672.5
+    },
+    "D2751": {
+      "all": 667.75
+    },
+    "D2752": {
+      "all": 652.5
+    },
+    "D2790": {
+      "all": 660.0
+    },
+    "D2930": {
+      "all": 185.75
+    },
+    "D2950": {
+      "all": 191.75
+    },
+    "D3220": {
+      "all": 121.0
+    },
+    "D3310": {
+      "all": 461.0
+    },
+    "D3320": {
+      "all": 536.75
+    },
+    "D3330": {
+      "all": 666.25
+    },
+    "D3346": {
+      "all": 552.0
+    },
+    "D3347": {
+      "all": 643.25
+    },
+    "D3348": {
+      "all": 739.5
+    },
+    "D4341": {
+      "all": 162.5
+    },
+    "D4342": {
+      "all": 106.5
+    },
+    "D4355": {
+      "all": 116.75
+    },
+    "D4910": {
+      "all": 101.0
+    },
+    "D5110": {
+      "all": 939.0
+    },
+    "D5120": {
+      "all": 932.5
+    },
+    "D5211": {
+      "all": 722.0
+    },
+    "D5212": {
+      "all": 754.25
+    },
+    "D5213": {
+      "all": 1054.0
+    },
+    "D5214": {
+      "all": 1056.0
+    },
+    "D5225": {
+      "all": 889.75
+    },
+    "D5226": {
+      "all": 926.25
+    },
+    "D5820": {
+      "all": 351.5
+    },
+    "D5821": {
+      "all": 356.0
+    },
+    "D7140": {
+      "all": 93.25
+    },
+    "D7210": {
+      "all": 173.5
+    },
+    "D7220": {
+      "all": 207.0
+    },
+    "D7230": {
+      "all": 270.25
+    },
+    "D7240": {
+      "all": 310.5
+    },
+    "D7250": {
+      "all": 187.0
+    },
+    "D9222": {
+      "all": 127.75
+    },
+    "D9223": {
+      "all": 106.44
+    },
+    "D9239": {
+      "all": 137.75
+    },
+    "D9243": {
+      "all": 97.0
+    }
+  },
+  "source_url_2024": "https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Assistance-Programs/Medicaid-BPHASA/January-2024-DBs/Dental-Fee-Schedule-January-2024-XLSX.xlsx?rev=3d49066cb8b84ccea3784b645e2468b9",
+  "effective_date_2024": "2024-01-01",
+  "notes_2024": "Document 'Michigan Department of Health and Human Services - Dental Fee Schedule - January 2024'. The official Dental page lists Jan 2023, April 2023, Jan 2024, Jan 2025 and Jan 2026 editions, so January 2024 is the edition in force on 2024-07-01. Downloaded from the Wayback capture of the official URL dated 2025-10-31 (http://web.archive.org/web/20251031061325id_/<official URL>) because michigan.gov is 403 from here. Same column used ('Rate'); by_report_2024: []."
+}

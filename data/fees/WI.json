@@ -1,0 +1,18 @@
+{
+  "state": "WI",
+  "status": "not_found",
+  "program": "Wisconsin Medicaid / BadgerCare Plus (ForwardHealth) - dental max fee schedule",
+  "document_title": null,
+  "source_url": null,
+  "source_page": "https://www.forwardhealth.wi.gov/WIPortal/Subsystem/Publications/MaxFeeHome.aspx",
+  "effective_date": null,
+  "retrieved_at": "2026-10-20",
+  "fees": {},
+  "by_report": [],
+  "not_covered_or_absent": [],
+  "notes": "The official source is the ForwardHealth Max Fee Schedule (Dental) on forwardhealth.wi.gov, but the host is unreachable from this environment (TCP connection timeout, also refused via WebFetch), so the file could not be downloaded or parsed. dhs.wisconsin.gov is reachable but does not host the dental max fee file. Search snippet (not verified, not recorded): ForwardHealth Update 2025-28 raised D9222/D9223 to $238.00 per 15-min unit for DOS on/after 2026-01-01. Retry from a US network.",
+  "fees_2024": null,
+  "source_url_2024": null,
+  "effective_date_2024": null,
+  "notes_2024": "ForwardHealth dental max fees are served via the MaxFeeDownload.aspx form, which web.archive.org did not capture as a file; archived max-fee PDF list (2024) contains no dental schedule; live site unreachable from here."
+}

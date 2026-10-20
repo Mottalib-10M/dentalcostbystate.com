@@ -1,0 +1,443 @@
+{
+  "state": "WA",
+  "status": "ok",
+  "program": "Washington Apple Health (Medicaid) Dental Program, fee-for-service",
+  "document_title": "Washington State Health Care Authority (HCA) - Dental Program Fee Schedule - Effective July 1, 2026",
+  "source_url": "https://www.hca.wa.gov/assets/billers-and-providers/dental-20260701.xlsx",
+  "source_page": "https://www.hca.wa.gov/billers-providers-partners/prior-authorization-claims-and-billing/provider-billing-guides-and-fee-schedules",
+  "effective_date": "2026-07-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "child": 27.07,
+      "adult": 30.36
+    },
+    "D0140": {
+      "child": 22.78,
+      "adult": 27.6
+    },
+    "D0150": {
+      "child": 39.03,
+      "adult": 37.26
+    },
+    "D0210": {
+      "child": 44.81,
+      "adult": 48.3
+    },
+    "D0220": {
+      "child": 8.47,
+      "adult": 9.66
+    },
+    "D0274": {
+      "child": 15.03,
+      "adult": 12.42
+    },
+    "D0330": {
+      "child": 42.55,
+      "adult": 37.26
+    },
+    "D1110": {
+      "child": 42.19,
+      "adult": 51.57
+    },
+    "D1120": {
+      "child": 32.17
+    },
+    "D1206": {
+      "child": 19.5,
+      "adult": 19.5
+    },
+    "D1351": {
+      "child": 30.93,
+      "adult": 32.97
+    },
+    "D2140": {
+      "child": 59.97,
+      "adult": 49.74
+    },
+    "D2150": {
+      "child": 69.47,
+      "adult": 66.76
+    },
+    "D2391": {
+      "child": 59.97,
+      "adult": 49.74
+    },
+    "D2392": {
+      "child": 72.24,
+      "adult": 66.76
+    },
+    "D2393": {
+      "child": 78.98,
+      "adult": 96.37
+    },
+    "D2394": {
+      "child": 80.06,
+      "adult": 96.6
+    },
+    "D2740": {
+      "child": 560.97
+    },
+    "D2750": {
+      "child": 560.97
+    },
+    "D2751": {
+      "child": 560.97
+    },
+    "D2752": {
+      "child": 560.97
+    },
+    "D2930": {
+      "child": 129.78
+    },
+    "D2950": {
+      "child": 67.9
+    },
+    "D3220": {
+      "child": 74.46
+    },
+    "D3310": {
+      "child": 395.69,
+      "adult": 351.94
+    },
+    "D3320": {
+      "child": 446.12
+    },
+    "D3330": {
+      "child": 543.11
+    },
+    "D3346": {
+      "child": 426.73,
+      "adult": 403.5
+    },
+    "D3347": {
+      "child": 519.83
+    },
+    "D3348": {
+      "child": 640.09
+    },
+    "D4341": {
+      "child": 29.67,
+      "adult": 36.27
+    },
+    "D4342": {
+      "child": 15.42,
+      "adult": 18.85
+    },
+    "D4355": {
+      "child": 84.0,
+      "adult": 105.0
+    },
+    "D4910": {
+      "child": 56.94,
+      "adult": 69.0
+    },
+    "D5110": {
+      "child": 470.07,
+      "adult": 585.34
+    },
+    "D5120": {
+      "child": 470.07,
+      "adult": 585.34
+    },
+    "D5211": {
+      "child": 312.14,
+      "adult": 414.41
+    },
+    "D5212": {
+      "child": 312.14,
+      "adult": 414.41
+    },
+    "D7140": {
+      "child": 57.65,
+      "adult": 45.73
+    },
+    "D7210": {
+      "child": 89.05,
+      "adult": 89.7
+    },
+    "D7220": {
+      "child": 94.38,
+      "adult": 105.86
+    },
+    "D7230": {
+      "child": 141.6,
+      "adult": 165.6
+    },
+    "D7240": {
+      "child": 164.37,
+      "adult": 193.2
+    },
+    "D7241": {
+      "child": 214.87,
+      "adult": 248.4
+    },
+    "D7250": {
+      "child": 89.06,
+      "adult": 89.7
+    },
+    "D8070": {
+      "child": 1432.22
+    },
+    "D8080": {
+      "child": 1432.22
+    },
+    "D8670": {
+      "child": 240.6
+    },
+    "D8680": {
+      "child": 303.6
+    },
+    "D9222": {
+      "child": 93.6,
+      "adult": 117.0
+    },
+    "D9223": {
+      "child": 93.6,
+      "adult": 117.0
+    },
+    "D9239": {
+      "child": 60.0,
+      "adult": 75.0
+    },
+    "D9243": {
+      "child": 60.0,
+      "adult": 75.0
+    },
+    "D9230": {
+      "child": 24.0,
+      "adult": 30.0
+    }
+  },
+  "by_report": [],
+  "not_covered_or_absent": [
+    "D2790",
+    "D2962",
+    "D5213",
+    "D5214",
+    "D5225",
+    "D5226",
+    "D5820",
+    "D5821",
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D6240",
+    "D6245",
+    "D6750",
+    "D6740",
+    "D6790",
+    "D7953",
+    "D8090"
+  ],
+  "notes": "Listed on HCA page as 'July 1, 2026 to present - Dental program fee schedule (published June 23, 2026)'. child = column 'Max fee Dental ages 0-20'; adult = 'Max fee Dental ages 21+'. For D8xxx orthodontic codes the child value comes from column 'Max fee Ortho ages 0-20' (no adult ortho fee). Separate higher ABCD (Access to Baby and Child Dentistry) column not recorded (e.g. D0120 ABCD 41.24, D0150 56.53, D2140 89.05). D1351 adult fee $32.97 is marked '**' = services only for eligible DDA clients 21 and over; D4355 is 'DDA coverage only'. Many codes require PA/EPA (e.g. D2740-D2752 crowns child-only with PA for ages 15-20; no adult crown fee listed). Codes absent from the schedule: implants, bridges (D62xx/D67xx), partials D5213/D5214/D5225/D5226, interim D5820/D5821. Most Apple Health clients are in managed care for medical but dental is FFS via ProviderOne (Apple Health dental is fee-for-service statewide).",
+  "fees_2024": {
+    "D0120": {
+      "child": 32.41,
+      "adult": 40.48
+    },
+    "D0140": {
+      "child": 25.76,
+      "adult": 36.8
+    },
+    "D0150": {
+      "child": 44.42,
+      "adult": 49.68
+    },
+    "D0210": {
+      "child": 45.08,
+      "adult": 64.4
+    },
+    "D0220": {
+      "child": 9.02,
+      "adult": 12.88
+    },
+    "D0274": {
+      "child": 15.03,
+      "adult": 16.56
+    },
+    "D0330": {
+      "child": 42.55,
+      "adult": 49.68
+    },
+    "D1110": {
+      "child": 48.13,
+      "adult": 68.76
+    },
+    "D1120": {
+      "child": 32.17
+    },
+    "D1206": {
+      "child": 25.75,
+      "adult": 24.64
+    },
+    "D1351": {
+      "child": 30.77,
+      "adult": 43.96
+    },
+    "D2140": {
+      "child": 69.97,
+      "adult": 66.31
+    },
+    "D2150": {
+      "child": 76.97,
+      "adult": 89.02
+    },
+    "D2391": {
+      "child": 69.97,
+      "adult": 66.31
+    },
+    "D2392": {
+      "child": 82.5,
+      "adult": 89.02
+    },
+    "D2393": {
+      "child": 88.0,
+      "adult": 128.49
+    },
+    "D2394": {
+      "child": 90.16,
+      "adult": 128.8
+    },
+    "D2740": {
+      "child": 560.97
+    },
+    "D2750": {
+      "child": 560.97
+    },
+    "D2751": {
+      "child": 560.97
+    },
+    "D2752": {
+      "child": 560.97
+    },
+    "D2930": {
+      "child": 170.5
+    },
+    "D2950": {
+      "child": 67.9
+    },
+    "D3220": {
+      "child": 104.95
+    },
+    "D3310": {
+      "child": 395.69,
+      "adult": 469.26
+    },
+    "D3320": {
+      "child": 446.12
+    },
+    "D3330": {
+      "child": 543.11
+    },
+    "D3346": {
+      "child": 426.73,
+      "adult": 538.0
+    },
+    "D3347": {
+      "child": 519.83
+    },
+    "D3348": {
+      "child": 640.09
+    },
+    "D4341": {
+      "child": 33.85,
+      "adult": 48.36
+    },
+    "D4342": {
+      "child": 17.59,
+      "adult": 25.13
+    },
+    "D4355": {
+      "child": 98.0,
+      "adult": 140.0
+    },
+    "D4910": {
+      "child": 64.4,
+      "adult": 92.0
+    },
+    "D5110": {
+      "child": 546.32,
+      "adult": 780.45
+    },
+    "D5120": {
+      "child": 546.32,
+      "adult": 780.45
+    },
+    "D5211": {
+      "child": 386.79,
+      "adult": 552.55
+    },
+    "D5212": {
+      "child": 386.79,
+      "adult": 552.55
+    },
+    "D7140": {
+      "child": 57.65,
+      "adult": 60.98
+    },
+    "D7210": {
+      "child": 89.05,
+      "adult": 119.6
+    },
+    "D7220": {
+      "child": 98.81,
+      "adult": 141.15
+    },
+    "D7230": {
+      "child": 154.56,
+      "adult": 220.8
+    },
+    "D7240": {
+      "child": 180.32,
+      "adult": 257.6
+    },
+    "D7241": {
+      "child": 231.84,
+      "adult": 331.2
+    },
+    "D7250": {
+      "child": 89.06,
+      "adult": 119.6
+    },
+    "D8070": {
+      "child": 1432.22
+    },
+    "D8080": {
+      "child": 1432.22
+    },
+    "D8670": {
+      "child": 240.6
+    },
+    "D8680": {
+      "child": 303.6
+    },
+    "D9222": {
+      "child": 109.2,
+      "adult": 156.0
+    },
+    "D9223": {
+      "child": 109.2,
+      "adult": 156.0
+    },
+    "D9239": {
+      "child": 70.0,
+      "adult": 100.0
+    },
+    "D9243": {
+      "child": 70.0,
+      "adult": 100.0
+    },
+    "D9230": {
+      "child": 28.0,
+      "adult": 40.0
+    }
+  },
+  "source_url_2024": "https://www.hca.wa.gov/assets/billers-and-providers/dental-20240701.xlsx",
+  "effective_date_2024": "2024-07-01",
+  "notes_2024": "Document 'Washington State Health Care Authority (HCA) - Dental Program Fee Schedule - Effective July 1, 2024', downloaded directly from the official HCA assets URL (still served, though no longer linked from the current billing-guides page, which lists editions from July 2025). Same column rules as the current file: child = 'Max fee Dental ages 0-20' (ortho codes from 'Max fee Ortho ages 0-20'), adult = 'Max fee Dental ages 21+'. This edition has an extra 'Max fee Oral Health Connections' column (not recorded) and the ABCD column (not recorded). by_report_2024: []."
+}

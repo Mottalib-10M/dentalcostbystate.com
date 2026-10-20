@@ -1,0 +1,62 @@
+---
+/**
+ * A state page: the estimator set on the state, the folded answer, the state's own text
+ * (src/content/states/<slug>.ts), then the state's price list built from its fee schedule.
+ * The table is generated, so it carries data-chrome; the prose of the content file is what makes the page.
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import Clamp from './Clamp.astro';
+import Tool from './Tool.astro';
+import Body from './Body.astro';
+import { route, ROUTES } from '../i18n/routes';
+import { label } from '../i18n/nav';
+import { t } from '../i18n/ui';
+import { guideById, statePageById, stateId } from '../lib/pages';
+import { helpers, SOURCES, table } from '../lib/helpers';
+import { medicaidNow } from '../lib/data';
+import { KIT as K } from '../lib/kit';
+import { articleSchema, faqSchema, breadcrumbSchema, webPageSchema, webApplicationSchema } from '../lib/seo';
+import { AUTHOR_NAME } from '../data/site-config';
+import type { StateDef } from '../lib/page-types';
+interface Props { def: StateDef }
+const { def } = Astro.props;
+const lang = 'en';
+const ui = t(lang);
+const st = K.S(def.slug);
+const id = stateId(def.slug);
+const path = route(id, lang);
+const h1 = `Dental costs in ${st.name}: implants, crowns, braces and more`;
+const hub = 'dental-costs-by-state';
+const jsonLd = [webApplicationSchema({ name: h1, description: def.description, path, lang }), articleSchema({ title: h1, description: def.description, path, lang }), webPageSchema({ name: h1, description: def.description, path, lang }), breadcrumbSchema([{ name: ui.breadcrumbHome, path: route('home', lang) }, { name: label(hub), path: route(hub, lang) }, { name: st.name, path }])];
+if (def.faqs.length) jsonLd.push(faqSchema(def.faqs, lang));
+const card = (x: string) => guideById(x)?.card ?? (statePageById(x) ? statePageById(x)!.intro : '');
+const related = def.related.filter((x) => ROUTES.some((r) => r.id === x)).map((x) => ({ href: route(x, lang), name: label(x), description: card(x) }));
+const sources = [
+  { name: `${st.program}: ${st.title}`, url: st.url },
+  ...(st.url2024 && st.url2024 !== st.url ? [{ name: `${st.name} Medicaid dental fee schedule in force on July 1, 2024`, url: st.url2024 }] : []),
+  ...['ada_hpi_2024', 'bls_cpi_dental'].map((k) => ({ name: SOURCES[k].label, url: SOURCES[k].url })),
+];
+const hasNow = Object.keys(st.feesNow).length > 0;
+const rows = K.PROC_IDS.map((pid) => ({ pid, p: K.PR(pid), e: K.est(def.slug, pid) })).filter((r) => r.e.ok).map((r) => {
+  const now = medicaidNow(st, r.pid);
+  const row = [r.p.short, r.p.unit, K.usd(r.e.charge), K.usd(r.e.allowed), K.usd(r.e.medicaid)];
+  return hasNow ? [...row, now === null ? 'not listed' : K.usd(now)] : row;
+});
+const cpiMonth = K.month(K.P.cpiDental.latestPeriod);
+---
+<PageLayout title={def.title} description={def.description} lang={lang} jsonLd={jsonLd} faqs={def.faqs} related={related} sources={sources} breadcrumbs={[{ label: label(hub), href: route(hub, lang) }, { label: st.name }]}>
+  <article>
+    <header class="mb-4">
+      <h1 class="font-serif text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{h1}</h1>
+      <p class="mt-2 text-base text-navy-700 sm:text-lg">{def.intro}</p>
+    </header>
+    <div data-outil data-chrome class="mb-4"><Tool kind="cost" arg={{ sx: def.slug, ...(def.toolArg ?? {}) }} idPrefix={`s-${st.code.toLowerCase()}`} /></div>
+    <p class="mb-6 text-sm text-navy-600">{ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method')}</a> · {st.program} fee schedule, ADA ratios of {st.name} · not a quote</p>
+    <Clamp text={def.resume} lang={lang} id={`clamp-${def.slug}`} class="mb-8" />
+    <Body html={def.body(helpers())} path={path} />
+    <section data-chrome class="mt-10">
+      <h2 class="font-serif text-2xl font-bold text-navy-900">{st.name} price list, procedure by procedure</h2>
+      <Fragment set:html={table(['Procedure', 'Unit', 'Full fee', 'In network', 'Medicaid fee, 2024', ...(hasNow ? ['Medicaid fee today'] : [])], rows, `Estimated typical charges in ${st.name}, ${cpiMonth} dollars. Medicaid fee, 2024: the schedule in force on July 1, 2024, from which the estimate is made.${hasNow ? ` Medicaid fee today: the edition of ${K.day(st.effective)}.` : ' The current schedule is not published in a form we could read.'}`, ['l', 'l', 'r', 'r', 'r', 'r'])} />
+    </section>
+  </article>
+</PageLayout>

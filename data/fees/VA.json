@@ -1,0 +1,417 @@
+{
+  "state": "VA",
+  "status": "ok",
+  "program": "Virginia Medicaid / FAMIS - Cardinal Care Smiles (dental benefits administrator DentaQuest)",
+  "document_title": "ATTACHMENT A-1 CARDINAL CARE SMILES (GVWB2005) SCHEDULE OF ALLOWABLE FEES (footer: VA Cardinal Care Smiles 07.01.24)",
+  "source_url": "https://www.dmas.virginia.gov/media/y3zdxuvi/va-cardinal-care-smiles-fee-schedule-07-01-2024.pdf",
+  "source_page": "https://www.dmas.virginia.gov/for-providers/rates-and-rate-setting/procedure-fee-files-cpt-codes/",
+  "effective_date": "2024-07-01",
+  "notes": "Most recent schedule published by DMAS; no 2025 or 2026 Cardinal Care Smiles schedule found on dmas.virginia.gov as of 2026-10-20 (PDF metadata shows the file re-saved 2026-05-28 but the content and footer are still 07.01.24). Identical content also at https://dmas.virginia.gov/media/wa4jhogz/va-cardinal-care-smiles-fee-schedule-070124_final.pdf, linked from https://www.dmas.virginia.gov/for-providers/benefits-services-for-providers/dental/for-dentists/. Single fee column, no age split, so population 'all'; header says to refer to DentaQuest's Office Reference Manual for covered services and age limits (e.g. D1120 child prophy, D8xxx orthodontics for children only; adult dental coverage exists since 2021). Dental is carved out to a single PAHP administrator (DentaQuest), not classic FFS; this is the state's schedule of allowable fees. The DMAS procedure fee file (hcpcmedical.csv) lists dental D codes as 'IC' and was not used. Fixed bridge codes D6240/D6245/D6740/D6750/D6790 and veneer D2962 appear with fees in the schedule even though coverage is limited per the ORM.",
+  "fees": {
+    "D0120": {
+      "all": 26.99
+    },
+    "D0140": {
+      "all": 33.25
+    },
+    "D0150": {
+      "all": 41.92
+    },
+    "D0210": {
+      "all": 96.28
+    },
+    "D0220": {
+      "all": 14.97
+    },
+    "D0274": {
+      "all": 36.96
+    },
+    "D0330": {
+      "all": 72.3
+    },
+    "D1110": {
+      "all": 63.19
+    },
+    "D1120": {
+      "all": 44.89
+    },
+    "D1206": {
+      "all": 27.84
+    },
+    "D1351": {
+      "all": 43.22
+    },
+    "D2140": {
+      "all": 79.51
+    },
+    "D2150": {
+      "all": 101.14
+    },
+    "D2391": {
+      "all": 99.46
+    },
+    "D2392": {
+      "all": 119.41
+    },
+    "D2393": {
+      "all": 154.35
+    },
+    "D2394": {
+      "all": 170.99
+    },
+    "D2740": {
+      "all": 669.5
+    },
+    "D2750": {
+      "all": 669.5
+    },
+    "D2751": {
+      "all": 669.5
+    },
+    "D2752": {
+      "all": 669.5
+    },
+    "D2790": {
+      "all": 669.5
+    },
+    "D2930": {
+      "all": 183.35
+    },
+    "D2950": {
+      "all": 147.65
+    },
+    "D2962": {
+      "all": 484.8
+    },
+    "D3220": {
+      "all": 111.39
+    },
+    "D3310": {
+      "all": 502.13
+    },
+    "D3320": {
+      "all": 575.77
+    },
+    "D3330": {
+      "all": 909.18
+    },
+    "D3346": {
+      "all": 577.45
+    },
+    "D3347": {
+      "all": 662.14
+    },
+    "D3348": {
+      "all": 1045.56
+    },
+    "D4341": {
+      "all": 124.71
+    },
+    "D4342": {
+      "all": 65.71
+    },
+    "D4355": {
+      "all": 104.81
+    },
+    "D4910": {
+      "all": 83.14
+    },
+    "D5110": {
+      "all": 903.63
+    },
+    "D5120": {
+      "all": 903.63
+    },
+    "D5211": {
+      "all": 884.62
+    },
+    "D5212": {
+      "all": 884.62
+    },
+    "D5213": {
+      "all": 993.99
+    },
+    "D5214": {
+      "all": 993.99
+    },
+    "D5225": {
+      "all": 884.62
+    },
+    "D5226": {
+      "all": 884.62
+    },
+    "D6240": {
+      "all": 669.5
+    },
+    "D6245": {
+      "all": 669.5
+    },
+    "D6740": {
+      "all": 669.5
+    },
+    "D6750": {
+      "all": 669.5
+    },
+    "D6790": {
+      "all": 669.5
+    },
+    "D7140": {
+      "all": 92.39
+    },
+    "D7210": {
+      "all": 171.39
+    },
+    "D7220": {
+      "all": 206.21
+    },
+    "D7230": {
+      "all": 285.21
+    },
+    "D7240": {
+      "all": 330.73
+    },
+    "D7241": {
+      "all": 356.17
+    },
+    "D7250": {
+      "all": 171.39
+    },
+    "D8080": {
+      "all": 1408.63
+    },
+    "D8670": {
+      "all": 545.29
+    },
+    "D8680": {
+      "all": 563.75
+    },
+    "D9222": {
+      "all": 85.7
+    },
+    "D9223": {
+      "all": 85.7
+    },
+    "D9230": {
+      "all": 45.18
+    },
+    "D9239": {
+      "all": 70.3
+    },
+    "D9243": {
+      "all": 70.3
+    }
+  },
+  "by_report": [],
+  "not_covered_or_absent": [
+    "D5820",
+    "D5821",
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D7953",
+    "D8070",
+    "D8090"
+  ],
+  "retrieved_at": "2026-10-20",
+  "fees_2024": {
+    "D0120": {
+      "all": 26.99
+    },
+    "D0140": {
+      "all": 33.25
+    },
+    "D0150": {
+      "all": 41.92
+    },
+    "D0210": {
+      "all": 96.28
+    },
+    "D0220": {
+      "all": 14.97
+    },
+    "D0274": {
+      "all": 36.96
+    },
+    "D0330": {
+      "all": 72.3
+    },
+    "D1110": {
+      "all": 63.19
+    },
+    "D1120": {
+      "all": 44.89
+    },
+    "D1206": {
+      "all": 27.84
+    },
+    "D1351": {
+      "all": 43.22
+    },
+    "D2140": {
+      "all": 79.51
+    },
+    "D2150": {
+      "all": 101.14
+    },
+    "D2391": {
+      "all": 99.46
+    },
+    "D2392": {
+      "all": 119.41
+    },
+    "D2393": {
+      "all": 154.35
+    },
+    "D2394": {
+      "all": 170.99
+    },
+    "D2740": {
+      "all": 669.5
+    },
+    "D2750": {
+      "all": 669.5
+    },
+    "D2751": {
+      "all": 669.5
+    },
+    "D2752": {
+      "all": 669.5
+    },
+    "D2790": {
+      "all": 669.5
+    },
+    "D2930": {
+      "all": 183.35
+    },
+    "D2950": {
+      "all": 147.65
+    },
+    "D2962": {
+      "all": 484.8
+    },
+    "D3220": {
+      "all": 111.39
+    },
+    "D3310": {
+      "all": 502.13
+    },
+    "D3320": {
+      "all": 575.77
+    },
+    "D3330": {
+      "all": 909.18
+    },
+    "D3346": {
+      "all": 577.45
+    },
+    "D3347": {
+      "all": 662.14
+    },
+    "D3348": {
+      "all": 1045.56
+    },
+    "D4341": {
+      "all": 124.71
+    },
+    "D4342": {
+      "all": 65.71
+    },
+    "D4355": {
+      "all": 104.81
+    },
+    "D4910": {
+      "all": 83.14
+    },
+    "D5110": {
+      "all": 903.63
+    },
+    "D5120": {
+      "all": 903.63
+    },
+    "D5211": {
+      "all": 884.62
+    },
+    "D5212": {
+      "all": 884.62
+    },
+    "D5213": {
+      "all": 993.99
+    },
+    "D5214": {
+      "all": 993.99
+    },
+    "D5225": {
+      "all": 884.62
+    },
+    "D5226": {
+      "all": 884.62
+    },
+    "D6240": {
+      "all": 669.5
+    },
+    "D6245": {
+      "all": 669.5
+    },
+    "D6740": {
+      "all": 669.5
+    },
+    "D6750": {
+      "all": 669.5
+    },
+    "D6790": {
+      "all": 669.5
+    },
+    "D7140": {
+      "all": 92.39
+    },
+    "D7210": {
+      "all": 171.39
+    },
+    "D7220": {
+      "all": 206.21
+    },
+    "D7230": {
+      "all": 285.21
+    },
+    "D7240": {
+      "all": 330.73
+    },
+    "D7241": {
+      "all": 356.17
+    },
+    "D7250": {
+      "all": 171.39
+    },
+    "D8080": {
+      "all": 1408.63
+    },
+    "D8670": {
+      "all": 545.29
+    },
+    "D8680": {
+      "all": 563.75
+    },
+    "D9222": {
+      "all": 85.7
+    },
+    "D9223": {
+      "all": 85.7
+    },
+    "D9230": {
+      "all": 45.18
+    },
+    "D9239": {
+      "all": 70.3
+    },
+    "D9243": {
+      "all": 70.3
+    }
+  },
+  "source_url_2024": "https://www.dmas.virginia.gov/media/y3zdxuvi/va-cardinal-care-smiles-fee-schedule-07-01-2024.pdf",
+  "effective_date_2024": "2024-07-01",
+  "notes_2024": "The current Cardinal Care Smiles schedule is itself the edition effective 07.01.24 (footer 'VA Cardinal Care Smiles 07.01.24'), so it is the schedule in force on 2024-07-01; fees copied unchanged. by_report_2024: none."
+}

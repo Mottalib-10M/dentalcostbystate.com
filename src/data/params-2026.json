@@ -1,0 +1,528 @@
+{
+ "_lisezmoi": "Every rule and every non-state figure of the site. State fees live in src/data/states.json (scripts/build-data.py). Each value was read on its source on retrieved_at.",
+ "year": 2026,
+ "retrieved_at": "2026-10-20",
+ "valid_from": "2026-01-01",
+ "valid_to": "2026-12-31",
+ "procedures": {
+  "implant": {
+   "label": "Dental implant with abutment and crown",
+   "short": "Single implant",
+   "pop": "adult",
+   "cls": "major",
+   "unit": "per tooth",
+   "slots": [
+    {
+     "codes": [
+      "D6010"
+     ],
+     "n": 1,
+     "label": "Implant body, endosteal"
+    },
+    {
+     "codes": [
+      "D6057",
+      "D6056"
+     ],
+     "n": 1,
+     "label": "Abutment"
+    },
+    {
+     "codes": [
+      "D6058",
+      "D6059"
+     ],
+     "n": 1,
+     "label": "Crown on the abutment"
+    }
+   ]
+  },
+  "crown": {
+   "label": "Porcelain or ceramic crown",
+   "short": "Crown",
+   "pop": "adult",
+   "cls": "major",
+   "unit": "per tooth",
+   "slots": [
+    {
+     "codes": [
+      "D2740",
+      "D2750"
+     ],
+     "n": 1,
+     "label": "Crown, porcelain or ceramic"
+    }
+   ]
+  },
+  "rootcanal_front": {
+   "label": "Root canal, front tooth",
+   "short": "Root canal, front tooth",
+   "pop": "adult",
+   "cls": "major",
+   "unit": "per tooth",
+   "slots": [
+    {
+     "codes": [
+      "D3310"
+     ],
+     "n": 1,
+     "label": "Endodontic therapy, anterior tooth"
+    }
+   ]
+  },
+  "rootcanal_premolar": {
+   "label": "Root canal, premolar",
+   "short": "Root canal, premolar",
+   "pop": "adult",
+   "cls": "major",
+   "unit": "per tooth",
+   "slots": [
+    {
+     "codes": [
+      "D3320"
+     ],
+     "n": 1,
+     "label": "Endodontic therapy, premolar"
+    }
+   ]
+  },
+  "rootcanal_molar": {
+   "label": "Root canal, molar",
+   "short": "Root canal, molar",
+   "pop": "adult",
+   "cls": "major",
+   "unit": "per tooth",
+   "slots": [
+    {
+     "codes": [
+      "D3330"
+     ],
+     "n": 1,
+     "label": "Endodontic therapy, molar"
+    }
+   ]
+  },
+  "braces_teen": {
+   "label": "Braces, comprehensive treatment of a teenager",
+   "short": "Braces, teen",
+   "pop": "child",
+   "cls": "ortho",
+   "unit": "full treatment",
+   "slots": [
+    {
+     "codes": [
+      "D8080"
+     ],
+     "n": 1,
+     "label": "Comprehensive orthodontic treatment, adolescent"
+    }
+   ]
+  },
+  "braces_adult": {
+   "label": "Braces or aligners, comprehensive treatment of an adult",
+   "short": "Braces or aligners, adult",
+   "pop": "adult",
+   "cls": "ortho",
+   "unit": "full treatment",
+   "slots": [
+    {
+     "codes": [
+      "D8090"
+     ],
+     "n": 1,
+     "label": "Comprehensive orthodontic treatment, adult"
+    }
+   ]
+  },
+  "denture_full": {
+   "label": "Complete dentures, upper and lower",
+   "short": "Full dentures, both arches",
+   "pop": "adult",
+   "cls": "major",
+   "unit": "both arches",
+   "slots": [
+    {
+     "codes": [
+      "D5110"
+     ],
+     "n": 1,
+     "label": "Complete denture, upper"
+    },
+    {
+     "codes": [
+      "D5120"
+     ],
+     "n": 1,
+     "label": "Complete denture, lower"
+    }
+   ]
+  },
+  "denture_upper": {
+   "label": "Complete denture, one arch",
+   "short": "Full denture, one arch",
+   "pop": "adult",
+   "cls": "major",
+   "unit": "one arch",
+   "slots": [
+    {
+     "codes": [
+      "D5110"
+     ],
+     "n": 1,
+     "label": "Complete denture, upper"
+    }
+   ]
+  },
+  "denture_partial": {
+   "label": "Partial denture, metal framework",
+   "short": "Partial denture",
+   "pop": "adult",
+   "cls": "major",
+   "unit": "one arch",
+   "slots": [
+    {
+     "codes": [
+      "D5213",
+      "D5214"
+     ],
+     "n": 1,
+     "label": "Partial denture, cast metal framework"
+    }
+   ]
+  },
+  "extraction": {
+   "label": "Simple tooth extraction",
+   "short": "Simple extraction",
+   "pop": "adult",
+   "cls": "major",
+   "unit": "per tooth",
+   "slots": [
+    {
+     "codes": [
+      "D7140"
+     ],
+     "n": 1,
+     "label": "Extraction, erupted tooth"
+    }
+   ]
+  },
+  "extraction_surgical": {
+   "label": "Surgical tooth extraction",
+   "short": "Surgical extraction",
+   "pop": "adult",
+   "cls": "major",
+   "unit": "per tooth",
+   "slots": [
+    {
+     "codes": [
+      "D7210"
+     ],
+     "n": 1,
+     "label": "Surgical extraction, erupted tooth"
+    }
+   ]
+  },
+  "wisdom4": {
+   "label": "Four impacted wisdom teeth removed",
+   "short": "Wisdom teeth, four impacted",
+   "pop": "adult",
+   "cls": "major",
+   "unit": "four teeth",
+   "slots": [
+    {
+     "codes": [
+      "D7240",
+      "D7230"
+     ],
+     "n": 4,
+     "label": "Removal of impacted tooth, bony"
+    }
+   ]
+  },
+  "bridge3": {
+   "label": "Three-unit bridge (one missing tooth)",
+   "short": "Bridge, three units",
+   "pop": "adult",
+   "cls": "major",
+   "unit": "three units",
+   "slots": [
+    {
+     "codes": [
+      "D6240",
+      "D6245"
+     ],
+     "n": 1,
+     "label": "Pontic (the false tooth)"
+    },
+    {
+     "codes": [
+      "D6750",
+      "D6740",
+      "D6790"
+     ],
+     "n": 2,
+     "label": "Retainer crowns on the two neighbors"
+    }
+   ]
+  },
+  "veneer": {
+   "label": "Porcelain veneer",
+   "short": "Veneer",
+   "pop": "adult",
+   "cls": "cosmetic",
+   "unit": "per tooth",
+   "slots": [
+    {
+     "codes": [
+      "D2962"
+     ],
+     "n": 1,
+     "label": "Labial veneer, porcelain, laboratory"
+    }
+   ]
+  },
+  "deepclean": {
+   "label": "Deep cleaning, four quadrants",
+   "short": "Deep cleaning (scaling and root planing)",
+   "pop": "adult",
+   "cls": "major",
+   "unit": "full mouth",
+   "slots": [
+    {
+     "codes": [
+      "D4341"
+     ],
+     "n": 4,
+     "label": "Scaling and root planing, four or more teeth per quadrant"
+    }
+   ]
+  },
+  "filling": {
+   "label": "Tooth-colored filling, two surfaces, back tooth",
+   "short": "Filling",
+   "pop": "adult",
+   "cls": "basic",
+   "unit": "per tooth",
+   "slots": [
+    {
+     "codes": [
+      "D2392"
+     ],
+     "n": 1,
+     "label": "Resin composite, two surfaces, posterior"
+    }
+   ]
+  },
+  "checkup": {
+   "label": "Checkup: exam, cleaning and bitewing X-rays",
+   "short": "Checkup and cleaning",
+   "pop": "adult",
+   "cls": "preventive",
+   "unit": "one visit",
+   "slots": [
+    {
+     "codes": [
+      "D0120"
+     ],
+     "n": 1,
+     "label": "Periodic oral evaluation"
+    },
+    {
+     "codes": [
+      "D1110"
+     ],
+     "n": 1,
+     "label": "Cleaning (prophylaxis), adult"
+    },
+    {
+     "codes": [
+      "D0274",
+      "D0272"
+     ],
+     "n": 1,
+     "label": "Bitewing X-rays"
+    }
+   ]
+  }
+ },
+ "classes": {
+  "preventive": {
+   "label": "Diagnostic and preventive (exams, cleanings, X-rays)",
+   "planShare": 1.0
+  },
+  "basic": {
+   "label": "Basic services (fillings and other restorative work, periodontal maintenance)",
+   "planShare": 0.8
+  },
+  "major": {
+   "label": "Major services (periodontics, root canals, crowns, dentures and bridges, oral surgery)",
+   "planShare": 0.5
+  },
+  "ortho": {
+   "label": "Orthodontics",
+   "planShare": 0.5
+  },
+  "cosmetic": {
+   "label": "Cosmetic work (veneers)",
+   "planShare": 0.0
+  }
+ },
+ "examplePlan": {
+  "_source": "covered_ca_2026",
+  "name": "Covered California Family Dental Plan, coinsurance plan, adult (age 19 and older), in network, 2026",
+  "deductible": 50,
+  "annualMax": 1500,
+  "waitingMajorMonths": 6,
+  "memberShare": {
+   "preventive": 0,
+   "basic": 0.2,
+   "major": 0.5
+  },
+  "adultOrtho": "Not covered",
+  "childDeductible": 75,
+  "childOutOfPocketMax": 350,
+  "outOfNetworkMemberShare": {
+   "preventive": 0.1,
+   "basic": 0.3,
+   "major": 0.5
+  },
+  "childOrthoMemberShare": 0.5,
+  "childOrthoNote": "Medically necessary orthodontia only",
+  "majorIncludes": "Periodontics other than maintenance, endodontics, crowns and casts, prosthodontics, oral surgery",
+  "basicIncludes": "Restorative procedures, periodontal maintenance"
+ },
+ "orthoExample": {
+  "_note": "Example plan of Covered California covers medically necessary orthodontia of children at 50 % and no adult orthodontia; the lifetime maximum is the reader's own figure",
+  "planShare": 0.5
+ },
+ "credit": {
+  "_source": "fed_g19",
+  "release": "2026-10-07",
+  "period": "2026-08",
+  "cardAllAccounts": 21.19,
+  "cardAssessedInterest": 22.36,
+  "personalLoan24": 11.9
+ },
+ "cpiDental": {
+  "_source": "bls_cpi_dental",
+  "series": "CUUR0000SEMC02",
+  "latestPeriod": "2026-09",
+  "latest": 659.834,
+  "yearAgoPeriod": "2025-09",
+  "yearAgo": 622.391,
+  "months": {
+   "2023-04": 568.403,
+   "2023-05": 569.167,
+   "2023-06": 569.369,
+   "2023-07": 571.744,
+   "2023-08": 580.468,
+   "2023-09": 579.997,
+   "2023-10": 581.674,
+   "2023-11": 584.793,
+   "2023-12": 588.478,
+   "2024-01": 590.616,
+   "2024-02": 594.116,
+   "2024-03": 591.249,
+   "2024-04": 591.931,
+   "2024-05": 598.139,
+   "2024-06": 599.578
+  },
+  "chargesBase": 580.839,
+  "privateBase": 596.549,
+  "_note": "Index, not seasonally adjusted, 1982-84=100. chargesBase: average of April 2023 to March 2024 (window of the dentist charges behind the ADA ratios). privateBase: average of April to June 2024 (second quarter of 2024, window of the private payment rates). Prices of the site = 2024-basis estimate x latest / base."
+ },
+ "ada": {
+  "_source": "ada_hpi_2024",
+  "published": "2024-10",
+  "chargesWindow": "April 1, 2023 to March 31, 2024",
+  "privateWindow": "second quarter of 2024",
+  "childBasket": [
+   "D0120",
+   "D0150",
+   "D0210",
+   "D0220",
+   "D0230",
+   "D0272",
+   "D1120",
+   "D1206",
+   "D1351",
+   "D2391",
+   "D2392",
+   "D2393",
+   "D7210",
+   "D7240"
+  ],
+  "adultBasket": [
+   "D0120",
+   "D0150",
+   "D0210",
+   "D0220",
+   "D0230",
+   "D0272",
+   "D0274",
+   "D1110",
+   "D2391",
+   "D2392",
+   "D2393",
+   "D7210",
+   "D7240"
+  ],
+  "feesCollected": "through July 2024"
+ },
+ "sources": {
+  "ada_hpi_2024": {
+   "url": "https://www.ada.org/-/media/project/ada-organization/ada/ada-org/files/resources/research/hpi/hpidata_medicaid_reimbursement_2024.xlsx",
+   "label": {
+    "en": "ADA Health Policy Institute, Medicaid Fee-For-Service Reimbursement as a Percentage of Dentist Charges and Private Dental Insurance Reimbursement, 2024 (workbook, October 2024)"
+   }
+  },
+  "ada_hpi_2024_pdf": {
+   "url": "https://www.ada.org/-/media/project/ada-organization/ada/ada-org/files/resources/research/hpi/medicaid_reimbursement_dental_care_2024.pdf",
+   "label": {
+    "en": "ADA Health Policy Institute, Key insights on Medicaid FFS reimbursement, 2024 data (PDF)"
+   }
+  },
+  "covered_ca_2026": {
+   "url": "https://board.coveredca.com/meetings/2025/February%2020,%202025/2026_Dental_Standard_Benefit_Plan_Designs_.pdf",
+   "label": {
+    "en": "Covered California, 2026 Dental Benefit Plan Designs (board document of February 20, 2025)"
+   }
+  },
+  "fed_g19": {
+   "url": "https://www.federalreserve.gov/releases/g19/current/default.htm",
+   "label": {
+    "en": "Federal Reserve, Consumer Credit G.19, terms of credit (release of October 7, 2026)"
+   }
+  },
+  "bls_cpi_dental": {
+   "url": "https://data.bls.gov/timeseries/CUUR0000SEMC02",
+   "label": {
+    "en": "U.S. Bureau of Labor Statistics, CPI-U dental services, series CUUR0000SEMC02"
+   }
+  },
+  "cms_dental": {
+   "url": "https://www.medicaid.gov/medicaid/benefits/dental-care",
+   "label": {
+    "en": "Centers for Medicare & Medicaid Services, Medicaid dental care"
+   }
+  },
+  "medicare_dental": {
+   "url": "https://www.medicare.gov/coverage/dental-services",
+   "label": {
+    "en": "Medicare.gov, Dental services: what Original Medicare covers"
+   }
+  },
+  "cfr_1026_16": {
+   "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title12-vol9/pdf/CFR-2025-title12-vol9-sec1026-16.pdf",
+   "label": {
+    "en": "12 CFR 1026.16(h), Regulation Z: definition and advertising of deferred interest offers (Code of Federal Regulations, 2025 edition)"
+   }
+  },
+  "cfr_1026_53": {
+   "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title12-vol9/pdf/CFR-2025-title12-vol9-sec1026-53.pdf",
+   "label": {
+    "en": "12 CFR 1026.53(b), Regulation Z: payments on a deferred interest balance in the last two billing cycles (2025 edition)"
+   }
+  }
+ }
+}

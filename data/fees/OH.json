@@ -1,0 +1,357 @@
+{
+  "state": "OH",
+  "status": "ok",
+  "program": "Ohio Medicaid (ODM) dental, fee-for-service",
+  "document_title": "Dental CDT Procedures, Effective 1/1/2025 (ODM_Dental_CDT_Procedures_1.1.25)",
+  "source_url": "https://dam.assets.ohio.gov/raw/upload/medicaid.ohio.gov/Providers/FeeScheduleRates/Dental/ODM_Dental_CDT_Procedures_1.1.25.xlsx",
+  "source_page": "https://medicaid.ohio.gov/resources-for-providers/billing/fee-schedule-and-rates/schedules-and-rates",
+  "effective_date": "2025-01-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "all": 33.56
+    },
+    "D0140": {
+      "all": 43.15
+    },
+    "D0150": {
+      "all": 50.35
+    },
+    "D0210": {
+      "all": 117.9
+    },
+    "D0220": {
+      "all": 9.83
+    },
+    "D0274": {
+      "all": 39.3
+    },
+    "D0330": {
+      "all": 88.52
+    },
+    "D1110": {
+      "all": 65.22
+    },
+    "D1120": {
+      "all": 38.22
+    },
+    "D1206": {
+      "all": 29.48
+    },
+    "D1351": {
+      "all": 43.23
+    },
+    "D2140": {
+      "all": 78.6
+    },
+    "D2150": {
+      "all": 103.19
+    },
+    "D2391": {
+      "all": 97.86
+    },
+    "D2392": {
+      "all": 103.19
+    },
+    "D2393": {
+      "all": 124.22
+    },
+    "D2394": {
+      "all": 146.27
+    },
+    "D2740": {
+      "all": 816.55
+    },
+    "D2751": {
+      "all": 470.02
+    },
+    "D2752": {
+      "all": 470.02
+    },
+    "D2930": {
+      "all": 200.27
+    },
+    "D2950": {
+      "all": 146.27
+    },
+    "D3220": {
+      "all": 121.81
+    },
+    "D3310": {
+      "all": 473.22
+    },
+    "D3320": {
+      "all": 569.67
+    },
+    "D3330": {
+      "all": 724.31
+    },
+    "D4341": {
+      "all": 188.62
+    },
+    "D4342": {
+      "all": 127.72
+    },
+    "D4910": {
+      "all": 67.07
+    },
+    "D5110": {
+      "all": 764.4
+    },
+    "D5120": {
+      "all": 764.4
+    },
+    "D5211": {
+      "all": 391.75
+    },
+    "D5212": {
+      "all": 391.75
+    },
+    "D5213": {
+      "all": 1032.42
+    },
+    "D5214": {
+      "all": 1032.42
+    },
+    "D5225": {
+      "all": 650.0
+    },
+    "D5226": {
+      "all": 650.0
+    },
+    "D7140": {
+      "all": 113.36
+    },
+    "D7210": {
+      "all": 113.36
+    },
+    "D7220": {
+      "all": 194.92
+    },
+    "D7230": {
+      "all": 297.62
+    },
+    "D7240": {
+      "all": 370.99
+    },
+    "D7241": {
+      "all": 382.2
+    },
+    "D7250": {
+      "all": 126.13
+    },
+    "D8080": {
+      "all": 1192.46
+    },
+    "D8670": {
+      "all": 500.57
+    },
+    "D8680": {
+      "all": 391.75
+    },
+    "D9222": {
+      "all": 229.32
+    },
+    "D9223": {
+      "all": 133.77
+    },
+    "D9239": {
+      "all": 133.77
+    },
+    "D9243": {
+      "all": 76.44
+    },
+    "D9230": {
+      "all": 57.33
+    }
+  },
+  "by_report": [],
+  "not_covered_or_absent": [
+    "D2750",
+    "D2790",
+    "D2962",
+    "D3346",
+    "D3347",
+    "D3348",
+    "D4355",
+    "D5820",
+    "D5821",
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D6240",
+    "D6245",
+    "D6750",
+    "D6740",
+    "D6790",
+    "D7953",
+    "D8070",
+    "D8090"
+  ],
+  "notes": "Column used: 'Current Maximum Payment' (single rate, population 'all'). Values in the XLSX carry extra decimals (e.g. D2740 816.55119); rounded to cents, matching the PDF version ($816.55). Document is titled 'Effective 1/1/2025' but every requested code shows per-code 'Effective Date' 01/01/2024 (the January 2024 Ohio dental fee increase; 'Previous Maximum Payment' column holds the pre-2024 fees). The ODM page (Dental Services section) says this table 'lists the current fees' and reflects OAC rule 5160-5-01; it is still the only dental table posted as of 2026-10-20, no 2026 edition found. Legend: NC = no coverage, PA = payment determined by prior authorization, BR = by report, D = discontinued. Requested codes not listed at all: crowns D2750/D2790, D2962, D3346-D3348, D4355, D5820/D5821, implants, fixed bridge codes, D7953, D8070, D8090. Age limits/frequencies are in the OAC 5160-5-01 appendix (not reproduced). Most Ohio Medicaid members are in managed care; this is the FFS schedule.",
+  "fees_2024": {
+    "D0120": {
+      "all": 33.56
+    },
+    "D0140": {
+      "all": 43.15
+    },
+    "D0150": {
+      "all": 50.35
+    },
+    "D0210": {
+      "all": 117.9
+    },
+    "D0220": {
+      "all": 9.83
+    },
+    "D0274": {
+      "all": 39.3
+    },
+    "D0330": {
+      "all": 88.52
+    },
+    "D1110": {
+      "all": 65.22
+    },
+    "D1120": {
+      "all": 38.22
+    },
+    "D1206": {
+      "all": 29.48
+    },
+    "D1351": {
+      "all": 43.23
+    },
+    "D2140": {
+      "all": 78.6
+    },
+    "D2150": {
+      "all": 103.19
+    },
+    "D2391": {
+      "all": 97.86
+    },
+    "D2392": {
+      "all": 103.19
+    },
+    "D2393": {
+      "all": 124.22
+    },
+    "D2394": {
+      "all": 146.27
+    },
+    "D2740": {
+      "all": 816.55
+    },
+    "D2751": {
+      "all": 470.02
+    },
+    "D2752": {
+      "all": 470.02
+    },
+    "D2930": {
+      "all": 200.27
+    },
+    "D2950": {
+      "all": 146.27
+    },
+    "D3220": {
+      "all": 121.81
+    },
+    "D3310": {
+      "all": 473.22
+    },
+    "D3320": {
+      "all": 569.67
+    },
+    "D3330": {
+      "all": 724.31
+    },
+    "D4341": {
+      "all": 188.62
+    },
+    "D4342": {
+      "all": 127.72
+    },
+    "D4910": {
+      "all": 67.07
+    },
+    "D5110": {
+      "all": 764.4
+    },
+    "D5120": {
+      "all": 764.4
+    },
+    "D5211": {
+      "all": 391.75
+    },
+    "D5212": {
+      "all": 391.75
+    },
+    "D5213": {
+      "all": 1032.42
+    },
+    "D5214": {
+      "all": 1032.42
+    },
+    "D5225": {
+      "all": 650.0
+    },
+    "D5226": {
+      "all": 650.0
+    },
+    "D7140": {
+      "all": 113.36
+    },
+    "D7210": {
+      "all": 113.36
+    },
+    "D7220": {
+      "all": 194.92
+    },
+    "D7230": {
+      "all": 297.62
+    },
+    "D7240": {
+      "all": 370.99
+    },
+    "D7241": {
+      "all": 382.2
+    },
+    "D7250": {
+      "all": 126.13
+    },
+    "D8080": {
+      "all": 1192.46
+    },
+    "D8670": {
+      "all": 500.57
+    },
+    "D8680": {
+      "all": 391.75
+    },
+    "D9222": {
+      "all": 229.32
+    },
+    "D9223": {
+      "all": 133.77
+    },
+    "D9239": {
+      "all": 133.77
+    },
+    "D9243": {
+      "all": 76.44
+    },
+    "D9230": {
+      "all": 57.33
+    }
+  },
+  "source_url_2024": "https://dam.assets.ohio.gov/raw/upload/medicaid.ohio.gov/Providers/FeeScheduleRates/Dental/ODM_Dental_CDT_Procedures_1.1.25.xlsx",
+  "effective_date_2024": "2024-01-01",
+  "notes_2024": "Fees copied from the current ODM table (Dental CDT Procedures, Effective 1/1/2025): its per-code 'Effective Date' column shows 01/01/2024 for every requested code, i.e. the current maximum payment took effect 2024-01-01 and was unchanged on 2024-07-01. No separate mid-2024 edition was downloaded."
+}

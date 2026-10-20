@@ -1,0 +1,593 @@
+{
+  "state": "KY",
+  "status": "ok_superseded_edition",
+  "program": "Kentucky Medicaid (DMS) dental fee-for-service",
+  "document_title": "KY Medicaid Dental Fee Schedule 2026 - Revised 5.5.2026 (running header misprinted 'Revised 5.5.2025')",
+  "source_url": "https://www.chfs.ky.gov/agencies/dms/DMSFeeRateSchedules/2026DentalFeeSchedule.pdf (retrieved via Wayback capture https://web.archive.org/web/20260726165831id_/https://www.chfs.ky.gov/agencies/dms/DMSFeeRateSchedules/2026DentalFeeSchedule.pdf)",
+  "source_page": "https://www.chfs.ky.gov/agencies/dms/Pages/feesrates.aspx",
+  "effective_date": "2026-05-05",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "child": 27.5,
+      "adult": 27.5
+    },
+    "D0140": {
+      "child": 46.65,
+      "adult": 46.65
+    },
+    "D0150": {
+      "child": 32.5,
+      "adult": 32.5
+    },
+    "D0210": {
+      "child": 79.63,
+      "adult": 61.25
+    },
+    "D0220": {
+      "child": 13.0,
+      "adult": 10.0
+    },
+    "D0274": {
+      "child": 37.38,
+      "adult": 28.75
+    },
+    "D0330": {
+      "child": 73.7,
+      "adult": 56.69,
+      "adult_oral_surgeon": 73.7
+    },
+    "D1110": {
+      "adult": 60.13
+    },
+    "D1120": {
+      "child": 60.13
+    },
+    "D1206": {
+      "child": 18.75
+    },
+    "D1351": {
+      "child": 24.38
+    },
+    "D2140": {
+      "child": 49.4,
+      "adult": 38.0
+    },
+    "D2150": {
+      "child": 65.0,
+      "adult": 50.0
+    },
+    "D2391": {
+      "child": 57.2,
+      "adult": 44.0
+    },
+    "D2392": {
+      "child": 71.5,
+      "adult": 55.0
+    },
+    "D2393": {
+      "child": 85.8,
+      "adult": 66.0
+    },
+    "D2394": {
+      "child": 101.4,
+      "adult": 78.0
+    },
+    "D2740": {
+      "child": 529.95,
+      "adult": 529.95
+    },
+    "D2750": {
+      "child": 599.25,
+      "adult": 599.25
+    },
+    "D2751": {
+      "child": 457.33,
+      "adult": 457.33
+    },
+    "D2752": {
+      "child": 528.29,
+      "adult": 528.29
+    },
+    "D2790": {
+      "child": 492.81,
+      "adult": 492.81
+    },
+    "D2930": {
+      "child": 119.6,
+      "adult": 119.6
+    },
+    "D2950": {
+      "child": 100.0,
+      "adult": 100.0
+    },
+    "D3220": {
+      "child": 67.6
+    },
+    "D3310": {
+      "child": 274.3,
+      "adult": 274.3
+    },
+    "D3320": {
+      "child": 344.5,
+      "adult": 344.5
+    },
+    "D3330": {
+      "child": 481.0,
+      "adult": 481.0
+    },
+    "D3346": {
+      "child": 606.58,
+      "adult": 606.58
+    },
+    "D3347": {
+      "child": 696.2,
+      "adult": 696.2
+    },
+    "D3348": {
+      "child": 724.31,
+      "adult": 724.31
+    },
+    "D4341": {
+      "child": 101.4,
+      "adult": 78.0
+    },
+    "D4342": {
+      "child": 36.42,
+      "adult": 28.02
+    },
+    "D4355": {
+      "child": 68.5,
+      "adult": 68.5
+    },
+    "D4910": {
+      "child": 96.88,
+      "adult": 96.88
+    },
+    "D5110": {
+      "child": 656.11,
+      "adult": 656.11
+    },
+    "D5120": {
+      "child": 611.73,
+      "adult": 611.73
+    },
+    "D5211": {
+      "child": 624.64,
+      "adult": 624.64
+    },
+    "D5212": {
+      "child": 595.8,
+      "adult": 595.8
+    },
+    "D5213": {
+      "child": 545.3,
+      "adult": 545.3
+    },
+    "D5214": {
+      "child": 571.75,
+      "adult": 571.75
+    },
+    "D5225": {
+      "child": 793.0,
+      "adult": 793.0
+    },
+    "D5226": {
+      "child": 920.55,
+      "adult": 920.55
+    },
+    "D5820": {
+      "child": 319.8,
+      "adult": 319.8
+    },
+    "D5821": {
+      "child": 336.7,
+      "adult": 336.7
+    },
+    "D6010": {
+      "child": 2001.07,
+      "adult": 2001.07
+    },
+    "D6056": {
+      "child": 600.29,
+      "adult": 600.29
+    },
+    "D6057": {
+      "child": 729.95,
+      "adult": 729.95
+    },
+    "D6058": {
+      "child": 1076.11,
+      "adult": 1076.11
+    },
+    "D6059": {
+      "child": 1324.39,
+      "adult": 1324.39
+    },
+    "D6065": {
+      "child": 1400.93,
+      "adult": 1400.93
+    },
+    "D6066": {
+      "child": 1057.0,
+      "adult": 1057.0
+    },
+    "D6240": {
+      "child": 483.0,
+      "adult": 483.0
+    },
+    "D6750": {
+      "child": 553.96,
+      "adult": 553.96
+    },
+    "D7140": {
+      "child": 82.5,
+      "adult": 82.5
+    },
+    "D7210": {
+      "child": 148.5,
+      "adult": 148.5
+    },
+    "D7220": {
+      "child": 127.4,
+      "adult": 98.0,
+      "child_oral_surgeon": 187.0,
+      "adult_oral_surgeon": 187.0
+    },
+    "D7230": {
+      "child": 179.4,
+      "adult": 138.0,
+      "child_oral_surgeon": 236.5,
+      "adult_oral_surgeon": 236.5
+    },
+    "D7240": {
+      "child": 215.8,
+      "adult": 166.0,
+      "child_oral_surgeon": 295.0,
+      "adult_oral_surgeon": 295.0
+    },
+    "D7241": {
+      "child": 222.3,
+      "adult": 171.0,
+      "child_oral_surgeon": 333.0,
+      "adult_oral_surgeon": 333.0
+    },
+    "D7250": {
+      "child": 142.0,
+      "adult": 142.0
+    },
+    "D9222": {
+      "child": 75.0,
+      "adult": 75.0,
+      "child_oral_surgeon": 138.75,
+      "adult_oral_surgeon": 138.75
+    },
+    "D9223": {
+      "child": 75.0,
+      "adult": 75.0,
+      "child_oral_surgeon": 138.75,
+      "adult_oral_surgeon": 138.75
+    },
+    "D9230": {
+      "child": 39.0,
+      "adult": 39.0
+    },
+    "D9239": {
+      "child": 138.78,
+      "adult": 138.78
+    },
+    "D9243": {
+      "child": 138.78,
+      "adult": 138.78
+    }
+  },
+  "by_report": [],
+  "not_covered_or_absent": [
+    "D2962",
+    "D6245",
+    "D6740",
+    "D6790",
+    "D7953",
+    "D8070",
+    "D8080",
+    "D8090",
+    "D8670",
+    "D8680"
+  ],
+  "not_covered_child": [
+    "D1110"
+  ],
+  "not_covered_adult": [
+    "D1120",
+    "D1206",
+    "D1351",
+    "D3220"
+  ],
+  "notes": "DOUBT: chfs.ky.gov returns HTTP 403 to this network (and to WebFetch), so the official PDF was obtained from an unaltered Wayback Machine capture (id_ raw mode, 2026-07-26) of the official chfs.ky.gov URL. A NEWER official edition exists that could not be downloaded: 'KY Medicaid Dental Fee Schedule 2026 Revised 8.17.2026' (https://www.chfs.ky.gov/agencies/dms/DMSFeeRateSchedules/2026DentalFeeSchedule81926.pdf), which per search-engine snippets states 'dental rebasing is effective 7/1/2026' and shows D0120 at $34.00 (vs $27.50 here). The fees recorded here are therefore the PRE-rebasing rates in force until 2026-06-30 and are likely outdated for many codes. Columns: 'UNDER AGE 21 Rate' -> child, 'OVER AGE 21 RATE' -> adult; 'n/c' = not covered (not_covered_child/adult). Values from the 'Dentist Procedures and Fee Schedule' section; where the 'Oral Surgeon Procedures and Fee Schedule' section lists a different rate it is recorded as child_oral_surgeon/adult_oral_surgeon (D0330 adult, D7220-D7241, D9222/D9223). Orthodontics are paid per case by severity (not D8070-D8090 fee lines): early phase $1367 orthodontist/$1234 general dentist; moderately severe $1825/$1659; severe $3000/$2674; paid 2/3 then 1/3 after six monthly visits; D8670 n/c.",
+  "fees_2024": {
+    "D0120": {
+      "child": 27.5,
+      "adult": 27.5
+    },
+    "D0140": {
+      "child": 46.65,
+      "adult": 46.65
+    },
+    "D0150": {
+      "child": 32.5,
+      "adult": 32.5
+    },
+    "D0210": {
+      "child": 79.63,
+      "adult": 61.25
+    },
+    "D0220": {
+      "child": 13.0,
+      "adult": 10.0
+    },
+    "D0274": {
+      "child": 37.38,
+      "adult": 28.75
+    },
+    "D0330": {
+      "child": 73.7,
+      "adult": 56.69,
+      "adult_oral_surgeon": 73.7
+    },
+    "D1110": {
+      "adult": 60.13
+    },
+    "D1120": {
+      "child": 60.13
+    },
+    "D1206": {
+      "child": 18.75
+    },
+    "D1351": {
+      "child": 24.38
+    },
+    "D2140": {
+      "child": 49.4,
+      "adult": 38.0
+    },
+    "D2150": {
+      "child": 65.0,
+      "adult": 50.0
+    },
+    "D2391": {
+      "child": 57.2,
+      "adult": 44.0
+    },
+    "D2392": {
+      "child": 71.5,
+      "adult": 55.0
+    },
+    "D2393": {
+      "child": 85.8,
+      "adult": 66.0
+    },
+    "D2394": {
+      "child": 101.4,
+      "adult": 78.0
+    },
+    "D2740": {
+      "child": 529.95,
+      "adult": 529.95
+    },
+    "D2750": {
+      "child": 599.25,
+      "adult": 599.25
+    },
+    "D2751": {
+      "child": 457.33,
+      "adult": 457.33
+    },
+    "D2752": {
+      "child": 528.29,
+      "adult": 528.29
+    },
+    "D2790": {
+      "child": 492.81,
+      "adult": 492.81
+    },
+    "D2930": {
+      "child": 119.6,
+      "adult": 119.6
+    },
+    "D2950": {
+      "child": 100.0,
+      "adult": 100.0
+    },
+    "D3220": {
+      "child": 67.6
+    },
+    "D3310": {
+      "child": 274.3,
+      "adult": 274.3
+    },
+    "D3320": {
+      "child": 344.5,
+      "adult": 344.5
+    },
+    "D3330": {
+      "child": 481.0,
+      "adult": 481.0
+    },
+    "D3346": {
+      "child": 606.58,
+      "adult": 606.58
+    },
+    "D3347": {
+      "child": 696.2,
+      "adult": 696.2
+    },
+    "D3348": {
+      "child": 724.31,
+      "adult": 724.31
+    },
+    "D4341": {
+      "child": 101.4,
+      "adult": 78.0
+    },
+    "D4342": {
+      "child": 36.42,
+      "adult": 28.02
+    },
+    "D4355": {
+      "child": 68.5,
+      "adult": 68.5
+    },
+    "D4910": {
+      "child": 96.88,
+      "adult": 96.88
+    },
+    "D5110": {
+      "child": 656.11,
+      "adult": 656.11
+    },
+    "D5120": {
+      "child": 611.73,
+      "adult": 611.73
+    },
+    "D5211": {
+      "child": 624.64,
+      "adult": 624.64
+    },
+    "D5212": {
+      "child": 595.8,
+      "adult": 595.8
+    },
+    "D5213": {
+      "child": 545.3,
+      "adult": 545.3
+    },
+    "D5214": {
+      "child": 571.75,
+      "adult": 571.75
+    },
+    "D5225": {
+      "child": 793.0,
+      "adult": 793.0
+    },
+    "D5226": {
+      "child": 920.55,
+      "adult": 920.55
+    },
+    "D5820": {
+      "child": 319.8,
+      "adult": 319.8
+    },
+    "D5821": {
+      "child": 336.7,
+      "adult": 336.7
+    },
+    "D6010": {
+      "child": 2001.07,
+      "adult": 2001.07
+    },
+    "D6056": {
+      "child": 600.29,
+      "adult": 600.29
+    },
+    "D6057": {
+      "child": 729.95,
+      "adult": 729.95
+    },
+    "D6058": {
+      "child": 1076.11,
+      "adult": 1076.11
+    },
+    "D6059": {
+      "child": 1324.39,
+      "adult": 1324.39
+    },
+    "D6065": {
+      "child": 1400.93,
+      "adult": 1400.93
+    },
+    "D6066": {
+      "child": 1057.0,
+      "adult": 1057.0
+    },
+    "D6240": {
+      "child": 483.0,
+      "adult": 483.0
+    },
+    "D6750": {
+      "child": 553.96,
+      "adult": 553.96
+    },
+    "D7140": {
+      "child": 82.5,
+      "adult": 82.5
+    },
+    "D7210": {
+      "child": 148.5,
+      "adult": 148.5
+    },
+    "D7220": {
+      "child": 127.4,
+      "adult": 98.0,
+      "child_oral_surgeon": 187.0,
+      "adult_oral_surgeon": 187.0
+    },
+    "D7230": {
+      "child": 179.4,
+      "adult": 138.0,
+      "child_oral_surgeon": 236.5,
+      "adult_oral_surgeon": 236.5
+    },
+    "D7240": {
+      "child": 215.8,
+      "adult": 166.0,
+      "child_oral_surgeon": 295.0,
+      "adult_oral_surgeon": 295.0
+    },
+    "D7241": {
+      "child": 222.3,
+      "adult": 171.0,
+      "child_oral_surgeon": 333.0,
+      "adult_oral_surgeon": 333.0
+    },
+    "D7250": {
+      "child": 142.0,
+      "adult": 142.0
+    },
+    "D9222": {
+      "child": 75.0,
+      "adult": 75.0,
+      "child_oral_surgeon": 138.75,
+      "adult_oral_surgeon": 138.75
+    },
+    "D9223": {
+      "child": 75.0,
+      "adult": 75.0,
+      "child_oral_surgeon": 138.75,
+      "adult_oral_surgeon": 138.75
+    },
+    "D9230": {
+      "child": 39.0,
+      "adult": 39.0
+    },
+    "D9239": {
+      "child": 138.78,
+      "adult": 138.78
+    },
+    "D9243": {
+      "child": 138.78,
+      "adult": 138.78
+    }
+  },
+  "source_url_2024": "https://www.chfs.ky.gov/agencies/dms/DMSFeeRateSchedules/2024DentalFeeSchedule.pdf (via Wayback capture https://web.archive.org/web/20241230085005id_/https://www.chfs.ky.gov/agencies/dms/DMSFeeRateSchedules/2024DentalFeeSchedule.pdf)",
+  "effective_date_2024": "2024-01-01",
+  "not_covered_child_2024": [
+    "D1110"
+  ],
+  "not_covered_adult_2024": [
+    "D1120",
+    "D1206",
+    "D1351",
+    "D3220"
+  ],
+  "notes_2024": "Edition 'KY Medicaid Dental Fee Schedule 2024 Revised 10.21.2024' (PDF created 2024-10-21), official URL captured by the Wayback Machine 2024-12-30. Only that 2024 revision could be retrieved; the fee-schedule change log printed in the 2026 edition shows that the only 2024 revisions after 2024-07-01 were non-rate (10.21.2024: D4342 corrected to quadrants), and the last rate change among the requested codes before then was D1110 -> $60.13 effective 11/1/2023; so these rates were in force on 2024-07-01. Same column rules as current."
+}

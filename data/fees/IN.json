@@ -1,0 +1,357 @@
+{
+  "state": "IN",
+  "status": "ok",
+  "program": "Indiana Health Coverage Programs (IHCP) - Medicaid fee-for-service",
+  "document_title": "Professional Fee Schedule, Last Updated: June 9, 2026 (reflects changes completed as of 5/26/2026)",
+  "source_url": "https://www.in.gov/medicaid/providers/files/IHCP-Professional-Fee-Schedule-With-Cutbacks.xlsx",
+  "source_page": "https://www.in.gov/medicaid/providers/business-transactions/billing-and-remittance/ihcp-fee-schedules/",
+  "effective_date": "2024-01-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "all": 29.4
+    },
+    "D0140": {
+      "all": 43.05
+    },
+    "D0150": {
+      "all": 51.44
+    },
+    "D0210": {
+      "all": 74.81
+    },
+    "D0220": {
+      "all": 16.98
+    },
+    "D0274": {
+      "all": 36.76
+    },
+    "D0330": {
+      "all": 64.28
+    },
+    "D1110": {
+      "all": 62.05
+    },
+    "D1120": {
+      "child": 46.34
+    },
+    "D1206": {
+      "child": 26.48
+    },
+    "D1351": {
+      "child": 32.62
+    },
+    "D2140": {
+      "all": 63.47
+    },
+    "D2150": {
+      "all": 80.56
+    },
+    "D2391": {
+      "all": 82.45
+    },
+    "D2392": {
+      "all": 104.53
+    },
+    "D2393": {
+      "all": 130.4
+    },
+    "D2394": {
+      "all": 152.65
+    },
+    "D2930": {
+      "all": 159.83
+    },
+    "D3220": {
+      "all": 126.48
+    },
+    "D3310": {
+      "child": 517.3
+    },
+    "D3320": {
+      "child": 594.87
+    },
+    "D3330": {
+      "child": 719.77
+    },
+    "D3346": {
+      "child": 562.03
+    },
+    "D3347": {
+      "child": 638.74
+    },
+    "D3348": {
+      "child": 759.51
+    },
+    "D4341": {
+      "all": 192.65
+    },
+    "D4342": {
+      "all": 145.34
+    },
+    "D4355": {
+      "all": 138.5
+    },
+    "D4910": {
+      "all": 102.03
+    },
+    "D5110": {
+      "all": 559.03
+    },
+    "D5120": {
+      "all": 562.39
+    },
+    "D5211": {
+      "all": 443.96
+    },
+    "D5212": {
+      "all": 441.56
+    },
+    "D5213": {
+      "all": 574.15
+    },
+    "D5214": {
+      "all": 574.51
+    },
+    "D5225": {
+      "all": 488.47
+    },
+    "D5226": {
+      "all": 489.07
+    },
+    "D7140": {
+      "all": 137.15
+    },
+    "D7210": {
+      "all": 200.86
+    },
+    "D7220": {
+      "all": 226.5
+    },
+    "D7230": {
+      "all": 279.43
+    },
+    "D7240": {
+      "all": 344.48
+    },
+    "D7241": {
+      "all": 403.08
+    },
+    "D7250": {
+      "all": 222.73
+    },
+    "D8070": {
+      "child": 3768.4
+    },
+    "D8080": {
+      "child": 3875.59
+    },
+    "D8090": {
+      "child": 3826.84
+    },
+    "D9222": {
+      "child": 95.78
+    },
+    "D9223": {
+      "child": 96.4
+    },
+    "D9239": {
+      "all": 94.54
+    },
+    "D9243": {
+      "all": 91.91
+    },
+    "D9230": {
+      "child": 33.17
+    }
+  },
+  "by_report": [],
+  "not_covered_or_absent": [
+    "D2740",
+    "D2750",
+    "D2751",
+    "D2752",
+    "D2790",
+    "D2950",
+    "D2962",
+    "D5820",
+    "D5821",
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D6240",
+    "D6245",
+    "D6750",
+    "D6740",
+    "D6790",
+    "D7953",
+    "D8670",
+    "D8680"
+  ],
+  "notes": "Column used: 'Max Fee/Non-Facility RBRVS Rate' (base IHCP max fee; other columns are reduced cutback rates, e.g. 85% for certain provider types, not used). Dental rows have 'Rate Effective Date' 01/01/2024; file last updated 2026-06-09. Codes in 'NOCOV - Non Covered Services' with $0 SYSMAN pricing (crowns D2740-D2790, D2950, D2962, D5820/D5821, implants, bridges, D7953, D8670, D8680) are listed as not covered. Where the same code has separate age rows (e.g. D5110-D5214 0-20 vs 21-999), the fee is identical, so recorded as 'all'; 'child' key used where the printed age limit stops at 20. Printed age limits: D1110: 12 - 999 Years; D1120: 1 - 11 Years / 0 - 11 Months; D1206: 1 - 20 Years; D1351: 0 - 20 Years; D3310: 1 - 20 Years; D3320: 1 - 20 Years; D3330: 1 - 20 Years; D3346: 1 - 20 Years; D3347: 1 - 20 Years; D3348: 1 - 20 Years; D4910: 3 - 999 Years; D5110: 0 - 20 Years / 21 - 999 Years; D5120: 0 - 20 Years / 21 - 999 Years; D5211: 0 - 20 Years / 21 - 999 Years; D5212: 21 - 999 Years / 0 - 20 Years; D5213: 21 - 999 Years / 0 - 20 Years; D5214: 0 - 20 Years / 21 - 999 Years; D8070: 1 - 20 Years; D8080: 1 - 20 Years; D8090: 1 - 20 Years; D9222: 0 - 20 Years; D9223: 0 - 20 Years; D9230: 0 - 20 Years. FFS schedule; most IHCP members are in managed care (Hoosier Healthwise/HIP/Hoosier Care Connect) whose dental contractors may pay differently. D8070/D8080/D8090 require PA.",
+  "fees_2024": {
+    "D0120": {
+      "all": 29.4
+    },
+    "D0140": {
+      "all": 43.05
+    },
+    "D0150": {
+      "all": 51.44
+    },
+    "D0210": {
+      "all": 74.81
+    },
+    "D0220": {
+      "all": 16.98
+    },
+    "D0274": {
+      "all": 36.76
+    },
+    "D0330": {
+      "all": 64.28
+    },
+    "D1110": {
+      "all": 62.05
+    },
+    "D1120": {
+      "child": 46.34
+    },
+    "D1206": {
+      "child": 26.48
+    },
+    "D1351": {
+      "child": 32.62
+    },
+    "D2140": {
+      "all": 63.47
+    },
+    "D2150": {
+      "all": 80.56
+    },
+    "D2391": {
+      "all": 82.45
+    },
+    "D2392": {
+      "all": 104.53
+    },
+    "D2393": {
+      "all": 130.4
+    },
+    "D2394": {
+      "all": 152.65
+    },
+    "D2930": {
+      "all": 159.83
+    },
+    "D3220": {
+      "all": 126.48
+    },
+    "D3310": {
+      "child": 517.3
+    },
+    "D3320": {
+      "child": 594.87
+    },
+    "D3330": {
+      "child": 719.77
+    },
+    "D3346": {
+      "child": 562.03
+    },
+    "D3347": {
+      "child": 638.74
+    },
+    "D3348": {
+      "child": 759.51
+    },
+    "D4341": {
+      "all": 192.65
+    },
+    "D4342": {
+      "all": 145.34
+    },
+    "D4355": {
+      "all": 138.5
+    },
+    "D4910": {
+      "all": 102.03
+    },
+    "D5110": {
+      "all": 559.03
+    },
+    "D5120": {
+      "all": 562.39
+    },
+    "D5211": {
+      "all": 443.96
+    },
+    "D5212": {
+      "all": 441.56
+    },
+    "D5213": {
+      "all": 574.15
+    },
+    "D5214": {
+      "all": 574.51
+    },
+    "D5225": {
+      "all": 488.47
+    },
+    "D5226": {
+      "all": 489.07
+    },
+    "D7140": {
+      "all": 137.15
+    },
+    "D7210": {
+      "all": 200.86
+    },
+    "D7220": {
+      "all": 226.5
+    },
+    "D7230": {
+      "all": 279.43
+    },
+    "D7240": {
+      "all": 344.48
+    },
+    "D7241": {
+      "all": 403.08
+    },
+    "D7250": {
+      "all": 222.73
+    },
+    "D8070": {
+      "child": 3768.4
+    },
+    "D8080": {
+      "child": 3875.59
+    },
+    "D8090": {
+      "child": 3826.84
+    },
+    "D9222": {
+      "child": 95.78
+    },
+    "D9223": {
+      "child": 96.4
+    },
+    "D9239": {
+      "all": 94.54
+    },
+    "D9243": {
+      "all": 91.91
+    },
+    "D9230": {
+      "child": 33.17
+    }
+  },
+  "source_url_2024": "https://www.in.gov/medicaid/providers/files/IHCP-Professional-Fee-Schedule-With-Cutbacks.xlsx",
+  "effective_date_2024": "2024-01-01",
+  "notes_2024": "Copied from the current file: every covered target code carries 'Rate Effective Date' 01/01/2024 with no end date in the Professional Fee Schedule (last updated 2026-06-09), so the same max fee was in force on 2024-07-01. Exception noted: the D1120 row for ages 0-11 months is dated 08/01/2024 (same $46.34 as the 1-11 years row dated 01/01/2024). No mid-2024 archived edition was downloaded."
+}

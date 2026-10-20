@@ -1,0 +1,15 @@
+{
+ "_lisezmoi": "Corrections read in the official documents themselves. multiplier: a factor the schedule prints in its header; drop: codes whose listed amount is not a per-treatment fee.",
+ "MN": {
+  "multiplier": 1.98,
+  "drop": [
+   "D8080",
+   "D8090"
+  ],
+  "reason": "The Minnesota schedule's header states that for all dental services provided on or after January 1, 2022, an additional 98 % must be added to the fee schedule total to determine the reimbursement, so listed amounts are multiplied by 1.98. Orthodontic codes D8080 and D8090 are listed at an amount that is not a full-treatment fee and are left out."
+ },
+ "GA": {
+  "effective_2024": "2024-07-01",
+  "reason": "The edition in force on July 1, 2024 (April 2024) is not archived; the October 2024 edition of Appendix B is used. Georgia changes dental rates on July 1, and this edition carries the rates set on July 1, 2024."
+ }
+}

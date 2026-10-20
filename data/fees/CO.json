@@ -1,0 +1,169 @@
+{
+  "state": "CO",
+  "status": "not_found",
+  "program": "Health First Colorado (Colorado Medicaid) dental, administered by DentaQuest",
+  "document_title": null,
+  "source_url": null,
+  "source_page": "https://hcpf.colorado.gov/provider-rates-fee-schedule",
+  "effective_date": null,
+  "retrieved_at": "2026-10-20",
+  "fees": {},
+  "by_report": [],
+  "not_covered_or_absent": [],
+  "notes": "HCPF's provider rates page lists the 'Dental Fee Schedule' only as a link to DentaQuest (https://www.dentaquest.com/state-plans/regions/colorado/health-first-colorado/provider-page/), which returns 403 (Akamai) to curl and WebFetch; DentaQuest content/dam PDFs are also blocked. The HCPF Health First Colorado physician fee schedule (01_CO_Fee Schedule_Health First Colorado_07012026 v1.4.xlsx, kept in raw/CO) contains no D-codes. Per DentaQuest's July 2026 newsletter (search snippet, not opened), dental FFS rates were cut 2% across the board effective 2026-07-01 and adults have a $3,000 annual maximum from 2026-07-01. An HCPF rate-review Appendix H with 07/01/2024 dental rates exists but is outdated, so not used. No fee recorded.",
+  "fees_2024": {
+    "D0120": {
+      "all": 38.35
+    },
+    "D0140": {
+      "all": 53.14
+    },
+    "D0150": {
+      "all": 61.03
+    },
+    "D0210": {
+      "all": 88.31
+    },
+    "D0220": {
+      "all": 13.21
+    },
+    "D0274": {
+      "all": 31.2
+    },
+    "D0330": {
+      "all": 55.21
+    },
+    "D1110": {
+      "all": 97.5
+    },
+    "D1206": {
+      "all": 41.96
+    },
+    "D2140": {
+      "all": 110.02
+    },
+    "D2150": {
+      "all": 140.59
+    },
+    "D2391": {
+      "all": 110.02
+    },
+    "D2392": {
+      "all": 140.59
+    },
+    "D2393": {
+      "all": 172.4
+    },
+    "D2394": {
+      "all": 208.93
+    },
+    "D2740": {
+      "all": 849.16
+    },
+    "D2750": {
+      "all": 841.06
+    },
+    "D2751": {
+      "all": 767.03
+    },
+    "D2752": {
+      "all": 798.29
+    },
+    "D2790": {
+      "all": 868.62
+    },
+    "D2950": {
+      "all": 135.08
+    },
+    "D3310": {
+      "all": 799.76
+    },
+    "D3320": {
+      "all": 917.71
+    },
+    "D3330": {
+      "all": 1109.31
+    },
+    "D3346": {
+      "all": 911.61
+    },
+    "D3347": {
+      "all": 1044.12
+    },
+    "D3348": {
+      "all": 1246.06
+    },
+    "D4341": {
+      "all": 266.51
+    },
+    "D4342": {
+      "all": 189.68
+    },
+    "D4355": {
+      "all": 90.04
+    },
+    "D4910": {
+      "all": 149.01
+    },
+    "D5110": {
+      "all": 851.41
+    },
+    "D5120": {
+      "all": 852.94
+    },
+    "D5211": {
+      "all": 586.83
+    },
+    "D5212": {
+      "all": 586.83
+    },
+    "D5213": {
+      "all": 840.48
+    },
+    "D5214": {
+      "all": 840.48
+    },
+    "D5225": {
+      "all": 738.83
+    },
+    "D5226": {
+      "all": 738.83
+    },
+    "D7140": {
+      "all": 109.07
+    },
+    "D7210": {
+      "all": 174.54
+    },
+    "D7220": {
+      "all": 200.66
+    },
+    "D7230": {
+      "all": 252.4
+    },
+    "D7240": {
+      "all": 296.18
+    },
+    "D7241": {
+      "all": 395.64
+    },
+    "D7250": {
+      "all": 184.64
+    },
+    "D9222": {
+      "all": 114.76
+    },
+    "D9223": {
+      "all": 100.09
+    },
+    "D9239": {
+      "all": 114.76
+    },
+    "D9243": {
+      "all": 100.09
+    }
+  },
+  "source_url_2024": "https://hcpf.colorado.gov/sites/hcpf/files/Appendix%20H%20DIDD%20%26%20Medicaid%20Dental%20Rates%20with%20Benchmark%20Ratios.pdf",
+  "effective_date_2024": "2024-07-01",
+  "notes_2024": "Source is an official HCPF document, 'Appendix H: DIDD and Medicaid Dental Rates w/ Benchmark Ratios' (2025 MPRRAC rate review), tab 'CO Medicaid Dental Rate_Adult' = adult portion of the CO Medicaid State Plan dental fee schedule, column 'Total CO Medicaid FFS Allowable Effective 07/01/2024'. Not the fee schedule file itself. Listed age ranges are 0-999 for most codes (D0330 6+, D1110 12+, D4355 13+), so recorded as 'all'; child-only codes (D1120, D1351, D2930, D3220, D8xxx ortho) are not in this adult tab and therefore absent, not necessarily uncovered. D9223/D9243 base-value cells are garbled in the PDF text; the clean total column was used ($100.09)."
+}

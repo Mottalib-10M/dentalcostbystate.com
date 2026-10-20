@@ -1,0 +1,387 @@
+{
+  "state": "MD",
+  "status": "ok",
+  "program": "Maryland Medicaid - Maryland Healthy Smiles Dental Program (fee-for-service, administered by SKYGEN)",
+  "document_title": "Maryland Medicaid Dental Fee Schedule and Procedure Codes CDT 2026 (COMAR 10.09.05), Revised 8/18/2026",
+  "source_url": "https://health.maryland.gov/mmcp/Documents/2026%20CDT%20Fee%20Schedule%20-%20Section%20508%20Compliant%20-%208.18.26.pdf",
+  "source_page": "https://health.maryland.gov/mmcp/Pages/Provider-Information.aspx",
+  "effective_date": "2023-08-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "all": 31.81
+    },
+    "D0140": {
+      "all": 47.26
+    },
+    "D0150": {
+      "all": 56.34
+    },
+    "D0210": {
+      "all": 57.0
+    },
+    "D0220": {
+      "all": 11.82
+    },
+    "D0274": {
+      "all": 24.07
+    },
+    "D0330": {
+      "all": 45.95
+    },
+    "D1110": {
+      "all": 67.12
+    },
+    "D1120": {
+      "all": 48.9
+    },
+    "D1206": {
+      "all": 26.29
+    },
+    "D1351": {
+      "all": 39.88
+    },
+    "D2140": {
+      "all": 73.85
+    },
+    "D2150": {
+      "all": 92.84
+    },
+    "D2391": {
+      "all": 107.33
+    },
+    "D2392": {
+      "all": 138.49
+    },
+    "D2393": {
+      "all": 173.12
+    },
+    "D2394": {
+      "all": 173.12
+    },
+    "D2740": {
+      "all": 393.84
+    },
+    "D2750": {
+      "all": 492.3
+    },
+    "D2751": {
+      "all": 395.61
+    },
+    "D2752": {
+      "all": 395.61
+    },
+    "D2790": {
+      "all": 308.05
+    },
+    "D2930": {
+      "all": 177.74
+    },
+    "D2950": {
+      "all": 85.45
+    },
+    "D2962": {
+      "all": 113.93
+    },
+    "D3220": {
+      "all": 78.77
+    },
+    "D3310": {
+      "all": 550.0
+    },
+    "D3320": {
+      "all": 650.0
+    },
+    "D3330": {
+      "all": 748.0
+    },
+    "D3346": {
+      "all": 634.0
+    },
+    "D3347": {
+      "all": 721.0
+    },
+    "D3348": {
+      "all": 829.0
+    },
+    "D4341": {
+      "all": 90.0
+    },
+    "D4342": {
+      "all": 64.8
+    },
+    "D4355": {
+      "all": 100.0
+    },
+    "D4910": {
+      "all": 54.0
+    },
+    "D5110": {
+      "all": 375.0
+    },
+    "D5120": {
+      "all": 375.0
+    },
+    "D5211": {
+      "all": 225.0
+    },
+    "D5212": {
+      "all": 225.0
+    },
+    "D5225": {
+      "all": 275.0
+    },
+    "D5226": {
+      "all": 275.0
+    },
+    "D7140": {
+      "all": 135.23
+    },
+    "D7210": {
+      "all": 112.69
+    },
+    "D7220": {
+      "all": 157.54
+    },
+    "D7230": {
+      "all": 230.83
+    },
+    "D7240": {
+      "all": 303.04
+    },
+    "D7241": {
+      "all": 415.0
+    },
+    "D7250": {
+      "all": 103.01
+    },
+    "D8080": {
+      "all": 1035.0
+    },
+    "D8090": {
+      "all": 900.0
+    },
+    "D8670": {
+      "all": 75.0
+    },
+    "D8680": {
+      "all": 200.0
+    },
+    "D9222": {
+      "all": 77.67
+    },
+    "D9223": {
+      "all": 77.67
+    },
+    "D9239": {
+      "all": 59.0
+    },
+    "D9243": {
+      "all": 59.0
+    },
+    "D9230": {
+      "all": 19.69
+    }
+  },
+  "by_report": [],
+  "not_covered_or_absent": [
+    "D5213",
+    "D5214",
+    "D5820",
+    "D5821",
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D6240",
+    "D6245",
+    "D6750",
+    "D6740",
+    "D6790",
+    "D7953",
+    "D8070"
+  ],
+  "notes": "Document prints 'EFFECTIVE DATE August 1, 2023' and 'Revised 8/18/2026' (CDT 2026 code set); fees are those in force as of the 8/18/2026 revision. One schedule, no separate adult/child columns (population 'all'); D1110 is labelled 'Prophylaxis - Adult', D1120 'Child'. 'Y' column = preauthorization/claim submission requirement, not part of the fee. D3346-D3348 not covered when same provider/associate did the original RCT within a period. D8080/D8090 limited to 1 per lifetime. Implants (D60xx), fixed bridges (D62xx/D67xx), D5213/D5214, D5820/D5821, D7953, D8070 not listed.",
+  "fees_2024": {
+    "D0120": {
+      "all": 31.81
+    },
+    "D0140": {
+      "all": 47.26
+    },
+    "D0150": {
+      "all": 56.34
+    },
+    "D0210": {
+      "all": 57.0
+    },
+    "D0220": {
+      "all": 11.82
+    },
+    "D0274": {
+      "all": 24.07
+    },
+    "D0330": {
+      "all": 45.95
+    },
+    "D1110": {
+      "all": 67.12
+    },
+    "D1120": {
+      "all": 48.9
+    },
+    "D1206": {
+      "all": 26.29
+    },
+    "D1351": {
+      "all": 39.88
+    },
+    "D2140": {
+      "all": 73.85
+    },
+    "D2150": {
+      "all": 92.84
+    },
+    "D2391": {
+      "all": 107.33
+    },
+    "D2392": {
+      "all": 138.49
+    },
+    "D2393": {
+      "all": 173.12
+    },
+    "D2394": {
+      "all": 173.12
+    },
+    "D2740": {
+      "all": 393.84
+    },
+    "D2750": {
+      "all": 492.3
+    },
+    "D2751": {
+      "all": 395.61
+    },
+    "D2752": {
+      "all": 395.61
+    },
+    "D2790": {
+      "all": 308.05
+    },
+    "D2930": {
+      "all": 177.74
+    },
+    "D2950": {
+      "all": 85.45
+    },
+    "D2962": {
+      "all": 113.93
+    },
+    "D3220": {
+      "all": 78.77
+    },
+    "D3310": {
+      "all": 550.0
+    },
+    "D3320": {
+      "all": 650.0
+    },
+    "D3330": {
+      "all": 748.0
+    },
+    "D3346": {
+      "all": 634.0
+    },
+    "D3347": {
+      "all": 721.0
+    },
+    "D3348": {
+      "all": 829.0
+    },
+    "D4341": {
+      "all": 90.0
+    },
+    "D4342": {
+      "all": 64.8
+    },
+    "D4355": {
+      "all": 100.0
+    },
+    "D4910": {
+      "all": 54.0
+    },
+    "D5110": {
+      "all": 375.0
+    },
+    "D5120": {
+      "all": 375.0
+    },
+    "D5211": {
+      "all": 225.0
+    },
+    "D5212": {
+      "all": 225.0
+    },
+    "D5225": {
+      "all": 275.0
+    },
+    "D5226": {
+      "all": 275.0
+    },
+    "D7140": {
+      "all": 135.23
+    },
+    "D7210": {
+      "all": 112.69
+    },
+    "D7220": {
+      "all": 157.54
+    },
+    "D7230": {
+      "all": 230.83
+    },
+    "D7240": {
+      "all": 303.04
+    },
+    "D7241": {
+      "all": 415.0
+    },
+    "D7250": {
+      "all": 103.01
+    },
+    "D8080": {
+      "all": 1035.0
+    },
+    "D8090": {
+      "all": 900.0
+    },
+    "D8670": {
+      "all": 75.0
+    },
+    "D8680": {
+      "all": 200.0
+    },
+    "D9222": {
+      "all": 77.67
+    },
+    "D9223": {
+      "all": 77.67
+    },
+    "D9239": {
+      "all": 59.0
+    },
+    "D9243": {
+      "all": 59.0
+    },
+    "D9230": {
+      "all": 19.69
+    }
+  },
+  "source_url_2024": "https://health.maryland.gov/mmcp/Documents/2024%20Dental%20Fee%20Schedule%20and%20Procedure%20Codes.pdf",
+  "effective_date_2024": "2024-01-01",
+  "notes_2024": "Parsed the official 2024 edition ('Maryland Medicaid Dental Fee Schedule and Procedure Codes CDT 2024', EFFECTIVE DATE January 1, 2024, Revised 12/8/2023; raw/MD/2024_Dental_Fee_Schedule_and_Procedure_Codes.pdf), still on health.maryland.gov. All 58 fees identical to the 2026 revision; same 18 target codes absent."
+}

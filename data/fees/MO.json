@@ -1,0 +1,415 @@
+{
+  "state": "MO",
+  "status": "ok",
+  "program": "MO HealthNet (Missouri Medicaid) - fee-for-service dental",
+  "document_title": "MO HealthNet Division Fee Schedule - Dental (Dental.xlsx, dated 10/02/2026)",
+  "source_url": "https://apps.dss.mo.gov/fmsFeeSchedules/dlfiles/Dental.xlsx",
+  "source_page": "https://apps.dss.mo.gov/fmsFeeSchedules/DLFiles.aspx",
+  "effective_date": "2026-10-02",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "all": 48.8
+    },
+    "D0140": {
+      "all": 71.2
+    },
+    "D0150": {
+      "all": 83.2
+    },
+    "D0210": {
+      "all": 123.2
+    },
+    "D0220": {
+      "all": 27.2
+    },
+    "D0274": {
+      "all": 60.0
+    },
+    "D0330": {
+      "all": 104.8
+    },
+    "D1110": {
+      "all": 85.6
+    },
+    "D1120": {
+      "all": 62.4
+    },
+    "D1206": {
+      "all": 36.8
+    },
+    "D1351": {
+      "all": 50.4
+    },
+    "D2140": {
+      "all": 132.0
+    },
+    "D2150": {
+      "all": 165.6
+    },
+    "D2391": {
+      "all": 169.6
+    },
+    "D2392": {
+      "all": 214.4
+    },
+    "D2393": {
+      "all": 264.0
+    },
+    "D2394": {
+      "all": 312.8
+    },
+    "D2740": {
+      "all": 1048.8
+    },
+    "D2750": {
+      "all": 1029.6
+    },
+    "D2751": {
+      "all": 971.2
+    },
+    "D2752": {
+      "all": 999.2
+    },
+    "D2790": {
+      "all": 1064.8
+    },
+    "D2930": {
+      "all": 244.8
+    },
+    "D2950": {
+      "all": 249.6
+    },
+    "D2962": {
+      "all": 1062.4
+    },
+    "D3220": {
+      "all": 188.8
+    },
+    "D3310": {
+      "all": 695.2
+    },
+    "D3320": {
+      "all": 787.2
+    },
+    "D3330": {
+      "all": 956.0
+    },
+    "D3346": {
+      "all": 804.0
+    },
+    "D3347": {
+      "all": 912.0
+    },
+    "D3348": {
+      "all": 1100.0
+    },
+    "D4341": {
+      "all": 238.4
+    },
+    "D4342": {
+      "all": 175.2
+    },
+    "D4355": {
+      "all": 168.0
+    },
+    "D4910": {
+      "all": 125.6
+    },
+    "D5110": {
+      "all": 1608.0
+    },
+    "D5120": {
+      "all": 1627.2
+    },
+    "D5211": {
+      "all": 1279.2
+    },
+    "D5212": {
+      "all": 1272.8
+    },
+    "D5213": {
+      "all": 1658.4
+    },
+    "D5214": {
+      "all": 1669.6
+    },
+    "D5225": {
+      "all": 1438.4
+    },
+    "D5226": {
+      "all": 1436.0
+    },
+    "D5820": {
+      "all": 633.6
+    },
+    "D5821": {
+      "all": 634.4
+    },
+    "D6010": {
+      "all": 373.11
+    },
+    "D6056": {
+      "all": 276.47
+    },
+    "D6057": {
+      "all": 276.47
+    },
+    "D6240": {
+      "all": 1026.4
+    },
+    "D6245": {
+      "all": 1029.6
+    },
+    "D6750": {
+      "all": 1028.8
+    },
+    "D6740": {
+      "all": 1049.6
+    },
+    "D6790": {
+      "all": 1012.0
+    },
+    "D7140": {
+      "all": 93.56
+    },
+    "D7210": {
+      "all": 138.22
+    },
+    "D7220": {
+      "all": 156.31
+    },
+    "D7230": {
+      "all": 194.04
+    },
+    "D7240": {
+      "all": 233.7
+    },
+    "D7241": {
+      "all": 272.2
+    },
+    "D7250": {
+      "all": 149.0
+    },
+    "D8680": {
+      "all": 407.2
+    },
+    "D9222": {
+      "all": 244.0
+    },
+    "D9223": {
+      "all": 230.4
+    },
+    "D9239": {
+      "all": 232.0
+    },
+    "D9243": {
+      "all": 208.8
+    },
+    "D9230": {
+      "all": 77.6
+    }
+  },
+  "by_report": [
+    "D7953",
+    "D8070",
+    "D8080",
+    "D8090",
+    "D8670"
+  ],
+  "not_covered_or_absent": [
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066"
+  ],
+  "notes": "Monthly-updated MHD fee schedule; file header dated 2026-10-02, download page shows 'Updated 10/05/2026'. effective_date is the file date; per-code 'Rate Effective Date' varies: most 2022-07-01, extractions/D9230 2024-07-01, D4355/D6010/D9222/D9223/D9239/D9243 2025-03-01, D6056/D6057 2019-07-01. Rows with no modifier used; modifier rows (YG, W5, W6, W9) are all 'Noncovered' and ignored. One rate column, no age split (population 'all'); age/benefit limits for adults are in the Dental Manual, not this file. 'Manually Priced' codes under by_report. D6058/D6059/D6065/D6066 are listed 'Noncovered'. Reached via the disclaimer page https://apps.dss.mo.gov/fmsFeeSchedules/default.aspx. Most MO HealthNet participants are in managed care, whose plans may pay differently.",
+  "fees_2024": {
+    "D0120": {
+      "all": 48.8
+    },
+    "D0140": {
+      "all": 71.2
+    },
+    "D0150": {
+      "all": 83.2
+    },
+    "D0210": {
+      "all": 123.2
+    },
+    "D0220": {
+      "all": 27.2
+    },
+    "D0274": {
+      "all": 60.0
+    },
+    "D0330": {
+      "all": 104.8
+    },
+    "D1110": {
+      "all": 85.6
+    },
+    "D1120": {
+      "all": 62.4
+    },
+    "D1206": {
+      "all": 36.8
+    },
+    "D1351": {
+      "all": 50.4
+    },
+    "D2140": {
+      "all": 132.0
+    },
+    "D2150": {
+      "all": 165.6
+    },
+    "D2391": {
+      "all": 169.6
+    },
+    "D2392": {
+      "all": 214.4
+    },
+    "D2393": {
+      "all": 264.0
+    },
+    "D2394": {
+      "all": 312.8
+    },
+    "D2740": {
+      "all": 1048.8
+    },
+    "D2750": {
+      "all": 1029.6
+    },
+    "D2751": {
+      "all": 971.2
+    },
+    "D2752": {
+      "all": 999.2
+    },
+    "D2790": {
+      "all": 1064.8
+    },
+    "D2930": {
+      "all": 244.8
+    },
+    "D2950": {
+      "all": 249.6
+    },
+    "D2962": {
+      "all": 1062.4
+    },
+    "D3220": {
+      "all": 188.8
+    },
+    "D3310": {
+      "all": 695.2
+    },
+    "D3320": {
+      "all": 787.2
+    },
+    "D3330": {
+      "all": 956.0
+    },
+    "D3346": {
+      "all": 804.0
+    },
+    "D3347": {
+      "all": 912.0
+    },
+    "D3348": {
+      "all": 1100.0
+    },
+    "D4341": {
+      "all": 238.4
+    },
+    "D4342": {
+      "all": 175.2
+    },
+    "D4910": {
+      "all": 125.6
+    },
+    "D5110": {
+      "all": 1608.0
+    },
+    "D5120": {
+      "all": 1627.2
+    },
+    "D5211": {
+      "all": 1279.2
+    },
+    "D5212": {
+      "all": 1272.8
+    },
+    "D5213": {
+      "all": 1658.4
+    },
+    "D5214": {
+      "all": 1669.6
+    },
+    "D5225": {
+      "all": 1438.4
+    },
+    "D5226": {
+      "all": 1436.0
+    },
+    "D5820": {
+      "all": 633.6
+    },
+    "D5821": {
+      "all": 634.4
+    },
+    "D6056": {
+      "all": 276.47
+    },
+    "D6057": {
+      "all": 276.47
+    },
+    "D6240": {
+      "all": 1026.4
+    },
+    "D6245": {
+      "all": 1029.6
+    },
+    "D6750": {
+      "all": 1028.8
+    },
+    "D6740": {
+      "all": 1049.6
+    },
+    "D6790": {
+      "all": 1012.0
+    },
+    "D7140": {
+      "all": 93.56
+    },
+    "D7210": {
+      "all": 138.22
+    },
+    "D7220": {
+      "all": 156.31
+    },
+    "D7230": {
+      "all": 194.04
+    },
+    "D7240": {
+      "all": 233.7
+    },
+    "D7241": {
+      "all": 272.2
+    },
+    "D7250": {
+      "all": 149.0
+    },
+    "D8680": {
+      "all": 407.2
+    },
+    "D9230": {
+      "all": 77.6
+    }
+  },
+  "source_url_2024": "https://apps.dss.mo.gov/fmsFeeSchedules/dlfiles/Dental.xlsx",
+  "effective_date_2024": "2024-07-01",
+  "notes_2024": "No mid-2024 edition of Dental.xlsx found (no web.archive.org capture of the file; MHD replaces it monthly). Fees copied from the current file only where the per-code 'Rate Effective Date' is on or before 2024-07-01 (2019-07-01, 2022-07-01 or 2024-07-01), i.e. the rate was in force on 2024-07-01. Omitted because their current rate took effect later and the prior rate is unknown: D4355 (2025-03-01), D6010 (2025-03-01), D9222 (2025-03-01), D9223 (2025-03-01), D9239 (2025-03-01), D9243 (2025-03-01). 'Manually Priced' codes (D7953, D8070, D8080, D8090, D8670) not recorded; D7953's row is dated 2025-03-01 so its 2024 status is unknown. effective_date_2024 here is the reference date, not an edition date."
+}

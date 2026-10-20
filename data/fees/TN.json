@@ -1,0 +1,18 @@
+{
+  "state": "TN",
+  "status": "not_found",
+  "program": "TennCare Dental (Dental Benefits Manager: Renaissance since 2025-11-01; DentaQuest before)",
+  "document_title": null,
+  "source_url": null,
+  "source_page": "https://www.tn.gov/tenncare/providers/dental-benefits-manager.html",
+  "effective_date": null,
+  "retrieved_at": "2026-10-20",
+  "fees": {},
+  "by_report": [],
+  "not_covered_or_absent": [],
+  "notes": "No public TennCare dental fee schedule found. tn.gov returned 403 to curl (both browser and curl User-Agents) and to WebFetch; searches of tn.gov surfaced no fee schedule file. The TennCare-DentaQuest contract (Fiscal Review Committee, capitol.tn.gov) states TennCare maintains the TennCare Dental Fee Schedules and provides them to the DBM, i.e. they appear to be distributed to providers via the DBM (Renaissance Dental Office Toolkit portal) rather than published. TennCare MAC minutes (July 2025) mention a pediatric dental fee increase effective 2025-07-01. No fee recorded.",
+  "fees_2024": null,
+  "source_url_2024": null,
+  "effective_date_2024": null,
+  "notes_2024": "No public TennCare dental fee schedule found for 2024 either (TennCare provides the schedules to its DBM, DentaQuest in 2024; tn.gov blocks automated access; no archive found)."
+}

@@ -1,0 +1,590 @@
+{
+  "state": "MA",
+  "status": "ok",
+  "program": "MassHealth Dental Program (101 CMR 314.00 Rates for Dental Services)",
+  "document_title": "101 CMR 314.00: Rates for Dental Services - Final Adoption, Date Published in Mass Register: June 21, 2024",
+  "source_url": "https://www.mass.gov/files/documents/2024/06/07/101-cmr-314.pdf",
+  "source_page": "https://www.mass.gov/regulations/101-CMR-31400-rates-for-dental-services",
+  "effective_date": "2024-06-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "adult": 24.0,
+      "child": 31.0
+    },
+    "D0140": {
+      "adult": 43.0,
+      "child": 49.0
+    },
+    "D0150": {
+      "adult": 41.0,
+      "child": 62.0
+    },
+    "D0210": {
+      "adult": 76.0,
+      "child": 94.0
+    },
+    "D0220": {
+      "adult": 15.0,
+      "child": 21.0
+    },
+    "D0274": {
+      "adult": 36.0,
+      "child": 46.0
+    },
+    "D0330": {
+      "adult": 69.0,
+      "child": 94.0
+    },
+    "D1110": {
+      "adult": 60.0,
+      "child": 75.0
+    },
+    "D1120": {
+      "adult": 39.0,
+      "child": 55.0
+    },
+    "D1206": {
+      "adult": 26.0,
+      "child": 28.0
+    },
+    "D1351": {
+      "adult": 30.0,
+      "child": 44.0
+    },
+    "D2140": {
+      "adult": 62.0,
+      "child": 77.0
+    },
+    "D2150": {
+      "adult": 77.0,
+      "child": 95.0
+    },
+    "D2391": {
+      "adult": 62.0,
+      "child": 99.0
+    },
+    "D2392": {
+      "adult": 77.0,
+      "child": 123.0
+    },
+    "D2393": {
+      "adult": 92.0,
+      "child": 133.0
+    },
+    "D2394": {
+      "adult": 116.0,
+      "child": 182.0
+    },
+    "D2740": {
+      "adult": 729.0,
+      "child": 853.0
+    },
+    "D2750": {
+      "adult": 686.0,
+      "child": 800.0
+    },
+    "D2751": {
+      "adult": 613.0,
+      "child": 727.0
+    },
+    "D2752": {
+      "adult": 633.0,
+      "child": 735.0
+    },
+    "D2790": {
+      "adult": 690.0,
+      "child": 808.0
+    },
+    "D2930": {
+      "adult": 153.0,
+      "child": 205.0
+    },
+    "D2950": {
+      "adult": 164.0,
+      "child": 197.0
+    },
+    "D2962": {
+      "adult": 574.0,
+      "child": 688.0
+    },
+    "D3220": {
+      "adult": 88.0,
+      "child": 106.0
+    },
+    "D3310": {
+      "adult": 544.0,
+      "child": 544.0
+    },
+    "D3320": {
+      "adult": 639.0,
+      "child": 639.0
+    },
+    "D3330": {
+      "adult": 829.0,
+      "child": 829.0
+    },
+    "D3346": {
+      "adult": 456.0,
+      "child": 545.0
+    },
+    "D3347": {
+      "adult": 538.0,
+      "child": 641.0
+    },
+    "D3348": {
+      "adult": 613.0,
+      "child": 789.0
+    },
+    "D4341": {
+      "adult": 134.0,
+      "child": 160.0
+    },
+    "D4342": {
+      "adult": 90.0,
+      "child": 107.0
+    },
+    "D4355": {
+      "adult": 77.0,
+      "child": 93.0
+    },
+    "D4910": {
+      "adult": 80.0,
+      "child": 111.0
+    },
+    "D5110": {
+      "adult": 730.0,
+      "child": 858.0
+    },
+    "D5120": {
+      "adult": 730.0,
+      "child": 852.0
+    },
+    "D5211": {
+      "adult": 556.0,
+      "child": 650.0
+    },
+    "D5212": {
+      "adult": 595.0,
+      "child": 691.0
+    },
+    "D5213": {
+      "adult": 1097.0,
+      "child": 974.0
+    },
+    "D5214": {
+      "adult": 1134.0,
+      "child": 986.0
+    },
+    "D5225": {
+      "child": 974.0
+    },
+    "D5226": {
+      "child": 986.0
+    },
+    "D5820": {
+      "adult": 268.0,
+      "child": 321.0
+    },
+    "D5821": {
+      "adult": 295.0,
+      "child": 316.0
+    },
+    "D6010": {
+      "adult": 1151.0,
+      "child": 1374.0
+    },
+    "D6056": {
+      "adult": 278.0,
+      "child": 331.0
+    },
+    "D6057": {
+      "adult": 402.0,
+      "child": 480.0
+    },
+    "D6058": {
+      "adult": 920.0,
+      "child": 982.0
+    },
+    "D6059": {
+      "adult": 756.0,
+      "child": 894.0
+    },
+    "D6065": {
+      "adult": 920.0,
+      "child": 1015.0
+    },
+    "D6066": {
+      "adult": 878.0,
+      "child": 1049.0
+    },
+    "D6240": {
+      "adult": 671.0,
+      "child": 792.0
+    },
+    "D6750": {
+      "adult": 678.0,
+      "child": 779.0
+    },
+    "D6790": {
+      "adult": 703.0,
+      "child": 897.0
+    },
+    "D7140": {
+      "adult": 77.0,
+      "child": 107.0
+    },
+    "D7210": {
+      "adult": 149.0,
+      "child": 179.0
+    },
+    "D7220": {
+      "adult": 191.0,
+      "child": 223.0
+    },
+    "D7230": {
+      "adult": 249.0,
+      "child": 286.0
+    },
+    "D7240": {
+      "adult": 295.0,
+      "child": 378.0
+    },
+    "D7241": {
+      "adult": 326.0,
+      "child": 427.0
+    },
+    "D7250": {
+      "adult": 144.0,
+      "child": 173.0
+    },
+    "D8080": {
+      "adult": 1227.0,
+      "child": 1302.0
+    },
+    "D8670": {
+      "adult": 215.0,
+      "child": 288.0
+    },
+    "D8680": {
+      "adult": 85.0,
+      "child": 102.0
+    },
+    "D9222": {
+      "adult": 90.0,
+      "child": 109.0
+    },
+    "D9223": {
+      "adult": 90.0,
+      "child": 109.0
+    },
+    "D9239": {
+      "adult": 78.0,
+      "child": 101.0
+    },
+    "D9243": {
+      "adult": 78.0,
+      "child": 101.0
+    },
+    "D9230": {
+      "adult": 15.0,
+      "child": 22.0
+    }
+  },
+  "by_report": [
+    "D6245",
+    "D6740",
+    "D7953",
+    "D8070",
+    "D8090"
+  ],
+  "not_covered_or_absent": [],
+  "notes": "Two columns in 314.05: 'Allowed Fee' (recorded as adult, members 21+) and 'Allowed Fee (EPSDT-eligible members)' (recorded as child, under 21). Rates apply to dates of service on or after June 1, 2024; still the regulation in force on 2026-10-20 (amendments heard 2026-08-07 only add bundled limited-ortho rates from 2027-01-01, other rates unchanged). Administrative Bulletin 26-12 (eff. 2026-01-01, https://www.mass.gov/files/documents/2026/05/08/ab-26-12.pdf) only revises descriptors of D9222/D9223/D9230/D9239/D9243, no rate change; AB 26-06 (CDT 2025) touches none of the target codes. I.C. (individual consideration) codes listed under by_report: D6245, D6740, D7953, D8070, D8090. Mixed: D5225 adult I.C.; D5226 adult I.C. (EPSDT fee recorded). Fees printed in whole dollars. An adult annual benefit maximum (Dental Bulletin 58, eff. 2026-08-01) was reported by search but not verified here. mass.gov 'download' links first serve an ADA CDT license page; the actual file is the linked /files/documents/ URL. mass.gov returns 403 to browser User-Agents; fetched with curl's default UA.",
+  "fees_2024": {
+    "D0120": {
+      "adult": 24.0,
+      "child": 31.0
+    },
+    "D0140": {
+      "adult": 43.0,
+      "child": 49.0
+    },
+    "D0150": {
+      "adult": 41.0,
+      "child": 62.0
+    },
+    "D0210": {
+      "adult": 76.0,
+      "child": 94.0
+    },
+    "D0220": {
+      "adult": 15.0,
+      "child": 21.0
+    },
+    "D0274": {
+      "adult": 36.0,
+      "child": 46.0
+    },
+    "D0330": {
+      "adult": 69.0,
+      "child": 94.0
+    },
+    "D1110": {
+      "adult": 60.0,
+      "child": 75.0
+    },
+    "D1120": {
+      "adult": 39.0,
+      "child": 55.0
+    },
+    "D1206": {
+      "adult": 26.0,
+      "child": 28.0
+    },
+    "D1351": {
+      "adult": 30.0,
+      "child": 44.0
+    },
+    "D2140": {
+      "adult": 62.0,
+      "child": 77.0
+    },
+    "D2150": {
+      "adult": 77.0,
+      "child": 95.0
+    },
+    "D2391": {
+      "adult": 62.0,
+      "child": 99.0
+    },
+    "D2392": {
+      "adult": 77.0,
+      "child": 123.0
+    },
+    "D2393": {
+      "adult": 92.0,
+      "child": 133.0
+    },
+    "D2394": {
+      "adult": 116.0,
+      "child": 182.0
+    },
+    "D2740": {
+      "adult": 729.0,
+      "child": 853.0
+    },
+    "D2750": {
+      "adult": 686.0,
+      "child": 800.0
+    },
+    "D2751": {
+      "adult": 613.0,
+      "child": 727.0
+    },
+    "D2752": {
+      "adult": 633.0,
+      "child": 735.0
+    },
+    "D2790": {
+      "adult": 690.0,
+      "child": 808.0
+    },
+    "D2930": {
+      "adult": 153.0,
+      "child": 205.0
+    },
+    "D2950": {
+      "adult": 164.0,
+      "child": 197.0
+    },
+    "D2962": {
+      "adult": 574.0,
+      "child": 688.0
+    },
+    "D3220": {
+      "adult": 88.0,
+      "child": 106.0
+    },
+    "D3310": {
+      "adult": 544.0,
+      "child": 544.0
+    },
+    "D3320": {
+      "adult": 639.0,
+      "child": 639.0
+    },
+    "D3330": {
+      "adult": 829.0,
+      "child": 829.0
+    },
+    "D3346": {
+      "adult": 456.0,
+      "child": 545.0
+    },
+    "D3347": {
+      "adult": 538.0,
+      "child": 641.0
+    },
+    "D3348": {
+      "adult": 613.0,
+      "child": 789.0
+    },
+    "D4341": {
+      "adult": 134.0,
+      "child": 160.0
+    },
+    "D4342": {
+      "adult": 90.0,
+      "child": 107.0
+    },
+    "D4355": {
+      "adult": 77.0,
+      "child": 93.0
+    },
+    "D4910": {
+      "adult": 80.0,
+      "child": 111.0
+    },
+    "D5110": {
+      "adult": 730.0,
+      "child": 858.0
+    },
+    "D5120": {
+      "adult": 730.0,
+      "child": 852.0
+    },
+    "D5211": {
+      "adult": 556.0,
+      "child": 650.0
+    },
+    "D5212": {
+      "adult": 595.0,
+      "child": 691.0
+    },
+    "D5213": {
+      "adult": 1097.0,
+      "child": 974.0
+    },
+    "D5214": {
+      "adult": 1134.0,
+      "child": 986.0
+    },
+    "D5225": {
+      "child": 974.0
+    },
+    "D5226": {
+      "child": 986.0
+    },
+    "D5820": {
+      "adult": 268.0,
+      "child": 321.0
+    },
+    "D5821": {
+      "adult": 295.0,
+      "child": 316.0
+    },
+    "D6010": {
+      "adult": 1151.0,
+      "child": 1374.0
+    },
+    "D6056": {
+      "adult": 278.0,
+      "child": 331.0
+    },
+    "D6057": {
+      "adult": 402.0,
+      "child": 480.0
+    },
+    "D6058": {
+      "adult": 920.0,
+      "child": 982.0
+    },
+    "D6059": {
+      "adult": 756.0,
+      "child": 894.0
+    },
+    "D6065": {
+      "adult": 920.0,
+      "child": 1015.0
+    },
+    "D6066": {
+      "adult": 878.0,
+      "child": 1049.0
+    },
+    "D6240": {
+      "adult": 671.0,
+      "child": 792.0
+    },
+    "D6750": {
+      "adult": 678.0,
+      "child": 779.0
+    },
+    "D6790": {
+      "adult": 703.0,
+      "child": 897.0
+    },
+    "D7140": {
+      "adult": 77.0,
+      "child": 107.0
+    },
+    "D7210": {
+      "adult": 149.0,
+      "child": 179.0
+    },
+    "D7220": {
+      "adult": 191.0,
+      "child": 223.0
+    },
+    "D7230": {
+      "adult": 249.0,
+      "child": 286.0
+    },
+    "D7240": {
+      "adult": 295.0,
+      "child": 378.0
+    },
+    "D7241": {
+      "adult": 326.0,
+      "child": 427.0
+    },
+    "D7250": {
+      "adult": 144.0,
+      "child": 173.0
+    },
+    "D8080": {
+      "adult": 1227.0,
+      "child": 1302.0
+    },
+    "D8670": {
+      "adult": 215.0,
+      "child": 288.0
+    },
+    "D8680": {
+      "adult": 85.0,
+      "child": 102.0
+    },
+    "D9222": {
+      "adult": 90.0,
+      "child": 109.0
+    },
+    "D9223": {
+      "adult": 90.0,
+      "child": 109.0
+    },
+    "D9239": {
+      "adult": 78.0,
+      "child": 101.0
+    },
+    "D9243": {
+      "adult": 78.0,
+      "child": 101.0
+    },
+    "D9230": {
+      "adult": 15.0,
+      "child": 22.0
+    }
+  },
+  "source_url_2024": "https://www.mass.gov/files/documents/2024/06/07/101-cmr-314.pdf",
+  "effective_date_2024": "2024-06-01",
+  "notes_2024": "Same edition as current: 101 CMR 314.00 final adoption, rates apply to dates of service on or after June 1, 2024 (published Mass Register June 21, 2024), so in force on 2024-07-01; no rate amendment since (AB 26-06 and 26-12 do not change target-code rates). Fees copied. I.C. codes (D6245, D6740, D7953, D8070, D8090) also I.C. in 2024; D5225/D5226 adult I.C."
+}

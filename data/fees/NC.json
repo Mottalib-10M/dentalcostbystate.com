@@ -1,0 +1,323 @@
+{
+  "state": "NC",
+  "status": "ok",
+  "program": "NC Medicaid (Medicaid Direct / fee-for-service) Dental",
+  "document_title": "NC Medicaid Dental Reimbursement Rates - General Dentist, Oral Surgeon, Pediatric Dentist, Periodontist, & Orthodontist - Last Revison Date: Apr 1, 2026",
+  "source_url": "https://ncdhhs.servicenowservices.com/api/g_ncd2/pubatt/dl/9d2c5d16cf488790b5a0b3842f851c45",
+  "source_page": "https://ncdhhs.servicenowservices.com/fee_schedules (NC DHB Fee Schedule & Covered Codes Portal, linked from https://medicaid.ncdhhs.gov/providers/fee-schedules/dental-fee-schedules-archive)",
+  "effective_date": "2025-10-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "all": 26.96
+    },
+    "D0140": {
+      "all": 38.43
+    },
+    "D0150": {
+      "all": 46.65
+    },
+    "D0210": {
+      "all": 75.08
+    },
+    "D0220": {
+      "all": 15.6
+    },
+    "D0274": {
+      "all": 33.55
+    },
+    "D0330": {
+      "all": 61.95
+    },
+    "D1110": {
+      "all": 39.83
+    },
+    "D1120": {
+      "all": 28.46
+    },
+    "D1206": {
+      "all": 16.78
+    },
+    "D1351": {
+      "all": 29.89
+    },
+    "D2140": {
+      "all": 78.12
+    },
+    "D2150": {
+      "all": 98.99
+    },
+    "D2391": {
+      "all": 83.6
+    },
+    "D2392": {
+      "all": 110.92
+    },
+    "D2393": {
+      "all": 134.9
+    },
+    "D2394": {
+      "all": 163.46
+    },
+    "D2930": {
+      "all": 150.87
+    },
+    "D2950": {
+      "all": 102.73
+    },
+    "D3220": {
+      "all": 84.8
+    },
+    "D3310": {
+      "all": 296.52
+    },
+    "D3320": {
+      "all": 350.44
+    },
+    "D3330": {
+      "all": 428.62
+    },
+    "D4341": {
+      "all": 105.13
+    },
+    "D4342": {
+      "all": 61.15
+    },
+    "D4355": {
+      "all": 70.44
+    },
+    "D4910": {
+      "all": 51.85
+    },
+    "D5110": {
+      "all": 611.52
+    },
+    "D5120": {
+      "all": 611.52
+    },
+    "D5211": {
+      "all": 453.5
+    },
+    "D5212": {
+      "all": 453.5
+    },
+    "D7140": {
+      "all": 66.44
+    },
+    "D7210": {
+      "all": 114.21
+    },
+    "D7220": {
+      "all": 129.93
+    },
+    "D7230": {
+      "all": 173.57
+    },
+    "D7240": {
+      "all": 202.18
+    },
+    "D7241": {
+      "all": 242.62
+    },
+    "D7250": {
+      "all": 124.54
+    },
+    "D8080": {
+      "all": 856.1
+    },
+    "D8670": {
+      "all": 100.64
+    },
+    "D9222": {
+      "all": 74.1
+    },
+    "D9223": {
+      "all": 74.1
+    },
+    "D9239": {
+      "all": 75.36
+    },
+    "D9243": {
+      "all": 75.36
+    },
+    "D9230": {
+      "all": 44.94
+    }
+  },
+  "by_report": [
+    "D8070",
+    "D8680"
+  ],
+  "not_covered_or_absent": [
+    "D2740",
+    "D2750",
+    "D2751",
+    "D2752",
+    "D2790",
+    "D2962",
+    "D3346",
+    "D3347",
+    "D3348",
+    "D5213",
+    "D5214",
+    "D5225",
+    "D5226",
+    "D5820",
+    "D5821",
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D6240",
+    "D6245",
+    "D6750",
+    "D6740",
+    "D6790",
+    "D7953",
+    "D8090"
+  ],
+  "notes": "File 'General Dental.xlsx' (Fee Schedule: General Dental, program Dental), posted on the portal 2026-04-06, the latest General Dental entry; document header 'Last Revison Date: Apr 1, 2026'. Every recorded rate carries Effective Date 2025-10-01 and End Date 9999-12-31. Header states 'All rates depicted on this fee schedule do not contain rate reductions.' (NC applied temporary Medicaid rate reductions in late 2025; this schedule shows unreduced rates). Single rate column, no age split, so population 'all'; coverage/age limits are in the NC dental clinical coverage policies, not in this file. D8070 and D8680 are 'Manually Priced'. Separate schedules exist for FQHC, Rural Health Center and Ambulatory Surgical Center dental (not used). Most NC Medicaid enrollees are in Standard Plans, but dental remains carved out and paid fee-for-service by NC Medicaid. Crowns D2740-D2790, retreatment D3346-D3348, partials D5213-D5226, implants and bridges are absent from the schedule.",
+  "fees_2024": {
+    "D0120": {
+      "all": 26.96
+    },
+    "D0140": {
+      "all": 38.43
+    },
+    "D0150": {
+      "all": 46.65
+    },
+    "D0210": {
+      "all": 75.08
+    },
+    "D0220": {
+      "all": 15.6
+    },
+    "D0274": {
+      "all": 33.55
+    },
+    "D0330": {
+      "all": 61.95
+    },
+    "D1110": {
+      "all": 39.83
+    },
+    "D1120": {
+      "all": 28.46
+    },
+    "D1206": {
+      "all": 16.78
+    },
+    "D1351": {
+      "all": 29.89
+    },
+    "D2140": {
+      "all": 78.12
+    },
+    "D2150": {
+      "all": 98.99
+    },
+    "D2391": {
+      "all": 83.6
+    },
+    "D2392": {
+      "all": 110.92
+    },
+    "D2393": {
+      "all": 134.9
+    },
+    "D2394": {
+      "all": 163.46
+    },
+    "D2930": {
+      "all": 150.87
+    },
+    "D2950": {
+      "all": 102.73
+    },
+    "D3220": {
+      "all": 84.8
+    },
+    "D3310": {
+      "all": 296.52
+    },
+    "D3320": {
+      "all": 350.44
+    },
+    "D3330": {
+      "all": 428.62
+    },
+    "D4341": {
+      "all": 105.13
+    },
+    "D4342": {
+      "all": 61.15
+    },
+    "D4355": {
+      "all": 70.44
+    },
+    "D4910": {
+      "all": 51.85
+    },
+    "D5110": {
+      "all": 611.52
+    },
+    "D5120": {
+      "all": 611.52
+    },
+    "D5211": {
+      "all": 453.5
+    },
+    "D5212": {
+      "all": 453.5
+    },
+    "D7140": {
+      "all": 66.44
+    },
+    "D7210": {
+      "all": 114.21
+    },
+    "D7220": {
+      "all": 129.93
+    },
+    "D7230": {
+      "all": 173.57
+    },
+    "D7240": {
+      "all": 202.18
+    },
+    "D7241": {
+      "all": 242.62
+    },
+    "D7250": {
+      "all": 124.54
+    },
+    "D8080": {
+      "all": 856.1
+    },
+    "D8670": {
+      "all": 100.64
+    },
+    "D9222": {
+      "all": 74.1
+    },
+    "D9223": {
+      "all": 74.1
+    },
+    "D9239": {
+      "all": 75.36
+    },
+    "D9243": {
+      "all": 75.36
+    },
+    "D9230": {
+      "all": 44.94
+    }
+  },
+  "source_url_2024": "https://ncdhhs.servicenowservices.com/api/g_ncd2/pubatt/dl/1493f44b47cb8290583f61d2e16d4305",
+  "effective_date_2024": "2024-07-01",
+  "notes_2024": "'General Dental.xlsx' entry posted on the NC DHB Fee Schedule portal 2024-07-01 (archived entry), header 'Last Revison Date: July 1, 2024', so in force on 2024-07-01. Per-code Effective Dates are 2022-01-01 for the extracted codes (one schedule since January 2022). Raw values carry 3 decimals in some cells (e.g. D0120 26.961) and were rounded to cents (D1206 raw 16.775 recorded as 16.78, the value the 2026 file prints). by_report_2024 (Manually Priced): ['D8070', 'D8680']."
+}

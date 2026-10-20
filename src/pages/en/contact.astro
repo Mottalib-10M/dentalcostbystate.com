@@ -1,0 +1,27 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { CONTACT_EMAIL } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { contactPageSchema } from '../../lib/seo';
+const lang = 'en';
+const path = route('contact', lang);
+const description = 'Write to the publisher of Dental Cost by State about a price, a fee schedule or a source. E-mail only: no appointment, no quote, no dental advice, nothing passed on.';
+---
+<PageLayout title="Contact Dental Cost by State: corrections to a price or a source" description={description} lang={lang} noindex={true} jsonLd={[contactPageSchema({ name: 'Contact', description, path, lang })]} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Contact</h1>
+    <p>By e-mail: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. No form and no phone line: a dental price page that asks for your phone number usually passes it to clinics or lenders, and this one passes nothing on.</p>
+    <h2>Messages that help</h2>
+    <ul>
+      <li>A Medicaid fee that differs from the state's schedule: name the state, the CDT code and the edition of the schedule.</li>
+      <li>A new edition of a state fee schedule, or a new release of the ADA Health Policy Institute ratios, that we have not loaded yet.</li>
+      <li>A plan rule that the calculators get wrong: quote the clause of the benefit summary, never your member number.</li>
+      <li>Embedding the estimator on a community site or a newsroom page: the code is on the <a href={route('widget', lang)}>embed page</a>.</li>
+    </ul>
+    <h2>What we cannot do</h2>
+    <p>We do not examine teeth, recommend a treatment or a dentist, review a plan or arrange financing. For care, ask a dentist; for what your plan pays, ask the plan for a predetermination; for Medicaid eligibility, your state Medicaid agency.</p>
+    <h2>Publisher</h2>
+    <LegalIdentity lang={lang} />
+  </div>
+</PageLayout>
