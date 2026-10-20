@@ -83,7 +83,7 @@ def main():
         if d.get('status') != 'ok':
             d['fees'], d['source_url'] = {}, d['source_url_2024']
             d['effective_date'] = d['effective_date_2024']
-            d['document_title'] = d.get('document_title') or d.get('title_2024') or 'Medicaid dental rates in force on July 1, 2024 (state rate review document)'
+            d['document_title'] = d.get('title_2024') or f"{NAMES[d['state']]} Medicaid dental fees in force on July 1, 2024"
         code = d['state']
         o = overrides.get(code, {})
         mult, drop = o.get('multiplier', 1.0), o.get('drop', [])
@@ -96,6 +96,10 @@ def main():
         else:
             f24, src24, eff24 = {}, None, None
         eff24 = o.get('effective_2024', eff24)
+        # Two documents for one state (Louisiana: children and adults) are joined by ' ; ': the first one is linked.
+        # A URL followed by a comment ("(via Wayback capture ...)"): the official address alone is kept.
+        first = lambda u: re.match(r'https?://\S+', u).group(0) if u else u
+        src24, d['source_url'] = first(src24), first(d['source_url'])
         r = ratios[code]
         states.append({
             'code': code, 'name': NAMES[code], 'slug': slug(NAMES[code]),

@@ -1,5 +1,344 @@
 [
  {
+  "code": "AL",
+  "name": "Alabama",
+  "slug": "alabama",
+  "program": "Alabama Medicaid dental program (fee-for-service; EPSDT recipients under 21)",
+  "title": "Alabama Medicaid Fee Schedule - Dental - Report: REF-0128-Q - Updated: 10/01/2025",
+  "url": "https://medicaid.alabama.gov/content/Gated/7.3G_Fee_Schedules/7.3G_Dental_Fee_Schedule_10-1-25.pdf",
+  "page": "https://medicaid.alabama.gov/content/7.0_Providers/7.3_Fee_Schedules.aspx",
+  "effective": "2025-10-01",
+  "retrieved": "2026-10-20",
+  "notes": "DOUBT: medicaid.alabama.gov refuses connections from this network (TCP timeout / ECONNREFUSED, also via WebFetch), so the official PDF was taken from an unaltered Wayback Machine capture (id_ raw mode) of the official URL, captured 2026-06-16. The fee schedule page itself could not be loaded, so it is not confirmed that no newer dental edition was posted after mid-2026 (the Wayback index of the fee-schedule folder shows 10-1-25 as the most recent dental file). 'Allowed Amount' column used; single schedule; Alabama Medicaid dental benefits are for recipients under 21 (adults generally not covered), hence key 'child'. Multiple rows per code are benefit-limit audits with the same amount. Codes listed with Requires PA = Y include D4341, D4355, D4910, D5110-D5214, D6240-D6750, D7240, D7241, D8080, D8680. D8080 = 1000 (comprehensive ortho, PA). Provider alert: D0999 'Dental Participation Payment' $10 per date of service from 10/1/2025 (not included). Every fee for the requested codes is identical to the 05/01/2024 edition.",
+  "url2024": "https://medicaid.alabama.gov/CONTENT/Gated/7.3G_Fee_Schedules/7.3G_Dental_Fee_Schedule_Updated_5-1-24.pdf",
+  "effective2024": "2024-05-01",
+  "notes2024": "Edition 'Alabama Medicaid Fee Schedule - Dental - Report REF-0128-Q - Updated: 05/01/2024' (PDF dated 2024-05-03); it remained the posted dental schedule until the 10/01/2025 edition, so it was in force on 2024-07-01. Same column (Allowed Amount), key 'child'. Values identical to 10/01/2025 for all requested codes.",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.4637,
+   "adultCharge": null,
+   "childPrivate": 0.7495,
+   "adultPrivate": null
+  },
+  "adultBenefit": "None",
+  "fees": {
+   "D0120": {
+    "child": 20.0
+   },
+   "D0140": {
+    "child": 30.45
+   },
+   "D0150": {
+    "child": 32.8
+   },
+   "D0210": {
+    "child": 63.0
+   },
+   "D0220": {
+    "child": 11.55
+   },
+   "D0274": {
+    "child": 25.2
+   },
+   "D0330": {
+    "child": 52.8
+   },
+   "D1110": {
+    "child": 40.0
+   },
+   "D1120": {
+    "child": 29.4
+   },
+   "D1206": {
+    "child": 26.1
+   },
+   "D1351": {
+    "child": 26.0
+   },
+   "D2140": {
+    "child": 53.6
+   },
+   "D2150": {
+    "child": 66.4
+   },
+   "D2391": {
+    "child": 76.0
+   },
+   "D2392": {
+    "child": 91.2
+   },
+   "D2393": {
+    "child": 113.6
+   },
+   "D2394": {
+    "child": 138.4
+   },
+   "D2740": {
+    "child": 537.6
+   },
+   "D2750": {
+    "child": 511.2
+   },
+   "D2751": {
+    "child": 469.6
+   },
+   "D2752": {
+    "child": 480.8
+   },
+   "D2930": {
+    "child": 121.5
+   },
+   "D2950": {
+    "child": 108.9
+   },
+   "D3220": {
+    "child": 82.0
+   },
+   "D3310": {
+    "child": 477.6
+   },
+   "D3320": {
+    "child": 554.4
+   },
+   "D3330": {
+    "child": 660.0
+   },
+   "D4341": {
+    "child": 129.15
+   },
+   "D4355": {
+    "child": 73.6
+   },
+   "D4910": {
+    "child": 66.4
+   },
+   "D5110": {
+    "child": 624.0
+   },
+   "D5120": {
+    "child": 624.0
+   },
+   "D5213": {
+    "child": 555.0
+   },
+   "D5214": {
+    "child": 548.0
+   },
+   "D6240": {
+    "child": 493.6
+   },
+   "D6245": {
+    "child": 537.6
+   },
+   "D6740": {
+    "child": 537.6
+   },
+   "D6750": {
+    "child": 509.6
+   },
+   "D7140": {
+    "child": 64.0
+   },
+   "D7210": {
+    "child": 109.6
+   },
+   "D7220": {
+    "child": 148.05
+   },
+   "D7230": {
+    "child": 189.0
+   },
+   "D7240": {
+    "child": 222.6
+   },
+   "D7241": {
+    "child": 269.6
+   },
+   "D7250": {
+    "child": 115.2
+   },
+   "D8080": {
+    "child": 1000.0
+   },
+   "D8680": {
+    "child": 420.0
+   },
+   "D9222": {
+    "child": 160.0
+   },
+   "D9223": {
+    "child": 120.0
+   },
+   "D9230": {
+    "child": 27.2
+   },
+   "D9239": {
+    "child": 93.6
+   },
+   "D9243": {
+    "child": 93.6
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "child": 20.0
+   },
+   "D0140": {
+    "child": 30.45
+   },
+   "D0150": {
+    "child": 32.8
+   },
+   "D0210": {
+    "child": 63.0
+   },
+   "D0220": {
+    "child": 11.55
+   },
+   "D0274": {
+    "child": 25.2
+   },
+   "D0330": {
+    "child": 52.8
+   },
+   "D1110": {
+    "child": 40.0
+   },
+   "D1120": {
+    "child": 29.4
+   },
+   "D1206": {
+    "child": 26.1
+   },
+   "D1351": {
+    "child": 26.0
+   },
+   "D2140": {
+    "child": 53.6
+   },
+   "D2150": {
+    "child": 66.4
+   },
+   "D2391": {
+    "child": 76.0
+   },
+   "D2392": {
+    "child": 91.2
+   },
+   "D2393": {
+    "child": 113.6
+   },
+   "D2394": {
+    "child": 138.4
+   },
+   "D2740": {
+    "child": 537.6
+   },
+   "D2750": {
+    "child": 511.2
+   },
+   "D2751": {
+    "child": 469.6
+   },
+   "D2752": {
+    "child": 480.8
+   },
+   "D2930": {
+    "child": 121.5
+   },
+   "D2950": {
+    "child": 108.9
+   },
+   "D3220": {
+    "child": 82.0
+   },
+   "D3310": {
+    "child": 477.6
+   },
+   "D3320": {
+    "child": 554.4
+   },
+   "D3330": {
+    "child": 660.0
+   },
+   "D4341": {
+    "child": 129.15
+   },
+   "D4355": {
+    "child": 73.6
+   },
+   "D4910": {
+    "child": 66.4
+   },
+   "D5110": {
+    "child": 624.0
+   },
+   "D5120": {
+    "child": 624.0
+   },
+   "D5213": {
+    "child": 555.0
+   },
+   "D5214": {
+    "child": 548.0
+   },
+   "D6240": {
+    "child": 493.6
+   },
+   "D6245": {
+    "child": 537.6
+   },
+   "D6740": {
+    "child": 537.6
+   },
+   "D6750": {
+    "child": 509.6
+   },
+   "D7140": {
+    "child": 64.0
+   },
+   "D7210": {
+    "child": 109.6
+   },
+   "D7220": {
+    "child": 148.05
+   },
+   "D7230": {
+    "child": 189.0
+   },
+   "D7240": {
+    "child": 222.6
+   },
+   "D7241": {
+    "child": 269.6
+   },
+   "D7250": {
+    "child": 115.2
+   },
+   "D8080": {
+    "child": 1000.0
+   },
+   "D8680": {
+    "child": 420.0
+   },
+   "D9222": {
+    "child": 160.0
+   },
+   "D9223": {
+    "child": 120.0
+   },
+   "D9230": {
+    "child": 27.2
+   },
+   "D9239": {
+    "child": 93.6
+   },
+   "D9243": {
+    "child": 93.6
+   }
+  }
+ },
+ {
   "code": "AZ",
   "name": "Arizona",
   "slug": "arizona",
@@ -397,7 +736,7 @@
   "name": "Colorado",
   "slug": "colorado",
   "program": "Health First Colorado (Colorado Medicaid) dental, administered by DentaQuest",
-  "title": "Medicaid dental rates in force on July 1, 2024 (state rate review document)",
+  "title": "Colorado Medicaid dental fees in force on July 1, 2024",
   "url": "https://hcpf.colorado.gov/sites/hcpf/files/Appendix%20H%20DIDD%20%26%20Medicaid%20Dental%20Rates%20with%20Benchmark%20Ratios.pdf",
   "page": "https://hcpf.colorado.gov/provider-rates-fee-schedule",
   "effective": "2024-07-01",
@@ -1690,9 +2029,9 @@
   "effective": "2026-03-01",
   "retrieved": "2026-10-20",
   "notes": "'Factor' column used with Factor Code F (fee schedule). Factor Code M with 0.00 (manual pricing) recorded in by_report: D6059, D6065, D6066, D7953. Single schedule, no age split. Per-code Eff Date varies: diagnostic/preventive codes 03/01/2026 (5.874% D&P increase, SPA IA-26-0002), restorative/prosthetic/sedation mostly 07/01/2025, periodontal/oral surgery many 07/01/2013; effective_date field = latest per-code date. Page says 'Open Fee Schedules (Updated October 2026)'. Same data in X04.xml. Most Iowa Medicaid members get dental through the Dental Wellness Plan / Hawki dental PAHPs (managed care); this is the FFS schedule. Listing does not imply coverage (adult implants etc. subject to criteria).",
-  "url2024": null,
-  "effective2024": null,
-  "notes2024": "",
+  "url2024": "https://secureapp.dhs.state.ia.us/MedicaidFeeSched/C04.csv",
+  "effective2024": "2024-07-01",
+  "notes2024": "No mid-2024 edition retrieved (the open fee schedule only serves current rows). Included only codes whose CURRENT row (End Date 99999999) has an Eff Date on or before 2024-07-01, i.e. that rate was already in force on 2024-07-01 and unchanged since. Excluded (current rate effective after 2024-07-01, 2024 value unknown): D0120(2026-03-01), D0140(2026-03-01), D0150(2026-03-01), D0210(2026-03-01), D0220(2026-03-01), D0274(2026-03-01), D0330(2026-03-01), D1110(2026-03-01), D1120(2026-03-01), D1206(2026-03-01), D1351(2026-03-01), D2140(2025-07-01), D2150(2025-07-01), D2391(2025-07-01), D2392(2025-07-01), D2393(2025-07-01), D2394(2025-07-01), D2740(2025-07-01), D2750(2025-07-01), D2751(2025-07-01), D2752(2025-07-01), D2790(2025-07-01), D2930(2025-07-01), D2950(2025-07-01), D3220(2025-07-01), D3310(2025-07-01), D3320(2025-07-01), D3330(2025-07-01), D3346(2025-07-01), D3347(2025-07-01), D3348(2025-07-01), D5110(2025-07-01), D5120(2025-07-01), D5211(2025-07-01), D5212(2025-07-01), D5213(2025-07-01), D5214(2025-07-01), D5225(2025-07-01), D5226(2025-07-01), D7140(2025-07-01), D9222(2025-07-01), D9223(2025-07-01), D9230(2025-07-01), D9239(2025-07-01), D9243(2025-07-01). Archived Iowa fee schedules exist on publications.iowa.gov (state library) but were not retrieved.",
   "override": "",
   "ratios": {
    "childCharge": 0.3108,
@@ -1701,7 +2040,74 @@
    "adultPrivate": 0.4551
   },
   "adultBenefit": "Enhanced",
-  "fees": {},
+  "fees": {
+   "D4341": {
+    "all": 102.35
+   },
+   "D4342": {
+    "all": 38.4
+   },
+   "D4355": {
+    "all": 51.17
+   },
+   "D4910": {
+    "all": 61.41
+   },
+   "D6010": {
+    "all": 1078.94
+   },
+   "D6056": {
+    "all": 471.43
+   },
+   "D6057": {
+    "all": 552.0
+   },
+   "D6058": {
+    "all": 775.79
+   },
+   "D6240": {
+    "all": 399.17
+   },
+   "D6245": {
+    "all": 399.17
+   },
+   "D6740": {
+    "all": 423.73
+   },
+   "D6750": {
+    "all": 430.89
+   },
+   "D6790": {
+    "all": 262.39
+   },
+   "D7210": {
+    "all": 97.23
+   },
+   "D7220": {
+    "all": 138.17
+   },
+   "D7230": {
+    "all": 184.23
+   },
+   "D7240": {
+    "all": 214.92
+   },
+   "D7241": {
+    "all": 191.38
+   },
+   "D7250": {
+    "all": 100.3
+   },
+   "D8070": {
+    "all": 1104.03
+   },
+   "D8080": {
+    "all": 3172.88
+   },
+   "D8680": {
+    "all": 149.06
+   }
+  },
   "feesNow": {
    "D0120": {
     "all": 19.26
@@ -2681,13 +3087,13 @@
   "name": "Kentucky",
   "slug": "kentucky",
   "program": "Kentucky Medicaid (DMS) dental fee-for-service",
-  "title": "KY Medicaid Dental Fee Schedule 2026 - Revised 5.5.2026 (running header misprinted 'Revised 5.5.2025')",
-  "url": "https://www.chfs.ky.gov/agencies/dms/DMSFeeRateSchedules/2024DentalFeeSchedule.pdf (via Wayback capture https://web.archive.org/web/20241230085005id_/https://www.chfs.ky.gov/agencies/dms/DMSFeeRateSchedules/2024DentalFeeSchedule.pdf)",
+  "title": "Kentucky Medicaid dental fees in force on July 1, 2024",
+  "url": "https://www.chfs.ky.gov/agencies/dms/DMSFeeRateSchedules/2024DentalFeeSchedule.pdf",
   "page": "https://www.chfs.ky.gov/agencies/dms/Pages/feesrates.aspx",
   "effective": "2024-01-01",
   "retrieved": "2026-10-20",
   "notes": "DOUBT: chfs.ky.gov returns HTTP 403 to this network (and to WebFetch), so the official PDF was obtained from an unaltered Wayback Machine capture (id_ raw mode, 2026-07-26) of the official chfs.ky.gov URL. A NEWER official edition exists that could not be downloaded: 'KY Medicaid Dental Fee Schedule 2026 Revised 8.17.2026' (https://www.chfs.ky.gov/agencies/dms/DMSFeeRateSchedules/2026DentalFeeSchedule81926.pdf), which per search-engine snippets states 'dental rebasing is effective 7/1/2026' and shows D0120 at $34.00 (vs $27.50 here). The fees recorded here are therefore the PRE-rebasing rates in force until 2026-06-30 and are likely outdated for many codes. Columns: 'UNDER AGE 21 Rate' -> child, 'OVER AGE 21 RATE' -> adult; 'n/c' = not covered (not_covered_child/adult). Values from the 'Dentist Procedures and Fee Schedule' section; where the 'Oral Surgeon Procedures and Fee Schedule' section lists a different rate it is recorded as child_oral_surgeon/adult_oral_surgeon (D0330 adult, D7220-D7241, D9222/D9223). Orthodontics are paid per case by severity (not D8070-D8090 fee lines): early phase $1367 orthodontist/$1234 general dentist; moderately severe $1825/$1659; severe $3000/$2674; paid 2/3 then 1/3 after six monthly visits; D8670 n/c.",
-  "url2024": "https://www.chfs.ky.gov/agencies/dms/DMSFeeRateSchedules/2024DentalFeeSchedule.pdf (via Wayback capture https://web.archive.org/web/20241230085005id_/https://www.chfs.ky.gov/agencies/dms/DMSFeeRateSchedules/2024DentalFeeSchedule.pdf)",
+  "url2024": "https://www.chfs.ky.gov/agencies/dms/DMSFeeRateSchedules/2024DentalFeeSchedule.pdf",
   "effective2024": "2024-01-01",
   "notes2024": "Edition 'KY Medicaid Dental Fee Schedule 2024 Revised 10.21.2024' (PDF created 2024-10-21), official URL captured by the Wayback Machine 2024-12-30. Only that 2024 revision could be retrieved; the fee-schedule change log printed in the 2026 edition shows that the only 2024 revisions after 2024-07-01 were non-rate (10.21.2024: D4342 corrected to quadrants), and the last rate change among the requested codes before then was D1110 -> $60.13 effective 11/1/2023; so these rates were in force on 2024-07-01. Same column rules as current.",
   "override": "",
@@ -2985,7 +3391,7 @@
   "effective": "2026-01-01",
   "retrieved": "2026-10-20",
   "notes": "child = 'EPSDT DENTAL PROGRAM' sheet (under 21); adult = 'ADULT DENTURE PROGRAM' sheet (only 6 codes: D0150, D0210, D5110, D5120, D5211, D5212 - general adults 21+ are covered for dentures only). Separate sheets exist for the ADULT WAIVER DENTAL PROGRAM (NOW/ROW waiver adults) and ADULT ICF/IID DENTAL PROGRAM, whose fees for the listed codes are identical to EPSDT; they were not recorded as 'adult'. Restoration codes D2140-D2394 have several rows (primary vs permanent teeth, surface combinations): the 'child' key is the first listed row (primary teeth), and each variant is recorded under child_<variant> keys exactly as listed. by_report: orthodontic D8070/D8080/D8090 show '***** Max Fee' (prior authorization and manual pricing): max fees printed {\"D8070\": \"***** Max Fee 4,182.00\", \"D8080\": \"***** Max Fee 4,281.00\", \"D8090\": \"***** Max Fee 4,515.00\"}. Per-row EFF DATE is mostly 20250421 (sedation codes 20260101; adult denture rows 20230830). Most Louisiana Medicaid dental benefits are administered by Dental Benefit Program Managers (MCNA, DentaQuest); this is the state fee-for-service schedule. Page lists '01/01/26 EXCEL' (this file) and a prior '10/15/25 EXCEL'.",
-  "url2024": "https://www.lamedicaid.com/provweb1/fee_schedules/EPSDT_DENTAL_PROGRAM_FS_05-01-24.pdf ; https://www.lamedicaid.com/provweb1/fee_schedules/ADULT_DENTURE_PROGRAM_FS_08-30-23.pdf",
+  "url2024": "https://www.lamedicaid.com/provweb1/fee_schedules/EPSDT_DENTAL_PROGRAM_FS_05-01-24.pdf",
   "effective2024": "2024-05-01",
   "notes2024": "child = EPSDT Dental Program Fee Schedule 'ISSUED: 05/01/24, REPLACED: 12/28/23' (in force 2024-05-01 until replaced by the 04-21-25 edition, so in force on 2024-07-01); adult = Adult Denture Program Fee Schedule 'ISSUED: 08/30/23' (next edition is the 2026 Excel; in force on 2024-07-01). Both linked from the same lamedicaid.com Dental_Fee.htm page. Variant keys for restoration codes follow the same row order as the 2026 file (primary row first; row descriptions match). Orthodontics D8070/80/90 '***** Maximum Fee' = manual pricing: {\"D8070\": \"***** Maximum Fee $4,182.00\", \"D8080\": \"***** Maximum Fee $4,281.00\", \"D8090\": \"***** Maximum Fee $4,515.00\"}. D0140 not listed in the 05/01/24 EPSDT schedule. Values parsed with pdfplumber table extraction. Note adult D5110/D5120 = 837.00 in 2024 (adult schedule) vs 837.66 in EPSDT.",
   "override": "",
@@ -4646,7 +5052,7 @@
   "notes": "Value used = 'TOTAL ALLOW' column (base fee schedule). IMPORTANT: the document's header states 'For all dental services provided on or after 01/01/22, an additional 98% must be added to the fee schedule total amount to determine the total reimbursement amount' - the fees recorded here are the listed base amounts WITHOUT that +98% add-on (actual payment is approx. base x 1.98; not computed here). Header also says exam/x-ray fees for children under 21 are based on 85% of 1999 median charge under factor code Q, but no separate Q-factor rows exist in the file for these codes, so one value per code ('all'). by_report = codes listed with FACT CODE 3 ('general price by report') and no total allowable (crowns D2740-D2790, D2962, implants, D6245, D6740, D7953). 'Inclusion on this report does not imply coverage' (adult coverage limits per MHCP Provider Manual). Fees for D7xxx codes: the 'APC/ASC ALLOW' column (facility) was ignored. Many dental members are in managed care (PMAP) - rates there may differ. Document date: sheet header 'AS OF 10/12/2026' (file modified 2026-10-13).",
   "url2024": "https://mn.gov/dhs/assets/mhcp-fee-schedule_tcm1053-293968.xlsx",
   "effective2024": "2024-07-01",
-  "notes2024": "No archived mid-2024 edition could be retrieved (mn.gov serves only the current file; web.archive.org was rate-limited/offline during this run). Values are derived from the CURRENT schedule (AS OF 10/12/2026) using its 'EFF DATE' column, which the document defines as 'the effective date of the current TOTAL ALLOWABLE': only codes whose current total allowable has an effective date on or before 2024-07-01 are included (that amount was therefore already in force on 2024-07-01). Excluded because the current amount took effect after 2024-07-01 (2024 value unknown): D6010(eff 2025-01-01), D7140(eff 2026-10-01), D7210(eff 2026-10-01), D7220(eff 2026-10-01), D7230(eff 2026-10-01), D7240(eff 2026-10-01), D7241(eff 2026-10-01), D7250(eff 2026-10-01). Base amounts only. +98% add-on: the current header says the additional 98% applies to all dental services provided on or after 01/01/22, and the MHCP Provider Manual 'Payment Methodology - Non-Hospital' page lists '98 percent for dental services MA and MinnesotaCare members (January 2022)', so the add-on applied in 2024 as well (actual 2024 payment approx. base x 1.98). D8070/D8080/D8090 = 73.09 each (FACT CODE 1, eff 2000-01-01): the unit basis (per visit / per month / per case) is NOT stated in the fee schedule, and the MHCP dental manual pages were blocked by a bot-protection captcha, so it could not be verified; 73.09 is clearly not a full-case comprehensive orthodontic fee - treat as unverified.",
+  "notes2024": "No edition dated mid-2024 is available (a Wayback capture of the PDF from 2024-04-23 exists but is truncated at 1 MB and unreadable). Fees derived from the 'EFF DATE' column, defined in the document as 'the effective date of the current TOTAL ALLOWABLE': a code is included only if its total allowable has an EFF DATE on or before 2024-07-01 in the current edition (AS OF 10/12/2026) or, failing that, in the 08/14/2025 edition. The oral-surgery codes D7140-D7250 carry EFF DATE 2026-10-01 in the current file but 2000-08-01/2003-06-01 in the 08/14/2025 file with the same totals (44.70, 61.21, 86.72, 112.22, 132.64, 153.04, 76.51), so they were in force on 2024-07-01. Source edition per code: {\"D0120\": \"2026-10\", \"D0140\": \"2026-10\", \"D0150\": \"2026-10\", \"D0210\": \"2026-10\", \"D0220\": \"2026-10\", \"D0274\": \"2026-10\", \"D0330\": \"2026-10\", \"D1110\": \"2026-10\", \"D1120\": \"2026-10\", \"D1206\": \"2026-10\", \"D1351\": \"2026-10\", \"D2140\": \"2026-10\", \"D2150\": \"2026-10\", \"D2391\": \"2026-10\", \"D2392\": \"2026-10\", \"D2393\": \"2026-10\", \"D2394\": \"2026-10\", \"D2740\": \"2026-10\", \"D2750\": \"2026-10\", \"D2751\": \"2026-10\", \"D2752\": \"2026-10\", \"D2790\": \"2026-10\", \"D2930\": \"2026-10\", \"D2950\": \"2026-10\", \"D2962\": \"2026-10\", \"D3220\": \"2026-10\", \"D3310\": \"2026-10\", \"D3320\": \"2026-10\", \"D3330\": \"2026-10\", \"D3346\": \"2026-10\", \"D3347\": \"2026-10\", \"D3348\": \"2026-10\", \"D4341\": \"2026-10\", \"D4342\": \"2026-10\", \"D4355\": \"2026-10\", \"D4910\": \"2026-10\", \"D5110\": \"2026-10\", \"D5120\": \"2026-10\", \"D5211\": \"2026-10\", \"D5212\": \"2026-10\", \"D5213\": \"2026-10\", \"D5214\": \"2026-10\", \"D5225\": \"2026-10\", \"D5226\": \"2026-10\", \"D5820\": \"2026-10\", \"D5821\": \"2026-10\", \"D6056\": \"2026-10\", \"D6057\": \"2026-10\", \"D6058\": \"2026-10\", \"D6059\": \"2026-10\", \"D6065\": \"2026-10\", \"D6066\": \"2026-10\", \"D6240\": \"2026-10\", \"D6245\": \"2026-10\", \"D6750\": \"2026-10\", \"D6740\": \"2026-10\", \"D6790\": \"2026-10\", \"D7140\": \"2025-08\", \"D7210\": \"2025-08\", \"D7220\": \"2025-08\", \"D7230\": \"2025-08\", \"D7240\": \"2025-08\", \"D7241\": \"2025-08\", \"D7250\": \"2025-08\", \"D7953\": \"2026-10\", \"D8070\": \"2026-10\", \"D8080\": \"2026-10\", \"D8090\": \"2026-10\", \"D8670\": \"2026-10\", \"D8680\": \"2026-10\", \"D9222\": \"2026-10\", \"D9223\": \"2026-10\", \"D9239\": \"2026-10\", \"D9243\": \"2026-10\", \"D9230\": \"2026-10\"}. Not determinable: D6010 (D6010 total effective 2025-01-01 and by-report anyway). Base amounts only. +98% add-on: the header 'For all dental services provided on or after 01/01/22, an additional 98% must be added to the fee schedule total amount' appears identically in the 08/14/2025 and 10/12/2026 editions, and the MHCP Provider Manual 'Payment Methodology - Non-Hospital' page lists '98 percent for dental services MA and MinnesotaCare members (January 2022)', so the add-on applied in 2024 (payment approx. base x 1.98). D8070/D8080/D8090 = 73.09 each (FACT CODE 1, eff 2000-01-01): the fee schedule does not state the unit basis (per visit/month/case); the MHCP dental manual pages are behind a bot-protection captcha and could not be checked, so this is UNVERIFIED - 73.09 is clearly not a full-case comprehensive orthodontic fee.",
   "override": "The Minnesota schedule's header states that for all dental services provided on or after January 1, 2022, an additional 98 % must be added to the fee schedule total to determine the reimbursement, so listed amounts are multiplied by 1.98. Orthodontic codes D8080 and D8090 are listed at an amount that is not a full-treatment fee and are left out.",
   "ratios": {
    "childCharge": 0.323,
@@ -4785,6 +5191,27 @@
    "D6790": {
     "all": 810.53
    },
+   "D7140": {
+    "all": 88.51
+   },
+   "D7210": {
+    "all": 121.2
+   },
+   "D7220": {
+    "all": 171.71
+   },
+   "D7230": {
+    "all": 222.2
+   },
+   "D7240": {
+    "all": 262.63
+   },
+   "D7241": {
+    "all": 303.02
+   },
+   "D7250": {
+    "all": 151.49
+   },
    "D8070": {
     "all": 144.72
    },
@@ -4800,14 +5227,14 @@
    "D9223": {
     "all": 129.31
    },
-   "D9230": {
-    "all": 18.14
-   },
    "D9239": {
     "all": 113.08
    },
    "D9243": {
     "all": 99.71
+   },
+   "D9230": {
+    "all": 18.14
    }
   },
   "feesNow": {
@@ -5696,6 +6123,357 @@
   }
  },
  {
+  "code": "NV",
+  "name": "Nevada",
+  "slug": "nevada",
+  "program": "Nevada Medicaid fee-for-service - Provider Type 22 Dentist",
+  "title": "Provider Type 22 Dentist Reimbursement Schedule - Nevada Medicaid - 'This schedule reflects rate data as of: 07/2026'",
+  "url": "https://www.nevadamedicaid.nv.gov/siteassets/content/resources/rates/pt-22-fee-schedule--072026.xlsx",
+  "page": "https://www.nevadamedicaid.nv.gov/resources/rates/fee-schedules/ (formerly https://dhcfp.nv.gov/Resources/Rates/FeeSchedules/, which serves the same page)",
+  "effective": "2026-07-01",
+  "retrieved": "2026-10-20",
+  "notes": "'Rate' column, rows without modifier. Single schedule (no age split). Every requested code has 'Rate Begin Date' 01/01/2024 (last comprehensive rate review 2024). Document note: codes with a rate of $0.00 are reimbursed at 62% of usual and customary charges. D0120 is NOT listed in this PT22 file (absent, not zero). Rate Type is 'DEF' for most codes and 'DNT' for D7250, D9222, D9239 (meaning not explained in the file). Since 7/1/2026 adults 21+ have expanded diagnostic/preventive/periodontal/operative coverage with a $1,000/calendar-year cap (Web Announcement 3955). A separate 'pt-22-id-waiver-fee-schedule-072026.xlsx' (ID Waiver dental) exists and was not used. Most NV Medicaid members get dental via a dental benefits administrator (managed care); this is the FFS schedule. effective_date = 'rate data as of 07/2026'.",
+  "url2024": "https://www.nevadamedicaid.nv.gov/siteassets/content/resources/rates/pt-22-fee-schedule--072026.xlsx",
+  "effective2024": "2024-01-01",
+  "notes2024": "No mid-2024 edition retrieved; copied from the current (07/2026) schedule because every requested code's 'Rate Begin Date' is 01/01/2024, i.e. the same rate was already in force on 2024-07-01 and unchanged since. Codes with a later begin date (excluded): none.",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.342,
+   "adultCharge": null,
+   "childPrivate": 0.6283,
+   "adultPrivate": null
+  },
+  "adultBenefit": "Emergency",
+  "fees": {
+   "D0140": {
+    "all": 34.9
+   },
+   "D0150": {
+    "all": 34.9
+   },
+   "D0210": {
+    "all": 61.89
+   },
+   "D0220": {
+    "all": 19.8
+   },
+   "D0274": {
+    "all": 24.75
+   },
+   "D0330": {
+    "all": 43.3
+   },
+   "D1110": {
+    "all": 52.3
+   },
+   "D1120": {
+    "all": 60.14
+   },
+   "D1206": {
+    "all": 55.97
+   },
+   "D1351": {
+    "all": 24.75
+   },
+   "D2140": {
+    "all": 68.07
+   },
+   "D2150": {
+    "all": 90.34
+   },
+   "D2391": {
+    "all": 45.2
+   },
+   "D2392": {
+    "all": 58.11
+   },
+   "D2393": {
+    "all": 66.73
+   },
+   "D2394": {
+    "all": 73.17
+   },
+   "D2740": {
+    "all": 473.54
+   },
+   "D2751": {
+    "all": 344.39
+   },
+   "D2930": {
+    "all": 96.85
+   },
+   "D2950": {
+    "all": 129.15
+   },
+   "D2962": {
+    "all": 215.25
+   },
+   "D3220": {
+    "all": 64.58
+   },
+   "D3310": {
+    "all": 215.25
+   },
+   "D3320": {
+    "all": 258.3
+   },
+   "D3330": {
+    "all": 344.39
+   },
+   "D4341": {
+    "all": 108.06
+   },
+   "D4342": {
+    "all": 58.11
+   },
+   "D4355": {
+    "all": 78.57
+   },
+   "D4910": {
+    "all": 43.04
+   },
+   "D5110": {
+    "all": 645.75
+   },
+   "D5120": {
+    "all": 645.75
+   },
+   "D5211": {
+    "all": 215.25
+   },
+   "D5212": {
+    "all": 215.25
+   },
+   "D5213": {
+    "all": 645.75
+   },
+   "D5214": {
+    "all": 645.75
+   },
+   "D5820": {
+    "all": 215.25
+   },
+   "D5821": {
+    "all": 215.25
+   },
+   "D7140": {
+    "all": 47.34
+   },
+   "D7210": {
+    "all": 91.48
+   },
+   "D7220": {
+    "all": 134.53
+   },
+   "D7230": {
+    "all": 129.11
+   },
+   "D7240": {
+    "all": 154.98
+   },
+   "D7241": {
+    "all": 215.25
+   },
+   "D7250": {
+    "all": 86.1
+   },
+   "D7953": {
+    "all": 462.78
+   },
+   "D8080": {
+    "all": 1958.76
+   },
+   "D8090": {
+    "all": 2044.88
+   },
+   "D8670": {
+    "all": 83.94
+   },
+   "D8680": {
+    "all": 123.76
+   },
+   "D9222": {
+    "all": 55.97
+   },
+   "D9223": {
+    "all": 55.97
+   },
+   "D9230": {
+    "all": 19.36
+   },
+   "D9239": {
+    "all": 51.66
+   },
+   "D9243": {
+    "all": 19.37
+   }
+  },
+  "feesNow": {
+   "D0140": {
+    "all": 34.9
+   },
+   "D0150": {
+    "all": 34.9
+   },
+   "D0210": {
+    "all": 61.89
+   },
+   "D0220": {
+    "all": 19.8
+   },
+   "D0274": {
+    "all": 24.75
+   },
+   "D0330": {
+    "all": 43.3
+   },
+   "D1110": {
+    "all": 52.3
+   },
+   "D1120": {
+    "all": 60.14
+   },
+   "D1206": {
+    "all": 55.97
+   },
+   "D1351": {
+    "all": 24.75
+   },
+   "D2140": {
+    "all": 68.07
+   },
+   "D2150": {
+    "all": 90.34
+   },
+   "D2391": {
+    "all": 45.2
+   },
+   "D2392": {
+    "all": 58.11
+   },
+   "D2393": {
+    "all": 66.73
+   },
+   "D2394": {
+    "all": 73.17
+   },
+   "D2740": {
+    "all": 473.54
+   },
+   "D2751": {
+    "all": 344.39
+   },
+   "D2930": {
+    "all": 96.85
+   },
+   "D2950": {
+    "all": 129.15
+   },
+   "D2962": {
+    "all": 215.25
+   },
+   "D3220": {
+    "all": 64.58
+   },
+   "D3310": {
+    "all": 215.25
+   },
+   "D3320": {
+    "all": 258.3
+   },
+   "D3330": {
+    "all": 344.39
+   },
+   "D4341": {
+    "all": 108.06
+   },
+   "D4342": {
+    "all": 58.11
+   },
+   "D4355": {
+    "all": 78.57
+   },
+   "D4910": {
+    "all": 43.04
+   },
+   "D5110": {
+    "all": 645.75
+   },
+   "D5120": {
+    "all": 645.75
+   },
+   "D5211": {
+    "all": 215.25
+   },
+   "D5212": {
+    "all": 215.25
+   },
+   "D5213": {
+    "all": 645.75
+   },
+   "D5214": {
+    "all": 645.75
+   },
+   "D5820": {
+    "all": 215.25
+   },
+   "D5821": {
+    "all": 215.25
+   },
+   "D7140": {
+    "all": 47.34
+   },
+   "D7210": {
+    "all": 91.48
+   },
+   "D7220": {
+    "all": 134.53
+   },
+   "D7230": {
+    "all": 129.11
+   },
+   "D7240": {
+    "all": 154.98
+   },
+   "D7241": {
+    "all": 215.25
+   },
+   "D7250": {
+    "all": 86.1
+   },
+   "D7953": {
+    "all": 462.78
+   },
+   "D8080": {
+    "all": 1958.76
+   },
+   "D8090": {
+    "all": 2044.88
+   },
+   "D8670": {
+    "all": 83.94
+   },
+   "D8680": {
+    "all": 123.76
+   },
+   "D9222": {
+    "all": 55.97
+   },
+   "D9223": {
+    "all": 55.97
+   },
+   "D9230": {
+    "all": 19.36
+   },
+   "D9239": {
+    "all": 51.66
+   },
+   "D9243": {
+    "all": 19.37
+   }
+  }
+ },
+ {
   "code": "NY",
   "name": "New York",
   "slug": "new-york",
@@ -6504,9 +7282,9 @@
   "effective": "2026-01-01",
   "retrieved": "2026-10-20",
   "notes": "Columns 'Child (Age 0-20) Rate' and 'Adult (Age 21+) Rate'. Blank adult rate = not covered for adults (listed in not_covered_adult). XLSX values are cached formula results (VLOOKUP to an internal 'Dental Calculator'); cross-checked against the PDF version of the same schedule (Dental Fee Schedule 01-01-2026 UPDATED FINAL.pdf). D8080 = 'MANUAL' (manual pricing). D3348 row has no effective date printed. Since 2024 most SoonerCare children/adults are in SoonerSelect dental plans (managed care); this is the FFS maximum allowable schedule.",
-  "url2024": null,
-  "effective2024": null,
-  "notes2024": "",
+  "url2024": "https://oklahoma.gov/content/dam/ok/en/okhca/docs/providers/claim-tools/fee-schedules/2024/Dental%20Fee%20Schedule%2001-01-2024%20FINAL.xlsx",
+  "effective2024": "2024-01-01",
+  "notes2024": "SoonerCare Dental Fee Schedule 1/01/2024 (sheet \"Dental Fee Schedule 1-01-2024\"), the 2024 dental edition listed on the same OHCA fee schedule page (next edition 01-01-2025), so in force on 2024-07-01. Same columns/rules as current (cached formula values).",
   "override": "",
   "ratios": {
    "childCharge": 0.3802,
@@ -6515,7 +7293,211 @@
    "adultPrivate": 0.6562
   },
   "adultBenefit": "Enhanced",
-  "fees": {},
+  "fees": {
+   "D0120": {
+    "child": 21.34,
+    "adult": 23.5
+   },
+   "D0140": {
+    "child": 30.49,
+    "adult": 33.57
+   },
+   "D0150": {
+    "child": 30.49,
+    "adult": 33.57
+   },
+   "D0210": {
+    "child": 60.98,
+    "adult": 67.14
+   },
+   "D0220": {
+    "child": 15.24,
+    "adult": 16.79
+   },
+   "D0274": {
+    "child": 30.49,
+    "adult": 33.57
+   },
+   "D0330": {
+    "child": 48.78,
+    "adult": 53.71
+   },
+   "D1110": {
+    "child": 45.73,
+    "adult": 50.36
+   },
+   "D1120": {
+    "child": 30.49
+   },
+   "D1206": {
+    "child": 18.29,
+    "adult": 20.14
+   },
+   "D1351": {
+    "child": 24.39
+   },
+   "D2140": {
+    "child": 60.98,
+    "adult": 67.14
+   },
+   "D2150": {
+    "child": 121.95,
+    "adult": 134.28
+   },
+   "D2391": {
+    "child": 60.98,
+    "adult": 67.14
+   },
+   "D2392": {
+    "child": 121.95,
+    "adult": 134.28
+   },
+   "D2393": {
+    "child": 164.64,
+    "adult": 181.28
+   },
+   "D2394": {
+    "child": 173.79,
+    "adult": 191.35
+   },
+   "D2740": {
+    "child": 609.77
+   },
+   "D2750": {
+    "child": 670.75
+   },
+   "D2751": {
+    "child": 487.82
+   },
+   "D2752": {
+    "child": 548.8
+   },
+   "D2790": {
+    "child": 579.29
+   },
+   "D2930": {
+    "child": 121.95
+   },
+   "D2950": {
+    "child": 121.95
+   },
+   "D2962": {
+    "child": 439.04
+   },
+   "D3220": {
+    "child": 91.47
+   },
+   "D3310": {
+    "child": 310.98
+   },
+   "D3320": {
+    "child": 350.62
+   },
+   "D3330": {
+    "child": 426.84
+   },
+   "D3346": {
+    "child": 335.38
+   },
+   "D3347": {
+    "child": 408.55
+   },
+   "D4341": {
+    "child": 152.44,
+    "adult": 167.85
+   },
+   "D4342": {
+    "child": 82.32,
+    "adult": 90.64
+   },
+   "D4910": {
+    "child": 60.98,
+    "adult": 67.14
+   },
+   "D5110": {
+    "child": 762.22,
+    "adult": 839.25
+   },
+   "D5120": {
+    "child": 762.22,
+    "adult": 839.25
+   },
+   "D5211": {
+    "child": 518.31,
+    "adult": 570.69
+   },
+   "D5212": {
+    "child": 539.65,
+    "adult": 594.19
+   },
+   "D5213": {
+    "child": 914.66,
+    "adult": 1007.1
+   },
+   "D5214": {
+    "child": 914.66,
+    "adult": 1007.1
+   },
+   "D5225": {
+    "child": 649.41,
+    "adult": 715.04
+   },
+   "D5226": {
+    "child": 649.41,
+    "adult": 715.04
+   },
+   "D5820": {
+    "child": 304.89,
+    "adult": 335.7
+   },
+   "D5821": {
+    "child": 304.89,
+    "adult": 335.7
+   },
+   "D7140": {
+    "child": 67.08,
+    "adult": 73.85
+   },
+   "D7210": {
+    "child": 121.95,
+    "adult": 134.28
+   },
+   "D7220": {
+    "child": 140.25,
+    "adult": 154.42
+   },
+   "D7230": {
+    "child": 182.93,
+    "adult": 201.42
+   },
+   "D7240": {
+    "child": 219.52,
+    "adult": 241.7
+   },
+   "D7241": {
+    "child": 304.89,
+    "adult": 335.7
+   },
+   "D7250": {
+    "child": 121.95,
+    "adult": 134.28
+   },
+   "D9222": {
+    "child": 79.27,
+    "adult": 87.28
+   },
+   "D9223": {
+    "child": 79.27,
+    "adult": 87.28
+   },
+   "D9230": {
+    "child": 27.44
+   },
+   "D3348": {
+    "child": 503.06,
+    "adult": 553.91
+   }
+  },
   "feesNow": {
    "D0120": {
     "child": 21.34,
@@ -7358,6 +8340,319 @@
    },
    "D9230": {
     "all": 44.0
+   }
+  }
+ },
+ {
+  "code": "SC",
+  "name": "South Carolina",
+  "slug": "south-carolina",
+  "program": "South Carolina Healthy Connections Medicaid - State Plan Dental Services (FFS)",
+  "title": "SOUTH CAROLINA DEPARTMENT OF HEALTH AND HUMAN SERVICES - DENTAL PROVIDERS FEE SCHEDULE - Schedule updated 1/1/2025",
+  "url": "https://www.scdhhs.gov/sites/dhhs/files/Dental%20Fee%20schedule%201.1.2025.xlsx",
+  "page": "https://www.scdhhs.gov/resource/fee-schedules",
+  "effective": "2025-01-01",
+  "retrieved": "2026-10-20",
+  "notes": "DOUBT: scdhhs.gov returns HTTP 403 (CloudFront block) to this network and to WebFetch, so the official XLSX was obtained from an unaltered Wayback capture (2025-09-01) of the official URL; it could not be confirmed that this is still the latest edition on 2026-10-20. A search-engine snippet of an SCDHHS payment-rate transparency PDF (https://www.scdhhs.gov/sites/dhhs/files/Dental%20Services.pdf) shows D0120 child 28.00 / adult 23.00 effective 7/1/2026, matching this file, so rates appear unchanged, but that PDF could not be downloaded to verify other codes. Columns: 'Children & ID/RD Waiver Preventive Dental Benefit - Rate set 7/1/2024' -> child (under 21, and ID/RD waiver adults); 'Adult - Adult Preventive Dental Benefit Implemented 12/1/2014' -> adult (adult benefit capped annually per SC policy). 'Not Covered'/'n/a' -> not_covered_child/adult. A third column 'Emergency & Exceptional Medical Conditions Services' says D0120-D9999 'By Report' unless a fee is listed (not recorded per code). Crowns D2740-D2790, perio D4341-D4910, implants, ortho D8xxx are not listed in this schedule. Adult values kept with the decimals printed in the file (e.g. D0210 50.0926).",
+  "url2024": "https://www.scdhhs.gov/sites/default/files/Dental%20Fee%20schedule%207.1.2024.xlsx",
+  "effective2024": "2024-07-01",
+  "notes2024": "Edition 'DENTAL PROVIDERS FEE SCHEDULE - Schedule updated 7/1/2024' (child rates 'Rate set 7/1/2024', i.e. the July 1, 2024 children's rate increase per the 2024-06-13 SCDHHS dental rates notice). It is the edition effective exactly on 2024-07-01; an earlier copy of the same file was captured by Wayback on 2024-07-02 ('Copy of Dental Fee schedule 7.1.2024.xlsx'). Note: if the ADA July-2024 data were collected before the 7/1/2024 increase took effect, the pre-increase (1/1/2023) child rates would apply instead - not retrieved. All requested-code values are identical to the 1/1/2025 edition.",
+  "override": "",
+  "ratios": {
+   "childCharge": 0.4719,
+   "adultCharge": 0.3762,
+   "childPrivate": 0.7015,
+   "adultPrivate": 0.5547
+  },
+  "adultBenefit": "Limited",
+  "fees": {
+   "D0120": {
+    "child": 28.0,
+    "adult": 23.0
+   },
+   "D0140": {
+    "child": 40.0,
+    "adult": 38.5
+   },
+   "D0150": {
+    "child": 49.0,
+    "adult": 40.5
+   },
+   "D0210": {
+    "child": 85.0,
+    "adult": 50.09
+   },
+   "D0220": {
+    "child": 15.0,
+    "adult": 12.83
+   },
+   "D0274": {
+    "child": 32.0,
+    "adult": 27.51
+   },
+   "D0330": {
+    "child": 63.0,
+    "adult": 50.09
+   },
+   "D1110": {
+    "child": 55.0,
+    "adult": 50.4
+   },
+   "D1120": {
+    "child": 38.0
+   },
+   "D1206": {
+    "child": 19.0
+   },
+   "D1351": {
+    "child": 33.0
+   },
+   "D2140": {
+    "child": 65.0,
+    "adult": 61.09
+   },
+   "D2150": {
+    "child": 80.0,
+    "adult": 79.42
+   },
+   "D2391": {
+    "child": 117.0,
+    "adult": 61.09
+   },
+   "D2392": {
+    "child": 118.0,
+    "adult": 79.42
+   },
+   "D2393": {
+    "child": 152.0,
+    "adult": 95.91
+   },
+   "D2394": {
+    "child": 200.0,
+    "adult": 116.68
+   },
+   "D2930": {
+    "child": 147.0
+   },
+   "D2950": {
+    "child": 150.0
+   },
+   "D3220": {
+    "child": 96.0
+   },
+   "D3310": {
+    "child": 440.0
+   },
+   "D3320": {
+    "child": 501.0
+   },
+   "D3330": {
+    "child": 600.0
+   },
+   "D5110": {
+    "child": 720.0
+   },
+   "D5120": {
+    "child": 720.0
+   },
+   "D5211": {
+    "child": 700.0
+   },
+   "D5212": {
+    "child": 700.0
+   },
+   "D7140": {
+    "child": 144.0,
+    "adult": 88.8
+   },
+   "D7210": {
+    "child": 144.0,
+    "adult": 143.4
+   },
+   "D7220": {
+    "child": 242.0,
+    "adult": 179.4
+   },
+   "D7230": {
+    "child": 242.0,
+    "adult": 238.8
+   },
+   "D7240": {
+    "child": 285.0,
+    "adult": 280.8
+   },
+   "D7241": {
+    "child": 360.0,
+    "adult": 352.8
+   },
+   "D7250": {
+    "child": 165.0,
+    "adult": 151.2
+   },
+   "D9222": {
+    "child": 270.0,
+    "adult": 90.24
+   },
+   "D9223": {
+    "child": 95.0,
+    "adult": 90.24
+   },
+   "D9230": {
+    "child": 35.0,
+    "adult": 32.5
+   },
+   "D9239": {
+    "child": 120.0,
+    "adult": 74.0
+   },
+   "D9243": {
+    "child": 90.0,
+    "adult": 74.0
+   }
+  },
+  "feesNow": {
+   "D0120": {
+    "child": 28.0,
+    "adult": 23.0
+   },
+   "D0140": {
+    "child": 40.0,
+    "adult": 38.5
+   },
+   "D0150": {
+    "child": 49.0,
+    "adult": 40.5
+   },
+   "D0210": {
+    "child": 85.0,
+    "adult": 50.09
+   },
+   "D0220": {
+    "child": 15.0,
+    "adult": 12.83
+   },
+   "D0274": {
+    "child": 32.0,
+    "adult": 27.51
+   },
+   "D0330": {
+    "child": 63.0,
+    "adult": 50.09
+   },
+   "D1110": {
+    "child": 55.0,
+    "adult": 50.4
+   },
+   "D1120": {
+    "child": 38.0
+   },
+   "D1206": {
+    "child": 19.0
+   },
+   "D1351": {
+    "child": 33.0
+   },
+   "D2140": {
+    "child": 65.0,
+    "adult": 61.09
+   },
+   "D2150": {
+    "child": 80.0,
+    "adult": 79.42
+   },
+   "D2391": {
+    "child": 117.0,
+    "adult": 61.09
+   },
+   "D2392": {
+    "child": 118.0,
+    "adult": 79.42
+   },
+   "D2393": {
+    "child": 152.0,
+    "adult": 95.91
+   },
+   "D2394": {
+    "child": 200.0,
+    "adult": 116.68
+   },
+   "D2930": {
+    "child": 147.0
+   },
+   "D2950": {
+    "child": 150.0
+   },
+   "D3220": {
+    "child": 96.0
+   },
+   "D3310": {
+    "child": 440.0
+   },
+   "D3320": {
+    "child": 501.0
+   },
+   "D3330": {
+    "child": 600.0
+   },
+   "D5110": {
+    "child": 720.0
+   },
+   "D5120": {
+    "child": 720.0
+   },
+   "D5211": {
+    "child": 700.0
+   },
+   "D5212": {
+    "child": 700.0
+   },
+   "D7140": {
+    "child": 144.0,
+    "adult": 88.8
+   },
+   "D7210": {
+    "child": 144.0,
+    "adult": 143.4
+   },
+   "D7220": {
+    "child": 242.0,
+    "adult": 179.4
+   },
+   "D7230": {
+    "child": 242.0,
+    "adult": 238.8
+   },
+   "D7240": {
+    "child": 285.0,
+    "adult": 280.8
+   },
+   "D7241": {
+    "child": 360.0,
+    "adult": 352.8
+   },
+   "D7250": {
+    "child": 165.0,
+    "adult": 151.2
+   },
+   "D9222": {
+    "child": 270.0,
+    "adult": 90.24
+   },
+   "D9223": {
+    "child": 95.0,
+    "adult": 90.24
+   },
+   "D9230": {
+    "child": 35.0,
+    "adult": 32.5
+   },
+   "D9239": {
+    "child": 120.0,
+    "adult": 74.0
+   },
+   "D9243": {
+    "child": 90.0,
+    "adult": 74.0
    }
   }
  },

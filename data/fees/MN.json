@@ -339,6 +339,27 @@
     "D6790": {
       "all": 409.36
     },
+    "D7140": {
+      "all": 44.7
+    },
+    "D7210": {
+      "all": 61.21
+    },
+    "D7220": {
+      "all": 86.72
+    },
+    "D7230": {
+      "all": 112.22
+    },
+    "D7240": {
+      "all": 132.64
+    },
+    "D7241": {
+      "all": 153.04
+    },
+    "D7250": {
+      "all": 76.51
+    },
     "D8070": {
       "all": 73.09
     },
@@ -360,14 +381,14 @@
     "D9223": {
       "all": 65.31
     },
-    "D9230": {
-      "all": 9.16
-    },
     "D9239": {
       "all": 57.11
     },
     "D9243": {
       "all": 50.36
+    },
+    "D9230": {
+      "all": 9.16
     }
   },
   "by_report_2024": [
@@ -387,7 +408,7 @@
     "D6740",
     "D7953"
   ],
-  "source_url_2024": "https://mn.gov/dhs/assets/mhcp-fee-schedule_tcm1053-293968.xlsx",
+  "source_url_2024": "https://mn.gov/dhs/assets/mhcp-fee-schedule_tcm1053-293968.xlsx (current edition AS OF 10/12/2026) + Wayback capture of the same official URL taken 2025-08-30 (edition 'AS OF 08/14/2025'): https://web.archive.org/web/20250830060450id_/https://mn.gov/dhs/assets/mhcp-fee-schedule_tcm1053-293968.xlsx",
   "effective_date_2024": "2024-07-01",
-  "notes_2024": "No archived mid-2024 edition could be retrieved (mn.gov serves only the current file; web.archive.org was rate-limited/offline during this run). Values are derived from the CURRENT schedule (AS OF 10/12/2026) using its 'EFF DATE' column, which the document defines as 'the effective date of the current TOTAL ALLOWABLE': only codes whose current total allowable has an effective date on or before 2024-07-01 are included (that amount was therefore already in force on 2024-07-01). Excluded because the current amount took effect after 2024-07-01 (2024 value unknown): D6010(eff 2025-01-01), D7140(eff 2026-10-01), D7210(eff 2026-10-01), D7220(eff 2026-10-01), D7230(eff 2026-10-01), D7240(eff 2026-10-01), D7241(eff 2026-10-01), D7250(eff 2026-10-01). Base amounts only. +98% add-on: the current header says the additional 98% applies to all dental services provided on or after 01/01/22, and the MHCP Provider Manual 'Payment Methodology - Non-Hospital' page lists '98 percent for dental services MA and MinnesotaCare members (January 2022)', so the add-on applied in 2024 as well (actual 2024 payment approx. base x 1.98). D8070/D8080/D8090 = 73.09 each (FACT CODE 1, eff 2000-01-01): the unit basis (per visit / per month / per case) is NOT stated in the fee schedule, and the MHCP dental manual pages were blocked by a bot-protection captcha, so it could not be verified; 73.09 is clearly not a full-case comprehensive orthodontic fee - treat as unverified."
+  "notes_2024": "No edition dated mid-2024 is available (a Wayback capture of the PDF from 2024-04-23 exists but is truncated at 1 MB and unreadable). Fees derived from the 'EFF DATE' column, defined in the document as 'the effective date of the current TOTAL ALLOWABLE': a code is included only if its total allowable has an EFF DATE on or before 2024-07-01 in the current edition (AS OF 10/12/2026) or, failing that, in the 08/14/2025 edition. The oral-surgery codes D7140-D7250 carry EFF DATE 2026-10-01 in the current file but 2000-08-01/2003-06-01 in the 08/14/2025 file with the same totals (44.70, 61.21, 86.72, 112.22, 132.64, 153.04, 76.51), so they were in force on 2024-07-01. Source edition per code: {\"D0120\": \"2026-10\", \"D0140\": \"2026-10\", \"D0150\": \"2026-10\", \"D0210\": \"2026-10\", \"D0220\": \"2026-10\", \"D0274\": \"2026-10\", \"D0330\": \"2026-10\", \"D1110\": \"2026-10\", \"D1120\": \"2026-10\", \"D1206\": \"2026-10\", \"D1351\": \"2026-10\", \"D2140\": \"2026-10\", \"D2150\": \"2026-10\", \"D2391\": \"2026-10\", \"D2392\": \"2026-10\", \"D2393\": \"2026-10\", \"D2394\": \"2026-10\", \"D2740\": \"2026-10\", \"D2750\": \"2026-10\", \"D2751\": \"2026-10\", \"D2752\": \"2026-10\", \"D2790\": \"2026-10\", \"D2930\": \"2026-10\", \"D2950\": \"2026-10\", \"D2962\": \"2026-10\", \"D3220\": \"2026-10\", \"D3310\": \"2026-10\", \"D3320\": \"2026-10\", \"D3330\": \"2026-10\", \"D3346\": \"2026-10\", \"D3347\": \"2026-10\", \"D3348\": \"2026-10\", \"D4341\": \"2026-10\", \"D4342\": \"2026-10\", \"D4355\": \"2026-10\", \"D4910\": \"2026-10\", \"D5110\": \"2026-10\", \"D5120\": \"2026-10\", \"D5211\": \"2026-10\", \"D5212\": \"2026-10\", \"D5213\": \"2026-10\", \"D5214\": \"2026-10\", \"D5225\": \"2026-10\", \"D5226\": \"2026-10\", \"D5820\": \"2026-10\", \"D5821\": \"2026-10\", \"D6056\": \"2026-10\", \"D6057\": \"2026-10\", \"D6058\": \"2026-10\", \"D6059\": \"2026-10\", \"D6065\": \"2026-10\", \"D6066\": \"2026-10\", \"D6240\": \"2026-10\", \"D6245\": \"2026-10\", \"D6750\": \"2026-10\", \"D6740\": \"2026-10\", \"D6790\": \"2026-10\", \"D7140\": \"2025-08\", \"D7210\": \"2025-08\", \"D7220\": \"2025-08\", \"D7230\": \"2025-08\", \"D7240\": \"2025-08\", \"D7241\": \"2025-08\", \"D7250\": \"2025-08\", \"D7953\": \"2026-10\", \"D8070\": \"2026-10\", \"D8080\": \"2026-10\", \"D8090\": \"2026-10\", \"D8670\": \"2026-10\", \"D8680\": \"2026-10\", \"D9222\": \"2026-10\", \"D9223\": \"2026-10\", \"D9239\": \"2026-10\", \"D9243\": \"2026-10\", \"D9230\": \"2026-10\"}. Not determinable: D6010 (D6010 total effective 2025-01-01 and by-report anyway). Base amounts only. +98% add-on: the header 'For all dental services provided on or after 01/01/22, an additional 98% must be added to the fee schedule total amount' appears identically in the 08/14/2025 and 10/12/2026 editions, and the MHCP Provider Manual 'Payment Methodology - Non-Hospital' page lists '98 percent for dental services MA and MinnesotaCare members (January 2022)', so the add-on applied in 2024 (payment approx. base x 1.98). D8070/D8080/D8090 = 73.09 each (FACT CODE 1, eff 2000-01-01): the fee schedule does not state the unit basis (per visit/month/case); the MHCP dental manual pages are behind a bot-protection captcha and could not be checked, so this is UNVERIFIED - 73.09 is clearly not a full-case comprehensive orthodontic fee."
 }

@@ -223,5 +223,82 @@
     "D8090",
     "D8670"
   ],
-  "notes": "'Factor' column used with Factor Code F (fee schedule). Factor Code M with 0.00 (manual pricing) recorded in by_report: D6059, D6065, D6066, D7953. Single schedule, no age split. Per-code Eff Date varies: diagnostic/preventive codes 03/01/2026 (5.874% D&P increase, SPA IA-26-0002), restorative/prosthetic/sedation mostly 07/01/2025, periodontal/oral surgery many 07/01/2013; effective_date field = latest per-code date. Page says 'Open Fee Schedules (Updated October 2026)'. Same data in X04.xml. Most Iowa Medicaid members get dental through the Dental Wellness Plan / Hawki dental PAHPs (managed care); this is the FFS schedule. Listing does not imply coverage (adult implants etc. subject to criteria)."
+  "notes": "'Factor' column used with Factor Code F (fee schedule). Factor Code M with 0.00 (manual pricing) recorded in by_report: D6059, D6065, D6066, D7953. Single schedule, no age split. Per-code Eff Date varies: diagnostic/preventive codes 03/01/2026 (5.874% D&P increase, SPA IA-26-0002), restorative/prosthetic/sedation mostly 07/01/2025, periodontal/oral surgery many 07/01/2013; effective_date field = latest per-code date. Page says 'Open Fee Schedules (Updated October 2026)'. Same data in X04.xml. Most Iowa Medicaid members get dental through the Dental Wellness Plan / Hawki dental PAHPs (managed care); this is the FFS schedule. Listing does not imply coverage (adult implants etc. subject to criteria).",
+  "fees_2024": {
+    "D4341": {
+      "all": 102.35
+    },
+    "D4342": {
+      "all": 38.4
+    },
+    "D4355": {
+      "all": 51.17
+    },
+    "D4910": {
+      "all": 61.41
+    },
+    "D6010": {
+      "all": 1078.94
+    },
+    "D6056": {
+      "all": 471.43
+    },
+    "D6057": {
+      "all": 552.0
+    },
+    "D6058": {
+      "all": 775.79
+    },
+    "D6240": {
+      "all": 399.17
+    },
+    "D6245": {
+      "all": 399.17
+    },
+    "D6740": {
+      "all": 423.73
+    },
+    "D6750": {
+      "all": 430.89
+    },
+    "D6790": {
+      "all": 262.39
+    },
+    "D7210": {
+      "all": 97.23
+    },
+    "D7220": {
+      "all": 138.17
+    },
+    "D7230": {
+      "all": 184.23
+    },
+    "D7240": {
+      "all": 214.92
+    },
+    "D7241": {
+      "all": 191.38
+    },
+    "D7250": {
+      "all": 100.3
+    },
+    "D8070": {
+      "all": 1104.03
+    },
+    "D8080": {
+      "all": 3172.88
+    },
+    "D8680": {
+      "all": 149.06
+    }
+  },
+  "by_report_2024": [
+    "D6059",
+    "D6065",
+    "D6066",
+    "D7953"
+  ],
+  "source_url_2024": "https://secureapp.dhs.state.ia.us/MedicaidFeeSched/C04.csv",
+  "effective_date_2024": "2024-07-01",
+  "notes_2024": "No mid-2024 edition retrieved (the open fee schedule only serves current rows). Included only codes whose CURRENT row (End Date 99999999) has an Eff Date on or before 2024-07-01, i.e. that rate was already in force on 2024-07-01 and unchanged since. Excluded (current rate effective after 2024-07-01, 2024 value unknown): D0120(2026-03-01), D0140(2026-03-01), D0150(2026-03-01), D0210(2026-03-01), D0220(2026-03-01), D0274(2026-03-01), D0330(2026-03-01), D1110(2026-03-01), D1120(2026-03-01), D1206(2026-03-01), D1351(2026-03-01), D2140(2025-07-01), D2150(2025-07-01), D2391(2025-07-01), D2392(2025-07-01), D2393(2025-07-01), D2394(2025-07-01), D2740(2025-07-01), D2750(2025-07-01), D2751(2025-07-01), D2752(2025-07-01), D2790(2025-07-01), D2930(2025-07-01), D2950(2025-07-01), D3220(2025-07-01), D3310(2025-07-01), D3320(2025-07-01), D3330(2025-07-01), D3346(2025-07-01), D3347(2025-07-01), D3348(2025-07-01), D5110(2025-07-01), D5120(2025-07-01), D5211(2025-07-01), D5212(2025-07-01), D5213(2025-07-01), D5214(2025-07-01), D5225(2025-07-01), D5226(2025-07-01), D7140(2025-07-01), D9222(2025-07-01), D9223(2025-07-01), D9230(2025-07-01), D9239(2025-07-01), D9243(2025-07-01). Archived Iowa fee schedules exist on publications.iowa.gov (state library) but were not retrieved."
 }

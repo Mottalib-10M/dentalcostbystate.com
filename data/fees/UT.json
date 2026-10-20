@@ -1,0 +1,18 @@
+{
+  "state": "UT",
+  "status": "not_found",
+  "program": "Utah Medicaid fee-for-service (provider type 028 Dentist)",
+  "document_title": null,
+  "source_url": null,
+  "source_page": "https://medicaid.utah.gov/coverage-and-reimbursement/",
+  "effective_date": null,
+  "retrieved_at": "2026-10-20",
+  "fees": {},
+  "by_report": [],
+  "not_covered_or_absent": [],
+  "notes": "Utah publishes dental rates only through the interactive Coverage and Reimbursement Fee Schedule Download Tool (https://health.utah.gov/stplan/lookup/FeeScheduleDownload.php, provider type 028 Dentist), linked from medicaid.utah.gov/coverage-and-reimbursement. health.utah.gov refuses connections from this network (ECONNREFUSED via curl and WebFetch) and the tool output is form-generated, so no Wayback copy exists. No fee recorded. Per the tool notes (search snippets), fees exclude the rural/urban-agreement dental enhancement (state plan: 20% enhancement).",
+  "fees_2024": null,
+  "source_url_2024": null,
+  "effective_date_2024": null,
+  "notes_2024": "Not retrievable for the same reason."
+}

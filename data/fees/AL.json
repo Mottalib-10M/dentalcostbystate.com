@@ -1,0 +1,357 @@
+{
+  "state": "AL",
+  "status": "ok",
+  "program": "Alabama Medicaid dental program (fee-for-service; EPSDT recipients under 21)",
+  "document_title": "Alabama Medicaid Fee Schedule - Dental - Report: REF-0128-Q - Updated: 10/01/2025",
+  "source_url": "https://medicaid.alabama.gov/content/Gated/7.3G_Fee_Schedules/7.3G_Dental_Fee_Schedule_10-1-25.pdf (retrieved via Wayback capture https://web.archive.org/web/20260616063254id_/https://medicaid.alabama.gov/content/Gated/7.3G_Fee_Schedules/7.3G_Dental_Fee_Schedule_10-1-25.pdf)",
+  "source_page": "https://medicaid.alabama.gov/content/7.0_Providers/7.3_Fee_Schedules.aspx",
+  "effective_date": "2025-10-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "child": 20.0
+    },
+    "D0140": {
+      "child": 30.45
+    },
+    "D0150": {
+      "child": 32.8
+    },
+    "D0210": {
+      "child": 63.0
+    },
+    "D0220": {
+      "child": 11.55
+    },
+    "D0274": {
+      "child": 25.2
+    },
+    "D0330": {
+      "child": 52.8
+    },
+    "D1110": {
+      "child": 40.0
+    },
+    "D1120": {
+      "child": 29.4
+    },
+    "D1206": {
+      "child": 26.1
+    },
+    "D1351": {
+      "child": 26.0
+    },
+    "D2140": {
+      "child": 53.6
+    },
+    "D2150": {
+      "child": 66.4
+    },
+    "D2391": {
+      "child": 76.0
+    },
+    "D2392": {
+      "child": 91.2
+    },
+    "D2393": {
+      "child": 113.6
+    },
+    "D2394": {
+      "child": 138.4
+    },
+    "D2740": {
+      "child": 537.6
+    },
+    "D2750": {
+      "child": 511.2
+    },
+    "D2751": {
+      "child": 469.6
+    },
+    "D2752": {
+      "child": 480.8
+    },
+    "D2930": {
+      "child": 121.5
+    },
+    "D2950": {
+      "child": 108.9
+    },
+    "D3220": {
+      "child": 82.0
+    },
+    "D3310": {
+      "child": 477.6
+    },
+    "D3320": {
+      "child": 554.4
+    },
+    "D3330": {
+      "child": 660.0
+    },
+    "D4341": {
+      "child": 129.15
+    },
+    "D4355": {
+      "child": 73.6
+    },
+    "D4910": {
+      "child": 66.4
+    },
+    "D5110": {
+      "child": 624.0
+    },
+    "D5120": {
+      "child": 624.0
+    },
+    "D5213": {
+      "child": 555.0
+    },
+    "D5214": {
+      "child": 548.0
+    },
+    "D6240": {
+      "child": 493.6
+    },
+    "D6245": {
+      "child": 537.6
+    },
+    "D6740": {
+      "child": 537.6
+    },
+    "D6750": {
+      "child": 509.6
+    },
+    "D7140": {
+      "child": 64.0
+    },
+    "D7210": {
+      "child": 109.6
+    },
+    "D7220": {
+      "child": 148.05
+    },
+    "D7230": {
+      "child": 189.0
+    },
+    "D7240": {
+      "child": 222.6
+    },
+    "D7241": {
+      "child": 269.6
+    },
+    "D7250": {
+      "child": 115.2
+    },
+    "D8080": {
+      "child": 1000.0
+    },
+    "D8680": {
+      "child": 420.0
+    },
+    "D9222": {
+      "child": 160.0
+    },
+    "D9223": {
+      "child": 120.0
+    },
+    "D9230": {
+      "child": 27.2
+    },
+    "D9239": {
+      "child": 93.6
+    },
+    "D9243": {
+      "child": 93.6
+    }
+  },
+  "by_report": [],
+  "not_covered_or_absent": [
+    "D2790",
+    "D2962",
+    "D3346",
+    "D3347",
+    "D3348",
+    "D4342",
+    "D5211",
+    "D5212",
+    "D5225",
+    "D5226",
+    "D5820",
+    "D5821",
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D6790",
+    "D7953",
+    "D8070",
+    "D8090",
+    "D8670"
+  ],
+  "notes": "DOUBT: medicaid.alabama.gov refuses connections from this network (TCP timeout / ECONNREFUSED, also via WebFetch), so the official PDF was taken from an unaltered Wayback Machine capture (id_ raw mode) of the official URL, captured 2026-06-16. The fee schedule page itself could not be loaded, so it is not confirmed that no newer dental edition was posted after mid-2026 (the Wayback index of the fee-schedule folder shows 10-1-25 as the most recent dental file). 'Allowed Amount' column used; single schedule; Alabama Medicaid dental benefits are for recipients under 21 (adults generally not covered), hence key 'child'. Multiple rows per code are benefit-limit audits with the same amount. Codes listed with Requires PA = Y include D4341, D4355, D4910, D5110-D5214, D6240-D6750, D7240, D7241, D8080, D8680. D8080 = 1000 (comprehensive ortho, PA). Provider alert: D0999 'Dental Participation Payment' $10 per date of service from 10/1/2025 (not included). Every fee for the requested codes is identical to the 05/01/2024 edition.",
+  "fees_2024": {
+    "D0120": {
+      "child": 20.0
+    },
+    "D0140": {
+      "child": 30.45
+    },
+    "D0150": {
+      "child": 32.8
+    },
+    "D0210": {
+      "child": 63.0
+    },
+    "D0220": {
+      "child": 11.55
+    },
+    "D0274": {
+      "child": 25.2
+    },
+    "D0330": {
+      "child": 52.8
+    },
+    "D1110": {
+      "child": 40.0
+    },
+    "D1120": {
+      "child": 29.4
+    },
+    "D1206": {
+      "child": 26.1
+    },
+    "D1351": {
+      "child": 26.0
+    },
+    "D2140": {
+      "child": 53.6
+    },
+    "D2150": {
+      "child": 66.4
+    },
+    "D2391": {
+      "child": 76.0
+    },
+    "D2392": {
+      "child": 91.2
+    },
+    "D2393": {
+      "child": 113.6
+    },
+    "D2394": {
+      "child": 138.4
+    },
+    "D2740": {
+      "child": 537.6
+    },
+    "D2750": {
+      "child": 511.2
+    },
+    "D2751": {
+      "child": 469.6
+    },
+    "D2752": {
+      "child": 480.8
+    },
+    "D2930": {
+      "child": 121.5
+    },
+    "D2950": {
+      "child": 108.9
+    },
+    "D3220": {
+      "child": 82.0
+    },
+    "D3310": {
+      "child": 477.6
+    },
+    "D3320": {
+      "child": 554.4
+    },
+    "D3330": {
+      "child": 660.0
+    },
+    "D4341": {
+      "child": 129.15
+    },
+    "D4355": {
+      "child": 73.6
+    },
+    "D4910": {
+      "child": 66.4
+    },
+    "D5110": {
+      "child": 624.0
+    },
+    "D5120": {
+      "child": 624.0
+    },
+    "D5213": {
+      "child": 555.0
+    },
+    "D5214": {
+      "child": 548.0
+    },
+    "D6240": {
+      "child": 493.6
+    },
+    "D6245": {
+      "child": 537.6
+    },
+    "D6740": {
+      "child": 537.6
+    },
+    "D6750": {
+      "child": 509.6
+    },
+    "D7140": {
+      "child": 64.0
+    },
+    "D7210": {
+      "child": 109.6
+    },
+    "D7220": {
+      "child": 148.05
+    },
+    "D7230": {
+      "child": 189.0
+    },
+    "D7240": {
+      "child": 222.6
+    },
+    "D7241": {
+      "child": 269.6
+    },
+    "D7250": {
+      "child": 115.2
+    },
+    "D8080": {
+      "child": 1000.0
+    },
+    "D8680": {
+      "child": 420.0
+    },
+    "D9222": {
+      "child": 160.0
+    },
+    "D9223": {
+      "child": 120.0
+    },
+    "D9230": {
+      "child": 27.2
+    },
+    "D9239": {
+      "child": 93.6
+    },
+    "D9243": {
+      "child": 93.6
+    }
+  },
+  "source_url_2024": "https://medicaid.alabama.gov/CONTENT/Gated/7.3G_Fee_Schedules/7.3G_Dental_Fee_Schedule_Updated_5-1-24.pdf (via Wayback capture https://web.archive.org/web/20251010014900id_/https://medicaid.alabama.gov/CONTENT/Gated/7.3G_Fee_Schedules/7.3G_Dental_Fee_Schedule_Updated_5-1-24.pdf)",
+  "effective_date_2024": "2024-05-01",
+  "notes_2024": "Edition 'Alabama Medicaid Fee Schedule - Dental - Report REF-0128-Q - Updated: 05/01/2024' (PDF dated 2024-05-03); it remained the posted dental schedule until the 10/01/2025 edition, so it was in force on 2024-07-01. Same column (Allowed Amount), key 'child'. Values identical to 10/01/2025 for all requested codes."
+}

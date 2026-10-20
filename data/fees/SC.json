@@ -1,0 +1,376 @@
+{
+  "state": "SC",
+  "status": "ok",
+  "program": "South Carolina Healthy Connections Medicaid - State Plan Dental Services (FFS)",
+  "document_title": "SOUTH CAROLINA DEPARTMENT OF HEALTH AND HUMAN SERVICES - DENTAL PROVIDERS FEE SCHEDULE - Schedule updated 1/1/2025",
+  "source_url": "https://www.scdhhs.gov/sites/dhhs/files/Dental%20Fee%20schedule%201.1.2025.xlsx (retrieved via Wayback capture https://web.archive.org/web/20250901065715id_/https://www.scdhhs.gov/sites/dhhs/files/Dental%20Fee%20schedule%201.1.2025.xlsx)",
+  "source_page": "https://www.scdhhs.gov/resource/fee-schedules",
+  "effective_date": "2025-01-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "child": 28.0,
+      "adult": 23.0
+    },
+    "D0140": {
+      "child": 40.0,
+      "adult": 38.5
+    },
+    "D0150": {
+      "child": 49.0,
+      "adult": 40.5
+    },
+    "D0210": {
+      "child": 85.0,
+      "adult": 50.0926
+    },
+    "D0220": {
+      "child": 15.0,
+      "adult": 12.831
+    },
+    "D0274": {
+      "child": 32.0,
+      "adult": 27.51
+    },
+    "D0330": {
+      "child": 63.0,
+      "adult": 50.09
+    },
+    "D1110": {
+      "child": 55.0,
+      "adult": 50.4
+    },
+    "D1120": {
+      "child": 38.0
+    },
+    "D1206": {
+      "child": 19.0
+    },
+    "D1351": {
+      "child": 33.0
+    },
+    "D2140": {
+      "child": 65.0,
+      "adult": 61.0906
+    },
+    "D2150": {
+      "child": 80.0,
+      "adult": 79.4206
+    },
+    "D2391": {
+      "child": 117.0,
+      "adult": 61.0906
+    },
+    "D2392": {
+      "child": 118.0,
+      "adult": 79.4206
+    },
+    "D2393": {
+      "child": 152.0,
+      "adult": 95.9082
+    },
+    "D2394": {
+      "child": 200.0,
+      "adult": 116.6822
+    },
+    "D2930": {
+      "child": 147.0
+    },
+    "D2950": {
+      "child": 150.0
+    },
+    "D3220": {
+      "child": 96.0
+    },
+    "D3310": {
+      "child": 440.0
+    },
+    "D3320": {
+      "child": 501.0
+    },
+    "D3330": {
+      "child": 600.0
+    },
+    "D5110": {
+      "child": 720.0
+    },
+    "D5120": {
+      "child": 720.0
+    },
+    "D5211": {
+      "child": 700.0
+    },
+    "D5212": {
+      "child": 700.0
+    },
+    "D7140": {
+      "child": 144.0,
+      "adult": 88.8
+    },
+    "D7210": {
+      "child": 144.0,
+      "adult": 143.4
+    },
+    "D7220": {
+      "child": 242.0,
+      "adult": 179.4
+    },
+    "D7230": {
+      "child": 242.0,
+      "adult": 238.8
+    },
+    "D7240": {
+      "child": 285.0,
+      "adult": 280.8
+    },
+    "D7241": {
+      "child": 360.0,
+      "adult": 352.8
+    },
+    "D7250": {
+      "child": 165.0,
+      "adult": 151.2
+    },
+    "D9222": {
+      "child": 270.0,
+      "adult": 90.24
+    },
+    "D9223": {
+      "child": 95.0,
+      "adult": 90.24
+    },
+    "D9230": {
+      "child": 35.0,
+      "adult": 32.5
+    },
+    "D9239": {
+      "child": 120.0,
+      "adult": 74.0
+    },
+    "D9243": {
+      "child": 90.0,
+      "adult": 74.0
+    }
+  },
+  "by_report": [],
+  "not_covered_or_absent": [
+    "D2740",
+    "D2750",
+    "D2751",
+    "D2752",
+    "D2790",
+    "D2962",
+    "D3346",
+    "D3347",
+    "D3348",
+    "D4341",
+    "D4342",
+    "D4355",
+    "D4910",
+    "D5213",
+    "D5214",
+    "D5225",
+    "D5226",
+    "D5820",
+    "D5821",
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D6240",
+    "D6245",
+    "D6750",
+    "D6740",
+    "D6790",
+    "D7953",
+    "D8070",
+    "D8080",
+    "D8090",
+    "D8670",
+    "D8680"
+  ],
+  "not_covered_child": [],
+  "not_covered_adult": [
+    "D1120",
+    "D1206",
+    "D1351",
+    "D2930",
+    "D2950",
+    "D3220",
+    "D3310",
+    "D3320",
+    "D3330",
+    "D5110",
+    "D5120",
+    "D5211",
+    "D5212"
+  ],
+  "notes": "DOUBT: scdhhs.gov returns HTTP 403 (CloudFront block) to this network and to WebFetch, so the official XLSX was obtained from an unaltered Wayback capture (2025-09-01) of the official URL; it could not be confirmed that this is still the latest edition on 2026-10-20. A search-engine snippet of an SCDHHS payment-rate transparency PDF (https://www.scdhhs.gov/sites/dhhs/files/Dental%20Services.pdf) shows D0120 child 28.00 / adult 23.00 effective 7/1/2026, matching this file, so rates appear unchanged, but that PDF could not be downloaded to verify other codes. Columns: 'Children & ID/RD Waiver Preventive Dental Benefit - Rate set 7/1/2024' -> child (under 21, and ID/RD waiver adults); 'Adult - Adult Preventive Dental Benefit Implemented 12/1/2014' -> adult (adult benefit capped annually per SC policy). 'Not Covered'/'n/a' -> not_covered_child/adult. A third column 'Emergency & Exceptional Medical Conditions Services' says D0120-D9999 'By Report' unless a fee is listed (not recorded per code). Crowns D2740-D2790, perio D4341-D4910, implants, ortho D8xxx are not listed in this schedule. Adult values kept with the decimals printed in the file (e.g. D0210 50.0926).",
+  "fees_2024": {
+    "D0120": {
+      "child": 28.0,
+      "adult": 23.0
+    },
+    "D0140": {
+      "child": 40.0,
+      "adult": 38.5
+    },
+    "D0150": {
+      "child": 49.0,
+      "adult": 40.5
+    },
+    "D0210": {
+      "child": 85.0,
+      "adult": 50.0926
+    },
+    "D0220": {
+      "child": 15.0,
+      "adult": 12.831
+    },
+    "D0274": {
+      "child": 32.0,
+      "adult": 27.51
+    },
+    "D0330": {
+      "child": 63.0,
+      "adult": 50.09
+    },
+    "D1110": {
+      "child": 55.0,
+      "adult": 50.4
+    },
+    "D1120": {
+      "child": 38.0
+    },
+    "D1206": {
+      "child": 19.0
+    },
+    "D1351": {
+      "child": 33.0
+    },
+    "D2140": {
+      "child": 65.0,
+      "adult": 61.0906
+    },
+    "D2150": {
+      "child": 80.0,
+      "adult": 79.4206
+    },
+    "D2391": {
+      "child": 117.0,
+      "adult": 61.0906
+    },
+    "D2392": {
+      "child": 118.0,
+      "adult": 79.4206
+    },
+    "D2393": {
+      "child": 152.0,
+      "adult": 95.9082
+    },
+    "D2394": {
+      "child": 200.0,
+      "adult": 116.6822
+    },
+    "D2930": {
+      "child": 147.0
+    },
+    "D2950": {
+      "child": 150.0
+    },
+    "D3220": {
+      "child": 96.0
+    },
+    "D3310": {
+      "child": 440.0
+    },
+    "D3320": {
+      "child": 501.0
+    },
+    "D3330": {
+      "child": 600.0
+    },
+    "D5110": {
+      "child": 720.0
+    },
+    "D5120": {
+      "child": 720.0
+    },
+    "D5211": {
+      "child": 700.0
+    },
+    "D5212": {
+      "child": 700.0
+    },
+    "D7140": {
+      "child": 144.0,
+      "adult": 88.8
+    },
+    "D7210": {
+      "child": 144.0,
+      "adult": 143.4
+    },
+    "D7220": {
+      "child": 242.0,
+      "adult": 179.4
+    },
+    "D7230": {
+      "child": 242.0,
+      "adult": 238.8
+    },
+    "D7240": {
+      "child": 285.0,
+      "adult": 280.8
+    },
+    "D7241": {
+      "child": 360.0,
+      "adult": 352.8
+    },
+    "D7250": {
+      "child": 165.0,
+      "adult": 151.2
+    },
+    "D9222": {
+      "child": 270.0,
+      "adult": 90.24
+    },
+    "D9223": {
+      "child": 95.0,
+      "adult": 90.24
+    },
+    "D9230": {
+      "child": 35.0,
+      "adult": 32.5
+    },
+    "D9239": {
+      "child": 120.0,
+      "adult": 74.0
+    },
+    "D9243": {
+      "child": 90.0,
+      "adult": 74.0
+    }
+  },
+  "not_covered_child_2024": [],
+  "not_covered_adult_2024": [
+    "D1120",
+    "D1206",
+    "D1351",
+    "D2930",
+    "D2950",
+    "D3220",
+    "D3310",
+    "D3320",
+    "D3330",
+    "D5110",
+    "D5120",
+    "D5211",
+    "D5212"
+  ],
+  "source_url_2024": "https://www.scdhhs.gov/sites/default/files/Dental%20Fee%20schedule%207.1.2024.xlsx (via Wayback capture https://web.archive.org/web/20250115182208id_/https://www.scdhhs.gov/sites/default/files/Dental%20Fee%20schedule%207.1.2024.xlsx)",
+  "effective_date_2024": "2024-07-01",
+  "notes_2024": "Edition 'DENTAL PROVIDERS FEE SCHEDULE - Schedule updated 7/1/2024' (child rates 'Rate set 7/1/2024', i.e. the July 1, 2024 children's rate increase per the 2024-06-13 SCDHHS dental rates notice). It is the edition effective exactly on 2024-07-01; an earlier copy of the same file was captured by Wayback on 2024-07-02 ('Copy of Dental Fee schedule 7.1.2024.xlsx'). Note: if the ADA July-2024 data were collected before the 7/1/2024 increase took effect, the pre-increase (1/1/2023) child rates would apply instead - not retrieved. All requested-code values are identical to the 1/1/2025 edition."
+}

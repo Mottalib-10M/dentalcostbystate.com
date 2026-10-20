@@ -1,0 +1,368 @@
+{
+  "state": "NV",
+  "status": "ok",
+  "program": "Nevada Medicaid fee-for-service - Provider Type 22 Dentist",
+  "document_title": "Provider Type 22 Dentist Reimbursement Schedule - Nevada Medicaid - 'This schedule reflects rate data as of: 07/2026'",
+  "source_url": "https://www.nevadamedicaid.nv.gov/siteassets/content/resources/rates/pt-22-fee-schedule--072026.xlsx",
+  "source_page": "https://www.nevadamedicaid.nv.gov/resources/rates/fee-schedules/ (formerly https://dhcfp.nv.gov/Resources/Rates/FeeSchedules/, which serves the same page)",
+  "effective_date": "2026-07-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0140": {
+      "all": 34.9
+    },
+    "D0150": {
+      "all": 34.9
+    },
+    "D0210": {
+      "all": 61.89
+    },
+    "D0220": {
+      "all": 19.8
+    },
+    "D0274": {
+      "all": 24.75
+    },
+    "D0330": {
+      "all": 43.3
+    },
+    "D1110": {
+      "all": 52.3
+    },
+    "D1120": {
+      "all": 60.14
+    },
+    "D1206": {
+      "all": 55.97
+    },
+    "D1351": {
+      "all": 24.75
+    },
+    "D2140": {
+      "all": 68.07
+    },
+    "D2150": {
+      "all": 90.34
+    },
+    "D2391": {
+      "all": 45.2
+    },
+    "D2392": {
+      "all": 58.11
+    },
+    "D2393": {
+      "all": 66.73
+    },
+    "D2394": {
+      "all": 73.17
+    },
+    "D2740": {
+      "all": 473.54
+    },
+    "D2751": {
+      "all": 344.39
+    },
+    "D2930": {
+      "all": 96.85
+    },
+    "D2950": {
+      "all": 129.15
+    },
+    "D2962": {
+      "all": 215.25
+    },
+    "D3220": {
+      "all": 64.58
+    },
+    "D3310": {
+      "all": 215.25
+    },
+    "D3320": {
+      "all": 258.3
+    },
+    "D3330": {
+      "all": 344.39
+    },
+    "D4341": {
+      "all": 108.06
+    },
+    "D4342": {
+      "all": 58.11
+    },
+    "D4355": {
+      "all": 78.57
+    },
+    "D4910": {
+      "all": 43.04
+    },
+    "D5110": {
+      "all": 645.75
+    },
+    "D5120": {
+      "all": 645.75
+    },
+    "D5211": {
+      "all": 215.25
+    },
+    "D5212": {
+      "all": 215.25
+    },
+    "D5213": {
+      "all": 645.75
+    },
+    "D5214": {
+      "all": 645.75
+    },
+    "D5820": {
+      "all": 215.25
+    },
+    "D5821": {
+      "all": 215.25
+    },
+    "D7140": {
+      "all": 47.34
+    },
+    "D7210": {
+      "all": 91.48
+    },
+    "D7220": {
+      "all": 134.53
+    },
+    "D7230": {
+      "all": 129.11
+    },
+    "D7240": {
+      "all": 154.98
+    },
+    "D7241": {
+      "all": 215.25
+    },
+    "D7250": {
+      "all": 86.1
+    },
+    "D7953": {
+      "all": 462.78
+    },
+    "D8080": {
+      "all": 1958.76
+    },
+    "D8090": {
+      "all": 2044.88
+    },
+    "D8670": {
+      "all": 83.94
+    },
+    "D8680": {
+      "all": 123.76
+    },
+    "D9222": {
+      "all": 55.97
+    },
+    "D9223": {
+      "all": 55.97
+    },
+    "D9230": {
+      "all": 19.36
+    },
+    "D9239": {
+      "all": 51.66
+    },
+    "D9243": {
+      "all": 19.37
+    }
+  },
+  "by_report": [],
+  "not_covered_or_absent": [
+    "D0120",
+    "D2750",
+    "D2752",
+    "D2790",
+    "D3346",
+    "D3347",
+    "D3348",
+    "D5225",
+    "D5226",
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6059",
+    "D6065",
+    "D6066",
+    "D6240",
+    "D6245",
+    "D6750",
+    "D6740",
+    "D6790",
+    "D8070"
+  ],
+  "notes": "'Rate' column, rows without modifier. Single schedule (no age split). Every requested code has 'Rate Begin Date' 01/01/2024 (last comprehensive rate review 2024). Document note: codes with a rate of $0.00 are reimbursed at 62% of usual and customary charges. D0120 is NOT listed in this PT22 file (absent, not zero). Rate Type is 'DEF' for most codes and 'DNT' for D7250, D9222, D9239 (meaning not explained in the file). Since 7/1/2026 adults 21+ have expanded diagnostic/preventive/periodontal/operative coverage with a $1,000/calendar-year cap (Web Announcement 3955). A separate 'pt-22-id-waiver-fee-schedule-072026.xlsx' (ID Waiver dental) exists and was not used. Most NV Medicaid members get dental via a dental benefits administrator (managed care); this is the FFS schedule. effective_date = 'rate data as of 07/2026'.",
+  "fees_2024": {
+    "D0140": {
+      "all": 34.9
+    },
+    "D0150": {
+      "all": 34.9
+    },
+    "D0210": {
+      "all": 61.89
+    },
+    "D0220": {
+      "all": 19.8
+    },
+    "D0274": {
+      "all": 24.75
+    },
+    "D0330": {
+      "all": 43.3
+    },
+    "D1110": {
+      "all": 52.3
+    },
+    "D1120": {
+      "all": 60.14
+    },
+    "D1206": {
+      "all": 55.97
+    },
+    "D1351": {
+      "all": 24.75
+    },
+    "D2140": {
+      "all": 68.07
+    },
+    "D2150": {
+      "all": 90.34
+    },
+    "D2391": {
+      "all": 45.2
+    },
+    "D2392": {
+      "all": 58.11
+    },
+    "D2393": {
+      "all": 66.73
+    },
+    "D2394": {
+      "all": 73.17
+    },
+    "D2740": {
+      "all": 473.54
+    },
+    "D2751": {
+      "all": 344.39
+    },
+    "D2930": {
+      "all": 96.85
+    },
+    "D2950": {
+      "all": 129.15
+    },
+    "D2962": {
+      "all": 215.25
+    },
+    "D3220": {
+      "all": 64.58
+    },
+    "D3310": {
+      "all": 215.25
+    },
+    "D3320": {
+      "all": 258.3
+    },
+    "D3330": {
+      "all": 344.39
+    },
+    "D4341": {
+      "all": 108.06
+    },
+    "D4342": {
+      "all": 58.11
+    },
+    "D4355": {
+      "all": 78.57
+    },
+    "D4910": {
+      "all": 43.04
+    },
+    "D5110": {
+      "all": 645.75
+    },
+    "D5120": {
+      "all": 645.75
+    },
+    "D5211": {
+      "all": 215.25
+    },
+    "D5212": {
+      "all": 215.25
+    },
+    "D5213": {
+      "all": 645.75
+    },
+    "D5214": {
+      "all": 645.75
+    },
+    "D5820": {
+      "all": 215.25
+    },
+    "D5821": {
+      "all": 215.25
+    },
+    "D7140": {
+      "all": 47.34
+    },
+    "D7210": {
+      "all": 91.48
+    },
+    "D7220": {
+      "all": 134.53
+    },
+    "D7230": {
+      "all": 129.11
+    },
+    "D7240": {
+      "all": 154.98
+    },
+    "D7241": {
+      "all": 215.25
+    },
+    "D7250": {
+      "all": 86.1
+    },
+    "D7953": {
+      "all": 462.78
+    },
+    "D8080": {
+      "all": 1958.76
+    },
+    "D8090": {
+      "all": 2044.88
+    },
+    "D8670": {
+      "all": 83.94
+    },
+    "D8680": {
+      "all": 123.76
+    },
+    "D9222": {
+      "all": 55.97
+    },
+    "D9223": {
+      "all": 55.97
+    },
+    "D9230": {
+      "all": 19.36
+    },
+    "D9239": {
+      "all": 51.66
+    },
+    "D9243": {
+      "all": 19.37
+    }
+  },
+  "by_report_2024": [],
+  "source_url_2024": "https://www.nevadamedicaid.nv.gov/siteassets/content/resources/rates/pt-22-fee-schedule--072026.xlsx",
+  "effective_date_2024": "2024-01-01",
+  "notes_2024": "No mid-2024 edition retrieved; copied from the current (07/2026) schedule because every requested code's 'Rate Begin Date' is 01/01/2024, i.e. the same rate was already in force on 2024-07-01 and unchanged since. Codes with a later begin date (excluded): none."
+}
