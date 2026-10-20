@@ -86,6 +86,8 @@ def main():
             d['document_title'] = d.get('title_2024') or f"{NAMES[d['state']]} Medicaid dental fees in force on July 1, 2024"
         code = d['state']
         o = overrides.get(code, {})
+        if o.get('exclude'):
+            continue
         mult, drop = o.get('multiplier', 1.0), o.get('drop', [])
         mult24 = o.get('multiplier_2024', mult)
         now = clean(d['fees'], mult, drop)

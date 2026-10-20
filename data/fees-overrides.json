@@ -11,5 +11,9 @@
  "GA": {
   "effective_2024": "2024-07-01",
   "reason": "The edition in force on July 1, 2024 (April 2024) is not archived; the October 2024 edition of Appendix B is used. Georgia changes dental rates on July 1, and this edition carries the rates set on July 1, 2024."
+ },
+ "CA": {
+  "exclude": true,
+  "reason": "The Medi-Cal Dental schedule lists base fees without the Proposition 56 supplemental payments, while the ADA's 2024 California ratio counts the program's other sources of payment; dividing one by the other would understate California prices, so the state is not priced."
  }
 }

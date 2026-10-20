@@ -1,0 +1,380 @@
+{
+  "state": "CA",
+  "status": "ok",
+  "program": "Medi-Cal Dental (California Medicaid) fee-for-service",
+  "document_title": "Medi-Cal Dental Provider Handbook Section 5 - Medi-Cal Dental Schedule of Maximum Allowances (SMA), MOC & SMA 2026 (file SMA_CDT26_July_01.pdf)",
+  "source_url": "https://dental.dhcs.ca.gov/MCD_documents/providers/SMA_CDT26_July_01.pdf",
+  "source_page": "https://dental.dhcs.ca.gov/Dental_Providers/Denti-Cal/Provider_Handbook/",
+  "effective_date": "2026-07-01",
+  "retrieved_at": "2026-10-20",
+  "fees": {
+    "D0120": {
+      "all": 15.0
+    },
+    "D0140": {
+      "all": 35.0
+    },
+    "D0150": {
+      "all": 25.0
+    },
+    "D0210": {
+      "all": 40.0
+    },
+    "D0220": {
+      "all": 10.0
+    },
+    "D0274": {
+      "all": 18.0
+    },
+    "D0330": {
+      "all": 25.0
+    },
+    "D1110": {
+      "all": 40.0
+    },
+    "D1120": {
+      "all": 30.0
+    },
+    "D1206": {
+      "child": 18.0,
+      "child_6_20": 8.0,
+      "adult": 6.0
+    },
+    "D1351": {
+      "all": 22.0
+    },
+    "D2140": {
+      "all": 39.0
+    },
+    "D2150": {
+      "all": 48.0
+    },
+    "D2391": {
+      "all": 39.0
+    },
+    "D2392": {
+      "all": 48.0
+    },
+    "D2393": {
+      "all": 57.0
+    },
+    "D2394": {
+      "all": 60.0
+    },
+    "D2740": {
+      "all": 340.0
+    },
+    "D2751": {
+      "all": 340.0
+    },
+    "D2930": {
+      "all": 75.0
+    },
+    "D3220": {
+      "all": 71.0
+    },
+    "D3310": {
+      "all": 216.0
+    },
+    "D3320": {
+      "all": 261.0
+    },
+    "D3330": {
+      "all": 331.0
+    },
+    "D3346": {
+      "all": 216.0
+    },
+    "D3347": {
+      "all": 261.0
+    },
+    "D3348": {
+      "all": 331.0
+    },
+    "D4341": {
+      "all": 50.0
+    },
+    "D4342": {
+      "all": 30.0
+    },
+    "D4355": {
+      "all": 75.0
+    },
+    "D4910": {
+      "all": 55.0
+    },
+    "D5110": {
+      "all": 450.0
+    },
+    "D5120": {
+      "all": 450.0
+    },
+    "D5211": {
+      "all": 250.0
+    },
+    "D5212": {
+      "all": 250.0
+    },
+    "D5213": {
+      "all": 470.0
+    },
+    "D5214": {
+      "all": 470.0
+    },
+    "D6245": {
+      "all": 325.0
+    },
+    "D6740": {
+      "all": 340.0
+    },
+    "D7140": {
+      "all": 41.0
+    },
+    "D7210": {
+      "all": 85.0
+    },
+    "D7220": {
+      "all": 100.0
+    },
+    "D7230": {
+      "all": 135.0
+    },
+    "D7240": {
+      "all": 165.0
+    },
+    "D7241": {
+      "all": 235.0
+    },
+    "D7250": {
+      "all": 100.0
+    },
+    "D8080": {
+      "all": 750.0
+    },
+    "D8670": {
+      "all": 210.0
+    },
+    "D8680": {
+      "all": 244.0
+    },
+    "D9222": {
+      "all": 45.68
+    },
+    "D9223": {
+      "all": 45.68
+    },
+    "D9239": {
+      "all": 21.07
+    },
+    "D9243": {
+      "all": 21.07
+    },
+    "D9230": {
+      "all": 25.0
+    }
+  },
+  "by_report": [
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6065"
+  ],
+  "not_covered_or_absent": [
+    "D2750",
+    "D2752",
+    "D2790",
+    "D2950",
+    "D2962",
+    "D5225",
+    "D5226",
+    "D5820",
+    "D5821",
+    "D6059",
+    "D6066",
+    "D6240",
+    "D6750",
+    "D6790",
+    "D7953",
+    "D8070",
+    "D8090"
+  ],
+  "notes": "Column 'Maximum Allowance' (payment = lesser of billed amount and SMA), one schedule for all ages except where rows split. Multi-row codes: D1206 child 0-5 $18.00, child 6-20 $8.00 (recorded as 'child_6_20'), adult 21+ $6.00; D4341/D4342 standard rows $50.00/$30.00 recorded (rows 'for members in a SNF or ICF' pay $70.00/$50.00); D8080 $750.00 and D8670 $210.00 are the 'Handicapping malocclusion' rows (cleft palate / facial growth rows pay $425-$1,000 and $125-$300). 'Global' (not separately payable): D2950. 'By Report' recorded in by_report. Not a Benefit: D2750, D2752, D2790, D2962, D5225, D5226, D5820, D5821, D6059, D6066, D6240, D6750, D6790, D7953, D8070, D8090. DOUBT/ACCESS: dental.dhcs.ca.gov times out from this machine (TCP connect timeout), so the official file was read from its web.archive.org capture of 2026-07-31 (parsed_copy), byte-for-byte the official URL. effective_date 2026-07-01 is inferred from the file name (SMA_CDT26_July_01; an earlier SMA_CDT26_May_01 also exists); the PDF itself prints only per-code effective dates (e.g. D0120 October 6, 2016; D2740 March 1, 2019). Could not verify whether a newer SMA was posted after July 2026, nor see the handbook page listing it. Prop 56 supplemental payments (paid on top of the SMA for many codes) are NOT included. Most Medi-Cal members get dental through FFS (Medi-Cal Dental) statewide, with dental managed care only in Sacramento/Los Angeles.",
+  "parsed_copy": "https://web.archive.org/web/20260731153621id_/https://dental.dhcs.ca.gov/MCD_documents/providers/SMA_CDT26_July_01.pdf",
+  "fees_2024": {
+    "D0120": {
+      "all": 15.0
+    },
+    "D0140": {
+      "all": 35.0
+    },
+    "D0150": {
+      "all": 25.0
+    },
+    "D0210": {
+      "all": 40.0
+    },
+    "D0220": {
+      "all": 10.0
+    },
+    "D0274": {
+      "all": 18.0
+    },
+    "D0330": {
+      "all": 25.0
+    },
+    "D1110": {
+      "all": 40.0
+    },
+    "D1120": {
+      "all": 30.0
+    },
+    "D1206": {
+      "child": 18.0,
+      "child_6_20": 8.0,
+      "adult": 6.0
+    },
+    "D1351": {
+      "all": 22.0
+    },
+    "D2140": {
+      "all": 39.0
+    },
+    "D2150": {
+      "all": 48.0
+    },
+    "D2391": {
+      "all": 39.0
+    },
+    "D2392": {
+      "all": 48.0
+    },
+    "D2393": {
+      "all": 57.0
+    },
+    "D2394": {
+      "all": 60.0
+    },
+    "D2740": {
+      "all": 340.0
+    },
+    "D2751": {
+      "all": 340.0
+    },
+    "D2930": {
+      "all": 75.0
+    },
+    "D3220": {
+      "all": 71.0
+    },
+    "D3310": {
+      "all": 216.0
+    },
+    "D3320": {
+      "all": 261.0
+    },
+    "D3330": {
+      "all": 331.0
+    },
+    "D3346": {
+      "all": 216.0
+    },
+    "D3347": {
+      "all": 261.0
+    },
+    "D3348": {
+      "all": 331.0
+    },
+    "D4341": {
+      "all": 50.0
+    },
+    "D4342": {
+      "all": 30.0
+    },
+    "D4355": {
+      "all": 75.0
+    },
+    "D4910": {
+      "all": 55.0
+    },
+    "D5110": {
+      "all": 450.0
+    },
+    "D5120": {
+      "all": 450.0
+    },
+    "D5211": {
+      "all": 250.0
+    },
+    "D5212": {
+      "all": 250.0
+    },
+    "D5213": {
+      "all": 470.0
+    },
+    "D5214": {
+      "all": 470.0
+    },
+    "D6245": {
+      "all": 325.0
+    },
+    "D6740": {
+      "all": 340.0
+    },
+    "D7140": {
+      "all": 41.0
+    },
+    "D7210": {
+      "all": 85.0
+    },
+    "D7220": {
+      "all": 100.0
+    },
+    "D7230": {
+      "all": 135.0
+    },
+    "D7240": {
+      "all": 165.0
+    },
+    "D7241": {
+      "all": 235.0
+    },
+    "D7250": {
+      "all": 100.0
+    },
+    "D8080": {
+      "all": 750.0
+    },
+    "D8670": {
+      "all": 210.0
+    },
+    "D8680": {
+      "all": 244.0
+    },
+    "D9222": {
+      "all": 45.68
+    },
+    "D9223": {
+      "all": 45.68
+    },
+    "D9239": {
+      "all": 21.07
+    },
+    "D9243": {
+      "all": 21.07
+    },
+    "D9230": {
+      "all": 25.0
+    }
+  },
+  "source_url_2024": "https://web.archive.org/web/20240523003606id_/https://dental.dhcs.ca.gov/MCD_documents/providers/SMA_CDT24_Feb_24.pdf",
+  "effective_date_2024": "2024-02-24",
+  "by_report_2024": [
+    "D6010",
+    "D6056",
+    "D6057",
+    "D6058",
+    "D6065"
+  ],
+  "notes_2024": "Edition: Medi-Cal Dental Program Provider Handbook Section 5, SMA, file SMA_CDT24_Feb_24.pdf (official URL https://dental.dhcs.ca.gov/MCD_documents/providers/SMA_CDT24_Feb_24.pdf, read from the web.archive.org capture of 2024-05-23 because dental.dhcs.ca.gov is unreachable from here). It is the only CDT-2024 SMA found in the archive; the next one is SMA_CDT25 (2025), so it was in force on 2024-07-01 unless a mid-2024 revision existed that was never archived. effective_date_2024 inferred from the file name 'Feb_24', which may mean February 24 or February 2024 (DHCS file names mix both styles); not printed in the PDF. Column 'Maximum Allowance' (payment = lesser of billed amount and SMA), one schedule for all ages except where rows split. Multi-row codes: D1206 child 0-5 $18.00, child 6-20 $8.00 (recorded as 'child_6_20'), adult 21+ $6.00; D4341/D4342 standard rows $50.00/$30.00 recorded (rows 'for members in a SNF or ICF' pay $70.00/$50.00); D8080 $750.00 and D8670 $210.00 are the 'Handicapping malocclusion' rows (cleft palate / facial growth rows pay $425-$1,000 and $125-$300). 'Global' (not separately payable): D2950. 'By Report' recorded in by_report. Not a Benefit: D2750, D2752, D2790, D2962, D5225, D5226, D5820, D5821, D6059, D6066, D6240, D6750, D6790, D7953, D8070, D8090."
+}
