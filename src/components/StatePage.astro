@@ -37,6 +37,8 @@ const sources = [
   ...['ada_hpi_2024', 'bls_cpi_dental'].map((k) => ({ name: SOURCES[k].label, url: SOURCES[k].url })),
 ];
 const hasNow = Object.keys(st.feesNow).length > 0;
+// The estimator opens on a procedure the state prices: crown first, then the others.
+const pr = String(def.toolArg?.pr ?? ['crown', 'rootcanal_molar', 'denture_full', 'filling', 'checkup', ...K.PROC_IDS].find((x) => K.est(def.slug, x).ok));
 const rows = K.PROC_IDS.map((pid) => ({ pid, p: K.PR(pid), e: K.est(def.slug, pid) })).filter((r) => r.e.ok).map((r) => {
   const now = medicaidNow(st, r.pid);
   const row = [r.p.short, r.p.unit, K.usd(r.e.charge), K.usd(r.e.allowed), K.usd(r.e.medicaid)];
@@ -50,7 +52,7 @@ const cpiMonth = K.month(K.P.cpiDental.latestPeriod);
       <h1 class="font-serif text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{h1}</h1>
       <p class="mt-2 text-base text-navy-700 sm:text-lg">{def.intro}</p>
     </header>
-    <div data-outil data-chrome class="mb-4"><Tool kind="cost" arg={{ sx: def.slug, ...(def.toolArg ?? {}) }} idPrefix={`s-${st.code.toLowerCase()}`} /></div>
+    <div data-outil data-chrome class="mb-4"><Tool kind="cost" arg={{ sx: def.slug, ...(def.toolArg ?? {}), pr }} idPrefix={`s-${st.code.toLowerCase()}`} /></div>
     <p class="mb-6 text-sm text-navy-600">{ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method')}</a> · {st.program} fee schedule, ADA ratios of {st.name} · not a quote</p>
     <Clamp text={def.resume} lang={lang} id={`clamp-${def.slug}`} class="mb-8" />
     <Body html={def.body(helpers())} path={path} />

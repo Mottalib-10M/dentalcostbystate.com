@@ -56,6 +56,12 @@ export const longDate = (iso: string) => `${MONTHS[Number(iso.slice(5, 7)) - 1]}
 
 /** Procedures that a state's schedule can price. */
 const priced = (slug: string) => Object.keys(PR).filter((id) => priceOf(ST(slug), id).ok);
+/** The preferred default state if it prices the procedure, else the first one (alphabetical) that does. */
+const PREFERRED = ['new-york', 'pennsylvania', 'ohio', 'virginia'];
+function firstPricing(id: string): string {
+  for (const slug of PREFERRED) if (ST_ROWS.some((x) => x.slug === slug) && priceOf(ST(slug), id).ok) return slug;
+  return ST_ROWS.find((x) => priceOf(x, id).ok)?.slug ?? DEF_STATE;
+}
 const procIn = (def: string, only?: string[]): Input => ({ kind: 'select', id: 'pr', label: 'Procedure', def, options: Object.keys(PR).filter((k) => !only || only.includes(k)).map((k) => ({ value: k, label: PR[k].short })) });
 const stateIn = (def = DEF_STATE, label = 'State'): Input => ({ kind: 'select', id: 'sx', label, def, options: ST_ROWS.map((x) => ({ value: x.slug, label: x.name })) });
 const COVER: Input = { kind: 'choice', id: 'cv', label: 'Dental insurance', def: 'in', options: [{ value: 'none', label: 'None' }, { value: 'in', label: 'In network' }, { value: 'out', label: 'Out of network' }] };
@@ -83,7 +89,7 @@ function costCard(v: V, procId: string, slug: string): ToolOut {
   const e = priceOf(st, procId);
   if (e.outlier) return { label: `${p.short} in ${st.name}`, value: 'Withheld', sub: `The ${st.name} Medicaid fee for this work gives an estimate below half or above twice the median of the other states, a sign the state pays it on another basis, so we do not publish it.`, rows: [] };
   if (!e.ok) {
-    const alt = priced(slug).slice(0, 4).map((k) => PR[k].short.toLowerCase()).join(', ');
+    const alt = priced(slug).slice(0, 4).map((k) => PR[k].short.toLowerCase()).join('; ');
     return { label: `${p.short} in ${st.name}`, value: 'Not published', sub: `The ${st.name} Medicaid fee schedule we read has no fee for ${e.missing.join(', ')}, so we do not estimate it. Priced there: ${alt}.`, rows: [] };
   }
   const cv = s(v, 'cv');
@@ -115,10 +121,15 @@ function costCard(v: V, procId: string, slug: string): ToolOut {
 
 export const SPECS: Record<string, (arg?: Record<string, number | string>) => ToolSpec> = {
   /* Procedure x state x plan -> what you pay */
-  cost: () => ({
-    inputs: [procIn('implant'), stateIn(), COVER, SHARE, DED, MAXL, ...WAIT],
-    run: (v) => costCard(v, s(v, 'pr'), s(v, 'sx')),
-  }),
+  cost: (arg) => {
+    // The state shown first prices the procedure shown first: a page never opens on "Not published".
+    const pr = String(arg?.pr ?? 'crown');
+    const sx = arg?.sx !== undefined ? String(arg.sx) : firstPricing(pr);
+    return {
+      inputs: [procIn(pr), stateIn(sx), COVER, SHARE, DED, MAXL, ...WAIT],
+      run: (v) => costCard(v, s(v, 'pr'), s(v, 'sx')),
+    };
+  },
   /* One procedure across every state of the asset */
   states: () => ({
     inputs: [procIn('implant'), { kind: 'choice', id: 'bs', label: 'Price shown', def: 'charge', options: [{ value: 'charge', label: 'Full fee' }, { value: 'allowed', label: 'In network' }] }],
@@ -155,8 +166,9 @@ export const SPECS: Record<string, (arg?: Record<string, number | string>) => To
   /* Two procedures side by side in one state */
   versus: (arg) => {
     const a = String(arg?.a ?? 'implant'), b = String(arg?.b ?? 'bridge3');
+    const both = [...PREFERRED, ...ST_ROWS.map((x) => x.slug)].find((slug) => ST_ROWS.some((x) => x.slug === slug) && priceOf(ST(slug), a).ok && priceOf(ST(slug), b).ok) ?? DEF_STATE;
     return {
-      inputs: [stateIn(), COVER, DED, MAXL],
+      inputs: [stateIn(arg?.sx !== undefined ? String(arg.sx) : both), COVER, DED, MAXL],
       run: (v) => {
         const st = ST(s(v, 'sx'));
         const one = (id: string) => {
