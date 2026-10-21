@@ -1,5 +1,5 @@
 /** Configuration centrale du site (générée par new-site.py). */
-export const SITE_URL = "https://us-dental-costs.example";
+export const SITE_URL = "https://dentalcostbystate.com";
 export const SITE_NAMES: Record<string, string> = {"en": "Dental Cost by State"};
 export const LANG_TAGS: Record<string, string> = {"en": "en-US"};
 export const OG_LOCALES: Record<string, string> = {"en": "en_US"};
@@ -16,7 +16,7 @@ export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners reads 
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
 export const KNOWS_ABOUT: Record<string, string[]> = {"en": ["Dental implant, crown, root canal and extraction prices by state", "Orthodontic and denture costs", "Dental insurance deductibles, coinsurance classes and annual maximums", "Waiting periods and missing tooth clauses", "State Medicaid dental fee schedules and CDT codes"]};
-export const CONTACT_EMAIL = "contact@us-dental-costs.example";
+export const CONTACT_EMAIL = "contact@dentalcostbystate.com";
 export const THEME_COLOR = '#0E5E6F';
 export const LOGO_SYMBOL = 'dent';
 export const BING_VERIFY_CODE = '';

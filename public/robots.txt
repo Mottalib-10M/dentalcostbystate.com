@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /*?*
 
-Sitemap: https://us-dental-costs.example/sitemap-index.xml
+Sitemap: https://dentalcostbystate.com/sitemap-index.xml

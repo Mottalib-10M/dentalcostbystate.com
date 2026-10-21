@@ -106,8 +106,10 @@ def main():
         states.append({
             'code': code, 'name': NAMES[code], 'slug': slug(NAMES[code]),
             'program': d['program'], 'title': d['document_title'], 'url': d['source_url'], 'page': d['source_page'],
-            'effective': d['effective_date'], 'retrieved': d['retrieved_at'], 'notes': d.get('notes', ''),
-            'url2024': src24, 'effective2024': eff24, 'notes2024': d.get('notes_2024', ''), 'override': o.get('reason', ''),
+            'effective': d['effective_date'], 'retrieved': d['retrieved_at'],
+            # Reading notes (doubts, Wayback captures, column choices) stay in data/fees/<ST>.json: states.json
+            # ships to the browser through tool-specs.ts and carries only what the pages show.
+            'url2024': src24, 'effective2024': eff24,
             'ratios': {k: r[k] for k in ('childCharge', 'adultCharge', 'childPrivate', 'adultPrivate')},
             'adultBenefit': r['adultBenefit'], 'fees': f24, 'feesNow': now,
         })

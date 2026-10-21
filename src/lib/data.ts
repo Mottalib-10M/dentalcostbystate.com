@@ -10,8 +10,8 @@ import { feeOf, median, type FeeState, type Pop, type Slot, type Uplift } from '
 import { priceOf, type Priced } from './tool-specs';
 
 export interface StateRow extends FeeState {
-  slug: string; program: string; title: string; url: string; page: string; effective: string; retrieved: string; notes: string;
-  url2024: string | null; effective2024: string | null; notes2024: string; override: string;
+  slug: string; program: string; title: string; url: string; page: string; effective: string; retrieved: string;
+  url2024: string | null; effective2024: string | null;
   adultBenefit: string;
   feesNow: FeeState['fees'];
 }
